@@ -236,7 +236,7 @@ background:var(--sc,#2d6a4f);border:2px solid rgba(255,255,255,.9);box-shadow:0 
 .dishes{display:flex;flex-wrap:wrap;gap:6px}
 .dish{font-size:12px;background:var(--chip);border-radius:999px;padding:3px 9px;color:var(--ink)}
 .dish i{font-style:normal;color:var(--faint);margin-left:4px}
-.strip{display:grid;grid-template-columns:repeat(9,1fr);gap:4px}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(0,1fr));gap:4px}
 .strip button{border:1px solid var(--line);background:none;border-radius:8px;padding:4px 0;font:inherit;font-size:11px;color:var(--faint);cursor:pointer;line-height:1.15}
 .strip button b{display:block;font-size:13px;color:var(--soft)}
 .strip button.has{background:var(--openbg);border-color:color-mix(in srgb,var(--open) 35%,transparent);color:var(--open)}
@@ -365,7 +365,7 @@ background:linear-gradient(135deg,color-mix(in srgb,var(--cc) 14%,var(--paper)),
 .tn .th{width:64px;height:64px;border-radius:12px;overflow:hidden;flex:0 0 auto;background:var(--chip);display:grid;place-items:center;font:400 28px "Instrument Serif",Georgia,serif;color:var(--soft)}
 .tn .th img{width:100%;height:100%;object-fit:cover}
 .tn b{display:block;font:400 20px/1.1 "Instrument Serif",Georgia,serif}
-.tn .tt{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px}
+.tn .tt{display:flex;gap:5px;flex-wrap:nowrap;margin-top:6px}
 .tn .tt a{font-size:12px;font-weight:600;color:var(--open);border:1.5px solid var(--open);border-radius:8px;padding:3px 7px;text-decoration:none}
 .tn .tt a:hover{background:var(--open);color:var(--paper)}
 .tn .sc{margin-left:auto;align-self:flex-start;font-weight:700;font-size:13px;color:#fff;background:var(--sc);border-radius:999px;padding:3px 8px}
@@ -405,6 +405,56 @@ background:var(--city);color:#fff;font:600 14px Inter,system-ui,sans-serif;curso
 @keyframes conf{to{transform:translate(var(--x),var(--y)) rotate(var(--r));opacity:0}}
 .card.coffee .acts .book.ghost{background:var(--chip)}
 @media (prefers-reduced-motion:reduce){.card.picked,.confetti,.surprise.spin span,.sheet-in{animation:none}}
+/* ---- v3 refined card ---- */
+.lede{font-size:15px}
+.grid{grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:22px}
+.card{border-radius:22px;border-color:color-mix(in srgb,var(--line) 70%,transparent);box-shadow:0 1px 1px rgba(0,0,0,.03),0 18px 40px -28px rgba(40,30,20,.45)}
+@media (hover:hover){.card:hover{transform:translateY(-3px);box-shadow:0 2px 2px rgba(0,0,0,.04),0 28px 50px -26px rgba(40,30,20,.55)}}
+.ph{aspect-ratio:4/3}
+.ph::after{background:linear-gradient(to top,rgba(0,0,0,.35),rgba(0,0,0,0) 40%)}
+.rank{left:14px;top:14px;font-size:11px;padding:3px 8px;background:rgba(0,0,0,.4)}
+.badge{position:absolute;left:14px;bottom:14px;z-index:2;color:#fff;font-size:11px;font-weight:600;letter-spacing:.04em;
+padding:4px 9px;border-radius:999px;background:rgba(255,255,255,.18);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.ring{position:absolute;right:14px;bottom:14px;z-index:2;width:50px;height:50px;border-radius:50%;display:grid;place-items:center;
+background:conic-gradient(var(--sc) calc(var(--p) * 360deg),rgba(255,255,255,.25) 0);box-shadow:0 6px 18px -6px rgba(0,0,0,.6)}
+.ring::before{content:"";position:absolute;inset:4px;border-radius:50%;background:rgba(18,15,12,.72);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.ring .n{position:relative;color:#fff;font-size:17px;font-weight:700;font-variant-numeric:tabular-nums}
+.body{padding:16px 18px 18px;gap:12px}
+.hd{display:grid;gap:3px}
+.name{font-size:28px;letter-spacing:-.01em}
+.meta{font-size:13px;color:var(--soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.meta i{font-style:normal;margin:0 6px;color:var(--faint)}
+.sig{display:flex;gap:6px;flex-wrap:wrap}
+.chip{display:inline-flex;align-items:center;gap:6px;max-width:100%;font-size:12.5px;font-weight:500;padding:5px 10px;border-radius:999px;background:var(--chip);color:var(--ink);
+white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chip em{font-style:normal;font-size:11px;color:var(--faint);font-variant-numeric:tabular-nums}
+.chip s{text-decoration:none;color:var(--gold)}
+.chip.hot{background:color-mix(in srgb,var(--gold) 16%,var(--paper));box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--gold) 35%,transparent)}
+.strip{gap:3px}.strip button{border-radius:10px;padding:5px 0;border-color:transparent;background:var(--chip)}
+.strip button.has{border-color:transparent}
+.strip button.sel{outline:2px solid var(--ink);outline-offset:-2px}
+.times{gap:5px;min-height:30px}.time{font-size:12.5px;padding:5px 9px;border-width:1.5px;border-radius:999px}
+.acts{gap:8px;padding-top:2px}
+.book{border-radius:14px;font-size:14px;letter-spacing:.01em}
+.more{flex:0 0 46px;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:14px;cursor:pointer;display:grid;place-items:center}
+.more:hover{border-color:var(--ink)}
+.more svg{transition:transform .25s ease}.card.open .more svg{transform:rotate(180deg)}
+.drawer{display:grid;grid-template-rows:0fr;transition:grid-template-rows .32s cubic-bezier(.2,.8,.2,1)}
+.card.open .drawer{grid-template-rows:1fr}
+.drawer-in{overflow:hidden;display:grid;gap:10px;min-height:0}
+.card.open .drawer-in{padding-top:6px;border-top:1px solid var(--line)}
+.dtext{margin:6px 0 0;font-size:13.5px;line-height:1.5;color:var(--soft)}
+.dmeta{margin:0;font-size:12px;color:var(--soft)}
+.known{font-size:13px}.known b{display:block;margin-bottom:2px}
+.dlinks{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.dlinks .sbtn{padding:7px 14px;border-radius:999px;font-size:12.5px}
+.via{margin-left:auto;font-size:11px;color:var(--faint);letter-spacing:.06em;text-transform:uppercase}
+.vtag{font-size:10.5px;padding:3px 8px}
+.sec-h h2{font-size:32px}.sec-h span{font-variant-numeric:tabular-nums;font-size:13px;color:var(--faint)}
+footer{font-size:12px!important;text-align:center}
+.order .oh{font-size:10.5px}
+@media (max-width:700px){.acts .book{flex-basis:auto}.acts .more{flex:0 0 46px}}
+@media (prefers-reduced-motion:reduce){.drawer,.more svg{transition:none}}
+
 """
 
 KIT_CSS = r"""
@@ -680,11 +730,9 @@ def render(city: dict, res: dict, cities: list[dict]) -> str:
 <header class="top">
 <div class="brandrow"><a class="brand" href="../">Tables</a>
 <button class="citypick" id="citypick" type="button" aria-haspopup="dialog" aria-expanded="false"><span class="cdot" aria-hidden="true"></span><span>{name}</span><svg viewBox="0 0 12 12" width="11" height="11" aria-hidden="true"><path d="M3 4.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button></div>
-<div class="eyebrow">Beli's best · table for <span id="pnum">{data['party']}</span></div>
 <h1 class="serif">{name} <em>Tables</em></h1>
-<p class="lede">Open reservations between <b>5 and 10 PM</b>, <b>{d0:%a %b} {d0.day} – {d1:%a %b} {d1.day}</b>, at the best-rated places on Beli,
-ranked by the Beli community average. Tap any time to jump straight to that table. <b data-count="{total}">{total:,}</b> open times right now.</p>
-<div class="pull" id="pull"><span class="pdot" aria-hidden="true"></span><span class="ptxt" id="ptxt">Last pull <b>{gen:%a %-I:%M %p}</b> {tzab}</span>
+<p class="lede">Beli's best, with live tables · {d0:%b} {d0.day}–{d1:%b} {d1.day} · <b data-count="{total}">{total:,}</b> open · for <span id="pnum">{data['party']}</span></p>
+<div class="pull" id="pull"><span class="pdot" aria-hidden="true"></span><span class="ptxt" id="ptxt">Updated <b>{gen:%a %-I:%M %p}</b> {tzab}</span>
 <button class="pbtn" id="pbtn" type="button"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M13.5 8a5.5 5.5 0 1 1-1.6-3.9M13.5 2.5v3h-3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Pull again</span></button>
 <span class="pmsg" id="pmsg" role="status" aria-live="polite"></span></div>
 <section class="tonight" id="tonight" aria-label="Tonight"></section>
@@ -720,9 +768,7 @@ ranked by the Beli community average. Tap any time to jump straight to that tabl
 <div class="grid" id="g-coffee"></div><div class="none hide" id="e-coffee">No coffee shops for {name} yet. They're next on the list: once their Beli scores are pulled they'll show up here.</div></section>
 </main>
 <button class="surprise" id="surprise" type="button"><span aria-hidden="true">✦</span> Surprise me</button>
-<footer>Scores are each place's Beli community average (not a personal rec score). Times are checked every few hours from Resy,
-OpenTable, SevenRooms and Tock and can disappear fast. Faded, dashed times come from an older check. This page never books anything;
-every link opens the restaurant's own booking page. Photos belong to the restaurants and are shown from their own listings.</footer>
+<footer>Beli community averages · times refresh every few hours · photos from each venue's own listings · nothing here books for you</footer>
 <script id="data" type="application/json">{blob}</script>
 <script>{KIT_JS}</script>
 <script>{(HERE / "page.js").read_text()}</script></body></html>
