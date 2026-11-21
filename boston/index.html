@@ -1,0 +1,1040 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Boston Tables</title>
+<meta name="description" content="Open tables at Boston's best-rated restaurants, bars and coffee on Beli.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f3ee;--paper:#fffdf9;--ink:#1c1a17;--soft:#6b655c;--faint:#a39c91;--line:#e7e1d6;
+--accent:#a2382b;--accent-ink:#fff;--open:#1f6b46;--openbg:#e8f2ea;--chip:#f0ebe2;--shadow:0 1px 2px rgba(40,30,20,.06),0 8px 24px -12px rgba(40,30,20,.18);
+--gold:#b0862f;--r:16px;
+--k-surface:var(--paper);--k-ink:var(--ink);--k-soft:var(--soft);--k-line:var(--line);--k-shadow:var(--shadow);
+--k-shadow-lift:0 2px 4px rgba(40,30,20,.06),0 18px 36px -16px rgba(40,30,20,.32);
+--k-glow1:rgba(162,56,43,.15);--k-glow2:rgba(176,134,47,.17);--k-grain:.05}
+@media (prefers-color-scheme:dark){:root{--bg:#121110;--paper:#1b1a18;--ink:#f1ece4;--soft:#aaa396;--faint:#6f695f;
+--line:#2c2a26;--accent:#e0705d;--accent-ink:#1a0f0c;--open:#7fd3a4;--openbg:#18291f;--chip:#24221f;--shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px -14px rgba(0,0,0,.6);--gold:#d9b25e;
+--k-shadow-lift:0 2px 4px rgba(0,0,0,.35),0 20px 40px -16px rgba(0,0,0,.75);--k-glow1:rgba(224,112,93,.11);--k-glow2:rgba(217,178,94,.09);--k-grain:.07}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:inherit}
+.serif{font-family:"Instrument Serif","Iowan Old Style",Georgia,serif;font-weight:400;letter-spacing:-.01em}
+.top{max-width:1240px;margin:0 auto;padding:40px 20px 8px}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft)}
+h1{font-size:clamp(40px,7vw,68px);line-height:1;margin:8px 0 10px}
+.lede{color:var(--soft);max-width:720px;margin:0}
+.lede b{color:var(--ink);font-weight:600}
+.pull{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:14px 0 2px;font-size:13.5px;color:var(--soft)}
+.pull b{color:var(--ink);font-weight:600}
+.pdot{width:8px;height:8px;border-radius:50%;background:var(--open);flex:0 0 auto;box-shadow:0 0 0 3px var(--openbg)}
+.pull.stale .pdot{background:var(--gold);box-shadow:0 0 0 3px color-mix(in srgb,var(--gold) 20%,transparent)}
+.pull.busy .pdot{background:var(--accent);animation:pblink 1s ease-in-out infinite}
+@keyframes pblink{50%{opacity:.25}}
+.pbtn{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 13px;border:1px solid var(--line);border-radius:999px;background:var(--paper);color:var(--ink);font:inherit;font-size:13px;font-weight:600;cursor:pointer;box-shadow:var(--shadow)}
+.pbtn:hover{border-color:var(--accent);color:var(--accent)}
+.pbtn:disabled{opacity:.55;cursor:default;color:var(--soft);border-color:var(--line)}
+.pull.busy .pbtn svg{animation:pspin 1.1s linear infinite}
+@keyframes pspin{to{transform:rotate(360deg)}}
+.pmsg{flex:1 1 100%;font-size:13px}.pmsg:empty{display:none}
+.pmsg.err{color:var(--accent)}.pmsg.ok{color:var(--open)}
+@media (prefers-reduced-motion:reduce){.pull.busy .pdot,.pull.busy .pbtn svg{animation:none}}
+.bar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:saturate(1.4) blur(12px);
+-webkit-backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid var(--line)}
+.bar-in{max-width:1240px;margin:0 auto;padding:10px 20px;display:flex;flex-direction:column;gap:8px}
+.row1,.row2{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;min-width:0}
+.seg{display:inline-flex;background:var(--chip);border-radius:999px;padding:3px}
+.seg button{border:0;background:none;color:var(--soft);font:inherit;font-weight:500;padding:7px 14px;border-radius:999px;cursor:pointer}
+.seg button.on{background:var(--paper);color:var(--ink);box-shadow:var(--shadow)}
+.days{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;flex:1 1 380px;min-width:0}
+.days::-webkit-scrollbar{display:none}
+.days button{flex:0 0 auto;border:1px solid var(--line);background:var(--paper);color:var(--ink);font:inherit;font-size:13px;
+padding:6px 9px;border-radius:10px;cursor:pointer;line-height:1.1;text-align:center}
+.days button small{display:block;color:var(--faint);font-size:11px}
+.days button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}.days button.on small{color:inherit;opacity:.7}
+.tog{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--soft);cursor:pointer;user-select:none}
+.tog input{accent-color:var(--accent);width:16px;height:16px}
+.search{border:1px solid var(--line);background:var(--paper);color:var(--ink);font:inherit;font-size:13px;padding:7px 12px;border-radius:10px;width:160px;height:34px}
+.search:focus,.sel:focus{outline:2px solid color-mix(in srgb,var(--accent) 45%,transparent);outline-offset:1px}
+.seg.when button,.seg.vseg button{padding:5px 12px;font-size:13px}
+.seg.party{align-items:center}.seg.party .plbl{font-size:12px;color:var(--soft);padding:0 6px 0 10px;letter-spacing:.02em}.seg.party button{padding:5px 10px;font-size:13px;font-variant-numeric:tabular-nums}
+.pnote{margin:0 0 12px;font-size:13px;color:var(--soft)}
+.vseg button{display:inline-flex;align-items:center;gap:6px}.vseg svg{fill:currentColor}
+.vseg{margin-left:auto}
+.sel{-webkit-appearance:none;appearance:none;border:1px solid var(--line);color:var(--ink);font:inherit;font-size:13px;height:34px;padding:0 30px 0 12px;
+border-radius:10px;cursor:pointer;max-width:150px;text-overflow:ellipsis;
+background-color:var(--paper);
+background-image:linear-gradient(45deg,transparent 50%,var(--soft) 50%),linear-gradient(135deg,var(--soft) 50%,transparent 50%);
+background-position:calc(100% - 16px) 15px,calc(100% - 11px) 15px;background-size:5px 5px,5px 5px;background-repeat:no-repeat}
+.sortl{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--soft)}
+.reset{border:0;background:none;color:var(--accent);font:inherit;font-size:13px;font-weight:600;cursor:pointer;padding:6px 8px;border-radius:8px}
+.reset:hover{background:var(--chip)}
+.fbtn{display:none;border:1px solid var(--line);background:var(--paper);color:var(--ink);font:inherit;font-size:13px;font-weight:500;height:34px;padding:0 12px;border-radius:10px;cursor:pointer;align-items:center;gap:6px}
+.fbtn i{font-style:normal;background:var(--accent);color:var(--accent-ink);font-size:11px;font-weight:700;border-radius:999px;min-width:18px;height:18px;display:inline-grid;place-items:center;padding:0 5px}
+.fbtn i:empty{display:none}
+main{max-width:1240px;margin:0 auto;padding:8px 20px 40px}
+.sec-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin:34px 0 14px}
+.sec-h h2{font-size:38px;margin:0}.sec-h span{color:var(--soft);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:18px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;
+transition:transform .18s ease,box-shadow .18s ease}
+.card:hover{transform:translateY(-2px)}
+.card.closed{opacity:.6}
+.ph{position:relative;aspect-ratio:16/9;background:linear-gradient(135deg,#3b2a22,#7a4a33 55%,#c08a57);overflow:hidden}
+.ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+.card:hover .ph img{transform:scale(1.04)}
+.ph .mono{position:absolute;inset:0;display:grid;place-items:center;color:rgba(255,255,255,.85);font-size:56px}
+.slides{position:absolute;inset:0;display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain}
+.slides::-webkit-scrollbar{display:none}
+.slides img{flex:0 0 100%;min-width:100%;scroll-snap-align:start;scroll-snap-stop:always}
+.card:hover .slides img{transform:none}
+.dots{position:absolute;top:15px;left:50%;transform:translateX(-50%);z-index:3;display:flex;gap:5px;pointer-events:none}
+.dots i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.5);box-shadow:0 0 3px rgba(0,0,0,.4);transition:background .2s,transform .2s}
+.dots i.on{background:#fff;transform:scale(1.25)}
+.nav{position:absolute;top:50%;z-index:3;width:34px;height:34px;margin-top:-17px;border:0;border-radius:50%;background:rgba(255,255,255,.88);color:#1c1a17;
+font-size:22px;line-height:1;display:grid;place-items:center;padding:0 0 3px;cursor:pointer;opacity:0;transition:opacity .2s;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.nav.prev{left:10px}.nav.next{right:10px}
+@media (hover:hover){.ph:hover .nav{opacity:1}}
+.nav:focus-visible{opacity:1}
+.ph::after{pointer-events:none;z-index:1;content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.55),rgba(0,0,0,0) 55%)}
+.rank{position:absolute;left:12px;top:12px;z-index:2;background:rgba(0,0,0,.55);color:#fff;font-size:12px;font-weight:600;padding:4px 9px;border-radius:999px;backdrop-filter:blur(6px)}
+.score{position:absolute;right:12px;bottom:12px;z-index:2;display:flex;align-items:center;gap:8px;color:#fff}
+.score .n{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:19px;
+background:var(--sc,#2d6a4f);border:2px solid rgba(255,255,255,.9);box-shadow:0 4px 14px rgba(0,0,0,.35)}
+.score .l{font-size:11px;line-height:1.2;text-align:right;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.score .l b{display:block;font-size:12px}
+.tag25{position:absolute;left:12px;bottom:12px;z-index:2;color:#fff;font-size:11px;letter-spacing:.06em;text-transform:uppercase;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:10px;flex:1}
+.name{font-size:27px;line-height:1.05;margin:0}
+.sub{color:var(--soft);font-size:13px}
+.blurb{color:var(--soft);font-size:13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin:0}
+.blurb[onclick]{cursor:pointer}.blurb.full{display:block;-webkit-line-clamp:unset;overflow:visible}
+.dishes{display:flex;flex-wrap:wrap;gap:6px}
+.dish{font-size:12px;background:var(--chip);border-radius:999px;padding:3px 9px;color:var(--ink)}
+.dish i{font-style:normal;color:var(--faint);margin-left:4px}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(0,1fr));gap:4px}
+.strip button{border:1px solid var(--line);background:none;border-radius:8px;padding:4px 0;font:inherit;font-size:11px;color:var(--faint);cursor:pointer;line-height:1.15}
+.strip button b{display:block;font-size:13px;color:var(--soft)}
+.strip button.has{background:var(--openbg);border-color:color-mix(in srgb,var(--open) 35%,transparent);color:var(--open)}
+.strip button.has b{color:var(--open)}
+.strip button.sel{outline:2px solid var(--ink);outline-offset:-1px}
+.times{display:flex;flex-wrap:wrap;gap:6px;min-height:34px;align-items:center}
+.time{display:inline-block;text-decoration:none;font-size:13px;font-weight:600;font-variant-numeric:tabular-nums;color:var(--open);
+border:1.5px solid var(--open);border-radius:9px;padding:6px 10px;transition:background .15s,color .15s}
+.time:hover{background:var(--open);color:var(--paper)}
+.time.stale{opacity:.55;border-style:dashed}
+.empty{color:var(--faint);font-size:13px;font-style:italic}
+.acts{display:flex;gap:8px;margin-top:auto;padding-top:4px}
+.book{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;background:var(--accent);color:var(--accent-ink);
+font-weight:650;font-size:15px;padding:12px 14px;border-radius:12px;transition:filter .15s,transform .15s}
+.book:hover{filter:brightness(1.08)}.book:active{transform:scale(.98)}
+.book.ghost{background:var(--chip);color:var(--ink)}
+.sbtn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border:1px solid var(--line);color:var(--ink);font-size:13px;
+font-weight:550;padding:0 13px;border-radius:12px;background:var(--paper)}
+.sbtn:hover{border-color:var(--ink)}
+.hide{display:none!important}
+/* tactile pass */
+.seg{position:relative}.seg button{position:relative;z-index:1;transition:color var(--dur-2) var(--ease-out),transform var(--dur-2) var(--ease-spring)}
+.seg.kit-on button.on{background:none;box-shadow:none}
+.seg .kit-ind{background:var(--paper);border-radius:999px;box-shadow:var(--shadow)}
+.days{position:relative}.days button{position:relative;z-index:1;transition:color var(--dur-2) var(--ease-out),border-color var(--dur-2),transform var(--dur-2) var(--ease-spring)}
+.days.kit-on button{background:transparent}.days.kit-on button.on{border-color:transparent}
+.days .kit-ind{background:var(--ink);border-radius:10px;box-shadow:0 4px 12px -4px rgba(0,0,0,.35)}
+.card,.row{transition:transform var(--dur-3) var(--ease-out),box-shadow var(--dur-3) var(--ease-out)}
+.card:hover{transform:none}
+@media (hover:hover){.card:hover,.row:hover{transform:translateY(-3px);box-shadow:var(--k-shadow-lift)}}
+.time:hover{transform:translateY(-1px)}
+.book:active{transform:scale(.97)}
+.slides img,.r-th img{cursor:zoom-in}
+.r-th{position:relative}
+.n.kit-num,.pill.kit-num{font-variant-numeric:tabular-nums}
+/* vibe profile */
+.food{color:var(--ink);font-size:13.5px;font-weight:500;margin-top:3px}
+.vmeta{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:12px;color:var(--soft)}
+.vmeta b{font-weight:650;color:var(--ink);letter-spacing:.03em}
+.vmeta span+span::before{content:"·";margin-right:10px;color:var(--faint)}
+.vtags{display:flex;flex-wrap:wrap;gap:5px}
+.vtag{font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--gold);border:1px solid color-mix(in srgb,var(--gold) 40%,transparent);
+border-radius:999px;padding:2px 8px}
+.heads{margin:0;font-size:12px;color:var(--soft);font-style:italic;padding-left:9px;border-left:2px solid color-mix(in srgb,var(--accent) 45%,transparent)}
+.r-vibe{color:var(--soft);font-size:12px;white-space:nowrap}
+.list{display:flex;flex-direction:column;gap:8px}
+.row{display:grid;grid-template-columns:26px 56px minmax(0,1fr) 40px auto 196px;grid-template-areas:"rk th mn sc dy ac";align-items:center;gap:12px;
+background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:8px 12px;box-shadow:var(--shadow)}
+.row.closed{opacity:.6}
+.r-rank{grid-area:rk;color:var(--faint);font-size:13px;font-weight:600;text-align:center;font-variant-numeric:tabular-nums}
+.r-th{grid-area:th;width:56px;height:56px;border-radius:10px;overflow:hidden;background:linear-gradient(135deg,#3b2a22,#7a4a33 55%,#c08a57);display:grid;place-items:center}
+.r-th img{width:100%;height:100%;object-fit:cover;display:block}
+.r-th .mono{color:rgba(255,255,255,.85);font-size:26px}
+.r-main{grid-area:mn;min-width:0}
+.r-name{font-size:21px;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.r-main .sub{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.r-score{grid-area:sc}
+.pill{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:14px;color:#fff;background:var(--sc,#2d6a4f)}
+.r-days{grid-area:dy;display:grid;grid-template-columns:repeat(9,30px);gap:3px}
+.r-days .empty{grid-column:1/-1;text-align:center}
+.mini{display:flex;flex-direction:column;align-items:center;justify-content:center;height:36px;border-radius:8px;border:1px solid var(--line);text-decoration:none;
+font-size:13px;font-weight:600;color:var(--faint);font-variant-numeric:tabular-nums;line-height:1.05}
+.mini small{font-size:9.5px;font-weight:500;letter-spacing:.02em;opacity:.8}
+.mini.has{background:var(--openbg);border-color:color-mix(in srgb,var(--open) 35%,transparent);color:var(--open)}
+a.mini.has:hover{background:var(--open);color:var(--paper)}
+.r-act{grid-area:ac;display:flex}
+.book.sm{font-size:13px;padding:9px 12px;border-radius:10px;white-space:nowrap}
+.r-act .book.sm{flex:1}
+@media (max-width:1000px){.row{grid-template-columns:26px 56px minmax(0,1fr) 40px;grid-template-areas:"rk th mn sc" "dy dy dy dy" "ac ac ac ac";row-gap:8px}
+.r-days{grid-template-columns:repeat(9,minmax(0,1fr))}}
+.none{color:var(--soft);padding:30px 0;text-align:center}
+foot,footer{display:block;max-width:1240px;margin:0 auto;padding:10px 20px 50px;color:var(--faint);font-size:12px}
+@media (max-width:640px){.top{padding:26px 16px 8px}.bar-in,main,footer{padding-left:16px;padding-right:16px}.grid{grid-template-columns:1fr}
+.bar-in{padding-top:8px;padding-bottom:8px}.days{flex-basis:100%;order:-1}.fbtn{display:inline-flex;padding:0 10px}.lbl{display:none}
+.row1{gap:8px 6px}.row1 .seg:first-of-type{flex:1 1 0;min-width:0}.row1 .seg:first-of-type button{flex:1;padding:6px 6px;font-size:13px}
+.vseg{margin-left:0}.vseg button{padding:6px 9px}
+.row2{display:none;padding-bottom:4px}.bar.open{position:static}.bar.open .row2{display:flex}.search{width:100%;order:-1}
+.seg.party{flex:1 1 100%}.seg.party button{flex:1;padding:6px 0}.seg.when{flex:1 1 100%}.seg.when button{flex:1;padding:6px 4px}.sel{flex:1 1 40%;max-width:none}.tog{flex:1 1 40%}
+.sortl{flex:1 1 55%}.sortl .sel{flex:1}.sec-h h2{font-size:32px}.sec-h span{flex-basis:100%}
+.acts{flex-wrap:wrap}.acts .book{flex-basis:100%}.acts .sbtn{flex:1;padding:9px 0}
+.row{padding:8px 10px;gap:10px}.r-th{width:48px;height:48px}.row{grid-template-columns:22px 48px minmax(0,1fr) 38px}.r-name{font-size:19px}}
+
+/* kit:start — shared "premium" layer for the Dallas pages (render.py is the source; trip/index.html carries a copy) */
+:root{--ease-out:cubic-bezier(.2,.8,.2,1);--ease-in-out:cubic-bezier(.65,0,.35,1);--ease-spring:cubic-bezier(.34,1.4,.64,1);
+--dur-1:150ms;--dur-2:220ms;--dur-3:280ms}
+body{isolation:isolate}
+/* ambient header glow: two soft blobs drifting on the compositor (transform only) */
+.kit-glow{position:absolute;top:0;left:0;right:0;height:560px;z-index:-1;overflow:hidden;pointer-events:none;
+-webkit-mask-image:linear-gradient(#000 35%,transparent);mask-image:linear-gradient(#000 35%,transparent)}
+.kit-glow::before,.kit-glow::after{content:"";position:absolute;width:780px;height:780px;border-radius:50%;will-change:transform}
+.kit-glow::before{top:-430px;left:-240px;background:radial-gradient(closest-side,var(--k-glow1),transparent);animation:kitDriftA 26s var(--ease-in-out) infinite alternate}
+.kit-glow::after{top:-470px;right:-300px;background:radial-gradient(closest-side,var(--k-glow2),transparent);animation:kitDriftB 34s var(--ease-in-out) infinite alternate}
+@keyframes kitDriftA{to{transform:translate3d(220px,70px,0) scale(1.12)}}
+@keyframes kitDriftB{to{transform:translate3d(-260px,90px,0) scale(.92)}}
+/* static film grain */
+.kit-grain{position:fixed;inset:0;z-index:60;pointer-events:none;opacity:var(--k-grain,.05);mix-blend-mode:overlay;background-size:140px 140px;
+background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+/* page switcher: Plan | Tables | Map (identical on every page) */
+.switch{position:relative;display:inline-flex;gap:2px;padding:3px;margin:0 0 18px;border:1px solid var(--k-line);border-radius:999px;
+background:var(--k-surface);box-shadow:var(--k-shadow);font:600 13px/1.2 Inter,system-ui,-apple-system,sans-serif}
+.switch a{position:relative;z-index:1;padding:6px 16px;border-radius:999px;text-decoration:none;color:var(--k-soft);
+transition:color var(--dur-2) var(--ease-out),transform var(--dur-2) var(--ease-spring)}
+.switch a[aria-current="page"]{color:var(--k-surface)}
+.switch:not(.kit-on) a[aria-current="page"]{background:var(--k-ink)}
+.switch a:not([aria-current]):hover{color:var(--k-ink)}
+.switch .kit-ind{background:var(--k-ink);border-radius:999px;box-shadow:0 2px 8px -2px rgba(0,0,0,.25)}
+.switch:has(.kit-go) a[aria-current="page"]{color:var(--k-soft)}
+.switch a.kit-go{color:var(--k-surface)}
+/* sliding selection pill (generic) */
+.kit-ind{position:absolute;left:0;top:0;z-index:0;pointer-events:none;opacity:0;
+transition:transform var(--dur-3) var(--ease-spring),width var(--dur-3) var(--ease-spring),height var(--dur-3) var(--ease-spring),opacity var(--dur-1) linear}
+/* press + hover */
+.kit-tap{transition:transform var(--dur-2) var(--ease-spring),box-shadow var(--dur-2) var(--ease-out),background-color var(--dur-1),color var(--dur-1),border-color var(--dur-1),filter var(--dur-1)}
+.kit-tap:active{transform:scale(.97);transition-duration:90ms}
+@media (hover:hover){.kit-lift:hover{transform:translateY(-2px);box-shadow:var(--k-shadow-lift)}.kit-lift:active{transform:translateY(-1px) scale(.97)}}
+/* staggered fade-up */
+.kit-rv{animation:kitUp 340ms var(--ease-out) both;animation-delay:calc(var(--kit-i,0) * 28ms)}
+@keyframes kitUp{from{opacity:0;transform:translate3d(0,10px,0)}}
+/* photo skeleton shimmer + fade-in */
+.kit-load::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.16) 50%,transparent 70%);animation:kitShimmer 1.3s linear infinite}
+@keyframes kitShimmer{from{transform:translateX(-100%)}to{transform:translateX(100%)}}
+.kit-img{opacity:0;transition:opacity 420ms var(--ease-out)}
+.kit-img.kit-in{opacity:1}
+/* lightbox */
+.kit-lb{position:fixed;inset:0;z-index:100;display:flex;flex-direction:column;background:rgba(14,11,9,.95);
+opacity:0;visibility:hidden;transition:opacity var(--dur-3) var(--ease-out),visibility 0s linear var(--dur-3)}
+.kit-lb.open{opacity:1;visibility:visible;transition:opacity var(--dur-3) var(--ease-out)}
+.kit-lb-stage{position:relative;flex:1;min-height:0;transition:transform var(--dur-3) var(--ease-spring)}
+.kit-lb-track{position:absolute;inset:0;display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;
+overscroll-behavior:contain;touch-action:pan-x}
+.kit-lb-track::-webkit-scrollbar{display:none}
+.kit-lb-slide{flex:0 0 100%;min-width:100%;height:100%;scroll-snap-align:center;scroll-snap-stop:always;display:flex;align-items:center;justify-content:center;
+padding:calc(60px + env(safe-area-inset-top)) 16px 8px}
+.kit-lb-slide img{max-width:100%;max-height:100%;object-fit:contain;border-radius:10px;box-shadow:0 24px 70px -24px rgba(0,0,0,.85);
+transform:scale(.97);transition:opacity 420ms var(--ease-out),transform var(--dur-3) var(--ease-out)}
+.kit-lb-slide img.kit-in{transform:none}
+.kit-lb-film{display:flex;gap:6px;justify-content:center;overflow-x:auto;scrollbar-width:none;padding:0 16px 10px}
+.kit-lb-film::-webkit-scrollbar{display:none}.kit-lb-film:empty{display:none}
+.kit-lb .kit-lb-film button{position:static;flex:0 0 auto;width:52px;height:52px;border-radius:9px;padding:0;overflow:hidden;opacity:.5;
+background:rgba(255,255,255,.08);border:2px solid transparent;transition:opacity .15s,border-color .15s}
+.kit-lb .kit-lb-film button.on{opacity:1;border-color:#f3eee6}.kit-lb .kit-lb-film button:hover{opacity:.85}
+.kit-lb-film img{width:100%;height:100%;object-fit:cover;display:block}
+.kit-lb-cap{color:#f3eee6;text-align:center;padding:12px 16px calc(18px + env(safe-area-inset-bottom));font:14px/1.45 Inter,system-ui,sans-serif}
+.kit-lb-cap b{display:block;font:400 26px/1.1 "Instrument Serif",Fraunces,Georgia,serif;letter-spacing:-.01em}
+.kit-lb-cap .n{font-variant-numeric:tabular-nums;color:rgba(243,238,230,.75);font-size:13px}
+.kit-lb-cap small{display:block;margin-top:4px;color:rgba(243,238,230,.55);font-size:12px}
+.kit-lb-cap a{color:inherit}
+.kit-lb button{position:absolute;z-index:2;border:0;border-radius:50%;background:rgba(255,255,255,.13);color:#fff;cursor:pointer;
+width:44px;height:44px;display:grid;place-items:center;font:400 26px/1 system-ui,sans-serif;padding:0 0 3px;
+-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.kit-lb button:hover{background:rgba(255,255,255,.22)}
+.kit-lb-x{top:calc(12px + env(safe-area-inset-top));right:12px}
+.kit-lb-p,.kit-lb-n{top:50%;margin-top:-22px}.kit-lb-p{left:14px}.kit-lb-n{right:14px}
+@media (hover:none){.kit-lb-p,.kit-lb-n{display:none}}
+.kit-lb[data-one] .kit-lb-p,.kit-lb[data-one] .kit-lb-n{display:none}
+html.kit-lock{overflow:hidden}
+@media (prefers-reduced-motion:reduce){
+.kit-glow::before,.kit-glow::after,.kit-load::before,.kit-rv{animation:none}
+.kit-ind,.kit-lb-stage,.kit-lb-slide img{transition:none}
+.kit-tap:active,.kit-lift:hover,.kit-lift:active{transform:none}}
+/* kit:end */
+
+/* ---- multi-city / v2 ---- */
+.brandrow{display:flex;align-items:center;gap:10px;margin:0 0 18px}
+.brand{font:700 13px/1 Inter,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;color:var(--ink);
+padding:8px 12px 8px 0;border-right:1px solid var(--line)}
+.citypick{display:inline-flex;align-items:center;gap:8px;height:34px;padding:0 14px;border:1px solid var(--line);border-radius:999px;
+background:var(--paper);color:var(--ink);font:600 14px Inter,system-ui,sans-serif;cursor:pointer;box-shadow:var(--shadow)}
+.citypick:hover{border-color:var(--city)}
+.cdot{width:9px;height:9px;border-radius:50%;background:var(--city);box-shadow:0 0 0 3px color-mix(in srgb,var(--city) 22%,transparent)}
+h1 em{font-style:italic;color:var(--city)}
+.top{position:relative}
+.top::after{content:"";position:absolute;left:20px;right:20px;bottom:-2px;height:3px;border-radius:3px;
+background:linear-gradient(90deg,var(--city),color-mix(in srgb,var(--city) 30%,var(--gold)) 60%,transparent);opacity:.55}
+/* city sheet */
+.sheet{position:fixed;inset:0;z-index:90;display:flex;align-items:flex-end;justify-content:center;background:rgba(14,11,9,.45);
+-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
+.sheet.hide{display:none}
+.sheet-in{width:min(560px,100%);max-height:80vh;overflow:auto;background:var(--paper);border-radius:22px 22px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom));
+box-shadow:0 -20px 60px -20px rgba(0,0,0,.5);animation:sheetup .26s cubic-bezier(.2,.8,.2,1)}
+@media (min-width:700px){.sheet{align-items:center}.sheet-in{border-radius:22px}}
+@keyframes sheetup{from{transform:translateY(40px);opacity:0}}
+.sheet-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.sheet-h b{font-size:26px;font-weight:400}
+.sheet-x{border:0;background:var(--chip);color:var(--ink);width:34px;height:34px;border-radius:50%;font-size:20px;cursor:pointer}
+.clist{display:grid;gap:10px}
+.ccard{display:flex;align-items:center;gap:14px;padding:14px;border:1px solid var(--line);border-radius:16px;text-decoration:none;color:var(--ink);
+background:linear-gradient(135deg,color-mix(in srgb,var(--cc) 14%,var(--paper)),var(--paper) 70%)}
+.ccard:hover{border-color:var(--cc)}
+.ccard .cm{width:44px;height:44px;border-radius:13px;background:var(--cc);color:#fff;display:grid;place-items:center;font:400 24px "Instrument Serif",Georgia,serif;flex:0 0 auto}
+.ccard b{display:block;font:400 22px/1.1 "Instrument Serif",Georgia,serif}.ccard small{color:var(--soft)}
+.ccard.cur{outline:2px solid var(--cc);outline-offset:-2px}.ccard .here{margin-left:auto;font-size:12px;font-weight:600;color:var(--cc)}
+.sheet-note{color:var(--soft);font-size:13px;margin:12px 2px 0}
+/* tonight */
+.tonight{margin:22px 0 0}.tonight:empty,.hits:empty{display:none}
+.tn-h{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.tn-big{font:400 44px/1 "Instrument Serif",Georgia,serif;color:var(--city);font-variant-numeric:tabular-nums}
+.tn-l{font-weight:600}.tn-l small{display:block;font-weight:400;color:var(--soft)}
+.tn-row{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(290px,1fr);gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:2px 2px 8px;scrollbar-width:none}
+.tn-row::-webkit-scrollbar{display:none}
+.tn{scroll-snap-align:start;display:flex;gap:12px;align-items:center;padding:12px;border:1px solid var(--line);border-radius:16px;background:var(--paper);box-shadow:var(--shadow);cursor:pointer;text-align:left;font:inherit;color:inherit}
+.tn:hover{border-color:var(--city)}
+.tn .th{width:64px;height:64px;border-radius:12px;overflow:hidden;flex:0 0 auto;background:var(--chip);display:grid;place-items:center;font:400 28px "Instrument Serif",Georgia,serif;color:var(--soft)}
+.tn .th img{width:100%;height:100%;object-fit:cover}
+.tn>div:nth-child(2){min-width:0;flex:1}.tn .tt{overflow:hidden}
+.tn b{display:block;font:400 20px/1.1 "Instrument Serif",Georgia,serif}
+.tn .tt{display:flex;gap:5px;flex-wrap:nowrap;margin-top:6px}
+.tn .tt a{font-size:12px;font-weight:600;color:var(--open);border:1.5px solid var(--open);border-radius:8px;padding:3px 7px;text-decoration:none}
+.tn .tt a:hover{background:var(--open);color:var(--paper)}
+.tn .sc{margin-left:auto;align-self:flex-start;font-weight:700;font-size:13px;color:#fff;background:var(--sc);border-radius:999px;padding:3px 8px}
+/* greatest hits */
+.hits{margin:18px 0 0}
+.hits h3{margin:0 0 8px;font:600 12px Inter,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--soft)}
+.hrow{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px 2px 6px}.hrow::-webkit-scrollbar{display:none}
+.hit{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-start;gap:2px;padding:9px 13px;border-radius:14px;border:1px solid var(--line);
+background:var(--paper);cursor:pointer;font:inherit;color:inherit;text-align:left;max-width:220px}
+.hit:hover{border-color:var(--gold)}
+.hit b{font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px}
+.hit small{color:var(--soft);font-size:12px}.hit small i{font-style:normal;color:var(--gold);font-weight:700}
+/* order this */
+.order{display:grid;gap:5px}
+.order .oh{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--soft)}
+.od{position:relative;display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:10px;background:var(--chip);overflow:hidden;font-size:13.5px}
+.od::before{content:"";position:absolute;inset:0 auto 0 0;width:var(--w);background:color-mix(in srgb,var(--gold) 20%,transparent)}
+.od span{position:relative;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:500}
+.od i{position:relative;font-style:normal;font-variant-numeric:tabular-nums;color:var(--soft);font-size:12px}
+.od.first span::after{content:"Most ordered";margin-left:8px;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#fff;
+background:var(--gold);border-radius:999px;padding:2px 7px;vertical-align:1px}
+.known{margin:0;font-size:13.5px;color:var(--ink)}.known b{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--city);margin-right:6px}
+
+.hrs{margin:0;font-size:13px;color:var(--soft);display:flex;align-items:center;gap:7px}
+.hrs i{width:8px;height:8px;border-radius:50%;background:var(--faint)}.hrs i.on{background:var(--open);box-shadow:0 0 0 3px var(--openbg)}
+/* kinds counters */
+.seg.kinds button i{font-style:normal;margin-left:6px;font-size:11px;opacity:.6;font-variant-numeric:tabular-nums}
+/* surprise */
+.surprise{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:40;border:0;border-radius:999px;padding:12px 18px;
+background:var(--city);color:#fff;font:600 14px Inter,system-ui,sans-serif;cursor:pointer;box-shadow:0 10px 30px -10px color-mix(in srgb,var(--city) 70%,#000)}
+.surprise:hover{filter:brightness(1.08)}.surprise span{display:inline-block;margin-right:4px}
+.surprise.spin span{animation:spin .6s ease}
+@keyframes spin{to{transform:rotate(360deg)}}
+.card.picked{animation:picked 1.6s ease;outline:3px solid var(--city);outline-offset:3px}
+@keyframes picked{0%{transform:scale(.96)}20%{transform:scale(1.02)}40%{transform:none}}
+.confetti{position:fixed;width:8px;height:12px;border-radius:2px;z-index:95;pointer-events:none;animation:conf 1s cubic-bezier(.2,.7,.4,1) forwards}
+@keyframes conf{to{transform:translate(var(--x),var(--y)) rotate(var(--r));opacity:0}}
+.card.coffee .acts .book.ghost{background:var(--chip)}
+@media (prefers-reduced-motion:reduce){.card.picked,.confetti,.surprise.spin span,.sheet-in{animation:none}}
+/* ---- v3 site polish (cards keep their v2 look) ---- */
+.top{padding-top:18px}
+.topnav{position:relative;display:flex;align-items:center;gap:10px;padding:4px 0 30px}
+.brandrow{display:none}
+.pull{margin:0 0 0 auto;gap:8px;font-size:12.5px}
+.pbtn{height:30px;padding:0 11px;font-size:12.5px;box-shadow:none}
+.pmsg{position:absolute;right:0;top:44px;z-index:30;max-width:330px;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px 12px;
+box-shadow:var(--k-shadow-lift);font-size:13px;line-height:1.4;flex:none;animation:sheetup .25s ease}
+.pmsg:empty{display:none}
+.hero{display:grid;gap:12px}
+.hero h1{margin:0;font-size:clamp(46px,8vw,84px);letter-spacing:-.025em}
+.stats{display:flex;flex-wrap:wrap;gap:8px}
+.stats span{display:inline-flex;align-items:baseline;gap:5px;padding:6px 12px;border-radius:999px;background:color-mix(in srgb,var(--paper) 75%,transparent);
+border:1px solid var(--line);font-size:13px;color:var(--soft)}
+.stats b{color:var(--ink);font-weight:650;font-variant-numeric:tabular-nums}
+.stats .dim{background:none;border-color:transparent;padding-left:4px}
+.tonight{margin-top:30px}
+.tn-big{font-size:38px}.tn-l{font-size:14px;color:var(--soft);font-weight:500}
+.hits{margin-top:22px}
+.step{display:inline-flex;align-items:center;gap:2px;background:var(--chip);border-radius:999px;padding:3px}
+.step button{width:30px;height:30px;border:0;border-radius:50%;background:var(--paper);color:var(--ink);font:500 17px/1 Inter,system-ui,sans-serif;cursor:pointer;box-shadow:var(--shadow);
+transition:transform .15s ease}
+.step button:active{transform:scale(.9)}.step button:disabled{opacity:.35;cursor:default}
+.step span{min-width:76px;text-align:center;font-size:13px;color:var(--soft);font-variant-numeric:tabular-nums}
+.step b{color:var(--ink);font-size:15px;margin-right:4px;display:inline-block}
+.step b.bump{animation:bump .28s ease}
+@keyframes bump{40%{transform:translateY(-3px) scale(1.15)}}
+.fbtn{display:inline-flex}
+.row2{display:none;padding:4px 0 6px}.bar.open .row2{display:flex}
+.bar{border-bottom-color:color-mix(in srgb,var(--line) 70%,transparent)}
+.lede{font-size:15px}
+.sec-h{margin-top:40px}
+.sec-h span{font-variant-numeric:tabular-nums;font-size:13px;color:var(--faint)}
+footer{font-size:12px!important;text-align:center}
+@media (max-width:640px){.row1 .seg.kinds{flex:1 1 100%}.step{margin-right:auto}.topnav{padding-bottom:22px;gap:8px}.pull .ptxt{display:none}.pmsg{left:0;right:0;max-width:none}
+.stats span{padding:5px 10px;font-size:12.5px}.step{flex:0 0 auto}}
+@media (prefers-reduced-motion:reduce){.step b.bump,.pmsg{animation:none}}
+
+:root{--city:#1f5c4a}@media (prefers-color-scheme:dark){:root{--city:#6cc3a2}}</style></head><body>
+<div class="kit-glow" aria-hidden="true"></div><div class="kit-grain" aria-hidden="true"></div>
+<header class="top">
+<nav class="topnav"><a class="brand" href="../">Tables</a>
+<button class="citypick" id="citypick" type="button" aria-haspopup="dialog" aria-expanded="false"><span class="cdot" aria-hidden="true"></span><span>Boston</span><svg viewBox="0 0 12 12" width="11" height="11" aria-hidden="true"><path d="M3 4.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+<div class="pull" id="pull"><span class="pdot" aria-hidden="true"></span><span class="ptxt" id="ptxt">Updated <b>3:46 PM</b></span>
+<button class="pbtn" id="pbtn" type="button" title="Pull fresh times now"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M13.5 8a5.5 5.5 0 1 1-1.6-3.9M13.5 2.5v3h-3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Refresh</span></button>
+<span class="pmsg" id="pmsg" role="status" aria-live="polite"></span></div></nav>
+<div class="hero"><h1 class="serif">Boston <em>Tables</em></h1>
+<div class="stats"><span><b>9</b> nights</span><span><b data-count="1057">1,057</b> open times</span><span>for <b id="pnum">4</b></span><span class="dim">Nov 21–Nov 29</span></div></div>
+<section class="tonight" id="tonight" aria-label="Tonight"></section>
+<section class="hits" id="hits" aria-label="Most ordered dishes"></section>
+</header>
+<div class="sheet hide" id="sheet" role="dialog" aria-modal="true" aria-label="Choose a city"><div class="sheet-in"><div class="sheet-h"><b class="serif">Pick a city</b><button class="sheet-x" id="sheetx" aria-label="Close">×</button></div><div class="clist" id="clist"></div><p class="sheet-note">More cities are on the way. Each one needs its Beli scores pulled first.</p></div></div>
+<div class="bar"><div class="bar-in">
+<div class="row1">
+<div class="seg kinds" role="group" aria-label="Show"><button data-k="restaurant">Restaurants<i id="c-restaurant"></i></button><button data-k="bar">Bars<i id="c-bar"></i></button><button data-k="coffee">Coffee<i id="c-coffee"></i></button></div>
+<div class="step" role="group" aria-label="Party size"><button data-pd="-1" aria-label="Fewer people">−</button><span><b id="pval">4</b><small>guests</small></span><button data-pd="1" aria-label="More people">+</button></div>
+<div class="days" id="days"></div>
+<button class="fbtn" id="fbtn" aria-expanded="false" aria-controls="filters" aria-label="Filters"><svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path d="M2 3h12M4.5 8h7M7 13h2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg><span class="lbl">Filters</span><i id="fcount"></i></button>
+<div class="seg vseg" role="group" aria-label="View"><button data-view="cards" title="Cards" aria-label="Cards"><svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><rect x="2" y="2" width="5" height="5" rx="1.2"/><rect x="9" y="2" width="5" height="5" rx="1.2"/><rect x="2" y="9" width="5" height="5" rx="1.2"/><rect x="9" y="9" width="5" height="5" rx="1.2"/></svg><span class="lbl">Cards</span></button><button data-view="list" title="List" aria-label="List"><svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><rect x="2" y="2.5" width="12" height="3" rx="1"/><rect x="2" y="6.5" width="12" height="3" rx="1"/><rect x="2" y="10.5" width="12" height="3" rx="1"/></svg><span class="lbl">List</span></button></div>
+</div>
+<div class="row2" id="filters">
+<div class="seg when" role="group" aria-label="Time of night"><button data-when="any">Any time</button><button data-when="early" title="5–7 PM">Early</button><button data-when="prime" title="7–8:30 PM">Prime</button><button data-when="late" title="8:30 PM on">Late</button></div>
+<select id="hood" class="sel" aria-label="Area"></select>
+<select id="cuisine" class="sel" aria-label="Food"></select>
+<select id="vibe" class="sel hide" aria-label="Vibe"></select>
+<label class="tog"><input type="checkbox" id="only"> Open only</label>
+<label class="tog"><input type="checkbox" id="onl"> Book online</label>
+<input class="search" id="q" type="search" placeholder="Search name or dish" aria-label="Search">
+<label class="sortl">Sort <select id="sort" class="sel"><option value="score">Beli score</option><option value="open">Most open</option><option value="soonest">Soonest</option><option value="top25">Top 25 rank</option><option value="name">A–Z</option></select></label>
+<button id="reset" class="reset hide">Reset</button>
+</div>
+</div></div>
+<main>
+<section id="s-restaurant"><div class="sec-h"><h2 class="serif">Restaurants</h2><span id="n-restaurant"></span></div>
+<div class="grid" id="g-restaurant"></div><div class="none hide" id="e-restaurant">Nothing matches these filters. Try another day, a wider time, or Reset.</div></section>
+<section id="s-bar"><div class="sec-h"><h2 class="serif">Bars</h2><span id="n-bar"></span></div>
+<div class="grid" id="g-bar"></div><div class="none hide" id="e-bar">Nothing matches these filters. Try another day, a wider time, or Reset.</div></section>
+<section id="s-coffee"><div class="sec-h"><h2 class="serif">Coffee</h2><span id="n-coffee"></span></div>
+<div class="grid" id="g-coffee"></div><div class="none hide" id="e-coffee">No coffee shops for Boston yet. They're next on the list: once their Beli scores are pulled they'll show up here.</div></section>
+</main>
+<button class="surprise" id="surprise" type="button"><span aria-hidden="true">✦</span> Surprise me</button>
+<footer>Beli community averages · times refresh every few hours · photos from each venue's own listings · nothing here books for you</footer>
+<script id="data" type="application/json">{"generated_at": "2026-11-21T15:46:59-05:00", "party": 4, "by_size": {}, "window": {"start": "17:00", "end": "22:00", "tz": "America/New_York"}, "dates": ["2026-11-21", "2026-11-22", "2026-11-23", "2026-11-24", "2026-11-25", "2026-11-26", "2026-11-27", "2026-11-28", "2026-11-29"], "venues": [{"name": "La Padrona", "kind": "restaurant", "platform": "resy", "id": 79643, "url": "https://resy.com/cities/boston-ma/venues/la-padrona", "phone": "(617) 898-0010", "hood": "Back Bay", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.lapadronaboston.com/", "menu": null, "cuisine": "Italian", "blurb": null, "known_for": "Tagliatelle Emilia-Romagna and Birth of Venus martini", "hours": null, "press_rank": 1, "status": {"2026-11-21": "none", "2026-11-22": "ok", "2026-11-23": "ok", "2026-11-24": "ok", "2026-11-25": "ok", "2026-11-26": "none", "2026-11-27": "ok", "2026-11-28": "ok", "2026-11-29": "ok"}, "slots": {"2026-11-21": [], "2026-11-22": ["5:00 PM", "5:15 PM", "5:30 PM", "8:15 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM"], "2026-11-23": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM"], "2026-11-24": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM"], "2026-11-25": ["5:00 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM"], "2026-11-26": [], "2026-11-27": ["5:00 PM", "5:15 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-28": ["9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-29": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:45 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM"]}, "day_notes": {"2026-11-21": "sold-out", "2026-11-26": "sold-out"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:44:00-05:00"}, {"name": "Sarma", "kind": "restaurant", "platform": "resy", "id": 4795, "url": "https://resy.com/cities/bos/sarma", "phone": "(617) 764-4464", "hood": "Winter Hill", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.sarmarestaurant.com/", "menu": null, "cuisine": "Eastern Mediterranean", "blurb": null, "known_for": "Harissa BBQ duck and Ekmek gyro bread", "hours": null, "press_rank": 2, "status": {"2026-11-21": "ok", "2026-11-22": "none", "2026-11-23": "ok", "2026-11-24": "none", "2026-11-25": "none", "2026-11-26": "none", "2026-11-27": "none", "2026-11-28": "none", "2026-11-29": "none"}, "slots": {"2026-11-21": ["9:45 PM"], "2026-11-22": [], "2026-11-23": ["9:15 PM", "9:30 PM"], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {"2026-11-22": "sold-out", "2026-11-24": "sold-out", "2026-11-25": "sold-out", "2026-11-26": "closed", "2026-11-27": "sold-out", "2026-11-28": "sold-out", "2026-11-29": "sold-out"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:44:05-05:00"}, {"name": "Mooncusser", "kind": "restaurant", "platform": "opentable", "id": 732835, "url": "https://www.opentable.com/restref/client/?rid=732835", "phone": "(617) 917-5193", "hood": "Back Bay / Bay Village", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.mooncusserboston.com/", "menu": null, "cuisine": "Seafood-leaning contemporary tasting men", "blurb": null, "known_for": "Seasonal four-course tasting menu and Glazed local cod", "hours": null, "press_rank": 3, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Mahaniyom", "kind": "restaurant", "platform": "opentable", "id": 1267699, "url": "https://www.opentable.com/r/mahaniyom-brookline", "phone": "(617) 487-5986", "hood": "Brookline Village", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/688d5d06e60f451f704aaddb/1780183498083-XG4Y5ZDWE38IV9M3H6I9/image-asset.jpeg?format=2500w", "imgs": ["https://images.squarespace-cdn.com/content/v1/688d5d06e60f451f704aaddb/1780183498083-XG4Y5ZDWE38IV9M3H6I9/image-asset.jpeg?format=2500w"], "img_src": "their site", "website": "https://www.mahaniyomboston.com/", "menu": null, "cuisine": "Thai", "blurb": null, "known_for": "Crispy chicken skin (nang kai tod)", "hours": null, "press_rank": 4, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Field & Vine", "kind": "restaurant", "platform": "resy", "id": 4648, "url": "https://resy.com/cities/bos/field-and-vine", "phone": "(617) 718-2333", "hood": "Union Square", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/59090bb1b8a79b2cd0ce1b57/1631238193653-WHU46Y8QW9GH0Q21TRDB/FIELD+%26+VINE_BRIAN+SAMUELS+PHOTOGRAPHY_JUNE+2021-0413+copy.jpg", "imgs": ["https://images.squarespace-cdn.com/content/v1/59090bb1b8a79b2cd0ce1b57/1631238193653-WHU46Y8QW9GH0Q21TRDB/FIELD+%26+VINE_BRIAN+SAMUELS+PHOTOGRAPHY_JUNE+2021-0413+copy.jpg", "https://images.squarespace-cdn.com/content/v1/59090bb1b8a79b2cd0ce1b57/36748a84-0cec-4377-925b-7aa81e349cd1/230131_Field_and_Vine_Food_0155.jpg"], "img_src": "their site", "website": "https://www.fieldandvinesomerville.com/", "menu": null, "cuisine": "Seasonal New American small plates", "blurb": null, "known_for": "Oysters and raw bar and Crudos", "hours": null, "press_rank": 5, "status": {"2026-11-21": "ok", "2026-11-22": "none", "2026-11-23": "none", "2026-11-24": "ok", "2026-11-25": "ok", "2026-11-26": "none", "2026-11-27": "ok", "2026-11-28": "ok", "2026-11-29": "none"}, "slots": {"2026-11-21": ["8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM"], "2026-11-22": [], "2026-11-23": [], "2026-11-24": ["5:00 PM", "5:15 PM"], "2026-11-25": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM"], "2026-11-26": [], "2026-11-27": ["5:00 PM", "5:15 PM", "5:30 PM", "9:00 PM", "9:15 PM", "9:30 PM"], "2026-11-28": ["5:00 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM"], "2026-11-29": []}, "day_notes": {"2026-11-22": "closed", "2026-11-23": "closed", "2026-11-26": "sold-out", "2026-11-29": "closed"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:44:15-05:00"}, {"name": "Comfort Kitchen", "kind": "restaurant", "platform": "opentable", "id": 1277473, "url": "https://www.opentable.com/r/comfort-kitchen-boston", "phone": "(617) 329-6910", "hood": "Upham's Corner, Dorchester", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/5d671be8209fb10001b81097/1727824536667-ATFZ5VYKYFQ144B1QPTS/food_dinner_comfort-kitchen-okra.jpg", "imgs": ["https://images.squarespace-cdn.com/content/v1/5d671be8209fb10001b81097/1727824536667-ATFZ5VYKYFQ144B1QPTS/food_dinner_comfort-kitchen-okra.jpg", "https://images.squarespace-cdn.com/content/v1/5d671be8209fb10001b81097/1630509825221-GII0EJOKY9LPTTXJDTYY/04_comfort_kitchen_okra.jpg", "https://images.squarespace-cdn.com/content/v1/5d671be8209fb10001b81097/1778080419874-X1H9R2G0NAP3MATAS3EW/DSC00104.jpg", "https://images.squarespace-cdn.com/content/v1/5d671be8209fb10001b81097/7b97f4f1-d466-431c-9de4-e8e9fb49e95d/Comfort-Kitchen-Jerk-Roasted-Duck_WEB.jpg", "https://images.squarespace-cdn.com/content/v1/5d671be8209fb10001b81097/1778080378699-D5Z3Y604XKTF0287JURV/DSC00063.jpg"], "img_src": "their site", "website": "https://www.comfortkitchenbos.com/", "menu": null, "cuisine": "Global comfort food of the African diasp", "blurb": null, "known_for": "Brown butter seared okra and Jerk-roasted duck", "hours": null, "press_rank": 6, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Neptune Oyster", "kind": "restaurant", "platform": "walkin", "id": null, "url": "https://www.neptuneoyster.com/", "phone": "(617) 742-3474", "hood": "North End", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.neptuneoyster.com/", "menu": null, "cuisine": "Seafood", "blurb": null, "known_for": "Maine lobster roll (hot with butter) and Raw bar oysters", "hours": null, "press_rank": 7, "status": {"2026-11-21": "skipped", "2026-11-22": "skipped", "2026-11-23": "skipped", "2026-11-24": "skipped", "2026-11-25": "skipped", "2026-11-26": "skipped", "2026-11-27": "skipped", "2026-11-28": "skipped", "2026-11-29": "skipped"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": "walk-in", "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "O Ya", "kind": "restaurant", "platform": "opentable", "id": 0, "url": "https://www.opentable.com/o-ya-restaurant-reservations-boston?restref=28066", "phone": "(617) 654-9900", "hood": "Leather District", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://www.o-ya.restaurant/img/wagyu.jpg", "imgs": ["https://www.o-ya.restaurant/img/wagyu.jpg", "https://www.o-ya.restaurant/img/hero_tataki.jpg", "https://www.o-ya.restaurant/img/chutoro_close.jpg"], "img_src": "their site", "website": "https://www.o-ya.restaurant/", "menu": null, "cuisine": "Japanese inventive omakase", "blurb": null, "known_for": "A5 Japanese Wagyu and Fried Kumamoto oyster with squid ink bubbles", "hours": null, "press_rank": 8, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Tonino", "kind": "restaurant", "platform": "resy", "id": 73777, "url": "https://resy.com/cities/bos/tonino", "phone": "(617) 524-9217", "hood": "Jamaica Plain", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/625dfb1e18e19300316c5fe3/7170a4bd-6596-44d5-87a9-a5fbd01b7228/tonino-170.jpg", "imgs": ["https://images.squarespace-cdn.com/content/v1/625dfb1e18e19300316c5fe3/7170a4bd-6596-44d5-87a9-a5fbd01b7228/tonino-170.jpg", "https://blog.resy.com/wp-content/uploads/2026/10/ToninoFoodSpread-2000x1125.jpg", "https://images.squarespace-cdn.com/content/v1/625dfb1e18e19300316c5fe3/1777575383989-1XPUWZ78TGPUYS4LJNIN/image-asset.jpeg"], "img_src": "their site", "website": "https://www.toninojp.com/", "menu": null, "cuisine": "Roman-style Italian", "blurb": null, "known_for": "Taleggio cappelletti", "hours": null, "press_rank": 9, "status": {"2026-11-21": "none", "2026-11-22": "none", "2026-11-23": "none", "2026-11-24": "none", "2026-11-25": "none", "2026-11-26": "none", "2026-11-27": "none", "2026-11-28": "none", "2026-11-29": "none"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {"2026-11-21": "sold-out", "2026-11-22": "sold-out", "2026-11-23": "sold-out", "2026-11-24": "closed", "2026-11-25": "closed", "2026-11-26": "closed", "2026-11-27": "sold-out", "2026-11-28": "sold-out", "2026-11-29": "sold-out"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:44:18-05:00"}, {"name": "Urban Hearth", "kind": "restaurant", "platform": "opentable", "id": 342889, "url": "https://www.opentable.com/booking/experiences-availability?rid=342889&restref=342889&experienceId=843624", "phone": "(617) 682-7295", "hood": "Inman Square", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.urbanhearth.net/", "menu": null, "cuisine": "Seasonal New England", "blurb": null, "known_for": "Chef's counter tasting menu", "hours": null, "press_rank": 10, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "311 Omakase", "kind": "restaurant", "platform": "tock", "id": "three-1-one-boston", "url": "https://www.exploretock.com/three-1-one-boston", "phone": "(781) 831-0311", "hood": "South End", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/63f2754ea1ab1979c14b5a4d/000c1af2-9505-4187-af90-d838b3e96ce1/DSC00013.jpg?format=2500w", "imgs": ["https://images.squarespace-cdn.com/content/v1/63f2754ea1ab1979c14b5a4d/000c1af2-9505-4187-af90-d838b3e96ce1/DSC00013.jpg?format=2500w"], "img_src": "their site", "website": "https://311boston.com/", "menu": null, "cuisine": "Japanese omakase", "blurb": null, "known_for": "18-course omakase with a dozen-plus nigiri and Crispy-scaled tilefish", "hours": null, "press_rank": 11, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Oleana", "kind": "restaurant", "platform": "resy", "id": 4126, "url": "https://resy.com/cities/bos/oleana", "phone": "(617) 661-0505", "hood": "Inman Square", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/573c65ca7c65e42c65924ff0/1635695243624-M76G56IXCMNR6ALA21XQ/Oleana_160922_1319.jpg", "imgs": ["https://images.squarespace-cdn.com/content/v1/573c65ca7c65e42c65924ff0/1635695243624-M76G56IXCMNR6ALA21XQ/Oleana_160922_1319.jpg"], "img_src": "their site", "website": "https://www.oleanarestaurant.com/", "menu": null, "cuisine": "Eastern Mediterranean", "blurb": null, "known_for": "Baked Alaska and Whipped Feta with Sweet & Hot Peppers", "hours": null, "press_rank": 12, "status": {"2026-11-21": "none", "2026-11-22": "ok", "2026-11-23": "none", "2026-11-24": "none", "2026-11-25": "ok", "2026-11-26": "none", "2026-11-27": "none", "2026-11-28": "ok", "2026-11-29": "ok"}, "slots": {"2026-11-21": [], "2026-11-22": ["9:00 PM", "9:15 PM", "9:30 PM"], "2026-11-23": [], "2026-11-24": [], "2026-11-25": ["9:30 PM"], "2026-11-26": [], "2026-11-27": [], "2026-11-28": ["9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-29": ["9:30 PM"]}, "day_notes": {"2026-11-21": "sold-out", "2026-11-23": "sold-out", "2026-11-24": "sold-out", "2026-11-26": "closed", "2026-11-27": "sold-out"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:44:27-05:00"}, {"name": "Giulia", "kind": "restaurant", "platform": "opentable", "id": 95506, "url": "https://www.opentable.com/restref/client/?rid=95506&restref=95506", "phone": "(617) 441-2800", "hood": "Porter Square / Harvard-Porter", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.giuliarestaurant.com/", "menu": null, "cuisine": "Italian", "blurb": null, "known_for": "Pappardelle with Braised Wild Boar and Bucatini all'Amatriciana", "hours": null, "press_rank": 13, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Pammy's", "kind": "restaurant", "platform": "opentable", "id": 731962, "url": "https://www.opentable.com/restref/client/?rid=731962&restref=731962", "phone": "(617) 945-1761", "hood": "Between Central and Harvard Squares", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/58c6b4ebcd0f68690f0f3392/1595630180505-0VWYG60EYXV1QX0GRP3G/NM2-9265.jpg", "imgs": ["https://images.squarespace-cdn.com/content/v1/58c6b4ebcd0f68690f0f3392/1595630180505-0VWYG60EYXV1QX0GRP3G/NM2-9265.jpg"], "img_src": "their site", "website": "https://www.pammyscambridge.com/", "menu": null, "cuisine": "Italian-inspired New American", "blurb": null, "known_for": "Lumache Bolognese with Gochujang and Pork Milanese", "hours": null, "press_rank": 14, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Moëca", "kind": "restaurant", "platform": "opentable", "id": 1246282, "url": "https://www.opentable.com/restref/client/?rid=1246282&restref=1246282", "phone": "(617) 945-0040", "hood": "Porter Square / Harvard-Porter", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.moecarestaurant.com/", "menu": null, "cuisine": "Seafood", "blurb": null, "known_for": "Buttermilk Fried Monkfish and Tuna 'Nduja on Squid Ink Sourdough", "hours": null, "press_rank": 15, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Lenox Sophia", "kind": "restaurant", "platform": "resy", "id": 59868, "url": "https://resy.com/cities/bos/lenox-sophia", "phone": "(617) 597-2170", "hood": "South Boston", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.lenoxsophia.com/", "menu": null, "cuisine": "New American tasting menu", "blurb": null, "known_for": "Tagliatelle with black truffles (vegetarian course)", "hours": null, "press_rank": 16, "status": {"2026-11-21": "none", "2026-11-22": "none", "2026-11-23": "none", "2026-11-24": "none", "2026-11-25": "none", "2026-11-26": "none", "2026-11-27": "none", "2026-11-28": "none", "2026-11-29": "none"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {"2026-11-21": "sold-out", "2026-11-22": "closed", "2026-11-23": "closed", "2026-11-24": "closed", "2026-11-25": "closed", "2026-11-26": "closed", "2026-11-27": "closed", "2026-11-28": "closed", "2026-11-29": "closed"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:44:28-05:00"}, {"name": "Spoke Wine Bar", "kind": "restaurant", "platform": "resy", "id": 4800, "url": "https://resy.com/cities/bos/spoke-wine-bar", "phone": "(617) 718-9463", "hood": "Davis Square", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.spokewinebar.com/", "menu": null, "cuisine": "Wine bar", "blurb": null, "known_for": "Sunchoke Donuts (aged gouda, powdered leeks)", "hours": null, "press_rank": 17, "status": {"2026-11-21": "ok", "2026-11-22": "none", "2026-11-23": "none", "2026-11-24": "none", "2026-11-25": "ok", "2026-11-26": "none", "2026-11-27": "ok", "2026-11-28": "ok", "2026-11-29": "none"}, "slots": {"2026-11-21": ["5:00 PM", "5:15 PM", "5:30 PM", "9:30 PM", "9:45 PM"], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM"], "2026-11-26": [], "2026-11-27": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM"], "2026-11-28": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM"], "2026-11-29": []}, "day_notes": {"2026-11-22": "closed", "2026-11-23": "closed", "2026-11-24": "closed", "2026-11-26": "sold-out", "2026-11-29": "closed"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:44:37-05:00"}, {"name": "Dalia", "kind": "restaurant", "platform": "unknown", "id": null, "url": "https://www.doordash.com/reservations/r/dalia?utm_medium=mx_website&utm_campaign=dalia", "phone": null, "hood": "South Boston", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://bdc2020.o0bc.com/wp-content/uploads/2026/04/Iberico-Secreto-69cd8acb6735d-scaled.jpg", "imgs": ["https://bdc2020.o0bc.com/wp-content/uploads/2026/04/Iberico-Secreto-69cd8acb6735d-scaled.jpg", "https://media.timeout.com/images/106448534/image.jpg"], "img_src": "their site", "website": "https://www.daliaboston.com/", "menu": null, "cuisine": "Spanish", "blurb": null, "known_for": "Valencia Paella and Ibérico Pluma with passionfruit caramel & quince", "hours": null, "press_rank": 18, "status": {"2026-11-21": "skipped", "2026-11-22": "skipped", "2026-11-23": "skipped", "2026-11-24": "skipped", "2026-11-25": "skipped", "2026-11-26": "skipped", "2026-11-27": "skipped", "2026-11-28": "skipped", "2026-11-29": "skipped"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": "unknown platform", "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Bar Vlaha", "kind": "restaurant", "platform": "opentable", "id": 1277230, "url": "https://www.opentable.com/restref/client/?rid=1277230&restref=1277230&lang=en-US", "phone": "(617) 906-8556", "hood": "Washington Square", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/680a86e8f007ee45085f8607/257286c5-10a4-4c82-a7e2-b6ddf490bbd5/BarVlaha-48.jpg?format=2500w", "imgs": ["https://images.squarespace-cdn.com/content/v1/680a86e8f007ee45085f8607/257286c5-10a4-4c82-a7e2-b6ddf490bbd5/BarVlaha-48.jpg?format=2500w", "https://images.squarespace-cdn.com/content/v1/680a86e8f007ee45085f8607/1748280420301-KVS96INNN5F8H89DIHG9/image-asset.jpeg?format=2500w", "https://images.squarespace-cdn.com/content/v1/680a86e8f007ee45085f8607/c8ebf6a9-c6a5-4921-a6ae-871196f4f88a/BarVlaha-8.jpg?format=2500w", "https://images.squarespace-cdn.com/content/v1/680a86e8f007ee45085f8607/929f7bdc-83bb-4b50-b118-bd6e4b74212e/BarVlaha-61.jpg?format=2500w", "https://images.squarespace-cdn.com/content/v1/680a86e8f007ee45085f8607/81a25c1a-43ea-4214-8bbc-f9075e3f5943/BarVlaha-35.jpg?format=2500w"], "img_src": "their site", "website": "https://www.barvlaha.com/", "menu": null, "cuisine": "Greek", "blurb": null, "known_for": "Arni stin souvla (spit-roasted lamb leg)", "hours": null, "press_rank": 19, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Wa Shin", "kind": "restaurant", "platform": "resy", "id": 77972, "url": "https://resy.com/cities/bos/wa-shin", "phone": "(857) 289-9290", "hood": "Bay Village", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/656958863da42c3c2c99b7cf/6099c181-c227-45e2-abd1-691272cc3ccd/24005-01-9340.jpg", "imgs": ["https://images.squarespace-cdn.com/content/v1/656958863da42c3c2c99b7cf/6099c181-c227-45e2-abd1-691272cc3ccd/24005-01-9340.jpg", "https://images.squarespace-cdn.com/content/v1/656958863da42c3c2c99b7cf/67d74591-f9f6-433f-854f-9bf2681f7cc6/24005-01-9187.jpg", "https://images.squarespace-cdn.com/content/v1/656958863da42c3c2c99b7cf/da76b4ed-ce93-4c12-9a66-8d9fe1587d14/24005-01-9501.jpg", "https://images.squarespace-cdn.com/content/v1/656958863da42c3c2c99b7cf/3843e92a-1a1c-4628-a71b-43896fcff765/24005-01-9306.jpg"], "img_src": "their site", "website": "https://washinboston.com/", "menu": null, "cuisine": "Japanese omakase", "blurb": null, "known_for": "18-course Omakase at the Hinoki Counter and Hokkaido Uni", "hours": null, "press_rank": 20, "status": {"2026-11-21": "none", "2026-11-22": "none", "2026-11-23": "none", "2026-11-24": "none", "2026-11-25": "none", "2026-11-26": "none", "2026-11-27": "none", "2026-11-28": "none", "2026-11-29": "none"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {"2026-11-21": "sold-out", "2026-11-22": "closed", "2026-11-23": "sold-out", "2026-11-24": "sold-out", "2026-11-25": "sold-out", "2026-11-26": "closed", "2026-11-27": "sold-out", "2026-11-28": "sold-out", "2026-11-29": "closed"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:44:39-05:00"}, {"name": "Kaia", "kind": "restaurant", "platform": "opentable", "id": 1335643, "url": "https://www.opentable.com/restref/client/?rid=1335643&restref=1335643", "phone": "(617) 514-0700", "hood": "South End", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/663e6ca8f7be6e1a0c4c31e4/b37bc10a-74e7-47a0-8533-ba636c3d72ca/Astakomakaronada-FULL+RES-Kaia_Jan26Menu-57.jpg", "imgs": ["https://images.squarespace-cdn.com/content/v1/663e6ca8f7be6e1a0c4c31e4/b37bc10a-74e7-47a0-8533-ba636c3d72ca/Astakomakaronada-FULL+RES-Kaia_Jan26Menu-57.jpg", "https://images.squarespace-cdn.com/content/v1/663e6ca8f7be6e1a0c4c31e4/23f40500-cf00-4212-9f52-362823af041a/Kaia_Jan26Menu-55.jpg", "https://images.squarespace-cdn.com/content/v1/663e6ca8f7be6e1a0c4c31e4/00069437-0678-43b9-b659-daaac3e4ab68/Kaia+Grilled+Fish+Presentation.jpg"], "img_src": "their site", "website": "https://www.kaiasouthend.com/", "menu": null, "cuisine": "Coastal Greek seafood", "blurb": null, "known_for": "Astakomakaronada (whole-roasted 2 lb lobster pasta)", "hours": null, "press_rank": 21, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Celeste", "kind": "restaurant", "platform": "opentable", "id": 1182802, "url": "https://www.opentable.com/restref/client/?rid=1182802&restref=1182802", "phone": "(617) 616-5319", "hood": "Union Square", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://celesteunionsquare.com/", "menu": null, "cuisine": "Peruvian", "blurb": null, "known_for": "Ceviche (mixed seafood or blue cod, leche de tigre) and Lomo Saltado", "hours": null, "press_rank": 22, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Jahunger", "kind": "restaurant", "platform": "walkin", "id": null, "url": "https://www.jahunger.com/", "phone": "(617) 801-9725", "hood": "Cambridgeport", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://cdn.prod.website-files.com/672b4b87d354429f076afc4b/672badb7e510ddef1cfd134b_jahunger-noodle.png", "imgs": ["https://cdn.prod.website-files.com/672b4b87d354429f076afc4b/672badb7e510ddef1cfd134b_jahunger-noodle.png", "https://cdn.prod.website-files.com/672b4b87d354429f076afc4b/672bad743cb05eee8ac062e0_original-meefen.png", "https://cdn.prod.website-files.com/672b4b87d354429f076afc4b/672b4b87d354429f076afcbd_671e253ea76009f6d220828f_cold-chicken.png"], "img_src": "their site", "website": "https://www.jahunger.com/", "menu": null, "cuisine": "Uyghur", "blurb": null, "known_for": "Jahunger Noodle and Original Meefen", "hours": null, "press_rank": 23, "status": {"2026-11-21": "skipped", "2026-11-22": "skipped", "2026-11-23": "skipped", "2026-11-24": "skipped", "2026-11-25": "skipped", "2026-11-26": "skipped", "2026-11-27": "skipped", "2026-11-28": "skipped", "2026-11-29": "skipped"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": "walk-in", "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Sumiao Hunan Kitchen", "kind": "restaurant", "platform": "resy", "id": 4804, "url": "https://resy.com/cities/bos/sumiao-hunan-kitchen", "phone": "(617) 945-0907", "hood": "Kendall Square", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.sumiaohunan.com/", "menu": null, "cuisine": "Hunan Chinese", "blurb": null, "known_for": "Grandma's Pork and Sumiao Gyoza", "hours": null, "press_rank": 24, "status": {"2026-11-21": "none", "2026-11-22": "ok", "2026-11-23": "none", "2026-11-24": "ok", "2026-11-25": "ok", "2026-11-26": "ok", "2026-11-27": "ok", "2026-11-28": "ok", "2026-11-29": "ok"}, "slots": {"2026-11-21": [], "2026-11-22": ["5:00 PM", "5:15 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:45 PM"], "2026-11-23": [], "2026-11-24": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM"], "2026-11-25": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM"], "2026-11-26": ["7:00 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM"], "2026-11-27": ["5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM"], "2026-11-28": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:15 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM"], "2026-11-29": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM"]}, "day_notes": {"2026-11-21": "sold-out", "2026-11-23": "closed"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:44:55-05:00"}, {"name": "Brassica Kitchen + Café", "kind": "restaurant", "platform": "opentable", "id": 0, "url": "https://www.opentable.com/booking/restref/availability?lang=en-US&restRef=212926&otSource=Restaurant%20website", "phone": "(617) 477-4519", "hood": "Jamaica Plain", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://bdc2020.o0bc.com/wp-content/uploads/2024/03/IMG_5119-1-65fc87c4074d6-scaled.jpeg?width=1600", "imgs": ["https://bdc2020.o0bc.com/wp-content/uploads/2024/03/IMG_5119-1-65fc87c4074d6-scaled.jpeg?width=1600"], "img_src": "their site", "website": "https://www.brassicakitchen.com/", "menu": null, "cuisine": "Fermentation-forward New American", "blurb": null, "known_for": "B.K. Fried Chicken and B.K. Brussels", "hours": null, "press_rank": 25, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Fallow Kin", "kind": "restaurant", "platform": "resy", "id": 92665, "url": "https://resy.com/cities/cambridge-ma/venues/fallow-kin", "phone": "(617) 395-1098", "hood": "Central Square", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://image.resy.com/3/003/2/92665/3794dd10e99097754b8e1bb4f80fbaa95b710fef/jpg/1600x900", "imgs": ["https://image.resy.com/3/003/2/92665/3794dd10e99097754b8e1bb4f80fbaa95b710fef/jpg/1600x900", "https://blog.resy.com/wp-content/uploads/2025/12/FK2-1536x1097.jpg"], "img_src": "their site", "website": "https://www.fallowkin.com/", "menu": null, "cuisine": "Vegetable-forward New England farm-to-ta", "blurb": null, "known_for": "Squid (stuffed Rhode Island squid / squid Milanese)", "hours": null, "press_rank": 26, "status": {"2026-11-21": "ok", "2026-11-22": "ok", "2026-11-23": "ok", "2026-11-24": "none", "2026-11-25": "ok", "2026-11-26": "none", "2026-11-27": "ok", "2026-11-28": "ok", "2026-11-29": "ok"}, "slots": {"2026-11-21": ["9:00 PM", "9:15 PM", "9:30 PM"], "2026-11-22": ["5:30 PM", "6:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM"], "2026-11-23": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM"], "2026-11-24": [], "2026-11-25": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM"], "2026-11-26": [], "2026-11-27": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM"], "2026-11-28": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM"], "2026-11-29": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM"]}, "day_notes": {"2026-11-24": "closed", "2026-11-26": "sold-out"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:45:10-05:00"}, {"name": "Grill 23 & Bar", "kind": "restaurant", "platform": "opentable", "id": 37450, "url": "https://www.opentable.com/r/grill-23-and-bar-reservations-boston?restref=3325&lang=en-US&ot_source=Restaurant%20website", "phone": "(617) 542-2255", "hood": "Back Bay", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://bomag.o0bc.com/wp-content/uploads/sites/2/2021/08/Grill-23.jpg", "imgs": ["https://bomag.o0bc.com/wp-content/uploads/sites/2/2021/08/Grill-23.jpg", "https://images.squarespace-cdn.com/content/v1/61a64f951fd4bc35a575dafa/1731600832962-H4LSVJ87OT1HTAO3S686/image-asset.jpeg", "https://images.squarespace-cdn.com/content/v1/61a64f951fd4bc35a575dafa/c7cd0a2d-74a9-49bd-87d4-67396599ee6f/GRILL+23_HIMMEL+HOSPITALITY+GROUP_BRIAN+SAMUELS+PHOTOGRAPHY_APRIL+2025-IMG_0993+copy.jpg"], "img_src": "their site", "website": "https://www.grill23.com/", "menu": null, "cuisine": "Classic American steakhouse & seafood", "blurb": null, "known_for": "100 Day Aged Prime Ribeye and Prime New York Strip (14 oz)", "hours": null, "press_rank": 27, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Puritan & Company", "kind": "restaurant", "platform": "opentable", "id": 85192, "url": "https://www.opentable.com/restaurant/profile/85192", "phone": "(617) 615-6195", "hood": "Inman Square", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.puritancambridge.com/", "menu": null, "cuisine": "New England farm-to-table American", "blurb": null, "known_for": "Parker House Rolls and Crab Cavatelli", "hours": null, "press_rank": 28, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Somaek", "kind": "restaurant", "platform": "resy", "id": 79039, "url": "https://resy.com/cities/bos/somaek", "phone": "(857) 449-9003", "hood": "Downtown Crossing", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.getbento.com/accounts/454ea081a71f6f9367811dde7fac3b9e/media/images/34383SOMAEK_TEMPLE_RECORDS_SUSHI_AT_TEMPLE_RECORDS_BRIAN_SAMUELS_PHOTOGRAPHY_APRIL_2024-IMG_5577_copy.jpg?w=1600", "imgs": ["https://images.getbento.com/accounts/454ea081a71f6f9367811dde7fac3b9e/media/images/34383SOMAEK_TEMPLE_RECORDS_SUSHI_AT_TEMPLE_RECORDS_BRIAN_SAMUELS_PHOTOGRAPHY_APRIL_2024-IMG_5577_copy.jpg?w=1600", "https://images.getbento.com/accounts/454ea081a71f6f9367811dde7fac3b9e/media/images/17256SOMAEK_TEMPLE_RECORDS_SUSHI_AT_TEMPLE_RECORDS_BRIAN_SAMUELS_PHOTOGRAPHY_APRIL_2024-IMG_5513_copy.jpg?w=1600", "https://images.getbento.com/accounts/454ea081a71f6f9367811dde7fac3b9e/media/images/2687SOMAEK_TEMPLE_RECORDS_SUSHI_AT_TEMPLE_RECORDS_BRIAN_SAMUELS_PHOTOGRAPHY_APRIL_2024-_IMG_5193_copy.jpg?w=1600", "https://images.getbento.com/accounts/454ea081a71f6f9367811dde7fac3b9e/media/images/92626Bowl.png?w=1600", "https://blog.resy.com/wp-content/uploads/2024/05/Somaek_Pic-4_Bibim-Guksu_Brian-Samuels-Photography-906x604.jpg", "https://images.getbento.com/accounts/454ea081a71f6f9367811dde7fac3b9e/media/images/54949somaek_temple_records_sushi_at_temple_records_brian_samuels_photography_april_2024-img_5471_copy.jpeg?w=1600"], "img_src": "their site", "website": "https://www.somaek.com/", "menu": null, "cuisine": "Korean home-style", "blurb": null, "known_for": "Mandu (steamed dumplings) and Bibim Guksu", "hours": null, "press_rank": 29, "status": {"2026-11-21": "ok", "2026-11-22": "none", "2026-11-23": "ok", "2026-11-24": "ok", "2026-11-25": "ok", "2026-11-26": "none", "2026-11-27": "ok", "2026-11-28": "ok", "2026-11-29": "none"}, "slots": {"2026-11-21": ["9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-22": [], "2026-11-23": ["5:00 PM", "5:30 PM", "6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM"], "2026-11-24": ["5:00 PM", "5:30 PM", "6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM"], "2026-11-25": ["5:00 PM", "5:30 PM", "6:00 PM", "7:00 PM", "7:30 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM"], "2026-11-26": [], "2026-11-27": ["5:00 PM", "5:30 PM", "6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM", "8:00 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-28": ["5:00 PM", "5:30 PM", "6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM", "8:00 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-29": []}, "day_notes": {"2026-11-22": "closed", "2026-11-26": "closed", "2026-11-29": "closed"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:45:23-05:00"}, {"name": "Via Cannuccia", "kind": "restaurant", "platform": "opentable", "id": 0, "url": "https://www.opentable.com/restref/client/?restref=1294477&lang=en-US&ot_source=Restaurant%20website", "phone": "(617) 506-1877", "hood": "Dorchester", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/640dfe11088ba1484b613691/3ce7978f-5c5b-4ee2-97cf-66858ff21ede/VIACANNUCIA-04.jpg", "imgs": ["https://images.squarespace-cdn.com/content/v1/640dfe11088ba1484b613691/3ce7978f-5c5b-4ee2-97cf-66858ff21ede/VIACANNUCIA-04.jpg", "https://images.squarespace-cdn.com/content/v1/640dfe11088ba1484b613691/e0066630-825f-41e9-a892-dac561ecfc97/8692eb0c-297e-452b-a567-045cdb37ccba.JPG", "https://images.squarespace-cdn.com/content/v1/640dfe11088ba1484b613691/1fd2e3b0-79e5-4287-b8ca-e78b487e77b2/VIACANNUCIA-26.jpg", "https://images.squarespace-cdn.com/content/v1/640dfe11088ba1484b613691/0c7af675-1474-45fb-a1aa-fcaeeb27737a/VIACANNUCIA-09.jpg"], "img_src": "their site", "website": "https://www.viacannuccia.com/", "menu": null, "cuisine": "Roman-style Italian trattoria & pizza al", "blurb": null, "known_for": "Pizza alla pala and Supplì (cacio e pepe)", "hours": null, "press_rank": 30, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Woods Hill Pier 4", "kind": "restaurant", "platform": "resy", "id": 8513, "url": "https://resy.com/cities/bos/woods-hill-pier-4", "phone": "(617) 981-4577", "hood": "Seaport", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.woodshillpier4.com/", "menu": null, "cuisine": "Farm-to-table New American & seafood", "blurb": null, "known_for": "Shellfish Tower and Lobster Popover", "hours": null, "press_rank": 31, "status": {"2026-11-21": "ok", "2026-11-22": "ok", "2026-11-23": "ok", "2026-11-24": "ok", "2026-11-25": "ok", "2026-11-26": "none", "2026-11-27": "ok", "2026-11-28": "ok", "2026-11-29": "ok"}, "slots": {"2026-11-21": ["8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM"], "2026-11-22": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM"], "2026-11-23": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM"], "2026-11-24": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM"], "2026-11-25": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM"], "2026-11-26": [], "2026-11-27": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:30 PM", "6:45 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM"], "2026-11-28": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM"], "2026-11-29": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM"]}, "day_notes": {"2026-11-26": "closed"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:45:40-05:00"}, {"name": "La Royal", "kind": "restaurant", "platform": "opentable", "id": 1182802, "url": "https://www.opentable.com/r/la-royal-reservations-cambridge?restref=1235005&lang=en-US&ot_source=Restaurant%20website", "phone": "(617) 823-1595", "hood": "Huron Village", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/60995542b7c9ab5f109bb618/2368bb13-8b1f-459f-b96c-cc1f4adcbfcd/220219_La+Royal+_Maria0704.jpg", "imgs": ["https://images.squarespace-cdn.com/content/v1/60995542b7c9ab5f109bb618/2368bb13-8b1f-459f-b96c-cc1f4adcbfcd/220219_La+Royal+_Maria0704.jpg", "https://blog.resy.com/wp-content/uploads/2022/05/Patarashca_La-Royal_photo-by-Theodore-Samuels_compressed-2000x2000.jpg", "https://blog.resy.com/wp-content/uploads/2022/05/La-Royal-Sour_La-Royal_photo-by-Theodore-Samuels_compressed-2000x2000.jpg"], "img_src": "their site", "website": "https://www.laroyalcambridge.com/", "menu": null, "cuisine": "Peruvian with pisco cocktails", "blurb": null, "known_for": "Ceviche / Leche de tigre and Patarashca", "hours": null, "press_rank": 32, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Zurito", "kind": "restaurant", "platform": "resy", "id": 83922, "url": "https://resy.com/cities/boston-ma/venues/zurito", "phone": null, "hood": "Beacon Hill", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.getbento.com/accounts/399c6666869ed17ff2e89a5924520f73/media/images/24412zurito_brian_samuels_photography_30october2024img_9362_copy.jpeg?w=1600&fit=max&auto=compress,format", "imgs": ["https://images.getbento.com/accounts/399c6666869ed17ff2e89a5924520f73/media/images/24412zurito_brian_samuels_photography_30october2024img_9362_copy.jpeg?w=1600&fit=max&auto=compress,format", "https://images.getbento.com/accounts/399c6666869ed17ff2e89a5924520f73/media/images/1556zurito_brian_samuels_photography_30october2024img_9429_copy.jpeg?w=1600&fit=max&auto=compress,format"], "img_src": "their site", "website": "https://www.zuritoboston.com/", "menu": null, "cuisine": "Basque", "blurb": null, "known_for": "Pan con tomate with anchovies", "hours": null, "press_rank": 33, "status": {"2026-11-21": "ok", "2026-11-22": "ok", "2026-11-23": "ok", "2026-11-24": "ok", "2026-11-25": "ok", "2026-11-26": "none", "2026-11-27": "ok", "2026-11-28": "ok", "2026-11-29": "ok"}, "slots": {"2026-11-21": ["8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-22": ["8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM"], "2026-11-23": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM"], "2026-11-24": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM"], "2026-11-25": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM"], "2026-11-26": [], "2026-11-27": ["5:00 PM", "5:15 PM", "5:30 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-28": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-29": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM"]}, "day_notes": {"2026-11-26": "closed"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:45:58-05:00"}, {"name": "Hecate", "kind": "bar", "platform": "walkin", "id": null, "url": "https://www.hecatebar.com/contact", "phone": null, "hood": "Back Bay", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/66b386c6daf2bd3e97ca6e66/4742f480-ea35-4f82-875e-9b4c245ff0bb/SHE+OF+THE+NIGHT-HECATE-VOL6-CITYLENSMEDIA-DSC02836.jpg?format=2500w", "imgs": ["https://images.squarespace-cdn.com/content/v1/66b386c6daf2bd3e97ca6e66/4742f480-ea35-4f82-875e-9b4c245ff0bb/SHE+OF+THE+NIGHT-HECATE-VOL6-CITYLENSMEDIA-DSC02836.jpg?format=2500w", "https://images.squarespace-cdn.com/content/v1/66b386c6daf2bd3e97ca6e66/9d28a676-9672-4b32-b9bc-fefcc7ad33a1/FASNACHT-HECATE-VOL6-CITYLENSMEDIA-DSC02752.jpg?format=2500w", "https://images.squarespace-cdn.com/content/v1/66b386c6daf2bd3e97ca6e66/b51f2312-4744-4d68-94a1-20e2bd49e5a2/HOLLOW+HILLS-HECATE-VOL6-CITYLENSMEDIA-DSC02729.jpg?format=2500w"], "img_src": "their site", "website": "https://www.hecatebar.com/", "menu": null, "cuisine": "Cocktail bar with snacks", "blurb": null, "known_for": "Signature cocktails from the current 'book of spells' volume", "hours": null, "press_rank": 34, "status": {"2026-11-21": "skipped", "2026-11-22": "skipped", "2026-11-23": "skipped", "2026-11-24": "skipped", "2026-11-25": "skipped", "2026-11-26": "skipped", "2026-11-27": "skipped", "2026-11-28": "skipped", "2026-11-29": "skipped"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": "walk-in", "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Yvonne's", "kind": "bar", "platform": "sevenrooms", "id": "yvonneboston", "url": "https://www.sevenrooms.com/reservations/yvonneboston", "phone": "(617) 267-0047", "hood": "Downtown Crossing", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.yvonnesboston.com/", "menu": null, "cuisine": "Global small plates", "blurb": null, "known_for": "Crispy tater cubes and Large-format mules (Passion Fruit Mule)", "hours": null, "press_rank": 35, "status": {"2026-11-21": "ok", "2026-11-22": "ok", "2026-11-23": "ok", "2026-11-24": "ok", "2026-11-25": "ok", "2026-11-26": "none", "2026-11-27": "ok", "2026-11-28": "ok", "2026-11-29": "ok"}, "slots": {"2026-11-21": ["9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-22": ["5:00 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-23": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-24": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-25": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-26": [], "2026-11-27": ["7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-28": ["5:00 PM", "8:15 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-29": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"]}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "haley.henry", "kind": "bar", "platform": "resy", "id": 50741, "url": "https://resy.com/cities/bos/haley-henry-wine-bar", "phone": "(617) 208-6000", "hood": "Downtown Crossing", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/57b262de20099e4e5ee77d8d/1496511384116-RDNZ8EUN3YNWJ4SB2IZ1/haley.henry+wine+bar_Brian+Samuels+Photography_July+2016+-+11.jpg?format=2500w", "imgs": ["https://images.squarespace-cdn.com/content/v1/57b262de20099e4e5ee77d8d/1496511384116-RDNZ8EUN3YNWJ4SB2IZ1/haley.henry+wine+bar_Brian+Samuels+Photography_July+2016+-+11.jpg?format=2500w", "https://images.squarespace-cdn.com/content/v1/57b262de20099e4e5ee77d8d/1498073534229-T7JE1V92I5XUDJKYM87O/hhWINE.jpg?format=2500w", "https://images.squarespace-cdn.com/content/v1/57b262de20099e4e5ee77d8d/1487965664442-HZWPI49JTHVP95YC8JK9/wine+bar+MT.jpg?format=2500w"], "img_src": "their site", "website": "https://www.haleyhenry.com/", "menu": null, "cuisine": "Natural wine bar", "blurb": null, "known_for": "Tinned fish service and Natural wine by the glass / half bottle", "hours": null, "press_rank": 36, "status": {"2026-11-21": "ok", "2026-11-22": "none", "2026-11-23": "none", "2026-11-24": "ok", "2026-11-25": "none", "2026-11-26": "none", "2026-11-27": "ok", "2026-11-28": "ok", "2026-11-29": "none"}, "slots": {"2026-11-21": ["10:00 PM"], "2026-11-22": [], "2026-11-23": [], "2026-11-24": ["5:00 PM", "9:00 PM", "9:15 PM", "9:30 PM"], "2026-11-25": [], "2026-11-26": [], "2026-11-27": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-28": ["7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-29": []}, "day_notes": {"2026-11-22": "closed", "2026-11-23": "closed", "2026-11-26": "sold-out", "2026-11-29": "closed"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:08-05:00"}, {"name": "Backbar", "kind": "bar", "platform": "walkin", "id": null, "url": "https://www.facebook.com/backbarunion/", "phone": "(617) 718-0249", "hood": "Union Square", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.facebook.com/backbarunion/", "menu": null, "cuisine": "Craft cocktail bar", "blurb": null, "known_for": "Themed specialty cocktail menu and Clarified milk punch", "hours": null, "press_rank": 37, "status": {"2026-11-21": "skipped", "2026-11-22": "skipped", "2026-11-23": "skipped", "2026-11-24": "skipped", "2026-11-25": "skipped", "2026-11-26": "skipped", "2026-11-27": "skipped", "2026-11-28": "skipped", "2026-11-29": "skipped"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": "walk-in", "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Blossom Bar", "kind": "bar", "platform": "tock", "id": "blossombar", "url": "https://www.exploretock.com/blossombar/", "phone": "(617) 734-1870", "hood": "Brookline Village", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/5938d09be4fcb5a7cf6ba4fc/1515144462841-LEM8KIP3SRMDZW7F9R9S/unnamed-3.jpg", "imgs": ["https://images.squarespace-cdn.com/content/v1/5938d09be4fcb5a7cf6ba4fc/1515144462841-LEM8KIP3SRMDZW7F9R9S/unnamed-3.jpg"], "img_src": "their site", "website": "https://www.blossombarbrookline.com/", "menu": null, "cuisine": "Latin", "blurb": null, "known_for": "Dan dan noodles and Gloria", "hours": null, "press_rank": 38, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Liars", "kind": "restaurant", "platform": "opentable", "id": 1536826, "url": "https://www.opentable.com/r/liars-restaurant-reservations-somerville?restref=1536826&lang=en-US&ot_source=Restaurant%20website", "phone": "(617) 718-0231", "hood": "Teele Square", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.restaurantliars.com/", "menu": null, "cuisine": "Drinks-focused bistro: rare spirits", "blurb": null, "known_for": "Beef tongue with peppers and cheese", "hours": null, "press_rank": 39, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Toro", "kind": "restaurant", "platform": "opentable", "id": 265075, "url": "https://www.opentable.com/restref/client/?rid=265075", "phone": "(617) 536-4300", "hood": "South End", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/56e9f2ce45bf21d097847a21/1543349000487-SOKUL7E09CFLIDA3SRAI/toro_boston_PaellaValenciana.jpg?format=2500w", "imgs": ["https://images.squarespace-cdn.com/content/v1/56e9f2ce45bf21d097847a21/1543349000487-SOKUL7E09CFLIDA3SRAI/toro_boston_PaellaValenciana.jpg?format=2500w", "https://images.squarespace-cdn.com/content/v1/56e9f2ce45bf21d097847a21/1708449780733-HU4MQLN6CBBPH7RNYBCT/0Z1A6361.JPG?format=2500w", "https://images.squarespace-cdn.com/content/v1/56e9f2ce45bf21d097847a21/1581012964607-2IWUE0Q41MOHNMINYOIR/patatas-bravas-1-1024x682.jpg?format=2500w"], "img_src": "their site", "website": "https://www.toro-restaurant.com/boston", "menu": null, "cuisine": "Spanish tapas", "blurb": null, "known_for": "Maíz asado (grilled street corn) and Paella Valenciana", "hours": null, "press_rank": 40, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Fox & the Knife", "kind": "restaurant", "platform": "opentable", "id": 1186147, "url": "https://www.opentable.com/r/fox-and-the-knife-reservations-south-boston?restref=1186147&lang=en-US&ot_source=Restaurant%20website", "phone": "(617) 766-8630", "hood": "South Boston", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.foxandtheknife.com/", "menu": null, "cuisine": "Italian", "blurb": null, "known_for": "Taleggio-stuffed focaccia and Tagliatelle Bolognese", "hours": null, "press_rank": 41, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Row 34", "kind": "restaurant", "platform": "opentable", "id": 114622, "url": "https://www.opentable.com/restref/client/?rid=114622", "phone": "(617) 553-5900", "hood": "Fort Point / Seaport", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.getbento.com/accounts/0458dfcde69e52599298b5a6f7714c1d/media/images/97434DSC_3477.jpg?w=1800&fit=max&auto=compress,format", "imgs": ["https://images.getbento.com/accounts/0458dfcde69e52599298b5a6f7714c1d/media/images/97434DSC_3477.jpg?w=1800&fit=max&auto=compress,format", "https://images.getbento.com/accounts/0458dfcde69e52599298b5a6f7714c1d/media/images/81135OCT-5987.jpg?w=1800&fit=max&auto=compress,format"], "img_src": "their site", "website": "https://www.row34.com/location/row34-boston/", "menu": null, "cuisine": "Seafood", "blurb": null, "known_for": "Lobster roll (warm buttered or Ethel's creamy) and Raw bar oysters", "hours": null, "press_rank": 42, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Baleia", "kind": "restaurant", "platform": "resy", "id": 74242, "url": "https://resy.com/cities/bos/baleia", "phone": "(617) 505-3243", "hood": "South End", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/642c3df346c4eb468d60e174/041be2d4-e09d-4148-b895-c7ff577c2ffa/Baleia_EmilyKan_1.jpg?format=1500w", "imgs": ["https://images.squarespace-cdn.com/content/v1/642c3df346c4eb468d60e174/041be2d4-e09d-4148-b895-c7ff577c2ffa/Baleia_EmilyKan_1.jpg?format=1500w", "https://images.squarespace-cdn.com/content/v1/642c3df346c4eb468d60e174/1710167865431-NZIML8AB5J3IMUKYQ0UM/Baleia_EmilyKan_6.jpg?format=1500w", "https://blog.resy.com/wp-content/uploads/2024/04/Baleia_EmilyKan_49-2048x1463.jpg"], "img_src": "their site", "website": "https://www.baleiaboston.com/", "menu": null, "cuisine": "Portuguese", "blurb": null, "known_for": "Shrimp Mozambique and Duck rice", "hours": null, "press_rank": 43, "status": {"2026-11-21": "ok", "2026-11-22": "ok", "2026-11-23": "ok", "2026-11-24": "ok", "2026-11-25": "ok", "2026-11-26": "none", "2026-11-27": "ok", "2026-11-28": "ok", "2026-11-29": "ok"}, "slots": {"2026-11-21": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-22": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM"], "2026-11-23": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM"], "2026-11-24": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM"], "2026-11-25": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM"], "2026-11-26": [], "2026-11-27": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-28": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-29": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM"]}, "day_notes": {"2026-11-26": "closed"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:24-05:00"}, {"name": "The Wig Shop", "kind": "bar", "platform": "resy", "id": 67458, "url": "https://resy.com/cities/boston-ma/venues/the-wig-shop", "phone": null, "hood": "Downtown Crossing", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.getbento.com/accounts/f49b99fbd611f6f6555dc1142414558f/media/images/56459WIG_SHOP_CREDIT_BRIAN_SAMUELS_PHOTOGRAPHY_2SEPTEMBER2022_-_IMG_6291_copy.jpg", "imgs": ["https://images.getbento.com/accounts/f49b99fbd611f6f6555dc1142414558f/media/images/56459WIG_SHOP_CREDIT_BRIAN_SAMUELS_PHOTOGRAPHY_2SEPTEMBER2022_-_IMG_6291_copy.jpg", "https://blog.resy.com/wp-content/uploads/2023/02/wigs3.jpeg"], "img_src": "their site", "website": "https://www.wigshopboston.com/", "menu": null, "cuisine": "Retro-glam cocktail lounge with canapés ", "blurb": null, "known_for": "Lobster pancakes and Rise & Grind", "hours": null, "press_rank": 44, "status": {"2026-11-21": "none", "2026-11-22": "ok", "2026-11-23": "ok", "2026-11-24": "ok", "2026-11-25": "ok", "2026-11-26": "none", "2026-11-27": "ok", "2026-11-28": "none", "2026-11-29": "none"}, "slots": {"2026-11-21": [], "2026-11-22": ["5:15 PM", "5:30 PM", "5:45 PM"], "2026-11-23": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-24": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-25": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "9:30 PM", "9:45 PM", "10:00 PM"], "2026-11-26": [], "2026-11-27": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM", "6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM", "9:30 PM"], "2026-11-28": [], "2026-11-29": []}, "day_notes": {"2026-11-21": "sold-out", "2026-11-26": "closed"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:38-05:00"}, {"name": "Farmacia", "kind": "bar", "platform": "tock", "id": "farmacia", "url": "https://www.exploretock.com/farmacia", "phone": null, "hood": "North End", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/61dd76ceeb6a2c53c23158f7/1732991304863-CWVWXJB7RLNSDE6TAJCY/image-asset.jpeg", "imgs": ["https://images.squarespace-cdn.com/content/v1/61dd76ceeb6a2c53c23158f7/1732991304863-CWVWXJB7RLNSDE6TAJCY/image-asset.jpeg", "https://images.squarespace-cdn.com/content/v1/61dd76ceeb6a2c53c23158f7/1727289593895-YAI35DEDMRERT3N17DHA/image-asset.jpeg", "https://images.squarespace-cdn.com/content/v1/61dd76ceeb6a2c53c23158f7/b71d910c-56be-47f5-b23f-5ead70b329ac/_DSF0287.jpg"], "img_src": "their site", "website": "https://www.farmacianorthend.com/", "menu": null, "cuisine": "Ticketed cocktail tasting bar", "blurb": null, "known_for": "Seasonal 'chapter' cocktail progression", "hours": null, "press_rank": 45, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Trina's Starlite Lounge", "kind": "bar", "platform": "walkin", "id": null, "url": "https://trinastarlite.com/", "phone": "(617) 576-0006", "hood": "Inman Square", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://trinastarlite.com/wp-content/uploads/2024/04/TSL-hot-dog.jpg", "imgs": ["https://trinastarlite.com/wp-content/uploads/2024/04/TSL-hot-dog.jpg"], "img_src": "their site", "website": "https://trinastarlite.com/", "menu": null, "cuisine": "Dive", "blurb": null, "known_for": "Hot dogs (Starlite dog, corn dog, Hot Dog Tower)", "hours": null, "press_rank": 46, "status": {"2026-11-21": "skipped", "2026-11-22": "skipped", "2026-11-23": "skipped", "2026-11-24": "skipped", "2026-11-25": "skipped", "2026-11-26": "skipped", "2026-11-27": "skipped", "2026-11-28": "skipped", "2026-11-29": "skipped"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": "walk-in", "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "The Koji Club", "kind": "bar", "platform": "resy", "id": 75066, "url": "https://resy.com/cities/boston-ma/venues/the-koji-club", "phone": null, "hood": "Brighton", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.thekojiclub.com/", "menu": null, "cuisine": "Sake bar with Japanese snacks", "blurb": null, "known_for": "Sake by the pour (staff-guided tastings)", "hours": null, "press_rank": 47, "status": {"2026-11-21": "ok", "2026-11-22": "ok", "2026-11-23": "none", "2026-11-24": "ok", "2026-11-25": "ok", "2026-11-26": "none", "2026-11-27": "ok", "2026-11-28": "ok", "2026-11-29": "ok"}, "slots": {"2026-11-21": ["9:00 PM", "9:15 PM", "9:30 PM"], "2026-11-22": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM"], "2026-11-23": [], "2026-11-24": ["8:30 PM"], "2026-11-25": ["5:00 PM"], "2026-11-26": [], "2026-11-27": ["7:30 PM", "7:45 PM", "8:00 PM"], "2026-11-28": ["5:00 PM", "5:15 PM", "5:30 PM"], "2026-11-29": ["5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM", "6:00 PM", "6:15 PM", "6:30 PM"]}, "day_notes": {"2026-11-23": "closed", "2026-11-26": "closed"}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:54-05:00"}, {"name": "Extra Dirty Cocktail Club", "kind": "bar", "platform": "tock", "id": "extra-dirty", "url": "https://www.exploretock.com/extra-dirty", "phone": null, "hood": "North End", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": "https://images.squarespace-cdn.com/content/v1/672cec8c7b1b720a3e544633/ea908d53-cbf3-4595-94fe-089de2986311/EXTRA+DIRTY+COCKTAIL+CLUB_BRIAN+SAMUELS+PHOTOGRAPHY_NOVEMBER+2024-IMG_0453+copy.jpg", "imgs": ["https://images.squarespace-cdn.com/content/v1/672cec8c7b1b720a3e544633/ea908d53-cbf3-4595-94fe-089de2986311/EXTRA+DIRTY+COCKTAIL+CLUB_BRIAN+SAMUELS+PHOTOGRAPHY_NOVEMBER+2024-IMG_0453+copy.jpg"], "img_src": "their site", "website": "https://www.extradirtynorthend.com/", "menu": null, "cuisine": "Prepaid themed cocktail tasting lounge", "blurb": null, "known_for": "Themed multi-course cocktail tasting ('Acts') and Dirty martini", "hours": null, "press_rank": 48, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}, {"name": "Wusong Road", "kind": "bar", "platform": "opentable", "id": 1239667, "url": "https://www.opentable.com/r/wusong-road-cambridge", "phone": "(617) 528-9125", "hood": "Harvard Square", "top25": null, "avg": null, "ratings": null, "ratings_label": null, "dishes": [], "closed": false, "note": "", "img": null, "imgs": [], "img_src": "their site", "website": "https://www.wusongroad.com/", "menu": null, "cuisine": "Tiki bar with American-Chinese food", "blurb": null, "known_for": "Crab rangoon and Mai Tai", "hours": null, "press_rank": 49, "status": {"2026-11-21": "error:not checked yet", "2026-11-22": "error:not checked yet", "2026-11-23": "error:not checked yet", "2026-11-24": "error:not checked yet", "2026-11-25": "error:not checked yet", "2026-11-26": "error:not checked yet", "2026-11-27": "error:not checked yet", "2026-11-28": "error:not checked yet", "2026-11-29": "error:not checked yet"}, "slots": {"2026-11-21": [], "2026-11-22": [], "2026-11-23": [], "2026-11-24": [], "2026-11-25": [], "2026-11-26": [], "2026-11-27": [], "2026-11-28": [], "2026-11-29": []}, "day_notes": {}, "skip": null, "vibe": null, "checked": "2026-11-21T15:46:59-05:00"}], "platforms": {"resy": "Resy", "opentable": "OpenTable", "sevenrooms": "SevenRooms", "tock": "Tock", "phone": "Phone", "walkin": "Walk-in", "unknown": "Their site", "none": "Walk-in"}, "pull_topic": "drw-pull-76eeda7f12663f52", "city": {"slug": "boston", "name": "Boston", "state": "MA", "tz": "America/New_York", "accent": "#1f5c4a", "accent_dark": "#6cc3a2", "tagline": "Seafood, North End Italian and Cambridge cocktails"}, "cities": [{"slug": "dallas", "name": "Dallas", "state": "TX", "status": "live", "accent": "#b4532a", "tagline": "Big-city steak, sushi and Tex-Mex"}, {"slug": "boston", "name": "Boston", "state": "MA", "status": "live", "accent": "#1f5c4a", "tagline": "Seafood, North End Italian and Cambridge cocktails"}]}</script>
+<script>
+// kit:start — shared tactile layer (render.py is the source; trip/index.html carries a copy)
+(() => {
+  const RM = matchMedia('(prefers-reduced-motion: reduce)');
+  const still = () => RM.matches;
+  const buzz = () => { try { navigator.vibrate && navigator.vibrate(8); } catch (e) {} };
+
+  // Sliding selection pill. The indicator survives innerHTML re-renders: it is re-inserted at its old spot, then animated.
+  function place(ind, p, anim) {
+    if (!anim) ind.style.transition = 'none';
+    ind.style.width = p.w + 'px'; ind.style.height = p.h + 'px';
+    ind.style.transform = `translate3d(${p.x}px,${p.y}px,0)`; ind.style.opacity = 1;
+    if (!anim) { void ind.offsetWidth; ind.style.transition = ''; }
+  }
+  function slide(box, target, anim = true) {
+    if (!box) return;
+    let ind = box._kInd;
+    if (!ind) {
+      ind = box._kInd = document.createElement('span');
+      ind.className = 'kit-ind'; ind.setAttribute('aria-hidden', 'true');
+      box.classList.add('kit-on');
+      if ('ResizeObserver' in window) new ResizeObserver(() => slide(box, null, false)).observe(box);
+    }
+    if (ind.parentNode !== box) { box.prepend(ind); if (box._kPos) place(ind, box._kPos, false); }
+    const a = target || box.querySelector('.kit-go') || box.querySelector('.on,[aria-current="page"],[aria-selected="true"]');
+    if (!a) { ind.style.opacity = 0; box._kPos = null; return; }
+    if (!a.offsetWidth) return;                       // hidden (collapsed filters); the ResizeObserver catches it later
+    const p = {x: a.offsetLeft, y: a.offsetTop, w: a.offsetWidth, h: a.offsetHeight};
+    place(ind, p, anim && !!box._kPos && !still());
+    box._kPos = p;
+    if (box.scrollWidth > box.clientWidth + 2) {     // keep the chosen chip in view in scrolling rows
+      const l = box.scrollLeft, r = l + box.clientWidth;
+      if (p.x < l || p.x + p.w > r) box.scrollTo({left: p.x - (box.clientWidth - p.w) / 2, behavior: still() ? 'auto' : 'smooth'});
+    }
+  }
+
+  // Staggered fade-up.
+  function reveal(els, cap = 12) {
+    if (still()) return;
+    let i = 0;
+    for (const el of els) {
+      el.style.setProperty('--kit-i', Math.min(i++, cap));
+      el.classList.add('kit-rv');
+      el.addEventListener('animationend', function done(e) { if (e.target === el) { el.classList.remove('kit-rv'); el.removeEventListener('animationend', done); } });
+    }
+  }
+
+  // Count-up (text only, rAF, no layout reads).
+  function count(el, to, {dec = 0, dur = 900, from = 0} = {}) {
+    const fmt = x => dec ? x.toFixed(dec) : Math.round(x).toLocaleString('en-US');
+    if (still()) { el.textContent = fmt(to); return; }
+    const t0 = performance.now();
+    const f = t => { const k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3); el.textContent = fmt(from + (to - from) * e); if (k < 1) requestAnimationFrame(f); };
+    el.textContent = fmt(from); requestAnimationFrame(f);
+  }
+  const seen = new Set();
+  const io = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return; io.unobserve(e.target);
+    const el = e.target; count(el, +el.dataset.kitTo, {dec: +el.dataset.kitDec || 0, dur: 750});
+  }), {threshold: .6}) : null;
+  // Count once per key, the first time it scrolls into view (re-renders don't replay it).
+  function countOnce(el, to, key, dec = 1) {
+    if (!io || seen.has(key) || still()) return;
+    seen.add(key); el.dataset.kitTo = to; el.dataset.kitDec = dec; io.observe(el);
+  }
+
+  // Photo fade-in once loaded; drops the shimmer from its frame.
+  window.kitImg = img => { img.classList.add('kit-in'); const f = img.closest('.kit-load'); if (f) f.classList.remove('kit-load'); };
+
+  // Lightbox: swipe / arrows between photos; Esc, Back, or swipe down closes.
+  let lb, track, stage, cap, last = null, items = [], meta = {};
+  function build() {
+    lb = document.createElement('div'); lb.className = 'kit-lb'; lb.setAttribute('role', 'dialog'); lb.setAttribute('aria-modal', 'true'); lb.setAttribute('aria-label', 'Photos');
+    lb.innerHTML = '<div class="kit-lb-stage"><div class="kit-lb-track"></div></div><div class="kit-lb-film"></div><div class="kit-lb-cap" aria-live="polite"></div>'
+      + '<button class="kit-lb-x" aria-label="Close">×</button><button class="kit-lb-p" aria-label="Previous photo">‹</button><button class="kit-lb-n" aria-label="Next photo">›</button>';
+    document.body.appendChild(lb);
+    stage = lb.querySelector('.kit-lb-stage'); track = lb.querySelector('.kit-lb-track'); cap = lb.querySelector('.kit-lb-cap');
+    lb.querySelector('.kit-lb-x').onclick = () => close();
+    lb.querySelector('.kit-lb-p').onclick = () => go(-1);
+    lb.querySelector('.kit-lb-n').onclick = () => go(1);
+    track.addEventListener('scroll', () => { const i = idx(); if (i !== meta.i) { meta.i = i; caption(); } }, {passive: true});
+    track.addEventListener('click', e => { if (e.target === track || e.target.classList.contains('kit-lb-slide')) close(); });
+    let sy = null, sx = 0, dy = 0, vert = false;
+    stage.addEventListener('pointerdown', e => { if (e.pointerType !== 'mouse') { sy = e.clientY; sx = e.clientX; dy = 0; vert = false; } });
+    stage.addEventListener('pointermove', e => {
+      if (sy == null) return;
+      const y = e.clientY - sy, x = e.clientX - sx;
+      if (!vert) { if (Math.abs(y) < 8 && Math.abs(x) < 8) return; if (Math.abs(x) > Math.abs(y)) { sy = null; return; } vert = true; }
+      dy = Math.max(0, y); stage.style.transition = 'none';
+      stage.style.transform = `translate3d(0,${dy}px,0) scale(${1 - Math.min(dy, 400) / 2400})`;
+      lb.style.backgroundColor = `rgba(14,11,9,${(.95 * Math.max(.25, 1 - dy / 500)).toFixed(3)})`;
+    });
+    const end = () => {
+      if (sy == null && !vert) return; sy = null;
+      stage.style.transition = ''; if (vert && dy > 90) close(); else { stage.style.transform = ''; lb.style.backgroundColor = ''; }
+      vert = false; dy = 0;
+    };
+    stage.addEventListener('pointerup', end); stage.addEventListener('pointercancel', end);
+    document.addEventListener('keydown', e => {
+      if (!lb.classList.contains('open')) return;
+      if (e.key === 'Escape') { e.preventDefault(); close(); } else if (e.key === 'ArrowRight') go(1); else if (e.key === 'ArrowLeft') go(-1);
+    });
+    addEventListener('popstate', () => { if (lb.classList.contains('open')) close(true); });
+  }
+  const idx = () => Math.round(track.scrollLeft / (track.clientWidth || 1));
+  const go = d => { const n = items.length; if (n < 2) return; const i = (idx() + d + n) % n; track.scrollTo({left: i * track.clientWidth, behavior: still() ? 'auto' : 'smooth'}); };
+  const escH = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+  function caption() {
+    const n = items.length, cr = meta.credit ? `<small>Photo: ${meta.href ? `<a href="${escH(meta.href)}" target="_blank" rel="noopener">${escH(meta.credit)}</a>` : escH(meta.credit)}</small>` : '';
+    cap.innerHTML = `<b>${escH(meta.title)}</b>${n > 1 ? `<span class="n">${(meta.i || 0) + 1} / ${n}</span>` : ''}${cr}`;
+    lb.querySelectorAll('.kit-lb-film button').forEach((b, j) => { b.classList.toggle('on', j === (meta.i || 0)); if (j === (meta.i || 0)) b.scrollIntoView({block: 'nearest', inline: 'center'}); });
+  }
+  function open(srcs, i = 0, m = {}) {
+    if (!srcs.length) return;
+    if (!lb) build();
+    items = srcs; meta = {...m, i}; last = document.activeElement;
+    lb.toggleAttribute('data-one', srcs.length < 2);
+    track.innerHTML = srcs.map((s, j) => `<div class="kit-lb-slide"><img class="kit-img" src="${escH(s)}" alt="${escH(m.title || '')} photo ${j + 1}" referrerpolicy="no-referrer" onload="kitImg(this)" ${Math.abs(j - i) > 1 ? 'loading="lazy"' : ''}></div>`).join('');
+    const film = lb.querySelector('.kit-lb-film');
+    film.innerHTML = srcs.length > 1 ? srcs.map((s, j) => `<button aria-label="Photo ${j + 1}"><img src="${escH(s)}" alt="" loading="lazy" referrerpolicy="no-referrer"></button>`).join('') : '';
+    film.querySelectorAll('button').forEach((b, j) => b.onclick = e => { e.stopPropagation(); track.scrollTo({left: j * track.clientWidth, behavior: still() ? 'auto' : 'smooth'}); });
+    stage.style.transform = ''; lb.style.backgroundColor = '';
+    document.documentElement.classList.add('kit-lock');
+    lb.classList.add('open'); caption();
+    track.scrollLeft = i * track.clientWidth;
+    try { history.pushState({kitLb: 1}, ''); } catch (e) {}
+    lb.querySelector('.kit-lb-x').focus({preventScroll: true});
+    buzz();
+  }
+  function close(fromPop) {
+    if (!lb || !lb.classList.contains('open')) return;
+    if (!fromPop && history.state && history.state.kitLb) { history.back(); return; }  // popstate finishes the close
+    lb.classList.remove('open'); document.documentElement.classList.remove('kit-lock');
+    setTimeout(() => { if (!lb.classList.contains('open')) { track.innerHTML = ''; stage.style.transform = ''; lb.style.backgroundColor = ''; } }, 300);
+    if (last && last.focus) last.focus({preventScroll: true});
+  }
+
+  // Haptic tick on the taps that matter (phones that support it; silently nothing elsewhere).
+  function buzzOn(sel) { document.addEventListener('click', e => { if (e.target.closest && e.target.closest(sel)) buzz(); }, true); }
+
+  // Page switcher: the pill slides to the tapped page, then we go.
+  function switcher() {
+    document.querySelectorAll('.switch').forEach(sw => {
+      slide(sw, null, false);
+      sw.addEventListener('click', e => {
+        const a = e.target.closest('a');
+        if (!a || a.hasAttribute('aria-current') || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button) return;
+        buzz(); if (still()) return;
+        e.preventDefault();
+        sw.querySelectorAll('a').forEach(x => x.classList.toggle('kit-go', x === a));
+        slide(sw, a);
+        setTimeout(() => { location.href = a.href; }, 180);
+      });
+    });
+    addEventListener('pageshow', e => { if (e.persisted) document.querySelectorAll('.switch').forEach(sw => { sw.querySelectorAll('.kit-go').forEach(x => x.classList.remove('kit-go')); slide(sw, null, false); }); });
+  }
+
+  window.Kit = {slide, reveal, count, countOnce, open, close, buzz, buzzOn, still};
+  const boot = () => {
+    switcher();
+    document.querySelectorAll('[data-count]').forEach(el => count(el, +el.dataset.count, {dur: 1100}));
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+})();
+// kit:end
+</script>
+<script>// Client script for site/index.html (inlined by render.py). Data comes from <script id="data">.
+const D = JSON.parse(document.getElementById('data').textContent);
+let P = D.party;
+const TODAY0 = new Date().toLocaleDateString('en-CA', {timeZone: (D.city || {}).tz || 'America/Chicago'});
+const dates = D.dates.filter(d => d >= TODAY0).length ? D.dates.filter(d => d >= TODAY0) : D.dates;  // past nights drop off
+D.venues.forEach(v => { v._base = [v.slots, v.status, v.day_notes]; });
+// Swap every venue's slots to the chosen party size (4 is the main check; others come from by_size).
+const applyParty = n => {
+  P = n; const src = n === D.party ? null : (D.by_size || {})[n];
+  D.venues.forEach(v => {
+    if (n === D.party) { [v.slots, v.status, v.day_notes] = v._base; return; }
+    const x = src && src.v[v.name];
+    if (x) { [v.slots, v.status, v.day_notes] = [x[0] || {}, x[1] || {}, x[2] || {}]; }
+    else { v.slots = {}; v.status = Object.fromEntries(dates.map(d => [d, 'error:not checked yet'])); v.day_notes = {}; }
+  });
+  const pn = document.getElementById('pnum'); if (pn) pn.textContent = n;
+};
+const $ = (s, e = document) => e.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+const dow = d => new Date(d + 'T12:00:00').toLocaleDateString('en-US', {weekday: 'short'});
+const dnum = d => { const x = new Date(d + 'T12:00:00'); return (x.getMonth() + 1) + '/' + x.getDate(); };
+const h24 = t => { const m = String(t).match(/(\d+):(\d+)\s*([AP]M)/i); if (!m) return null; let h = +m[1] % 12; if (/p/i.test(m[3])) h += 12; return String(h).padStart(2, '0') + ':' + m[2]; };
+const mins = t => { const x = h24(t); return x ? (+x.slice(0, 2)) * 60 + (+x.slice(3)) : null; };
+const short = t => t.replace(':00', '').replace(' PM', 'p').replace(' AM', 'a');
+const ONLINE = ['resy', 'opentable', 'sevenrooms', 'tock'];
+const WINDOWS = {any: [0, 1e9], early: [0, 18 * 60 + 59], prime: [19 * 60, 20 * 60 + 30], late: [20 * 60 + 31, 1e9]};
+
+const KINDS = ['restaurant', 'bar', 'coffee'];
+const CITY = D.city || {slug: 'dallas', name: 'Dallas'}, SKEY = 'tables:' + CITY.slug;
+let state = {kind: 'restaurant', day: 'all', open: false, q: '', sort: 'score', when: 'any', hood: '', cuisine: '', vibe: '', online: false, view: 'cards'};
+try { Object.assign(state, JSON.parse(localStorage.getItem(SKEY) || (CITY.slug === 'dallas' ? localStorage.getItem('drw3') : '') || '{}')); state.q = ''; localStorage.setItem('tablesCity', CITY.slug); } catch (e) {}
+if (!KINDS.includes(state.kind)) state.kind = 'restaurant';
+if (state.day !== 'all' && !dates.includes(state.day)) state.day = 'all';
+if (!(state.party >= 2 && state.party <= 8)) state.party = D.party;
+applyParty(state.party);
+const sel = {};  // per-card chosen day
+
+const slotsFor = (v, d) => { const [a, b] = WINDOWS[state.when] || WINDOWS.any; return (v.slots[d] || []).filter(t => { const m = mins(t); return m == null || (m >= a && m <= b); }); };
+const isOnline = v => ONLINE.includes(v.platform) && !v.closed && v.kind !== 'coffee';
+const nOpen = v => dates.reduce((s, d) => s + slotsFor(v, d).length, 0);
+const firstOpen = v => dates.findIndex(d => slotsFor(v, d).length);
+const scoreCol = a => a == null ? '#7a7368' : a >= 9 ? '#1f6b46' : a >= 8.5 ? '#2f7d55' : a >= 8 ? '#5b8a3a' : a >= 7 ? '#a07a20' : '#a2382b';
+const cuisineOf = v => (v.cuisine || '').split(/[,\-·/]| and /)[0].trim();
+// Vibe profile (vibes.json, optional). Filter buckets are derived from tags / energy / crowd / good_for.
+const vtext = v => { const b = v.vibe || {}; return [b.vibe, b.energy, b.crowd, ...(b.tags || []), ...[].concat(b.good_for || [])].filter(Boolean).join(' ').toLowerCase(); };
+const VIBES = {
+  'Lively': v => /lively|buzz|loud|party|scene|energetic|high[- ]energy|bustling|dj|club|vibrant/.test(vtext(v)),
+  'Chill': v => /chill|quiet|low[- ]key|relaxed|cozy|calm|laid[- ]back|mellow/.test(vtext(v)),
+  'Date night': v => /date|romantic|intimate|candle/.test(vtext(v)),
+  'Group-friendly': v => /group|shar|family|large part|big table|celebrat/.test(vtext(v)),
+  'Younger crowd': v => /^younger/i.test((v.vibe || {}).crowd || ''),
+};
+
+function bookUrl(v, d, t) {
+  const u = v.url; if (!u) return null; const hm = t ? h24(t) : null;
+  try {
+    switch (v.platform) {
+      case 'resy': { const x = new URL(u); if (d) x.searchParams.set('date', d); x.searchParams.set('seats', P); return x + ''; }
+      case 'opentable': { if (!v.id) return u; const x = new URL('https://www.opentable.com/restaurant/profile/' + v.id); x.searchParams.set('covers', P); if (d) x.searchParams.set('dateTime', d + 'T' + (hm || '19:00')); return x + ''; }
+      case 'sevenrooms': { const x = new URL(u); if (d) x.searchParams.set('date', d); x.searchParams.set('party_size', P); if (hm) x.searchParams.set('start_time', hm); return x + ''; }
+      case 'tock': { const x = new URL(u.replace(/\/$/, '') + '/search'); if (d) x.searchParams.set('date', d); x.searchParams.set('size', P); if (hm) x.searchParams.set('time', hm); return x + ''; }
+      default: return u;
+    }
+  } catch (e) { return u; }
+}
+
+const SORTS = {
+  score: (a, b) => (a.avg == null) - (b.avg == null) || (b.avg || 0) - (a.avg || 0) || (b.ratings || 0) - (a.ratings || 0) || (a.top25 || a.press_rank || 99) - (b.top25 || b.press_rank || 99),
+  open: (a, b) => nOpen(b) - nOpen(a) || SORTS.score(a, b),
+  soonest: (a, b) => { const x = firstOpen(a), y = firstOpen(b); return (x < 0) - (y < 0) || x - y || SORTS.score(a, b); },
+  top25: (a, b) => (a.top25 || 99) - (b.top25 || 99) || SORTS.score(a, b),
+  name: (a, b) => a.name.localeCompare(b.name),
+};
+
+function primaryBtn(v, d) {
+  const plat = D.platforms[v.platform] || v.platform;
+  if (v.closed) return `<span class="book ghost">Closed for now</span>`;
+  if (ONLINE.includes(v.platform) && v.url) return `<a class="book" href="${esc(bookUrl(v, d))}" target="_blank" rel="noopener">Book on ${esc(plat)} <span aria-hidden="true">→</span></a>`;
+  if (v.platform === 'phone' && v.phone) return `<a class="book" href="tel:${esc(v.phone)}">Call to book · ${esc(v.phone)}</a>`;
+  if (v.platform === 'none' || v.kind === 'coffee') return `<span class="book ghost">Walk in · no reservations</span>`;
+  if (v.platform === 'walkin') return `<span class="book ghost">Walk-in only · no reservations</span>`;
+  if (v.url) return `<a class="book" href="${esc(v.url)}" target="_blank" rel="noopener">Book on their site <span aria-hidden="true">→</span></a>`;
+  return `<span class="book ghost">No online booking</span>`;
+}
+function secondary(v) {
+  return [v.menu ? `<a class="sbtn" href="${esc(v.menu)}" target="_blank" rel="noopener">Menu</a>` : '',
+    v.website ? `<a class="sbtn" href="${esc(v.website)}" target="_blank" rel="noopener">Site</a>` : '',
+    (v.phone && v.platform !== 'phone') ? `<a class="sbtn" href="tel:${esc(v.phone)}" title="${esc(v.phone)}">Call</a>` : ''].join('');
+}
+function timesHtml(v, d) {
+  const s = slotsFor(v, d), nt = (v.day_notes || {})[d] || '', stale = /^stale/.test(nt);
+  if (s.length) return s.map(t => `<a class="time${stale ? ' stale' : ''}" href="${esc(bookUrl(v, d, t))}" target="_blank" rel="noopener" title="Book ${dow(d)} ${dnum(d)} at ${esc(t)}${stale ? ' (older check)' : ''}">${esc(short(t))}</a>`).join('');
+  const why = /closed/i.test(nt) ? 'closed' : /not checked/.test((v.status || {})[d] || '') ? 'not checked for ' + P + ' yet' : /error/.test((v.status || {})[d] || '') ? 'check failed' : (v.slots[d] || []).length ? 'nothing in this time range' : 'no tables for ' + P;
+  return `<span class="empty">${dow(d)} ${dnum(d)}: ${why}</span>`;
+}
+function stripHtml(v, cur) {
+  return '<div class="strip">' + dates.map(d => {
+    const n = slotsFor(v, d).length, nt = (v.day_notes || {})[d] || '';
+    const lab = n ? n : (/closed/i.test(nt) ? '–' : '0');
+    return `<button data-d="${d}" class="${n ? 'has' : ''}${d === cur ? ' sel' : ''}" title="${esc(nt || (n + ' open times'))}">${dow(d)}<b>${lab}</b></button>`;
+  }).join('') + '</div>';
+}
+// Coffee hours: {"mon":"7:00-18:00", ...} or "closed"; shown as open/closed now in the city's time zone.
+const DAYK = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+const hm2 = t => { const m = String(t).trim().match(/^(\d{1,2})(?::(\d\d))?\s*([ap]m)?$/i); if (!m) return null; let h = +m[1]; if (m[3]) { h %= 12; if (/p/i.test(m[3])) h += 12; } return h * 60 + +(m[2] || 0); };
+const fmt12 = n => { const h = Math.floor(n / 60) % 24, mm = n % 60; return (h % 12 || 12) + (mm ? ':' + String(mm).padStart(2, '0') : '') + (h < 12 ? ' AM' : ' PM'); };
+function hoursLine(v) {
+  const now = new Date(new Date().toLocaleString('en-US', {timeZone: (D.city || {}).tz || 'America/Chicago'}));
+  const h = (v.hours || {})[DAYK[now.getDay()]]; if (!h) return '';
+  const r = String(h).split(/[-–]/).map(hm2), cur = now.getHours() * 60 + now.getMinutes();
+  if (/closed/i.test(h) || r.length < 2 || r.some(x => x == null)) return `<p class="hrs"><i class="off"></i>Closed today</p>`;
+  const open = cur >= r[0] && cur < r[1];
+  return `<p class="hrs"><i class="${open ? 'on' : 'off'}"></i>${open ? `Open now · until ${fmt12(r[1])}` : cur < r[0] ? `Opens ${fmt12(r[0])} today` : `Closed now · ${fmt12(r[0])}–${fmt12(r[1])} today`}</p>`;
+}
+const mono = v => `<div class="mono serif">${esc(v.name.replace(/^the\s+/i, '')[0])}</div>`;
+// A hot-linked photo failed: drop it; if none are left, fall back to the monogram; keep dots/arrows in sync.
+window.imgGone = img => {
+  const sl = img.parentElement; img.remove();
+  if (!sl) return;
+  if (sl.classList.contains('r-th')) { if (!sl.querySelector('img')) { sl.innerHTML = sl.dataset.mono || ''; sl.classList.remove('kit-load'); } return; }
+  const ph = sl.closest('.ph'); if (!ph) return;
+  const n = sl.querySelectorAll('img').length;
+  const dots = ph.querySelector('.dots');
+  if (!n) { sl.outerHTML = sl.dataset.mono || ''; ph.classList.remove('kit-load'); }
+  if (n < 2) { if (dots) dots.remove(); ph.querySelectorAll('.nav').forEach(b => b.remove()); return; }
+  if (dots) { dots.innerHTML = Array.from({length: n}, (_, i) => `<i class="${i ? '' : 'on'}"></i>`).join(''); sl.dispatchEvent(new Event('scroll')); }
+};
+function photos(v) {
+  const imgs = (v.imgs || []).slice(0, 8);
+  if (!imgs.length) return mono(v);
+  const dots = imgs.length > 1 ? `<div class="dots">${imgs.map((_, i) => `<i class="${i ? '' : 'on'}"></i>`).join('')}</div>` : '';
+  return `<div class="slides" data-mono="${esc(mono(v))}">${imgs.map((u, i) => `<img ${i ? 'loading="lazy" ' : ''}src="${esc(u)}" alt="${esc(v.name)} photo ${i + 1}" referrerpolicy="no-referrer" class="kit-img" onload="kitImg(this)" onerror="imgGone(this)">`).join('')}</div>${dots}`
+    + (imgs.length > 1 ? `<button class="nav prev" aria-label="Previous photo">‹</button><button class="nav next" aria-label="Next photo">›</button>` : '');
+}
+
+function card(v, rank) {
+  const plat = D.platforms[v.platform] || v.platform;
+  const online = isOnline(v);
+  const cur = state.day !== 'all' ? state.day : (sel[v.name] || dates[Math.max(0, firstOpen(v))]);
+  const score = v.avg != null ? `<div class="score"><div class="l"><b>Beli avg</b>${v.ratings_label ? esc(v.ratings_label) + ' ratings' : ''}</div><div class="n" style="--sc:${scoreCol(v.avg)}">${v.avg.toFixed(1)}</div></div>` : '';
+  const t25 = v.top25 ? `<div class="tag25">Beli Top 25 · #${v.top25}</div>` : v.press_rank ? `<div class="tag25">Press pick · #${v.press_rank}</div>` : '';
+  const sub = [v.cuisine, v.hood].filter(Boolean).map(esc).join(' · ');
+  const vb = v.vibe || {};
+  const vmeta = [vb.price ? `<span><b>${esc(vb.price)}</b></span>` : '', vb.crowd ? `<span>${esc(vb.crowd)} crowd</span>` : '', vb.energy ? `<span>${esc(vb.energy)}</span>` : ''].join('');
+  const vtags = (vb.tags || []).filter(x => !/crowd$/i.test(x)).slice(0, 4).map(x => `<span class="vtag">${esc(x)}</span>`).join('');
+  const dl = (v.dishes || []).filter(x => x.dish || x.name).slice(0, 3), dmax = Math.max(1, ...dl.map(x => x.count || 0));
+  const dishes = dl.map((x, i) => `<div class="od${i === 0 && x.count ? ' first' : ''}" style="--w:${x.count ? Math.round(100 * x.count / dmax) : 0}%"><span>${esc(x.dish || x.name)}</span>${x.count ? `<i>${x.count} recs</i>` : ''}</div>`).join('');
+  const el = document.createElement('article');
+  el.className = 'card' + (v.closed ? ' closed' : '') + (v.kind === 'coffee' ? ' coffee' : '');
+  el.dataset.name = v.name;
+  el.innerHTML = `<div class="ph${(v.imgs || []).length ? ' kit-load' : ''}">${photos(v)}<div class="rank">${rank}</div>${t25}${score}</div>
+  <div class="body"><div><h3 class="name serif">${esc(v.name)}</h3>${vb.food ? `<div class="food">${esc(vb.food)}</div>` : ''}<div class="sub">${sub}${sub ? ' · ' : ''}${esc(plat)}</div></div>
+  ${vmeta ? `<div class="vmeta">${vmeta}</div>` : ''}
+  ${v.note ? `<p class="blurb"><b>${esc(v.note)}</b></p>` : vb.vibe ? `<p class="blurb full">${esc(vb.vibe)}</p>` : v.blurb ? `<p class="blurb" title="Tap to read more" onclick="this.classList.toggle('full')">${esc(v.blurb)}</p>` : ''}
+  ${vtags ? `<div class="vtags">${vtags}</div>` : ''}
+  ${dishes ? `<div class="order" title="Most recommended on Beli"><div class="oh">Order this</div>${dishes}</div>` : ''}
+  ${v.known_for ? `<p class="known"><b>Known for</b> ${esc(v.known_for)}</p>` : ''}
+  ${v.hours ? hoursLine(v) : ''}
+  ${online ? stripHtml(v, cur) + `<div class="times">${timesHtml(v, cur)}</div>` : ''}
+  ${vb.heads_up ? `<p class="heads">${esc(vb.heads_up)}</p>` : ''}
+  <div class="acts">${primaryBtn(v, online ? cur : null)}${secondary(v)}</div></div>`;
+  el.querySelector('.ph').dataset.name = v.name;
+  const sn = el.querySelector('.score .n'); if (sn) Kit.countOnce(sn, v.avg, 'c:' + v.name);
+  if (online) el.querySelectorAll('.strip button').forEach(b => b.onclick = () => {
+    sel[v.name] = b.dataset.d;
+    el.querySelectorAll('.strip button').forEach(x => x.classList.toggle('sel', x === b));
+    $('.times', el).innerHTML = timesHtml(v, b.dataset.d); Kit.reveal($('.times', el).children);
+    const a = $('a.book', el); if (a) a.href = bookUrl(v, b.dataset.d);
+  });
+  const sl = $('.slides', el);
+  if (sl) {
+        sl.addEventListener('scroll', () => { const i = Math.round(sl.scrollLeft / (sl.clientWidth || 1)); el.querySelectorAll('.dots i').forEach((x, j) => x.classList.toggle('on', i === j)); }, {passive: true});
+    el.querySelectorAll('.nav').forEach(b => b.onclick = e => {
+      e.stopPropagation(); const s = el.querySelector('.slides'); if (!s) return;
+      const w = s.clientWidth, n = s.querySelectorAll('img').length, i = Math.round(s.scrollLeft / w);
+      const j = b.classList.contains('next') ? (i + 1) % n : (i - 1 + n) % n;   // wrap around
+      s.scrollTo({left: j * w, behavior: 'smooth'});
+    });
+  }
+  return el;
+}
+
+function row(v, rank) {
+  const online = isOnline(v);
+  const cur = state.day !== 'all' ? state.day : dates[Math.max(0, firstOpen(v))];
+  const el = document.createElement('div');
+  el.className = 'row' + (v.closed ? ' closed' : '');
+  const th = (v.imgs || [])[0];
+  el.innerHTML = `<div class="r-rank">${rank}</div>
+  <div class="r-th${th ? ' kit-load' : ''}" data-mono="${esc(mono(v))}" data-name="${esc(v.name)}">${th ? `<img loading="lazy" src="${esc(th)}" alt="" referrerpolicy="no-referrer" class="kit-img" onload="kitImg(this)" onerror="imgGone(this)">` : mono(v)}</div>
+  <div class="r-main"><div class="r-name serif">${esc(v.name)}</div><div class="sub">${[(v.vibe || {}).food || v.cuisine, v.hood, D.platforms[v.platform]].filter(Boolean).map(esc).join(' · ')}</div>${(v.vibe || {}).price || (v.vibe || {}).energy ? `<div class="r-vibe">${[(v.vibe || {}).price, (v.vibe || {}).energy].filter(Boolean).map(esc).join(' · ')}</div>` : ''}</div>
+  <div class="r-score">${v.avg != null ? `<span class="pill" style="--sc:${scoreCol(v.avg)}">${v.avg.toFixed(1)}</span>` : ''}</div>
+  <div class="r-days">${online ? dates.map(d => { const n = slotsFor(v, d).length; return `<a class="mini${n ? ' has' : ''}" ${n ? `href="${esc(bookUrl(v, d))}" target="_blank" rel="noopener"` : ''} title="${dow(d)} ${dnum(d)}: ${n} open${n ? ' · tap to book' : ''}"><small>${dow(d).slice(0, 2)}</small>${n || '·'}</a>`; }).join('') : `<span class="empty">${v.closed ? 'closed' : v.platform === 'walkin' ? 'walk-in' : v.platform === 'phone' ? 'call' : 'their site'}</span>`}</div>
+  <div class="r-act">${primaryBtn(v, online ? cur : null).replace('class="book', 'class="book sm').replace(' · no reservations', '').replace(/Call to book · [^<]*/, 'Call to book')}</div>`;
+  const pl = el.querySelector('.pill'); if (pl) Kit.countOnce(pl, v.avg, 'r:' + v.name);
+  return el;
+}
+
+function matches(v) {
+  const has = state.day === 'all' ? nOpen(v) > 0 : slotsFor(v, state.day).length > 0;
+  if (state.open && !has) return false;
+  if (state.online && !ONLINE.includes(v.platform)) return false;
+  if (state.hood && v.hood !== state.hood) return false;
+  if (state.cuisine && cuisineOf(v) !== state.cuisine) return false;
+  if (state.vibe && !(VIBES[state.vibe] && VIBES[state.vibe](v))) return false;
+  if (state.q) { const b = v.vibe || {}; const s = (v.name + ' ' + (v.cuisine || '') + ' ' + (v.hood || '') + ' ' + (v.dishes || []).map(x => x.dish).join(' ') + ' ' + [b.food, b.vibe, b.dress, b.heads_up].filter(Boolean).join(' ') + ' ' + vtext(v)).toLowerCase(); if (!s.includes(state.q)) return false; }
+  return true;
+}
+
+function fillSelect(id, values, label) {
+  const s = $(id), cur = s.value;
+  s.innerHTML = `<option value="">${label}</option>` + values.map(x => `<option>${esc(x)}</option>`).join('');
+  s.value = values.includes(cur) ? cur : '';
+}
+
+function render() {
+  document.querySelectorAll('[data-k]').forEach(b => b.classList.toggle('on', b.dataset.k === state.kind));
+  document.querySelectorAll('[data-view]').forEach(b => b.classList.toggle('on', b.dataset.view === state.view));
+  document.querySelectorAll('[data-when]').forEach(b => b.classList.toggle('on', b.dataset.when === state.when));
+  document.querySelectorAll('[data-p]').forEach(b => b.classList.toggle('on', +b.dataset.p === P));
+  { const v = $('#pval'); if (v) v.textContent = P; document.querySelectorAll('[data-pd]').forEach(b => b.disabled = (+b.dataset.pd < 0 ? P <= 2 : P >= 8)); }
+  $('#days').innerHTML = `<button data-d="all" class="${state.day === 'all' ? 'on' : ''}">All<small>${dates.length} days</small></button>` + dates.map(d => {
+    const n = D.venues.filter(v => slotsFor(v, d).length && v.kind === state.kind).length;
+    return `<button data-d="${d}" class="${state.day === d ? 'on' : ''}">${dow(d)} ${dnum(d)}<small>${n} open</small></button>`;
+  }).join('');
+  document.querySelectorAll('#days button').forEach(b => b.onclick = () => { state.day = b.dataset.d; render(); });
+  $('#only').checked = state.open; $('#onl').checked = state.online; $('#sort').value = state.sort;
+  const pool = D.venues.filter(v => v.kind === state.kind);
+  KINDS.forEach(k => { const c = $('#c-' + k); if (c) c.textContent = D.venues.filter(v => v.kind === k).length || ''; });
+  document.querySelectorAll('.bar .when, #days, #only, #onl, .seg.party').forEach(x => (x.closest('label') || x).classList.toggle('hide', state.kind === 'coffee'));
+  fillSelect('#hood', [...new Set(pool.map(v => v.hood).filter(Boolean))].sort(), 'Any area');
+  fillSelect('#cuisine', [...new Set(pool.map(cuisineOf).filter(Boolean))].sort(), 'Any food');
+  if (![...$('#hood').options].some(o => o.value === state.hood)) state.hood = '';
+  if (![...$('#cuisine').options].some(o => o.value === state.cuisine)) state.cuisine = '';
+  $('#hood').value = state.hood; $('#cuisine').value = state.cuisine;
+  const vopts = Object.keys(VIBES).filter(k => pool.some(VIBES[k]));
+  fillSelect('#vibe', vopts, 'Any vibe'); $('#vibe').classList.toggle('hide', !vopts.length);
+  if (!vopts.includes(state.vibe)) state.vibe = '';
+  $('#vibe').value = state.vibe;
+  let shown = 0; const fresh = [];
+  KINDS.forEach(k => {
+    const sec = $('#s-' + k), on = state.kind === k;
+    sec.classList.toggle('hide', !on);
+    const all = D.venues.filter(v => v.kind === k);
+    const scoreRank = new Map(all.filter(v => !v.closed).sort(SORTS.score).map((v, i) => [v.name, i + 1]));  // closed places get no number
+    const list = all.filter(matches).sort((a, b) => (a.closed - b.closed) || SORTS[state.sort](a, b));
+    const g = $('#g-' + k); g.className = state.view === 'list' ? 'list' : 'grid'; g.innerHTML = '';
+    list.forEach(v => { const el = state.view === 'list' ? row(v, scoreRank.get(v.name) || '–') : card(v, scoreRank.get(v.name) || '–'); g.appendChild(el); if (on) fresh.push(el); });
+    $('#n-' + k).textContent = list.length === all.length ? `${all.length}` : `${list.length} / ${all.length}`;
+    $('#e-' + k).classList.toggle('hide', list.length > 0);
+    if (on) shown += list.length;
+  });
+  Kit.reveal(fresh);
+  document.querySelectorAll('.bar .seg').forEach(s => Kit.slide(s)); Kit.slide($('#days'));
+  const nf = [state.open, state.online, state.hood, state.cuisine, state.vibe, state.q, state.when !== 'any'].filter(Boolean).length;
+  $('#fcount').textContent = nf || '';
+  $('#reset').classList.toggle('hide', !(nf || state.day !== 'all'));
+  try { const {q, ...keep} = state; localStorage.setItem(SKEY, JSON.stringify(keep)); } catch (e) {}
+  tonight();
+}
+
+document.querySelectorAll('[data-k]').forEach(b => b.onclick = () => { state.kind = b.dataset.k; state.hood = ''; state.cuisine = ''; render(); });
+document.querySelectorAll('[data-view]').forEach(b => b.onclick = () => { state.view = b.dataset.view; render(); });
+document.querySelectorAll('[data-when]').forEach(b => b.onclick = () => { state.when = b.dataset.when; render(); });
+document.querySelectorAll('[data-p]').forEach(b => b.onclick = () => { state.party = +b.dataset.p; applyParty(state.party); render(); });
+document.querySelectorAll('[data-pd]').forEach(b => b.onclick = () => {
+  const n = Math.max(2, Math.min(8, P + +b.dataset.pd)); if (n === P) return;
+  state.party = n; applyParty(n); render(); const v = $('#pval'); if (v) { v.classList.remove('bump'); void v.offsetWidth; v.classList.add('bump'); }
+});
+$('#only').onchange = e => { state.open = e.target.checked; render(); };
+$('#onl').onchange = e => { state.online = e.target.checked; render(); };
+$('#sort').onchange = e => { state.sort = e.target.value; render(); };
+$('#hood').onchange = e => { state.hood = e.target.value; render(); };
+$('#cuisine').onchange = e => { state.cuisine = e.target.value; render(); };
+$('#vibe').onchange = e => { state.vibe = e.target.value; render(); };
+let qt; $('#q').oninput = e => { clearTimeout(qt); qt = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); render(); }, 120); };
+$('#reset').onclick = () => { Object.assign(state, {day: 'all', open: false, online: false, hood: '', cuisine: '', vibe: '', when: 'any', q: ''}); $('#q').value = ''; render(); };
+$('#fbtn').onclick = () => { const b = $('.bar'), o = !b.classList.contains('open'); b.classList.toggle('open', o); $('#fbtn').setAttribute('aria-expanded', o); if (o) Kit.slide($('.seg.when'), null, false); };
+// Tap a photo (card carousel or list thumb) -> full-screen viewer with caption + credit.
+document.querySelector('main').addEventListener('click', e => {
+  const img = e.target.closest('.slides img, .r-th img'); if (!img) return;
+  const box = img.closest('.ph, .r-th'), name = box.dataset.name, v = D.venues.find(x => x.name === name); if (!v) return;
+  const live = [...(box.querySelectorAll('.slides img').length ? box.querySelectorAll('.slides img') : [])].map(x => x.getAttribute('src'));
+  const srcs = live.length ? live : (v.imgs || []).slice(0, 8);
+  const i = Math.max(0, srcs.indexOf(img.getAttribute('src')));
+  const via = v.img_src || D.platforms[v.platform] || '';
+  Kit.open(srcs, i, {title: v.name, credit: [v.name, via ? 'via ' + via : ''].filter(Boolean).join(' '), href: v.url || v.website});
+});
+
+// ---- v2: Tonight, Greatest hits, city picker, Surprise me ----------------------------
+const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const tzToday = () => new Date().toLocaleDateString('en-CA', {timeZone: CITY.tz || 'America/Chicago'});
+const tzNowMin = () => { const p = new Date().toLocaleTimeString('en-GB', {timeZone: CITY.tz || 'America/Chicago', hour: '2-digit', minute: '2-digit', hour12: false}).split(':'); return +p[0] * 60 + +p[1]; };
+const nightOf = () => dates.find(d => d >= tzToday());
+const laterSlots = (v, d) => { const cut = d === tzToday() ? tzNowMin() + 30 : -1; return slotsFor(v, d).filter(t => { const m = mins(t); return m == null || m >= cut; }); };
+function goTo(v) {
+  if (state.kind !== v.kind) state.kind = v.kind;
+  if (!matches(v)) Object.assign(state, {day: 'all', open: false, online: false, hood: '', cuisine: '', vibe: '', when: 'any', q: ''}), $('#q').value = '';
+  render();
+  const el = [...document.querySelectorAll('#g-' + v.kind + ' > *')].find(x => x.dataset.name === v.name || (x.querySelector('[data-name]') || {}).dataset?.name === v.name);
+  if (!el) return null;
+  el.scrollIntoView({behavior: RM ? 'auto' : 'smooth', block: 'center'});
+  el.classList.remove('picked'); void el.offsetWidth; el.classList.add('picked');
+  setTimeout(() => el.classList.remove('picked'), 1800);
+  return el;
+}
+function tonight() {
+  const box = $('#tonight'); if (!box) return;
+  const d = nightOf(); if (!d || state.kind === 'coffee') { box.innerHTML = ''; return; }
+  const pool = D.venues.filter(v => v.kind === state.kind && isOnline(v) && laterSlots(v, d).length);
+  const isTonight = d === tzToday(), when = isTonight ? 'tonight' : dow(d) + ' ' + dnum(d);
+  const top = [...pool].sort(SORTS.score).slice(0, 6);
+  box.innerHTML = `<div class="tn-h"><span class="tn-big">${pool.length}</span><span class="tn-l">open ${when} · for ${P}</span></div>`
+    + (top.length ? `<div class="tn-row">${top.map(v => `<div class="tn" role="button" tabindex="0" data-n="${esc(v.name)}"><div class="th">${(v.imgs || [])[0] ? `<img src="${esc(v.imgs[0])}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : esc(v.name[0])}</div>
+      <div><b>${esc(v.name)}</b><div class="tt">${laterSlots(v, d).slice(0, 3).map(t => `<a href="${esc(bookUrl(v, d, t))}" target="_blank" rel="noopener">${esc(short(t))}</a>`).join('')}</div></div>
+      ${v.avg != null ? `<span class="sc" style="--sc:${scoreCol(v.avg)}">${v.avg.toFixed(1)}</span>` : ''}</div>`).join('')}</div>` : '');
+  box.querySelectorAll('.tn').forEach(t => { const go = e => { if (e.target.closest('a')) return; const v = D.venues.find(x => x.name === t.dataset.n); if (v) goTo(v); }; t.onclick = go; t.onkeydown = e => { if (e.key === 'Enter') go(e); }; });
+}
+(function hits() {
+  const box = $('#hits'); if (!box) return;
+  const all = [];
+  D.venues.forEach(v => (v.dishes || []).forEach(x => { if (x.count && (x.dish || x.name)) all.push({v, dish: x.dish || x.name, n: x.count}); }));
+  all.sort((a, b) => b.n - a.n);
+  const per = {}, pick = all.filter(x => (per[x.v.name] = (per[x.v.name] || 0) + 1) <= 1).slice(0, 12);
+  if (pick.length < 3) return;
+  box.innerHTML = `<h3>Most ordered</h3><div class="hrow">${pick.map(x => `<button class="hit" data-n="${esc(x.v.name)}"><b>${esc(x.dish)}</b><small>${esc(x.v.name)} · <i>${x.n}</i> recs</small></button>`).join('')}</div>`;
+  box.querySelectorAll('.hit').forEach(b => b.onclick = () => { const v = D.venues.find(x => x.name === b.dataset.n); if (v) goTo(v); });
+})();
+(function picker() {
+  const btn = $('#citypick'), sh = $('#sheet'); if (!btn || !sh) return;
+  const cities = D.cities || [CITY];
+  $('#clist').innerHTML = cities.map(c => {
+    const cur = c.slug === CITY.slug, soon = c.status === 'soon';
+    const inner = `<span class="cm">${esc(c.name[0])}</span><span><b>${esc(c.name)}</b><small>${esc(soon ? 'Coming soon · scores being pulled' : (c.tagline || (c.state || '')))}</small></span>${cur ? '<span class="here">You’re here</span>' : ''}`;
+    return soon ? `<div class="ccard" style="--cc:${esc(c.accent || '#888')};opacity:.6">${inner}</div>` : `<a class="ccard${cur ? ' cur' : ''}" style="--cc:${esc(c.accent || '#888')}" href="../${esc(c.slug)}/">${inner}</a>`;
+  }).join('');
+  const open = o => { sh.classList.toggle('hide', !o); btn.setAttribute('aria-expanded', o); document.documentElement.classList.toggle('kit-lock', o); if (o) $('#sheetx').focus(); };
+  btn.onclick = () => open(true); $('#sheetx').onclick = () => open(false);
+  sh.onclick = e => { if (e.target === sh) open(false); };
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !sh.classList.contains('hide')) open(false); });
+})();
+(function surprise() {
+  const b = $('#surprise'); if (!b) return;
+  b.onclick = () => {
+    const d = nightOf(), k = state.kind;
+    let pool = D.venues.filter(v => v.kind === k && !v.closed && (v.avg || 0) >= 8.5 && (k === 'coffee' || (d && laterSlots(v, d).length)));
+    if (!pool.length) pool = D.venues.filter(v => v.kind === k && !v.closed && (k === 'coffee' || nOpen(v)));
+    if (!pool.length) pool = D.venues.filter(v => v.kind === k && !v.closed);
+    if (!pool.length) return;
+    const v = pool[Math.floor(Math.random() * pool.length)];
+    b.classList.remove('spin'); void b.offsetWidth; b.classList.add('spin');
+    const el = goTo(v); if (!el || RM) return;
+    setTimeout(() => {
+      const r = el.getBoundingClientRect(), cx = r.left + r.width / 2, cy = r.top + Math.min(r.height / 2, innerHeight / 2);
+      const cols = [getComputedStyle(document.documentElement).getPropertyValue('--city').trim() || '#b4532a', '#d9b25e', '#1f6b46', '#f3eee6'];
+      for (let i = 0; i < 28; i++) { const c = document.createElement('i'); c.className = 'confetti'; const a = Math.random() * Math.PI * 2, s = 80 + Math.random() * 160;
+        c.style.cssText = `left:${cx}px;top:${cy}px;background:${cols[i % 4]};--x:${Math.cos(a) * s}px;--y:${Math.sin(a) * s + 60}px;--r:${Math.random() * 720 - 360}deg`;
+        document.body.appendChild(c); setTimeout(() => c.remove(), 1100); }
+    }, 450);
+  };
+})();
+Kit.buzzOn('.time, .book, .mini.has, .strip button, .days button, .seg button');
+render();
+
+// ---- Last pull + "Pull again" -------------------------------------------------------------
+// The button posts to a private ntfy.sh topic; scripts/pull_listener.py on the Mac hears it,
+// runs publish.sh, and reports back on <topic>-s (started / busy / cooldown / done / failed).
+(() => {
+  const T = D.pull_topic, box = $('#pull'), txt = $('#ptxt'), btn = $('#pbtn'), msg = $('#pmsg');
+  if (!T || !box) return;
+  const NT = 'https://ntfy.sh/';
+  const clock = d => d.toLocaleTimeString('en-US', {hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago'});
+  const day = d => d.toLocaleDateString('en-US', {weekday: 'short', timeZone: 'America/Chicago'});
+  const ago = d => { const m = Math.round((Date.now() - d) / 60000);
+    if (m < 1) return 'just now'; if (m < 60) return m + ' min ago';
+    const h = Math.floor(m / 60), r = m % 60; return h + ' hr' + (r && h < 6 ? ' ' + r + ' min' : '') + ' ago'; };
+  const atFor = () => { const s = P === D.party ? D.generated_at : ((D.by_size || {})[P] || {}).at; return s ? new Date(s) : null; };
+  let busy = false;
+  const paint = () => {
+    const d = atFor();
+    if (!d) { txt.innerHTML = 'Party of ' + P + ' <b>not pulled yet</b>'; box.classList.add('stale'); return; }
+    txt.innerHTML = 'Updated <b>' + ago(d) + '</b>';
+    box.classList.toggle('stale', Date.now() - d > 3.5 * 3600e3);
+  };
+  const say = (t, cls = '') => { msg.textContent = t; msg.className = 'pmsg ' + cls; };
+  const setBusy = b => { busy = b; box.classList.toggle('busy', b); btn.disabled = b; btn.querySelector('span').textContent = b ? 'Pulling…' : 'Refresh'; };
+  paint(); setInterval(paint, 30e3);
+  document.querySelectorAll('[data-p]').forEach(b => b.addEventListener('click', () => setTimeout(paint)));
+
+  // Once the Mac has pushed, wait for GitHub Pages to serve the new data, then reload.
+  const waitForSite = (at) => {
+    const want = new Date(at || Date.now() - 6e4), t0 = Date.now();
+    say('Pulled. Publishing the new times (about a minute)…');
+    const tick = async () => {
+      try { const r = await fetch('../cities/' + CITY.slug + '/results/p' + D.party + '.json?t=' + Date.now(), {cache: 'no-store'}); const j = await r.json();
+        if (new Date(j.generated_at) >= want - 1000) { say('✓ Updated. Reloading…', 'ok'); setTimeout(() => location.reload(), 600); return; } } catch (e) {}
+      if (Date.now() - t0 > 4 * 60e3) { setBusy(false); say('Pulled, but the site hasn\'t refreshed yet. Reload the page in a minute.', 'err'); return; }
+      setTimeout(tick, 8e3);
+    };
+    tick();
+  };
+  let es, noReply;
+  const listen = () => {
+    if (es) return;
+    es = new EventSource(NT + T + '-s/sse');
+    es.onmessage = e => {
+      let m; try { m = JSON.parse(JSON.parse(e.data).message); } catch (x) { return; }
+      if (!m || !m.state) return;
+      clearTimeout(noReply);
+      if (m.state === 'started') { setBusy(true); say('The Mac is pulling fresh times now. This usually takes 3–6 minutes. You can leave this page open.'); }
+      else if (m.state === 'busy') { setBusy(true); say('A pull is already running on the Mac. Watching it…'); }
+      else if (m.state === 'cooldown') { setBusy(false); say('Not pulled: the last pull was only ' + (m.mins ?? 'a few') + ' min ago. Try again after ' + clock(new Date(m.next)) + '.', 'err'); close(); }
+      else if (m.state === 'failed') { setBusy(false); say('✗ The pull failed on the Mac. The times shown are still from the last pull.', 'err'); close(); }
+      else if (m.state === 'done') { close(); waitForSite(m.at); }
+    };
+  };
+  const close = () => { if (es) { es.close(); es = null; } };
+  btn.onclick = async () => {
+    if (busy) return;
+    setBusy(true); say('Asking the Mac to pull…'); listen();
+    try { await fetch(NT + T, {method: 'POST', body: JSON.stringify({party: P, city: CITY.slug})}); }
+    catch (e) { setBusy(false); close(); say('✗ Couldn\'t send the request (no connection?). Nothing was pulled.', 'err'); return; }
+    noReply = setTimeout(() => { setBusy(false); close();
+      say('✗ The Mac didn\'t answer, so nothing was pulled. It\'s probably asleep or offline. Pulls resume automatically when it wakes.', 'err'); }, 45e3);
+  };
+  // A pull someone else started in the last 15 min? Show it.
+  fetch(NT + T + '-s/json?poll=1&since=8m').then(r => r.text()).then(t => {
+    const last = t.trim().split('\n').filter(Boolean).map(l => { try { return JSON.parse(JSON.parse(l).message); } catch (e) { return null; } }).filter(Boolean).pop();
+    if (last && (last.state === 'started' || last.state === 'busy')) { setBusy(true); listen(); setTimeout(() => setBusy(false), 8 * 60e3); }
+  }).catch(() => {});
+})();
+</script></body></html>

@@ -1,0 +1,2130 @@
+{
+ "city": "boston",
+ "generated": "2026-11-21",
+ "method": "see NOTES.md",
+ "rubric": {
+  "allowed_sources": "Restaurant's official website/Instagram/press kit; its Resy/OpenTable/SevenRooms/Tock listing; editorial press photos credited to the restaurant or its photographer. Never Beli member photos, Yelp/Google/TripAdvisor user uploads, blogs, or uncredited/staff editorial photos.",
+  "criteria": {
+   "identity": "0-3: 3 = unmistakably this exact dish/drink (caption, filename or obvious); 2 = very likely; 1 = plausible/ambiguous; 0 = not the dish",
+   "authority": "0-3: 3 = official site/IG/press kit; 2 = booking-platform listing; 1 = editorial photo credited to restaurant or its photographer; 0 = disallowed",
+   "resolution": "0-3: >=1200px wide = 3; >=800 = 2; >=500 = 1; else 0 (measured from the downloaded file)",
+   "composition": "0-3: in focus, dish fills frame, well lit = 3; dark/tiny/cluttered = 0-1 (judged by viewing the image)",
+   "recency": "0-1: 1 if evidently <= 2 years old (upload-path date, page date, or on current menu)"
+  },
+  "max_total": 13,
+  "keep": "top-scoring photo per item as best + up to 2 runners_up; best=null with photo_note when no allowed photo exists",
+  "verification": "every kept URL re-checked 2026-11-21 with a plain GET: HTTP 200 + image/* content type (79/79 passed)"
+ },
+ "places": [
+  {
+   "name": "La Padrona",
+   "items": [
+    {
+     "item": "Tagliatelle Emilia-Romagna",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No allowed-source photo of this dish found: official Wix site only has a mixed spread (steak, clams, focaccia) and staff shots; Globe photos of the dish are Globe Staff (not allowed); Infatuation photos are staff-shot; the Resy blog image credited to La Padrona is a lobster fregola, not this pasta."
+    }
+   ]
+  },
+  {
+   "name": "Sarma",
+   "items": [
+    {
+     "item": "Harissa BBQ duck",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official site photos (2019 shoot) include a skewered meat dish over rice that could be a duck shish, but it is unlabeled and ambiguous; no clearly identified duck photo found on the site. Infatuation/Eater photos are staff-shot."
+    },
+    {
+     "item": "Ekmek gyro bread",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No clearly identified photo on the official site or a booking listing."
+    }
+   ]
+  },
+  {
+   "name": "Mooncusser",
+   "items": [
+    {
+     "item": "Glazed local cod",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Menu rotates every ~6 weeks; official-site/press photos (Brian Samuels Photography for the restaurant) are unlabeled room and dish shots from 2021-2023, none identifiable as this dish."
+    }
+   ]
+  },
+  {
+   "name": "Mahaniyom",
+   "items": [
+    {
+     "item": "Crispy chicken skin (nang kai tod)",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Not found in the official site's photo set."
+    },
+    {
+     "item": "Kang puu (crab curry with vermicelli)",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Not found in the official site's photo set."
+    },
+    {
+     "item": "Green papaya pad Thai",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/688d5d06e60f451f704aaddb/1780183498083-XG4Y5ZDWE38IV9M3H6I9/image-asset.jpeg?format=2500w",
+      "page_url": "https://www.mahaniyomboston.com/",
+      "credit": "Mahaniyom (official site)",
+      "width": 1080,
+      "height": 1350,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 2,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 1080x1350"
+     },
+     "runners_up": []
+    }
+   ]
+  },
+  {
+   "name": "Field & Vine",
+   "items": [
+    {
+     "item": "Crudos",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/59090bb1b8a79b2cd0ce1b57/1631238193653-WHU46Y8QW9GH0Q21TRDB/FIELD+%26+VINE_BRIAN+SAMUELS+PHOTOGRAPHY_JUNE+2021-0413+copy.jpg",
+      "page_url": "https://www.fieldandvinesomerville.com/menu",
+      "credit": "Brian Samuels Photography for Field & Vine",
+      "width": 2048,
+      "height": 1365,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 0
+      },
+      "total": 10,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 2048x1365"
+     },
+     "runners_up": []
+    },
+    {
+     "item": "Weekend asado steak special",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/59090bb1b8a79b2cd0ce1b57/36748a84-0cec-4377-925b-7aa81e349cd1/230131_Field_and_Vine_Food_0155.jpg",
+      "page_url": "https://www.fieldandvinesomerville.com/reservations",
+      "credit": "Leonard Greco for Field & Vine",
+      "width": 1600,
+      "height": 2000,
+      "scores": {
+       "identity": 1,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 0
+      },
+      "total": 10,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 1600x2000"
+     },
+     "runners_up": [],
+     "photo_note": "Sliced grilled steak from a Jan 2023 shoot; unlabeled, so it is a generic asado steak rather than a confirmed current special."
+    },
+    {
+     "item": "Oysters and raw bar",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No oyster photo on the official site."
+    }
+   ]
+  },
+  {
+   "name": "Comfort Kitchen",
+   "items": [
+    {
+     "item": "Brown butter seared okra",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/5d671be8209fb10001b81097/1727824536667-ATFZ5VYKYFQ144B1QPTS/food_dinner_comfort-kitchen-okra.jpg",
+      "page_url": "https://www.comfortkitchenbos.com/gallery",
+      "credit": "Comfort Kitchen",
+      "width": 2500,
+      "height": 1661,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 0
+      },
+      "total": 12,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 2500x1661"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/5d671be8209fb10001b81097/1630509825221-GII0EJOKY9LPTTXJDTYY/04_comfort_kitchen_okra.jpg",
+       "page_url": "https://www.comfortkitchenbos.com/gallery",
+       "credit": "Comfort Kitchen",
+       "width": 1000,
+       "height": 1000,
+       "scores": {
+        "identity": 3,
+        "authority": 3,
+        "resolution": 2,
+        "composition": 3,
+        "recency": 0
+       },
+       "total": 11,
+       "loads": true,
+       "checked": "HTTP 200 image/webp 1000x1000"
+      }
+     ]
+    },
+    {
+     "item": "Jerk-roasted duck",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/5d671be8209fb10001b81097/1778080419874-X1H9R2G0NAP3MATAS3EW/DSC00104.jpg",
+      "page_url": "https://www.comfortkitchenbos.com/gallery",
+      "credit": "Comfort Kitchen",
+      "width": 2500,
+      "height": 3762,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 13,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 2500x3762 (gallery caption 'Jerk Roasted Duck', uploaded 2026)"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/5d671be8209fb10001b81097/7b97f4f1-d466-431c-9de4-e8e9fb49e95d/Comfort-Kitchen-Jerk-Roasted-Duck_WEB.jpg",
+       "page_url": "https://www.comfortkitchenbos.com/",
+       "credit": "Comfort Kitchen",
+       "width": 664,
+       "height": 951,
+       "scores": {
+        "identity": 3,
+        "authority": 3,
+        "resolution": 1,
+        "composition": 2,
+        "recency": 0
+       },
+       "total": 9,
+       "loads": true,
+       "checked": "HTTP 200 image/webp 664x951"
+      }
+     ]
+    },
+    {
+     "item": "Monkfish coconut curry",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/5d671be8209fb10001b81097/1778080378699-D5Z3Y604XKTF0287JURV/DSC00063.jpg",
+      "page_url": "https://www.comfortkitchenbos.com/gallery",
+      "credit": "Comfort Kitchen",
+      "width": 2500,
+      "height": 3763,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 1
+      },
+      "total": 12,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 2500x3763 (gallery caption 'Monkfish Curry', uploaded 2026)"
+     },
+     "runners_up": []
+    }
+   ]
+  },
+  {
+   "name": "Neptune Oyster",
+   "items": [
+    {
+     "item": "Maine lobster roll (hot with butter)",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official site has no dish photos (only an Unsplash stock image); Instagram CDN images are not hot-linkable; Eater/Infatuation lobster roll photos are staff-shot, so not allowed. No booking-platform listing (walk-in only)."
+    }
+   ]
+  },
+  {
+   "name": "O Ya",
+   "items": [
+    {
+     "item": "A5 Japanese Wagyu",
+     "best": {
+      "url": "https://www.o-ya.restaurant/img/wagyu.jpg",
+      "page_url": "https://www.o-ya.restaurant/menus-boston/",
+      "credit": "o ya",
+      "width": 1750,
+      "height": 1400,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 13,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 1750x1400"
+     },
+     "runners_up": []
+    },
+    {
+     "item": "Bluefin tuna (chutoro)",
+     "best": {
+      "url": "https://www.o-ya.restaurant/img/hero_tataki.jpg",
+      "page_url": "https://www.o-ya.restaurant/",
+      "credit": "o ya",
+      "width": 1800,
+      "height": 1201,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 13,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 1800x1201 (alt: seared bluefin chutoro tataki)"
+     },
+     "runners_up": [
+      {
+       "url": "https://www.o-ya.restaurant/img/chutoro_close.jpg",
+       "page_url": "https://www.o-ya.restaurant/menus-boston/",
+       "credit": "o ya",
+       "width": 1286,
+       "height": 1800,
+       "scores": {
+        "identity": 3,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 2,
+        "recency": 1
+       },
+       "total": 12,
+       "loads": true,
+       "checked": "HTTP 200 image/jpeg 1286x1800"
+      }
+     ]
+    },
+    {
+     "item": "Fried Kumamoto oyster with squid ink bubbles",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Not pictured on the official site (only Wagyu, chutoro, kinmedai, sake and room shots)."
+    }
+   ]
+  },
+  {
+   "name": "Tonino",
+   "items": [
+    {
+     "item": "Pizza bianca with toppings",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/625dfb1e18e19300316c5fe3/7170a4bd-6596-44d5-87a9-a5fbd01b7228/tonino-170.jpg",
+      "page_url": "https://www.toninojp.com/menu",
+      "credit": "Tonino",
+      "width": 1600,
+      "height": 1061,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 0
+      },
+      "total": 10,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 1600x1061"
+     },
+     "runners_up": [
+      {
+       "url": "https://blog.resy.com/wp-content/uploads/2026/10/ToninoFoodSpread-2000x1125.jpg",
+       "page_url": "https://blog.resy.com/2026/10/how-to-get-into-tonino-boston/",
+       "credit": "Photo by Gabby Riggieri, courtesy of Tonino",
+       "width": 2000,
+       "height": 1125,
+       "scores": {
+        "identity": 2,
+        "authority": 1,
+        "resolution": 3,
+        "composition": 3,
+        "recency": 1
+       },
+       "total": 10,
+       "loads": true,
+       "checked": "HTTP 200 image/jpeg 2000x1125"
+      }
+     ]
+    },
+    {
+     "item": "Mortadella with pecorino and house pickles",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/625dfb1e18e19300316c5fe3/1777575383989-1XPUWZ78TGPUYS4LJNIN/image-asset.jpeg",
+      "page_url": "https://www.toninojp.com/",
+      "credit": "Tonino",
+      "width": 1440,
+      "height": 1877,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 12,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 1440x1877 (site caption: 'mortadella is a must, sharing is optional')"
+     },
+     "runners_up": []
+    },
+    {
+     "item": "Taleggio cappelletti",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No identifiable cappelletti photo on the official site or the Resy article; Eater's clam photo is staff-shot."
+    }
+   ]
+  },
+  {
+   "name": "Urban Hearth",
+   "items": [
+    {
+     "item": "Laminated buttermilk biscuit with smoked maple miso butter",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official gallery (16 unlabeled 1024px images) shows plated dishes and the room but no identifiable biscuit or lobster cornette; Eater/Infatuation photos are staff-shot."
+    },
+    {
+     "item": "Chef's counter tasting menu",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official site has a 'Chef's Counter' image (cdn.sanity.io, 1024x683) but it shows the counter/room, not a dish."
+    }
+   ]
+  },
+  {
+   "name": "311 Omakase",
+   "items": [
+    {
+     "item": "18-course omakase with a dozen-plus nigiri",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/63f2754ea1ab1979c14b5a4d/000c1af2-9505-4187-af90-d838b3e96ce1/DSC00013.jpg?format=2500w",
+      "page_url": "https://311boston.com/about",
+      "credit": "Three 1 One (photography courtesy of StarChefs)",
+      "width": 2500,
+      "height": 3750,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 0
+      },
+      "total": 10,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 2500x3750 (original 5063x7595)"
+     },
+     "runners_up": []
+    },
+    {
+     "item": "Crispy-scaled tilefish",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official site only shows the counter, chef, whole fish, truffles and a nigiri being placed; no tilefish course photo. Tock page returned 403 to curl."
+    }
+   ]
+  },
+  {
+   "name": "Oleana",
+   "items": [
+    {
+     "item": "Baked Alaska",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/573c65ca7c65e42c65924ff0/1635695243624-M76G56IXCMNR6ALA21XQ/Oleana_160922_1319.jpg",
+      "page_url": "https://www.oleanarestaurant.com/",
+      "credit": "Oleana (official site; photographer Kristin Teig)",
+      "width": 2400,
+      "height": 1600,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 13,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 2400x1600"
+     },
+     "runners_up": []
+    },
+    {
+     "item": "Whipped Feta with Sweet & Hot Peppers",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No clearly identifiable whipped-feta photo on the official site gallery; Boston Magazine's shot is staff (Scott Semler), not allowed."
+    }
+   ]
+  },
+  {
+   "name": "Giulia",
+   "items": [
+    {
+     "item": "Pappardelle with Braised Wild Boar",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official site gallery (2020 shoot, unlabeled) shows casarecce and other pastas but no identifiable pappardelle; editorial photos are staff/freelance (Joe St. Pierre, Ciera Velarde), not credited to the restaurant."
+    },
+    {
+     "item": "Bucatini all'Amatriciana",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No allowed photo identifiable as this dish."
+    }
+   ]
+  },
+  {
+   "name": "Pammy's",
+   "items": [
+    {
+     "item": "Lumache Bolognese with Gochujang",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/58c6b4ebcd0f68690f0f3392/1595630180505-0VWYG60EYXV1QX0GRP3G/NM2-9265.jpg",
+      "page_url": "https://www.pammyscambridge.com/",
+      "credit": "Pammy's (official site; photo by Natasha Moustache)",
+      "width": 2048,
+      "height": 1365,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 12,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 2048x1365"
+     },
+     "runners_up": []
+    },
+    {
+     "item": "Pork Milanese",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No identifiable Pork Milanese image on the official site gallery."
+    }
+   ]
+  },
+  {
+   "name": "Moëca",
+   "items": [
+    {
+     "item": "Buttermilk Fried Monkfish",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official site only has 7 unlabeled images (oysters, caviar dumplings, crudo, dessert, room); none shows the monkfish. Eater/BM photos are staff (Scott Semler etc.)."
+    },
+    {
+     "item": "Tuna 'Nduja on Squid Ink Sourdough",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No allowed image identifiable as this dish."
+    }
+   ]
+  },
+  {
+   "name": "Lenox Sophia",
+   "items": [
+    {
+     "item": "Tagliatelle with black truffles (vegetarian course)",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official site has only 4 non-dish or unlabeled photos (garlic scapes, knives, chef, a soup) plus the menu card; no image of the cited dishes. Infatuation/BM photos are not credited to the restaurant."
+    },
+    {
+     "item": "Squid Ink Rice (arroz negro)",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No allowed image of this dish found."
+    }
+   ]
+  },
+  {
+   "name": "Spoke Wine Bar",
+   "items": [
+    {
+     "item": "Sunchoke Donuts (aged gouda, powdered leeks)",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official site images (named LongBeans, Okra2, FishToast, CoutneckClamsPersimmon, AvocadoFroYo, etc.) do not include the donuts; no restaurant-credited editorial shot found."
+    }
+   ]
+  },
+  {
+   "name": "Dalia",
+   "items": [
+    {
+     "item": "Valencia Paella",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No restaurant-credited paella photo found; Globe paella shot is Globe Staff (Barry Chin), Infatuation shots are by Linda Campos (not credited to the restaurant). Official BentoBox site has only logos/video."
+    },
+    {
+     "item": "Ibérico Pluma with passionfruit caramel & quince",
+     "best": {
+      "url": "https://bdc2020.o0bc.com/wp-content/uploads/2026/04/Iberico-Secreto-69cd8acb6735d-scaled.jpg",
+      "page_url": "https://www.boston.com/food/restaurants/2026/04/02/dalia-spanish-southie/",
+      "credit": "Courtesy of Dalia (via Boston.com)",
+      "width": 2560,
+      "height": 1324,
+      "scores": {
+       "identity": 3,
+       "authority": 1,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 2560x1324"
+     },
+     "runners_up": []
+    },
+    {
+     "item": "Hamachi Crudo (figs, sherry ponzu)",
+     "best": {
+      "url": "https://media.timeout.com/images/106448534/image.jpg",
+      "page_url": "https://www.timeout.com/boston/news/this-south-boston-spanish-spot-was-named-one-of-americas-best-restaurants-of-2026-per-the-new-york-times-091726",
+      "credit": "Photograph: Courtesy Dalia (via Time Out)",
+      "width": 1200,
+      "height": 600,
+      "scores": {
+       "identity": 2,
+       "authority": 1,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 10,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 1200x600"
+     },
+     "runners_up": []
+    }
+   ]
+  },
+  {
+   "name": "Bar Vlaha",
+   "items": [
+    {
+     "item": "House sourdough with spreads (taramosalata, kopanisti, etc.)",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/680a86e8f007ee45085f8607/257286c5-10a4-4c82-a7e2-b6ddf490bbd5/BarVlaha-48.jpg?format=2500w",
+      "page_url": "https://www.barvlaha.com/",
+      "credit": "Bar Vlaha (official site)",
+      "width": 2500,
+      "height": 3750,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 13,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 2500x3750"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/680a86e8f007ee45085f8607/1748280420301-KVS96INNN5F8H89DIHG9/image-asset.jpeg?format=2500w",
+       "page_url": "https://www.barvlaha.com/",
+       "credit": "Bar Vlaha (official site)",
+       "width": 1440,
+       "height": 1800,
+       "scores": {
+        "identity": 2,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 3,
+        "recency": 1
+       },
+       "total": 12,
+       "loads": true,
+       "checked": "HTTP 200 image/webp 1440x1800"
+      },
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/680a86e8f007ee45085f8607/c8ebf6a9-c6a5-4921-a6ae-871196f4f88a/BarVlaha-8.jpg?format=2500w",
+       "page_url": "https://www.barvlaha.com/",
+       "credit": "Bar Vlaha (official site)",
+       "width": 2500,
+       "height": 3750,
+       "scores": {
+        "identity": 2,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 3,
+        "recency": 1
+       },
+       "total": 12,
+       "loads": true,
+       "checked": "HTTP 200 image/webp 2500x3750"
+      }
+     ]
+    },
+    {
+     "item": "Savory pies (pitas)",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/680a86e8f007ee45085f8607/929f7bdc-83bb-4b50-b118-bd6e4b74212e/BarVlaha-61.jpg?format=2500w",
+      "page_url": "https://www.barvlaha.com/",
+      "credit": "Bar Vlaha (official site)",
+      "width": 2500,
+      "height": 3750,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 1
+      },
+      "total": 12,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 2500x3750"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/680a86e8f007ee45085f8607/81a25c1a-43ea-4214-8bbc-f9075e3f5943/BarVlaha-35.jpg?format=2500w",
+       "page_url": "https://www.barvlaha.com/",
+       "credit": "Bar Vlaha (official site)",
+       "width": 2500,
+       "height": 3750,
+       "scores": {
+        "identity": 2,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 2,
+        "recency": 1
+       },
+       "total": 11,
+       "loads": true,
+       "checked": "HTTP 200 image/webp 2500x3750"
+      }
+     ]
+    },
+    {
+     "item": "Arni stin souvla (spit-roasted lamb leg)",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No lamb photo on the official site."
+    }
+   ]
+  },
+  {
+   "name": "Wa Shin",
+   "items": [
+    {
+     "item": "18-course Omakase at the Hinoki Counter",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/656958863da42c3c2c99b7cf/6099c181-c227-45e2-abd1-691272cc3ccd/24005-01-9340.jpg",
+      "page_url": "https://washinboston.com/",
+      "credit": "Wa Shin (official site)",
+      "width": 2000,
+      "height": 1334,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 12,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 2000x1334"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/656958863da42c3c2c99b7cf/67d74591-f9f6-433f-854f-9bf2681f7cc6/24005-01-9187.jpg",
+       "page_url": "https://washinboston.com/",
+       "credit": "Wa Shin (official site; captioned 'Hinoki Chef Table Experience')",
+       "width": 1334,
+       "height": 2000,
+       "scores": {
+        "identity": 2,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 3,
+        "recency": 1
+       },
+       "total": 12,
+       "loads": true,
+       "checked": "HTTP 200 image/jpeg 1334x2000"
+      }
+     ]
+    },
+    {
+     "item": "Hokkaido Uni",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/656958863da42c3c2c99b7cf/da76b4ed-ce93-4c12-9a66-8d9fe1587d14/24005-01-9501.jpg",
+      "page_url": "https://washinboston.com/",
+      "credit": "Wa Shin (official site; captioned 'uni')",
+      "width": 1334,
+      "height": 2000,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 13,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 1334x2000"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/656958863da42c3c2c99b7cf/3843e92a-1a1c-4628-a71b-43896fcff765/24005-01-9306.jpg",
+       "page_url": "https://washinboston.com/",
+       "credit": "Wa Shin (official site; alt text: sushi topped with sea urchin)",
+       "width": 2000,
+       "height": 1334,
+       "scores": {
+        "identity": 2,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 3,
+        "recency": 1
+       },
+       "total": 12,
+       "loads": true,
+       "checked": "HTTP 200 image/jpeg 2000x1334"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Kaia",
+   "items": [
+    {
+     "item": "Astakomakaronada (whole-roasted 2 lb lobster pasta)",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/663e6ca8f7be6e1a0c4c31e4/b37bc10a-74e7-47a0-8533-ba636c3d72ca/Astakomakaronada-FULL+RES-Kaia_Jan26Menu-57.jpg",
+      "page_url": "https://www.kaiasouthend.com/dinner-menu",
+      "credit": "Kaia (official site)",
+      "width": 2500,
+      "height": 3750,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 1
+      },
+      "total": 12,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 2500x3750"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/663e6ca8f7be6e1a0c4c31e4/23f40500-cf00-4212-9f52-362823af041a/Kaia_Jan26Menu-55.jpg",
+       "page_url": "https://www.kaiasouthend.com/dinner-menu",
+       "credit": "Kaia (official site)",
+       "width": 1536,
+       "height": 864,
+       "scores": {
+        "identity": 2,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 2,
+        "recency": 1
+       },
+       "total": 11,
+       "loads": true,
+       "checked": "HTTP 200 image/jpeg 1536x864"
+      }
+     ]
+    },
+    {
+     "item": "Whole grilled fish (tsipoura / lavraki / lythrini)",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/663e6ca8f7be6e1a0c4c31e4/00069437-0678-43b9-b659-daaac3e4ab68/Kaia+Grilled+Fish+Presentation.jpg",
+      "page_url": "https://www.kaiasouthend.com/",
+      "credit": "Kaia (official site)",
+      "width": 1024,
+      "height": 1536,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 2,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 12,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 1024x1536"
+     },
+     "runners_up": []
+    }
+   ]
+  },
+  {
+   "name": "Celeste",
+   "items": [
+    {
+     "item": "Ceviche (mixed seafood or blue cod, leche de tigre)",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official site has only artwork, a menu image and an overhead table spread (no identifiable ceviche). Time Out's list photo is credited 'Courtesy Yelp' (user content, not allowed); Infatuation photos are not credited to the restaurant."
+    },
+    {
+     "item": "Lomo Saltado",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No allowed image identifiable as this dish."
+    }
+   ]
+  },
+  {
+   "name": "Jahunger",
+   "items": [
+    {
+     "item": "Jahunger Noodle",
+     "best": {
+      "url": "https://cdn.prod.website-files.com/672b4b87d354429f076afc4b/672badb7e510ddef1cfd134b_jahunger-noodle.png",
+      "page_url": "https://www.jahunger.com/",
+      "credit": "Jahunger",
+      "width": 800,
+      "height": 800,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 2,
+       "composition": 2,
+       "recency": 1
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/png 800x800"
+     },
+     "runners_up": [],
+     "photo_note": "Official menu art is a realistic illustration (painted plate on transparent background), not a photograph."
+    },
+    {
+     "item": "Original Meefen",
+     "best": {
+      "url": "https://cdn.prod.website-files.com/672b4b87d354429f076afc4b/672bad743cb05eee8ac062e0_original-meefen.png",
+      "page_url": "https://www.jahunger.com/",
+      "credit": "Jahunger",
+      "width": 800,
+      "height": 800,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 2,
+       "composition": 2,
+       "recency": 1
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/png 800x800"
+     },
+     "runners_up": [],
+     "photo_note": "Illustration from the official menu, not a photograph."
+    },
+    {
+     "item": "Cold Chicken",
+     "best": {
+      "url": "https://cdn.prod.website-files.com/672b4b87d354429f076afc4b/672b4b87d354429f076afcbd_671e253ea76009f6d220828f_cold-chicken.png",
+      "page_url": "https://www.jahunger.com/",
+      "credit": "Jahunger",
+      "width": 800,
+      "height": 801,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 2,
+       "composition": 2,
+       "recency": 1
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/png 800x801"
+     },
+     "runners_up": [],
+     "photo_note": "Illustration from the official menu, not a photograph."
+    }
+   ]
+  },
+  {
+   "name": "Sumiao Hunan Kitchen",
+   "items": [
+    {
+     "item": "Grandma's Pork",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official site and Resy listing only have ambiance shots and an unlabeled multi-dish spread (resy image 2); no photo clearly identifies this dish. Instagram images not hot-linkable."
+    },
+    {
+     "item": "Sumiao Gyoza",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No allowed, identifiable photo found on the official site or Resy."
+    },
+    {
+     "item": "Shaoshan Cabbage",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No allowed photo identifiable as this dish (Infatuation's restaurant-credited photo is Yellow River Beef)."
+    }
+   ]
+  },
+  {
+   "name": "Brassica Kitchen + Café",
+   "items": [
+    {
+     "item": "B.K. Fried Chicken",
+     "best": {
+      "url": "https://bdc2020.o0bc.com/wp-content/uploads/2024/03/IMG_5119-1-65fc87c4074d6-scaled.jpeg?width=1600",
+      "page_url": "https://www.boston.com/food/restaurants/2024/03/22/what-to-order-at-brassica-in-jamaica-plain/",
+      "credit": "Courtesy of Brassica Kitchen (via Boston.com)",
+      "width": 1600,
+      "height": 888,
+      "scores": {
+       "identity": 3,
+       "authority": 1,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 0
+      },
+      "total": 9,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 1600x888"
+     },
+     "runners_up": [],
+     "photo_note": "Captioned 'B.K. fried chicken at Brassica - Courtesy'. Phone-style shot of two plates. March 2024 (>2 yrs)."
+    },
+    {
+     "item": "B.K. Brussels",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official site images are a flan, donut, salad and staff shots; OpenTable listing could not be fetched (connection blocked). No allowed photo of this dish found."
+    }
+   ]
+  },
+  {
+   "name": "Fallow Kin",
+   "items": [
+    {
+     "item": "Bread: Hazlet rye sourdough & laminated brioche",
+     "best": {
+      "url": "https://image.resy.com/3/003/2/92665/3794dd10e99097754b8e1bb4f80fbaa95b710fef/jpg/1600x900",
+      "page_url": "https://resy.com/cities/cambridge-ma/venues/fallow-kin",
+      "credit": "Fallow Kin (Resy listing)",
+      "width": 1260,
+      "height": 900,
+      "scores": {
+       "identity": 2,
+       "authority": 2,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 1260x900"
+     },
+     "runners_up": [
+      {
+       "url": "https://blog.resy.com/wp-content/uploads/2025/12/FK2-1536x1097.jpg",
+       "page_url": "https://blog.resy.com/2025/12/new-to-resy-restaurants-in-boston/",
+       "credit": "Courtesy of Fallow Kin (Resy blog)",
+       "width": 1536,
+       "height": 1097,
+       "scores": {
+        "identity": 2,
+        "authority": 1,
+        "resolution": 3,
+        "composition": 3,
+        "recency": 1
+       },
+       "total": 10,
+       "loads": true,
+       "checked": "HTTP 200 image/jpeg 1536x1097"
+      }
+     ],
+     "photo_note": "Skillet brioche and a sourdough round with butter on a stone - matches the menu's bread course, but uncaptioned."
+    },
+    {
+     "item": "Squid (stuffed Rhode Island squid / squid Milanese)",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No allowed photo identifiable as the squid dish on the official site or Resy (Globe photos are staff photos, not allowed)."
+    },
+    {
+     "item": "Feather Brook Farms Chicken",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No allowed chicken photo found; Resy/site dish shots show bread, vegetables, a steak and dessert."
+    }
+   ]
+  },
+  {
+   "name": "Grill 23 & Bar",
+   "items": [
+    {
+     "item": "100 Day Aged Prime Ribeye",
+     "best": {
+      "url": "https://bomag.o0bc.com/wp-content/uploads/sites/2/2021/08/Grill-23.jpg",
+      "page_url": "https://bostonmagazine.com/?p=2658303",
+      "credit": "Grill 23 & Bar (image provided to Boston Magazine)",
+      "width": 900,
+      "height": 600,
+      "scores": {
+       "identity": 3,
+       "authority": 1,
+       "resolution": 2,
+       "composition": 3,
+       "recency": 0
+      },
+      "total": 9,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 900x600"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/61a64f951fd4bc35a575dafa/1731600832962-H4LSVJ87OT1HTAO3S686/image-asset.jpeg",
+       "page_url": "https://www.grill23.com/",
+       "credit": "Grill 23 & Bar",
+       "width": 1366,
+       "height": 1366,
+       "scores": {
+        "identity": 1,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 2,
+        "recency": 1
+       },
+       "total": 10,
+       "loads": true,
+       "checked": "HTTP 200 image/jpeg 1366x1366",
+       "note": "Uncaptioned steak being flamed in a pan - generic steak, not confirmably the ribeye."
+      }
+     ],
+     "photo_note": "Best is captioned as the 100-day ribeye in Boston Magazine ('Image provided'), 2021."
+    },
+    {
+     "item": "Shellfish Sampler (seafood tower)",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/61a64f951fd4bc35a575dafa/c7cd0a2d-74a9-49bd-87d4-67396599ee6f/GRILL+23_HIMMEL+HOSPITALITY+GROUP_BRIAN+SAMUELS+PHOTOGRAPHY_APRIL+2025-IMG_0993+copy.jpg",
+      "page_url": "https://www.grill23.com/",
+      "credit": "Brian Samuels Photography for Grill 23 & Bar",
+      "width": 2048,
+      "height": 1366,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 1
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 2048x1366"
+     },
+     "runners_up": [],
+     "photo_note": "Table spread with a tiered shellfish tower (lobster, shrimp) plus steaks and sides; tower is the centerpiece but not the only dish. April 2025."
+    },
+    {
+     "item": "Famous Coconut Cake",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No allowed photo of the coconut cake on the official site."
+    }
+   ]
+  },
+  {
+   "name": "Puritan & Company",
+   "items": [
+    {
+     "item": "Parker House Rolls",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No allowed photo of the rolls: official site gallery shows other dishes; the Infatuation photos are by its photographer (Joe St. Pierre), not credited to the restaurant."
+    },
+    {
+     "item": "Crab Cavatelli",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No allowed photo found (Infatuation images not restaurant-credited)."
+    }
+   ]
+  },
+  {
+   "name": "Somaek",
+   "items": [
+    {
+     "item": "Mandu (steamed dumplings)",
+     "best": {
+      "url": "https://images.getbento.com/accounts/454ea081a71f6f9367811dde7fac3b9e/media/images/34383SOMAEK_TEMPLE_RECORDS_SUSHI_AT_TEMPLE_RECORDS_BRIAN_SAMUELS_PHOTOGRAPHY_APRIL_2024-IMG_5577_copy.jpg?w=1600",
+      "page_url": "https://www.somaek.com/",
+      "credit": "Brian Samuels Photography for Somaek",
+      "width": 1600,
+      "height": 1067,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 0
+      },
+      "total": 12,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 1600x1067"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.getbento.com/accounts/454ea081a71f6f9367811dde7fac3b9e/media/images/17256SOMAEK_TEMPLE_RECORDS_SUSHI_AT_TEMPLE_RECORDS_BRIAN_SAMUELS_PHOTOGRAPHY_APRIL_2024-IMG_5513_copy.jpg?w=1600",
+       "page_url": "https://www.somaek.com/",
+       "credit": "Brian Samuels Photography for Somaek",
+       "width": 1600,
+       "height": 1067,
+       "scores": {
+        "identity": 1,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 2,
+        "recency": 0
+       },
+       "total": 9,
+       "loads": true,
+       "checked": "HTTP 200 image/jpeg 1600x1067"
+      }
+     ],
+     "photo_note": "Official site gallery, shot April 2024. Runner-up is a table spread with dumplings in the foreground."
+    },
+    {
+     "item": "Bibim Guksu",
+     "best": {
+      "url": "https://images.getbento.com/accounts/454ea081a71f6f9367811dde7fac3b9e/media/images/2687SOMAEK_TEMPLE_RECORDS_SUSHI_AT_TEMPLE_RECORDS_BRIAN_SAMUELS_PHOTOGRAPHY_APRIL_2024-_IMG_5193_copy.jpg?w=1600",
+      "page_url": "https://www.somaek.com/",
+      "credit": "Brian Samuels Photography for Somaek",
+      "width": 1600,
+      "height": 1067,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 0
+      },
+      "total": 12,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 1600x1067"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.getbento.com/accounts/454ea081a71f6f9367811dde7fac3b9e/media/images/92626Bowl.png?w=1600",
+       "page_url": "https://www.somaek.com/menus/",
+       "credit": "Somaek",
+       "width": 1600,
+       "height": 1126,
+       "scores": {
+        "identity": 3,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 2,
+        "recency": 0
+       },
+       "total": 11,
+       "loads": true,
+       "checked": "HTTP 200 image/png 1600x1126"
+      },
+      {
+       "url": "https://blog.resy.com/wp-content/uploads/2024/05/Somaek_Pic-4_Bibim-Guksu_Brian-Samuels-Photography-906x604.jpg",
+       "page_url": "https://blog.resy.com/2024/05/somaek-jamie-bissonnette-boston/",
+       "credit": "Photo by Brian Samuels, courtesy of Somaek (Resy)",
+       "width": 906,
+       "height": 604,
+       "scores": {
+        "identity": 3,
+        "authority": 1,
+        "resolution": 2,
+        "composition": 3,
+        "recency": 0
+       },
+       "total": 9,
+       "loads": true,
+       "checked": "HTTP 200 image/jpeg 906x604"
+      }
+     ],
+     "photo_note": "Resy blog captions this exact shot as Somaek's bibim guksu, confirming identity of the site photo."
+    },
+    {
+     "item": "Somaek (soju + beer)",
+     "best": {
+      "url": "https://images.getbento.com/accounts/454ea081a71f6f9367811dde7fac3b9e/media/images/54949somaek_temple_records_sushi_at_temple_records_brian_samuels_photography_april_2024-img_5471_copy.jpeg?w=1600",
+      "page_url": "https://www.somaek.com/",
+      "credit": "Brian Samuels Photography for Somaek",
+      "width": 1600,
+      "height": 2398,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 0
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 1600x2398"
+     },
+     "runners_up": [],
+     "photo_note": "Shows a shot of soju being poured/balanced over a Jinro beer glass - the namesake drink being made (Resy captions a matching shot)."
+    }
+   ]
+  },
+  {
+   "name": "Via Cannuccia",
+   "items": [
+    {
+     "item": "Pizza alla pala",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/640dfe11088ba1484b613691/3ce7978f-5c5b-4ee2-97cf-66858ff21ede/VIACANNUCIA-04.jpg",
+      "page_url": "https://www.viacannuccia.com/",
+      "credit": "Via Cannuccia",
+      "width": 2500,
+      "height": 2837,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 0
+      },
+      "total": 10,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 2500x2837"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/640dfe11088ba1484b613691/e0066630-825f-41e9-a892-dac561ecfc97/8692eb0c-297e-452b-a567-045cdb37ccba.JPG",
+       "page_url": "https://www.viacannuccia.com/",
+       "credit": "Via Cannuccia",
+       "width": 1600,
+       "height": 1068,
+       "scores": {
+        "identity": 2,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 2,
+        "recency": 0
+       },
+       "total": 10,
+       "loads": true,
+       "checked": "HTTP 200 image/jpeg 1600x1068"
+      }
+     ],
+     "photo_note": "Best: rectangular red pie on a sheet tray at a two-top (wide table shot). Runner-up: close-up of a white pie with sausage/greens. Neither is captioned; photo dates unknown."
+    },
+    {
+     "item": "Supplì (cacio e pepe)",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/640dfe11088ba1484b613691/1fd2e3b0-79e5-4287-b8ca-e78b487e77b2/VIACANNUCIA-26.jpg",
+      "page_url": "https://www.viacannuccia.com/",
+      "credit": "Via Cannuccia",
+      "width": 2500,
+      "height": 2297,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 0
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 2500x2297"
+     },
+     "runners_up": [],
+     "photo_note": "Two supplì over a pale cheese cream - clearly supplì; the exact filling (cacio e pepe vs. seasonal) is not captioned."
+    },
+    {
+     "item": "Weekend pastries",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/640dfe11088ba1484b613691/0c7af675-1474-45fb-a1aa-fcaeeb27737a/VIACANNUCIA-09.jpg",
+      "page_url": "https://www.viacannuccia.com/",
+      "credit": "Via Cannuccia",
+      "width": 2500,
+      "height": 2500,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 0
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 2500x2500"
+     },
+     "runners_up": [],
+     "photo_note": "Overhead of croissants/danishes with espresso on a marble table."
+    }
+   ]
+  },
+  {
+   "name": "Woods Hill Pier 4",
+   "items": [
+    {
+     "item": "Shellfish Tower",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official site and Resy images (styled 2019 shoot) show raw shellfish, crudo and plated dishes but no tower; Infatuation photos are by its photographer, not restaurant-credited."
+    },
+    {
+     "item": "Lobster Popover",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No allowed photo of the popover found on the official site or Resy listing."
+    }
+   ]
+  },
+  {
+   "name": "La Royal",
+   "items": [
+    {
+     "item": "Ceviche / Leche de tigre",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/60995542b7c9ab5f109bb618/2368bb13-8b1f-459f-b96c-cc1f4adcbfcd/220219_La+Royal+_Maria0704.jpg",
+      "page_url": "https://www.laroyalcambridge.com/",
+      "credit": "La Royal",
+      "width": 2500,
+      "height": 2500,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 0
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 2500x2500"
+     },
+     "runners_up": [],
+     "photo_note": "Uncaptioned shot of a creamy ceviche/leche de tigre in a cut-glass goblet topped with fried seafood, with shot glasses alongside (Feb 2022 shoot)."
+    },
+    {
+     "item": "Patarashca",
+     "best": {
+      "url": "https://blog.resy.com/wp-content/uploads/2022/05/Patarashca_La-Royal_photo-by-Theodore-Samuels_compressed-2000x2000.jpg",
+      "page_url": "https://blog.resy.com/2022/06/everything-you-need-to-know-about-la-royal-best-peruvian-cambridge/",
+      "credit": "Theodore Samuels, courtesy of La Royal (Resy)",
+      "width": 2000,
+      "height": 2000,
+      "scores": {
+       "identity": 3,
+       "authority": 1,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 0
+      },
+      "total": 9,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 2000x2000"
+     },
+     "runners_up": []
+    },
+    {
+     "item": "La Royal Sour",
+     "best": {
+      "url": "https://blog.resy.com/wp-content/uploads/2022/05/La-Royal-Sour_La-Royal_photo-by-Theodore-Samuels_compressed-2000x2000.jpg",
+      "page_url": "https://blog.resy.com/2022/06/everything-you-need-to-know-about-la-royal-best-peruvian-cambridge/",
+      "credit": "Theodore Samuels, courtesy of La Royal (Resy)",
+      "width": 2000,
+      "height": 2000,
+      "scores": {
+       "identity": 3,
+       "authority": 1,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 0
+      },
+      "total": 10,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 2000x2000"
+     },
+     "runners_up": []
+    }
+   ]
+  },
+  {
+   "name": "Zurito",
+   "items": [
+    {
+     "item": "Gildas (anchovy, guindilla, olive skewers)",
+     "best": {
+      "url": "https://images.getbento.com/accounts/399c6666869ed17ff2e89a5924520f73/media/images/24412zurito_brian_samuels_photography_30october2024img_9362_copy.jpeg?w=1600&fit=max&auto=compress,format",
+      "page_url": "https://www.zuritoboston.com/",
+      "credit": "Zurito / Brian Samuels Photography",
+      "width": 1600,
+      "height": 2399,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 13,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 1600x2399"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.getbento.com/accounts/399c6666869ed17ff2e89a5924520f73/media/images/1556zurito_brian_samuels_photography_30october2024img_9429_copy.jpeg?w=1600&fit=max&auto=compress,format",
+       "page_url": "https://www.zuritoboston.com/",
+       "credit": "Zurito / Brian Samuels Photography",
+       "width": 1600,
+       "height": 2399,
+       "scores": {
+        "identity": 2,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 2,
+        "recency": 1
+       },
+       "total": 11,
+       "loads": true,
+       "checked": "HTTP 200 image/jpeg 1600x2399"
+      }
+     ]
+    },
+    {
+     "item": "Jamones y quesos board",
+     "best": {
+      "url": "https://images.getbento.com/accounts/399c6666869ed17ff2e89a5924520f73/media/images/1556zurito_brian_samuels_photography_30october2024img_9429_copy.jpeg?w=1600&fit=max&auto=compress,format",
+      "page_url": "https://www.zuritoboston.com/",
+      "credit": "Zurito / Brian Samuels Photography",
+      "width": 1600,
+      "height": 2399,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 1
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 1600x2399"
+     },
+     "runners_up": [],
+     "photo_note": "Only appears as part of a spread shot (board of cured meats in foreground)."
+    },
+    {
+     "item": "Pan con tomate with anchovies",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No official/booking-platform photo of this dish found on the restaurant site."
+    }
+   ]
+  },
+  {
+   "name": "Hecate",
+   "items": [
+    {
+     "item": "Signature cocktails from the current 'book of spells' volume",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/66b386c6daf2bd3e97ca6e66/4742f480-ea35-4f82-875e-9b4c245ff0bb/SHE+OF+THE+NIGHT-HECATE-VOL6-CITYLENSMEDIA-DSC02836.jpg?format=2500w",
+      "page_url": "https://www.hecatebar.com/cocktails-v6",
+      "credit": "Hecate / CityLens Media",
+      "width": 2500,
+      "height": 3743,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 1
+      },
+      "total": 12,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 2500x3743"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/66b386c6daf2bd3e97ca6e66/9d28a676-9672-4b32-b9bc-fefcc7ad33a1/FASNACHT-HECATE-VOL6-CITYLENSMEDIA-DSC02752.jpg?format=2500w",
+       "page_url": "https://www.hecatebar.com/cocktails-v6",
+       "credit": "Hecate / CityLens Media",
+       "width": 2500,
+       "height": 3743,
+       "scores": {
+        "identity": 3,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 2,
+        "recency": 1
+       },
+       "total": 12,
+       "loads": true,
+       "checked": "HTTP 200 image/webp 2500x3743"
+      },
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/66b386c6daf2bd3e97ca6e66/b51f2312-4744-4d68-94a1-20e2bd49e5a2/HOLLOW+HILLS-HECATE-VOL6-CITYLENSMEDIA-DSC02729.jpg?format=2500w",
+       "page_url": "https://www.hecatebar.com/cocktails-v6",
+       "credit": "Hecate / CityLens Media",
+       "width": 2102,
+       "height": 3147,
+       "scores": {
+        "identity": 3,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 2,
+        "recency": 1
+       },
+       "total": 12,
+       "loads": true,
+       "checked": "HTTP 200 image/webp 2102x3147"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Yvonne's",
+   "items": [
+    {
+     "item": "Crispy tater cubes",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official gallery has pitas (retired), duck prosciutto toast and room shots only."
+    },
+    {
+     "item": "Large-format mules (Passion Fruit Mule)",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Only cocktail on site is a different drink (Honeybee, credit Nina Gallant)."
+    }
+   ]
+  },
+  {
+   "name": "haley.henry",
+   "items": [
+    {
+     "item": "Tinned fish service",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/57b262de20099e4e5ee77d8d/1496511384116-RDNZ8EUN3YNWJ4SB2IZ1/haley.henry+wine+bar_Brian+Samuels+Photography_July+2016+-+11.jpg?format=2500w",
+      "page_url": "https://www.haleyhenry.com/",
+      "credit": "haley.henry / Brian Samuels Photography",
+      "width": 2500,
+      "height": 1667,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 13,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 2500x1667"
+     },
+     "runners_up": []
+    },
+    {
+     "item": "Natural wine by the glass / half bottle",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/57b262de20099e4e5ee77d8d/1498073534229-T7JE1V92I5XUDJKYM87O/hhWINE.jpg?format=2500w",
+      "page_url": "https://www.haleyhenry.com/",
+      "credit": "haley.henry (official site)",
+      "width": 1080,
+      "height": 720,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 2,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 1080x720"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/57b262de20099e4e5ee77d8d/1487965664442-HZWPI49JTHVP95YC8JK9/wine+bar+MT.jpg?format=2500w",
+       "page_url": "https://www.haleyhenry.com/",
+       "credit": "haley.henry (official site)",
+       "width": 800,
+       "height": 534,
+       "scores": {
+        "identity": 2,
+        "authority": 3,
+        "resolution": 2,
+        "composition": 3,
+        "recency": 1
+       },
+       "total": 11,
+       "loads": true,
+       "checked": "HTTP 200 image/webp 800x534"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Backbar",
+   "items": [],
+   "photo_note": "No allowed source: the official site is offline and Instagram can't be hotlinked; editorial photos found are staff/writer shots (Boston Magazine), not credited to the bar."
+  },
+  {
+   "name": "Blossom Bar",
+   "items": [
+    {
+     "item": "Angie Valencia",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/5938d09be4fcb5a7cf6ba4fc/1515144462841-LEM8KIP3SRMDZW7F9R9S/unnamed-3.jpg",
+      "page_url": "https://www.blossombarbrookline.com/",
+      "credit": "Blossom Bar (official site)",
+      "width": 1080,
+      "height": 1620,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 2,
+       "composition": 3,
+       "recency": 0
+      },
+      "total": 10,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 1080x1620"
+     },
+     "runners_up": [],
+     "note": "Papaya-garnished cocktail uploaded Jan 2018, the same week the papaya-based Angie Valencia was teased; likely but not captioned."
+    }
+   ]
+  },
+  {
+   "name": "Liars",
+   "items": [],
+   "photo_note": "Official site has no food/drink photos and OpenTable listing could not be fetched; the review photos are Infatuation/Globe photographers (not credited to the restaurant), so not allowed."
+  },
+  {
+   "name": "Toro",
+   "items": [
+    {
+     "item": "Maíz asado (grilled street corn)",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No corn photo on the official site; nothing allowed found."
+    },
+    {
+     "item": "Paella Valenciana",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/56e9f2ce45bf21d097847a21/1543349000487-SOKUL7E09CFLIDA3SRAI/toro_boston_PaellaValenciana.jpg?format=2500w",
+      "page_url": "https://www.toro-restaurant.com/boston",
+      "credit": "Toro (official site)",
+      "width": 1600,
+      "height": 1067,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 13,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 1600x1067"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/56e9f2ce45bf21d097847a21/1708449780733-HU4MQLN6CBBPH7RNYBCT/0Z1A6361.JPG?format=2500w",
+       "page_url": "https://www.toro-restaurant.com/boston",
+       "credit": "Toro (official site)",
+       "width": 2500,
+       "height": 1667,
+       "scores": {
+        "identity": 2,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 2,
+        "recency": 1
+       },
+       "total": 11,
+       "loads": true,
+       "checked": "HTTP 200 image/webp 2500x1667"
+      }
+     ]
+    },
+    {
+     "item": "Patatas bravas",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/56e9f2ce45bf21d097847a21/1581012964607-2IWUE0Q41MOHNMINYOIR/patatas-bravas-1-1024x682.jpg?format=2500w",
+      "page_url": "https://www.toro-restaurant.com/boston",
+      "credit": "Toro (official site)",
+      "width": 1024,
+      "height": 682,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 2,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 12,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 1024x682"
+     },
+     "runners_up": []
+    }
+   ]
+  },
+  {
+   "name": "Fox & the Knife",
+   "items": [
+    {
+     "item": "Taleggio-stuffed focaccia",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No dish-specific official photo found; site only has a generic pasta shot and a cocktail shot."
+    },
+    {
+     "item": "Tagliatelle Bolognese",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "Official site has one 2019 Brian Samuels pasta photo (https://images.squarespace-cdn.com/content/v1/5bb80dcab10f25306d77bbce/1550592795830-2D9HLIA4LNCAC7IHQ7W5/FOX+%26+THE+KNIFE_CREDIT+BRIAN+SAMUELS+PHOTOGRAPHY_FEBRUARY+2019-0791+copy.jpg?format=2500w, 2048x1365, HTTP 200) but the pasta shape/sauce can't be confirmed as the Bolognese, so not used."
+    }
+   ]
+  },
+  {
+   "name": "Row 34",
+   "items": [
+    {
+     "item": "Lobster roll (warm buttered or Ethel's creamy)",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No lobster roll photo on the official site; nothing allowed found."
+    },
+    {
+     "item": "Raw bar oysters",
+     "best": {
+      "url": "https://images.getbento.com/accounts/0458dfcde69e52599298b5a6f7714c1d/media/images/97434DSC_3477.jpg?w=1800&fit=max&auto=compress,format",
+      "page_url": "https://www.row34.com/",
+      "credit": "Row 34 (official site)",
+      "width": 1800,
+      "height": 1200,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 1
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 1800x1200"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.getbento.com/accounts/0458dfcde69e52599298b5a6f7714c1d/media/images/81135OCT-5987.jpg?w=1800&fit=max&auto=compress,format",
+       "page_url": "https://www.row34.com/",
+       "credit": "Row 34 (official site)",
+       "width": 1024,
+       "height": 683,
+       "scores": {
+        "identity": 2,
+        "authority": 3,
+        "resolution": 2,
+        "composition": 2,
+        "recency": 1
+       },
+       "total": 10,
+       "loads": true,
+       "checked": "HTTP 200 image/jpeg 1024x683"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Baleia",
+   "items": [
+    {
+     "item": "Shrimp Mozambique",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/642c3df346c4eb468d60e174/041be2d4-e09d-4148-b895-c7ff577c2ffa/Baleia_EmilyKan_1.jpg?format=1500w",
+      "page_url": "https://www.baleiaboston.com/menu",
+      "credit": "Baleia / Emily Kan",
+      "width": 1500,
+      "height": 1072,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 1
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 1500x1072"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/642c3df346c4eb468d60e174/1710167865431-NZIML8AB5J3IMUKYQ0UM/Baleia_EmilyKan_6.jpg?format=1500w",
+       "page_url": "https://www.baleiaboston.com/",
+       "credit": "Baleia / Emily Kan",
+       "width": 1081,
+       "height": 1452,
+       "scores": {
+        "identity": 2,
+        "authority": 3,
+        "resolution": 2,
+        "composition": 2,
+        "recency": 1
+       },
+       "total": 10,
+       "loads": true,
+       "checked": "HTTP 200 image/webp 1081x1452"
+      },
+      {
+       "url": "https://blog.resy.com/wp-content/uploads/2024/04/Baleia_EmilyKan_49-2048x1463.jpg",
+       "page_url": "https://blog.resy.com/2024/04/baleia-boston/",
+       "credit": "Emily Kan, courtesy of Baleia (via Resy)",
+       "width": 2048,
+       "height": 1463,
+       "scores": {
+        "identity": 2,
+        "authority": 1,
+        "resolution": 3,
+        "composition": 2,
+        "recency": 1
+       },
+       "total": 9,
+       "loads": true,
+       "checked": "HTTP 200 image/jpeg 2048x1463"
+      }
+     ]
+    },
+    {
+     "item": "Seared cod with caldo verde",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/642c3df346c4eb468d60e174/041be2d4-e09d-4148-b895-c7ff577c2ffa/Baleia_EmilyKan_1.jpg?format=1500w",
+      "page_url": "https://www.baleiaboston.com/menu",
+      "credit": "Baleia / Emily Kan",
+      "width": 1500,
+      "height": 1072,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 1
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 1500x1072"
+     },
+     "runners_up": [],
+     "photo_note": "Appears within a multi-dish spread (cod on green sauce, right side)."
+    },
+    {
+     "item": "Duck rice",
+     "best": null,
+     "runners_up": [],
+     "photo_note": "No duck rice photo in the official site/press set."
+    }
+   ]
+  },
+  {
+   "name": "The Wig Shop",
+   "items": [
+    {
+     "item": "Lobster pancakes",
+     "best": {
+      "url": "https://images.getbento.com/accounts/f49b99fbd611f6f6555dc1142414558f/media/images/56459WIG_SHOP_CREDIT_BRIAN_SAMUELS_PHOTOGRAPHY_2SEPTEMBER2022_-_IMG_6291_copy.jpg",
+      "page_url": "https://www.wigshopboston.com/menus/",
+      "credit": "Brian Samuels Photography for The Wig Shop",
+      "width": 2048,
+      "height": 1366,
+      "scores": {
+       "identity": 3,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 0
+      },
+      "total": 12,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 2048x1366"
+     },
+     "runners_up": [
+      {
+       "url": "https://blog.resy.com/wp-content/uploads/2023/02/wigs3.jpeg",
+       "page_url": "https://blog.resy.com/2023/02/wig-shop-boston-cocktails/",
+       "credit": "Brian Samuels Photography, courtesy The Wig Shop (via Resy)",
+       "width": 1067,
+       "height": 1600,
+       "scores": {
+        "identity": 3,
+        "authority": 1,
+        "resolution": 2,
+        "composition": 3,
+        "recency": 0
+       },
+       "total": 9,
+       "loads": true,
+       "checked": "HTTP 200 image/jpeg 1067x1600"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Farmacia",
+   "items": [
+    {
+     "item": "Seasonal 'chapter' cocktail progression",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/61dd76ceeb6a2c53c23158f7/1732991304863-CWVWXJB7RLNSDE6TAJCY/image-asset.jpeg",
+      "page_url": "https://www.farmacianorthend.com/cocktails",
+      "credit": "Brian Samuels Photography for Farmacia",
+      "width": 1440,
+      "height": 1818,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 3,
+       "recency": 1
+      },
+      "total": 12,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 1440x1818"
+     },
+     "runners_up": [
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/61dd76ceeb6a2c53c23158f7/1727289593895-YAI35DEDMRERT3N17DHA/image-asset.jpeg",
+       "page_url": "https://www.farmacianorthend.com/cocktails",
+       "credit": "Brian Samuels Photography for Farmacia",
+       "width": 1440,
+       "height": 1440,
+       "scores": {
+        "identity": 2,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 3,
+        "recency": 0
+       },
+       "total": 11,
+       "loads": true,
+       "checked": "HTTP 200 image/webp 1440x1440"
+      },
+      {
+       "url": "https://images.squarespace-cdn.com/content/v1/61dd76ceeb6a2c53c23158f7/b71d910c-56be-47f5-b23f-5ead70b329ac/_DSF0287.jpg",
+       "page_url": "https://www.farmacianorthend.com/",
+       "credit": "Farmacia (official site)",
+       "width": 2500,
+       "height": 1667,
+       "scores": {
+        "identity": 2,
+        "authority": 3,
+        "resolution": 3,
+        "composition": 3,
+        "recency": 0
+       },
+       "total": 11,
+       "loads": true,
+       "checked": "HTTP 200 image/webp 2500x1667"
+      }
+     ],
+     "note": "Best is 'A Tribute to Roots' (carrot tequila) from a past chapter, posted Nov 2024; runner-up is 'The Peanut Butter & Jelly' (Sept 2024). Chapters rotate, so these are representative, not current."
+    }
+   ]
+  },
+  {
+   "name": "Trina's Starlite Lounge",
+   "items": [
+    {
+     "item": "Hot dogs (Starlite dog, corn dog, Hot Dog Tower)",
+     "best": {
+      "url": "https://trinastarlite.com/wp-content/uploads/2024/04/TSL-hot-dog.jpg",
+      "page_url": "https://trinastarlite.com/",
+      "credit": "Trina's Starlite Lounge (official site)",
+      "width": 1024,
+      "height": 683,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 2,
+       "composition": 3,
+       "recency": 0
+      },
+      "total": 10,
+      "loads": true,
+      "checked": "HTTP 200 image/jpeg 1024x683"
+     },
+     "runners_up": [],
+     "note": "A topped hot dog from the official homepage; exact variant not captioned."
+    }
+   ]
+  },
+  {
+   "name": "The Koji Club",
+   "items": [],
+   "photo_note": "Official site/Resy imagery shows the bar, bottles and people, not the rice bowl or snacks; nothing with clear dish identity."
+  },
+  {
+   "name": "Extra Dirty Cocktail Club",
+   "items": [
+    {
+     "item": "Themed multi-course cocktail tasting ('Acts')",
+     "best": {
+      "url": "https://images.squarespace-cdn.com/content/v1/672cec8c7b1b720a3e544633/ea908d53-cbf3-4595-94fe-089de2986311/EXTRA+DIRTY+COCKTAIL+CLUB_BRIAN+SAMUELS+PHOTOGRAPHY_NOVEMBER+2024-IMG_0453+copy.jpg",
+      "page_url": "https://www.extradirtynorthend.com/",
+      "credit": "Brian Samuels Photography for Extra Dirty Cocktail Club",
+      "width": 2048,
+      "height": 1366,
+      "scores": {
+       "identity": 2,
+       "authority": 3,
+       "resolution": 3,
+       "composition": 2,
+       "recency": 1
+      },
+      "total": 11,
+      "loads": true,
+      "checked": "HTTP 200 image/webp 2048x1366"
+     },
+     "runners_up": [],
+     "note": "Cocktail being strained at the bar (Nov 2024 shoot); representative of the tasting, not a specific current drink."
+    }
+   ]
+  },
+  {
+   "name": "Wusong Road",
+   "items": [],
+   "photo_note": "Official site uses only illustrations; OpenTable listing could not be fetched; review photos are staff/editorial (e.g. Boston Magazine photographer), not credited to the bar."
+  }
+ ]
+}

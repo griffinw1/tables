@@ -1,0 +1,1848 @@
+{
+ "city": "boston",
+ "generated": "2026-11-21",
+ "method": "see NOTES.md",
+ "source_index": {
+  "MICH": {
+   "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+   "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+  },
+  "E38": {
+   "name": "Eater Boston 38 (updated Oct 8, 2026)",
+   "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+  },
+  "EHEAT": {
+   "name": "Eater Boston Heatmap (Nov 18, 2026)",
+   "url": "https://boston.eater.com/maps/new-best-heatmap-boston-restaurants"
+  },
+  "EBARS": {
+   "name": "Eater Boston new cocktail bars heatmap (Aug 4, 2026)",
+   "url": "https://boston.eater.com/maps/best-new-bars-boston-cocktail-heatmap"
+  },
+  "INF25": {
+   "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+   "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+  },
+  "INFNEW": {
+   "name": "The Infatuation: Best New Restaurants of 2026 (Nov 9, 2026)",
+   "url": "https://www.theinfatuation.com/boston/guides/best-new-restaurants-boston-2026"
+  },
+  "INFBARS": {
+   "name": "The Infatuation: Best Bars in Boston (Nov 13, 2026)",
+   "url": "https://www.theinfatuation.com/boston/guides/best-bars-boston"
+  },
+  "BM50": {
+   "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+   "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+  },
+  "NYT": {
+   "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+   "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+  },
+  "TO": {
+   "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+   "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+  },
+  "TOBARS": {
+   "name": "Time Out: Best Bars in Boston (Apr 2026)",
+   "url": "https://www.timeout.com/boston/bars/best-bars-in-boston"
+  },
+  "TOCOCK": {
+   "name": "Time Out: Best Cocktail Bars in Boston (Oct 2024)",
+   "url": "https://www.timeout.com/boston/bars/best-cocktail-bars-in-boston"
+  },
+  "RESY": {
+   "name": "Resy Hit List Boston (Nov 2026)",
+   "url": "https://blog.resy.com/the-hit-list/boston-restaurants-nov-2026/"
+  },
+  "RBELI": {
+   "name": "Resy x Beli: Top Ranked Resy Restaurants in Boston (Oct 30, 2026)",
+   "url": "https://blog.resy.com/2026/10/beli-restaurants-boston/"
+  },
+  "JB": {
+   "name": "James Beard Awards 2026 semifinalists (New England)",
+   "url": "https://www.boston.com/food/food-news/2026/01/21/2026-james-beard-semifinalists-new-england/"
+  },
+  "NA50": {
+   "name": "North America's 50 Best Bars 2026 (51-100 list)",
+   "url": "https://www.timeout.com/boston/news/these-two-bars-in-boston-were-just-named-some-of-the-best-in-north-america-040126"
+  },
+  "BOB": {
+   "name": "Boston Magazine Best of Boston (Best Cocktail Bar winner, archive)",
+   "url": "https://bostonmagazine.com/best-of-boston-archive/"
+  },
+  "BMNEW": {
+   "name": "Boston Magazine Best of Boston 2026 (Best New Restaurant / Best Restaurant South)",
+   "url": "https://www.boston.com/food/food-news/2026/06/30/best-new-restaurant-fallow-kin-boston-magazine/"
+  }
+ },
+ "dropped": [
+  {
+   "name": "Drink",
+   "reason": "permanently closed (verified)",
+   "detail": [
+    "PERMANENTLY CLOSED since January 2024 (NBC Boston, CBS, Boston Magazine); described as 'now-shuttered' by Boston.com in Oct 2026."
+   ]
+  }
+ ],
+ "places": [
+  {
+   "name": "La Padrona",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Back Bay (Raffles Boston)",
+   "city": "Boston",
+   "cuisine": "Italian (regional, handmade pasta)",
+   "price": "$$$$",
+   "address": "38 Trinity Place (inside Raffles Boston), Boston, MA 02116",
+   "phone": "(617) 898-0010",
+   "website": "https://www.lapadronaboston.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/boston-ma/venues/la-padrona",
+    "notes": "Official reservations page: Resy only; tables release at 9:00 AM ET on a rolling 14-day window (dining room, high-tops and 2nd-floor bar seats all listed online). First-floor bar & lounge is held for walk-ins, first come first served. If sold out, use Resy 'Notify' (their waitlist). 'Club Room (Quiet Dining)' tables are bookable when available. Parties 14+ / private dining via events manager."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    },
+    {
+     "name": "Resy x Beli: Top Ranked Resy Restaurants in Boston (Oct 30, 2026)",
+     "url": "https://blog.resy.com/2026/10/beli-restaurants-boston/"
+    },
+    {
+     "name": "James Beard Awards 2026 semifinalists (New England)",
+     "url": "https://www.boston.com/food/food-news/2026/01/21/2026-james-beard-semifinalists-new-england/"
+    }
+   ],
+   "source_count": 8,
+   "rank_by_sources": 1
+  },
+  {
+   "name": "Sarma",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Winter Hill (near Union Square)",
+   "city": "Somerville",
+   "cuisine": "Eastern Mediterranean / Turkish meze small plates",
+   "price": "$$$",
+   "address": "249 Pearl Street, Somerville, MA 02145",
+   "phone": "(617) 764-4464",
+   "website": "https://www.sarmarestaurant.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/bos/sarma",
+    "notes": "Parties up to 6 book on Resy up to 30 days out; a new day releases every morning at 10 AM ET (or call after 3 PM). 7+ need an event form and a fixed $150pp menu. 20-seat bar plus high-tops are walk-in only, first come first served. 20% gratuity added for 6+. Closed Nov 26, Dec 24-28 and Jan 1 this season."
+   },
+   "sources": [
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    },
+    {
+     "name": "Resy Hit List Boston (Nov 2026)",
+     "url": "https://blog.resy.com/the-hit-list/boston-restaurants-nov-2026/"
+    },
+    {
+     "name": "Resy x Beli: Top Ranked Resy Restaurants in Boston (Oct 30, 2026)",
+     "url": "https://blog.resy.com/2026/10/beli-restaurants-boston/"
+    }
+   ],
+   "source_count": 6,
+   "rank_by_sources": 2
+  },
+  {
+   "name": "Mooncusser",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Back Bay / Bay Village (Stuart St at Columbus Ave)",
+   "city": "Boston",
+   "cuisine": "Seafood-leaning contemporary tasting menu (Moon Bar downstairs is a la carte)",
+   "price": "$$$$",
+   "address": "304 Stuart St, Boston, MA 02116",
+   "phone": "(617) 917-5193",
+   "website": "https://www.mooncusserboston.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/restref/client/?rid=732835",
+    "notes": "Official site's reservation widget sends to OpenTable (Mooncusser rid 732835; downstairs Moon Bar rid 1078120). Dining room Tue-Sat 5-9 PM. Tasting menu $135, wine pairing $75 (autumn menu from 10/13/26). Validated parking at 10 St. James Garage ($15 up to 3 hrs)."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    }
+   ],
+   "source_count": 6,
+   "rank_by_sources": 3
+  },
+  {
+   "name": "Mahaniyom",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "adjacent",
+   "neighborhood": "Brookline Village",
+   "city": "Brookline",
+   "cuisine": "Thai (Thai tapas / drinking-food bar)",
+   "price": "$$",
+   "address": "236 Washington St, Brookline, MA 02445",
+   "phone": "(617) 487-5986",
+   "website": "https://www.mahaniyomboston.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/mahaniyom-brookline",
+    "notes": "Site's Reservations link goes to OpenTable. Lunch 11:30-2 and dinner from 4 PM; closed Tuesdays. Tiny room (about 8 bar seats plus a few tables), so book ahead; takeout also offered."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    }
+   ],
+   "source_count": 6,
+   "rank_by_sources": 4
+  },
+  {
+   "name": "Field & Vine",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Union Square",
+   "city": "Somerville",
+   "cuisine": "Seasonal New American small plates, live-fire Argentine asado",
+   "price": "$$$",
+   "address": "9 Sanborn Court, Somerville, MA 02143",
+   "phone": "(617) 718-2333",
+   "website": "https://www.fieldandvinesomerville.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/bos/field-and-vine",
+    "notes": "Official site links to Resy (or call). Tables are held for 2 hours from the booked time and only complete parties are seated. Open Tue-Thu 5-8:45 PM, Fri-Sat 5-9:30 PM; closed Sun-Mon. A tasting-menu option is also offered."
+   },
+   "sources": [
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    },
+    {
+     "name": "Resy x Beli: Top Ranked Resy Restaurants in Boston (Oct 30, 2026)",
+     "url": "https://blog.resy.com/2026/10/beli-restaurants-boston/"
+    }
+   ],
+   "source_count": 5,
+   "rank_by_sources": 5
+  },
+  {
+   "name": "Comfort Kitchen",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Upham's Corner, Dorchester",
+   "city": "Boston",
+   "cuisine": "Global comfort food of the African diaspora (Caribbean, West African, South Asian influences)",
+   "price": "$$$",
+   "address": "611 Columbia Rd, Dorchester, MA 02125",
+   "phone": "(617) 329-6910",
+   "website": "https://www.comfortkitchenbos.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/comfort-kitchen-boston",
+    "notes": "Official reservations page links to OpenTable (rid 1277473). Dinner Wed-Sun 4:30-9 PM last seating; Sunday brunch. Reservations required for dinner; 2-hour table limit; 15-minute late hold. Cancel by 5 PM the day before or pay $25/person; $10/guest fee for same-day party-size changes; manage everything via OpenTable (they don't check voicemail). A few walk-ins at the 6-stool bar and patios."
+   },
+   "sources": [
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    },
+    {
+     "name": "James Beard Awards 2026 semifinalists (New England)",
+     "url": "https://www.boston.com/food/food-news/2026/01/21/2026-james-beard-semifinalists-new-england/"
+    }
+   ],
+   "source_count": 5,
+   "rank_by_sources": 6
+  },
+  {
+   "name": "Neptune Oyster",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "North End",
+   "city": "Boston",
+   "cuisine": "Seafood / oyster bar",
+   "price": "$$$",
+   "address": "63 Salem St, Boston, MA 02113",
+   "phone": "(617) 742-3474",
+   "website": "https://www.neptuneoyster.com/",
+   "booking": {
+    "platform": "walkin",
+    "url": "https://www.neptuneoyster.com/",
+    "notes": "No reservations, walk-ins only (stated on the official site). Opens 11 AM daily; kitchen to 9:30 PM weekdays / 10:30 PM weekends, raw bar 30 minutes later. Takeout via their online ordering. Website currently shows an 'under construction' banner but the menu page is live."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    }
+   ],
+   "source_count": 5,
+   "rank_by_sources": 7
+  },
+  {
+   "name": "O Ya",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Leather District",
+   "city": "Boston",
+   "cuisine": "Japanese inventive omakase / sushi",
+   "price": "$$$$",
+   "address": "9 East St, Boston, MA 02111",
+   "phone": "(617) 654-9900",
+   "website": "https://www.o-ya.restaurant/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/o-ya-restaurant-reservations-boston?restref=28066",
+    "notes": "Official site links to OpenTable. Reservations open 30 days ahead, one day at a time. Prepaid: $295/guest + tax + 20% administrative fee (about $383/guest), no further tip; all sales final but transferable. Parties over 4 (max 6) by phone/email only. Vegetarian/vegan menus only at 5:00, 5:30 and 8:30 PM seatings. Tue-Sat 5-9 PM."
+   },
+   "sources": [
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    },
+    {
+     "name": "James Beard Awards 2026 semifinalists (New England)",
+     "url": "https://www.boston.com/food/food-news/2026/01/21/2026-james-beard-semifinalists-new-england/"
+    }
+   ],
+   "source_count": 5,
+   "rank_by_sources": 8
+  },
+  {
+   "name": "Tonino",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Jamaica Plain",
+   "city": "Boston",
+   "cuisine": "Roman-style Italian (pizza bianca, pizza, handmade pasta)",
+   "price": "$$$",
+   "address": "669A Centre St, Jamaica Plain, MA 02130",
+   "phone": "(617) 524-9217",
+   "website": "https://www.toninojp.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/bos/tonino",
+    "notes": "Online only via Resy; released daily at noon, 30 days out to the date, and they fill almost immediately. Use Resy Notify (most cancellations appear in the week before). Two counter seats held for walk-ins nightly, given to the first two people at the door at 5 PM, then a waitlist. Open Sun-Mon 5-9:30, Thu-Sat 5-10:30; closed Tue-Wed."
+   },
+   "sources": [
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    },
+    {
+     "name": "Resy x Beli: Top Ranked Resy Restaurants in Boston (Oct 30, 2026)",
+     "url": "https://blog.resy.com/2026/10/beli-restaurants-boston/"
+    },
+    {
+     "name": "James Beard Awards 2026 semifinalists (New England)",
+     "url": "https://www.boston.com/food/food-news/2026/01/21/2026-james-beard-semifinalists-new-england/"
+    }
+   ],
+   "source_count": 5,
+   "rank_by_sources": 9
+  },
+  {
+   "name": "Urban Hearth",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Inman Square (moved from North Cambridge / Mass Ave)",
+   "city": "Cambridge",
+   "cuisine": "Seasonal New England / contemporary American; chef's counter tasting menu",
+   "price": "$$$$",
+   "address": "1281 Cambridge St, Cambridge, MA 02139",
+   "phone": "(617) 682-7295",
+   "website": "https://www.urbanhearth.net/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/booking/experiences-availability?rid=342889&restref=342889&experienceId=843624",
+    "notes": "Official reservations page books via OpenTable (rid 342889). The link above is the Chef's Counter experience: 6 seats, $190pp plus tax/tip, Tue-Sat at 5:45 and 8:15 PM, omnivore or vegetarian; card required; wine pairing $85 / premium $120 / zero-proof $65. A la carte dining room also on OpenTable (Tue-Sun 5-10 PM); Bar & Salon to 11 PM, walk-ins welcome. 20% gratuity for 6+."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    }
+   ],
+   "source_count": 4,
+   "rank_by_sources": 10
+  },
+  {
+   "name": "311 Omakase",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "South End",
+   "city": "Boston",
+   "cuisine": "Japanese omakase (Edomae-leaning sushi counter); also styled 'Three 1 One'",
+   "price": "$$$$",
+   "address": "605 Tremont St, Boston, MA 02118",
+   "phone": "(781) 831-0311",
+   "website": "https://311boston.com/",
+   "booking": {
+    "platform": "tock",
+    "url": "https://www.exploretock.com/three-1-one-boston",
+    "notes": "Official site links to Tock. New reservations open at 12:00 PM ET on the 15th of each month, booking up to 75 days ahead. About 10 seats, two seatings nightly. Dietary restrictions must be sent 72+ hours ahead; no vegetarian/vegan, no-raw-fish, halal or no-rice menus. Eater advises joining the waitlist for several nights since last-minute openings happen."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    }
+   ],
+   "source_count": 4,
+   "rank_by_sources": 11
+  },
+  {
+   "name": "Oleana",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Inman Square",
+   "city": "Cambridge",
+   "cuisine": "Eastern Mediterranean / Turkish-inspired meze",
+   "price": "$$$",
+   "address": "134 Hampshire St, Cambridge, MA 02139",
+   "phone": "(617) 661-0505",
+   "website": "https://www.oleanarestaurant.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/bos/oleana",
+    "notes": "Site's Reservations page embeds Resy. Books up to 30 days ahead. Space is held every night for walk-ins; bar and patio are first-come only (cannot be reserved). Parties 7-14: main dining room only at 5-6 PM or 8:30 PM+, $105/pp family-style menu, up to 90 days out, Sun-Thu only. Host line answers questions after 3 PM."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "Resy x Beli: Top Ranked Resy Restaurants in Boston (Oct 30, 2026)",
+     "url": "https://blog.resy.com/2026/10/beli-restaurants-boston/"
+    }
+   ],
+   "source_count": 4,
+   "rank_by_sources": 12
+  },
+  {
+   "name": "Giulia",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Porter Square / Harvard-Porter (Mass Ave)",
+   "city": "Cambridge",
+   "cuisine": "Italian (handmade pasta)",
+   "price": "$$$",
+   "address": "1682 Massachusetts Ave, Cambridge, MA 02138",
+   "phone": "(617) 441-2800",
+   "website": "https://www.giuliarestaurant.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/restref/client/?rid=95506&restref=95506",
+    "notes": "Official Reservations page embeds the OpenTable widget (restaurant id 95506). Books exactly 2 weeks out; since Jan 1, 2026 new dates release at 10:00 AM ET daily (not midnight). Tables usually fully reserved before opening; 18-seat full-service bar is walk-in with an in-person waitlist once full. Patio tables by phone only. 2-hour table limit; $25/guest no-show/late-cancel (<24h). Parties of 6 rarely accommodated ($475 F&B minimum); the Pasta Table (up to 12) books up to 6 months out."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    }
+   ],
+   "source_count": 4,
+   "rank_by_sources": 13
+  },
+  {
+   "name": "Pammy's",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Between Central and Harvard Squares (Mass Ave)",
+   "city": "Cambridge",
+   "cuisine": "Italian-inspired New American (pasta-focused)",
+   "price": "$$$",
+   "address": "928 Massachusetts Ave, Cambridge, MA 02139",
+   "phone": "(617) 945-1761",
+   "website": "https://www.pammyscambridge.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/restref/client/?rid=731962&restref=731962",
+    "notes": "Site's #reserve-section embeds the OpenTable widget (rid 731962). Reservations up to 30 days ahead, parties of 5 or fewer only (no exceptions for 6+). Every dining-room reservation is the $88 three-course choose-your-own-adventure prix fixe; the bar & lounge serve the menu a la carte and welcome walk-ins."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    }
+   ],
+   "source_count": 4,
+   "rank_by_sources": 14
+  },
+  {
+   "name": "Moëca",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Porter Square / Harvard-Porter",
+   "city": "Cambridge",
+   "cuisine": "Seafood (global, seasonal)",
+   "price": "$$$",
+   "address": "1 Shepard St, Cambridge, MA 02138",
+   "phone": "(617) 945-0040",
+   "website": "https://www.moecarestaurant.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/restref/client/?rid=1246282&restref=1246282",
+    "notes": "Official Reservations page embeds the OpenTable widget (rid 1246282). Last dining-room reservation 9:00 PM. Parties of 5+ must call (617) 945-0040 or email info@moecarestaurant.com. Open Tue-Sat (per Time Out). Sibling of Giulia (same owners)."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    }
+   ],
+   "source_count": 4,
+   "rank_by_sources": 15
+  },
+  {
+   "name": "Lenox Sophia",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "South Boston (A St & W 3rd St, Fort Point edge)",
+   "city": "Boston",
+   "cuisine": "New American tasting menu (French/Japanese/Italian influences), BYOB",
+   "price": "$$$",
+   "address": "87 A St, Boston, MA 02127",
+   "phone": "(617) 597-2170",
+   "website": "https://www.lenoxsophia.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/bos/lenox-sophia",
+    "notes": "Official site's Reservations button links to Resy (or call). Open Wed-Sat 5-10 PM only. 5-course prix fixe (omnivore or vegetarian), $113.36/seat on the Nov 6, 2026 menu. 90-minute seatings, 15-min grace, no partial parties; $50/person same-day cancel or no-show fee. Parties of 7+ call."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "James Beard Awards 2026 semifinalists (New England)",
+     "url": "https://www.boston.com/food/food-news/2026/01/21/2026-james-beard-semifinalists-new-england/"
+    }
+   ],
+   "source_count": 4,
+   "rank_by_sources": 16
+  },
+  {
+   "name": "Spoke Wine Bar",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Davis Square",
+   "city": "Somerville",
+   "cuisine": "Wine bar / seasonal New American small plates",
+   "price": "$$",
+   "address": "89 Holland St, Somerville, MA 02144",
+   "phone": "(617) 718-9463",
+   "website": "https://www.spokewinebar.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/bos/spoke-wine-bar",
+    "notes": "Official site links 'Book your Spoke Wine Bar reservation on Resy'. Open Wed-Sat 5-11 PM, kitchen until 10 PM. Tiny room; weeknights are walk-in friendly, reserve for weekends."
+   },
+   "sources": [
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    },
+    {
+     "name": "James Beard Awards 2026 semifinalists (New England)",
+     "url": "https://www.boston.com/food/food-news/2026/01/21/2026-james-beard-semifinalists-new-england/"
+    }
+   ],
+   "source_count": 4,
+   "rank_by_sources": 17
+  },
+  {
+   "name": "Dalia",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "South Boston (West Broadway)",
+   "city": "Boston",
+   "cuisine": "Spanish, wood-fired (Josper grill) tapas and paella",
+   "price": "$$$",
+   "address": "429 W Broadway, Boston (South Boston), MA 02127",
+   "phone": null,
+   "website": "https://www.daliaboston.com/",
+   "booking": {
+    "platform": "other",
+    "url": "https://www.doordash.com/reservations/r/dalia?utm_medium=mx_website&utm_campaign=dalia",
+    "notes": "The site's Reservations button goes to DoorDash Reservations (DoorDash's table-booking product; page sits behind a bot check). An OpenTable listing (dalia-boston) also exists, but the restaurant's own link is DoorDash. Open Tue-Sun 4 PM-1 AM, kitchen to 10 PM (11 PM Fri/Sat); weekend brunch 10 AM-2 PM plus a 2-4 PM tapas hour. No cancellation fee, but 24h notice requested. Opened April 2, 2026 (Broadway Restaurant Group, chef Nicholas Dixon); downstairs Leopard Lounge is 21+. No phone number published on the site."
+   },
+   "sources": [
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    },
+    {
+     "name": "The Infatuation: Best New Restaurants of 2026 (Nov 9, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-new-restaurants-boston-2026"
+    },
+    {
+     "name": "Boston Magazine Best of Boston 2026 (Best New Restaurant / Best Restaurant South)",
+     "url": "https://www.boston.com/food/food-news/2026/06/30/best-new-restaurant-fallow-kin-boston-magazine/"
+    }
+   ],
+   "source_count": 4,
+   "rank_by_sources": 18
+  },
+  {
+   "name": "Bar Vlaha",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "adjacent",
+   "neighborhood": "Washington Square",
+   "city": "Brookline",
+   "cuisine": "Greek (Vlach / northern Greek, live-fire)",
+   "price": "$$$",
+   "address": "1653 Beacon St, Brookline, MA 02445",
+   "phone": "(617) 906-8556",
+   "website": "https://www.barvlaha.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/restref/client/?rid=1277230&restref=1277230&lang=en-US",
+    "notes": "Site's Reservations link opens the OpenTable widget (rid 1277230; public page opentable.com/r/bar-vlaha-brookline). Dinner nightly; weekend brunch 10-3. One of Boston's hardest tables: book about a month out or walk in right at opening for bar seats. Patio first come, first served."
+   },
+   "sources": [
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    }
+   ],
+   "source_count": 4,
+   "rank_by_sources": 19
+  },
+  {
+   "name": "Wa Shin",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Bay Village",
+   "city": "Boston",
+   "cuisine": "Japanese omakase (Edomae-style sushi)",
+   "price": "$$$$",
+   "address": "222 Stuart St, Boston, MA 02116",
+   "phone": "(857) 289-9290",
+   "website": "https://washinboston.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/bos/wa-shin",
+    "notes": "Official site's 'Book on Resy' buttons link here. Reservations release online daily at 12:00 PM ET, 14 days in advance. Seatings at 5:00, 6:30, 8:00 and 9:30 PM at the hinoki counter; parties of 4 or fewer only (larger groups email reservations@washinboston.com). A 20% administrative fee is added to every check; gratuity not expected."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "Resy x Beli: Top Ranked Resy Restaurants in Boston (Oct 30, 2026)",
+     "url": "https://blog.resy.com/2026/10/beli-restaurants-boston/"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 20
+  },
+  {
+   "name": "Kaia",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "South End (Ink Block / The Quinn)",
+   "city": "Boston",
+   "cuisine": "Coastal Greek (Aegean) seafood",
+   "price": "$$$",
+   "address": "370 Harrison Ave, Boston, MA 02118",
+   "phone": "(617) 514-0700",
+   "website": "https://www.kaiasouthend.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/restref/client/?rid=1335643&restref=1335643",
+    "notes": "'Book a Reservation' on the official site opens the OpenTable widget (rid 1335643; public listing opentable.com/r/kaia-boston). Open Tue-Sat 5-11 PM, bar until 1 AM, closed Sun-Mon. Owners said at opening that many tables and the 24-seat bar are kept for walk-ins; 42-seat seasonal patio. Some guides list 380 Harrison Ave (building address); the restaurant site uses 370."
+   },
+   "sources": [
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 21
+  },
+  {
+   "name": "Celeste",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Union Square",
+   "city": "Somerville",
+   "cuisine": "Peruvian",
+   "price": "$$",
+   "address": "21 Bow St, Somerville, MA 02143",
+   "phone": "(617) 616-5319",
+   "website": "https://celesteunionsquare.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/restref/client/?rid=1182802&restref=1182802",
+    "notes": "Official /reserve page says 'Now booking through OpenTable' and embeds the OpenTable widget (rid 1182802). Open 7 days: Mon-Thu 5-10 PM, Fri-Sat 5-11 PM, Sun 4-9 PM. Small, always-busy room; bar seats are the walk-in play. Sibling restaurants: La Royal (Cambridge) and Rosa y Marigold (Back Bay, 2026)."
+   },
+   "sources": [
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 22
+  },
+  {
+   "name": "Jahunger",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Cambridgeport",
+   "city": "Cambridge",
+   "cuisine": "Uyghur (hand-pulled noodles, lamb)",
+   "price": "$$",
+   "address": "272 Brookline St, Cambridge, MA 02139",
+   "phone": "(617) 801-9725",
+   "website": "https://www.jahunger.com/",
+   "booking": {
+    "platform": "walkin",
+    "url": "https://www.jahunger.com/",
+    "notes": "Official site lists no reservation link (only phone/email); treat as walk-in. Closed Mondays; Tue-Fri 5-9:30 PM, Sat 12-9:30 PM, Sun 12-8 PM (per official site, Nov 2026). Call (617) 801-9725 for large groups."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 23
+  },
+  {
+   "name": "Sumiao Hunan Kitchen",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Kendall Square",
+   "city": "Cambridge",
+   "cuisine": "Hunan Chinese",
+   "price": "$$",
+   "address": "270 Third St, Cambridge, MA 02142",
+   "phone": "(617) 945-0907",
+   "website": "https://www.sumiaohunan.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/bos/sumiao-hunan-kitchen",
+    "notes": "Resy (linked from the official site's Reservation button). Per Resy: 1.5-hr table limit for 2-3 guests, 2 hrs for 4+; parties over 8 must book through the front desk; 7+ get a 20% gratuity plus 3% kitchen fee. Closed Mondays; Tue-Sun 11:30 AM-10 PM. Weekday lunch specials Tue-Fri 11:30-3."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 24
+  },
+  {
+   "name": "Brassica Kitchen + Café",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Jamaica Plain (Forest Hills)",
+   "city": "Boston",
+   "cuisine": "Fermentation-forward New American / French-American (low-waste); café by day",
+   "price": "$$$",
+   "address": "3710 Washington St, Jamaica Plain, MA 02130",
+   "phone": "(617) 477-4519",
+   "website": "https://www.brassicakitchen.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/booking/restref/availability?lang=en-US&restRef=212926&otSource=Restaurant%20website",
+    "notes": "OpenTable widget on the official /reservations page (rid 212926); also by phone. Parties over 6: call 2-5 PM or email the GM; max 8 for brunch, 12 for dinner. 15-minute grace period. Dinner Wed-Sat 5 PM (last seating ~8:45-9:15); brunch Sat-Sun; closed Mon & Tue (per site, Nov 2026)."
+   },
+   "sources": [
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 25
+  },
+  {
+   "name": "Fallow Kin",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Central Square",
+   "city": "Cambridge",
+   "cuisine": "Vegetable-forward New England farm-to-table (fermentation, low-waste)",
+   "price": "$$$",
+   "address": "853 Main St, Cambridge, MA 02139",
+   "phone": "(617) 395-1098",
+   "website": "https://www.fallowkin.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/cambridge-ma/venues/fallow-kin",
+    "notes": "Resy button on the official site (also by phone). Parties over 6 must call or email info@fallowkin.com. The 7-course Chef's Counter tasting (about 10 seats, overlooking the kitchen) is pre-purchased on Resy. Bar seats reported as first-come. Hours: Mon, Wed, Thu, Sun 5-10 PM; Fri-Sat 5-11 PM; closed Tuesday (per site, Nov 2026). Resy Hit List (Dec 2025)."
+   },
+   "sources": [
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    },
+    {
+     "name": "Boston Magazine Best of Boston 2026 (Best New Restaurant / Best Restaurant South)",
+     "url": "https://www.boston.com/food/food-news/2026/06/30/best-new-restaurant-fallow-kin-boston-magazine/"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 26
+  },
+  {
+   "name": "Grill 23 & Bar",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Back Bay",
+   "city": "Boston",
+   "cuisine": "Classic American steakhouse & seafood",
+   "price": "$$$$",
+   "address": "161 Berkeley St, Boston, MA 02116",
+   "phone": "(617) 542-2255",
+   "website": "https://www.grill23.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/grill-23-and-bar-reservations-boston?restref=3325&lang=en-US&ot_source=Restaurant%20website",
+    "notes": "OpenTable (rid 3325), linked from the official site's RESERVATIONS button; or call. Dinner nightly: Mon-Thu 5-10, Fri-Sat 5-10:30, Sun 5-9. Holiday lunch (Dec 8-23 select weekdays) and NYE dinner announced on site; open Thanksgiving 11-8. Bar seating for walk-ins."
+   },
+   "sources": [
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 27
+  },
+  {
+   "name": "Puritan & Company",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Inman Square",
+   "city": "Cambridge",
+   "cuisine": "New England farm-to-table American",
+   "price": "$$$",
+   "address": "1166 Cambridge St, Cambridge, MA 02139",
+   "phone": "(617) 615-6195",
+   "website": "https://www.puritancambridge.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/restaurant/profile/85192",
+    "notes": "OpenTable widget (rid 85192) embedded on the official /reserve page; reservations nightly from 5 PM, Sunday brunch 10:30-2. Walk-ins welcome. Sister Puritan Oyster Bar next door (1164 Cambridge St, OpenTable rid 1271878) holds most seats for walk-ins; half-price oysters daily 5-6 PM."
+   },
+   "sources": [
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 28
+  },
+  {
+   "name": "Somaek",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Downtown Crossing",
+   "city": "Boston",
+   "cuisine": "Korean home-style (soju/makgeolli bar)",
+   "price": "$$",
+   "address": "11 Temple Pl, Boston, MA 02111",
+   "phone": "(857) 449-9003",
+   "website": "https://www.somaek.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/bos/somaek",
+    "notes": "Resy (official site's Reservations links to resy.com/cities/bos/somaek). Bar turns over quickly, good for walk-ins. Reservations held 15 min; no-shows/cancellations inside 24 hrs charged $25/pp. Lunch Tue-Sat 12-3; dinner Mon-Thu 5-10, Fri-Sat 5-10:30; closed Sunday. Discounted parking at Lafayette Garage."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 29
+  },
+  {
+   "name": "Via Cannuccia",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Dorchester (Ashmont / Lower Mills area)",
+   "city": "Boston",
+   "cuisine": "Roman-style Italian trattoria & pizza alla pala; weekend pastries/brunch",
+   "price": "$$$",
+   "address": "1739 Dorchester Ave, Boston, MA 02124",
+   "phone": "(617) 506-1877",
+   "website": "https://www.viacannuccia.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/restref/client/?restref=1294477&lang=en-US&ot_source=Restaurant%20website",
+    "notes": "OpenTable (rid 1294477) via the official /reservation page, or call. Parties of 8+ email viacannuccia@gmail.com. Table limits: 1.5 hrs for 1-3 guests, 2 hrs for 4+. Hours: dinner Mon, Wed-Thu 5-9, Fri-Sat 5-9:30, Sun 5-9; brunch Sat-Sun 9-2; closed Tuesday. Small room (~40 seats incl. bar) - the Globe calls it one of Boston's toughest tables, so book well ahead. A few free parking spots after 4 PM (get a sticker inside)."
+   },
+   "sources": [
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 30
+  },
+  {
+   "name": "Woods Hill Pier 4",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Seaport",
+   "city": "Boston",
+   "cuisine": "Farm-to-table New American & seafood (own farm in NH)",
+   "price": "$$$",
+   "address": "300 Pier Four Blvd, Boston, MA 02210",
+   "phone": "(617) 981-4577",
+   "website": "https://www.woodshillpier4.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/bos/woods-hill-pier-4",
+    "notes": "Resy widget on the official Reservations page. Dinner Mon-Thu 5-9, Fri 5-9:30, Sat 4:30-9:30, Sun 4:30-8:30; brunch Sat-Sun 11-2:30. Bar is walk-in friendly at 5 PM; book ahead for weekend brunch / patio in summer. Entrance faces the ICA at the end of Pier 4; no parking validation. NYE 2026 dinner page live on the site."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 31
+  },
+  {
+   "name": "La Royal",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Huron Village (West Cambridge)",
+   "city": "Cambridge",
+   "cuisine": "Peruvian (Lima home cooking, Chifa & Nikkei) with pisco cocktails",
+   "price": "$$",
+   "address": "221 Concord Ave, Cambridge, MA 02138",
+   "phone": "(617) 823-1595",
+   "website": "https://www.laroyalcambridge.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/la-royal-reservations-cambridge?restref=1235005&lang=en-US&ot_source=Restaurant%20website",
+    "notes": "OpenTable (rid 1235005) from the official /reserva page; site says walk-ins always welcome. Dinner daily: Mon-Thu 5-10, Fri-Sat 5-11, Sun 5-9."
+   },
+   "sources": [
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "The Infatuation: Best Restaurants in Boston Top 25 (Sep 18, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-restaurants-in-boston-greatest-hits-list"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 32
+  },
+  {
+   "name": "Zurito",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Beacon Hill",
+   "city": "Boston",
+   "cuisine": "Basque / Spanish pintxos",
+   "price": "$$$",
+   "address": "26 Charles St, Boston, MA 02114",
+   "phone": null,
+   "website": "https://www.zuritoboston.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/boston-ma/venues/zurito",
+    "notes": "Site's reservation widget books via Resy (venue id 83922). Per the restaurant: Resy opens 30 days ahead at 10 AM; choose seating type carefully (dining room, high-top or bar) since changes aren't guaranteed; tables held 15 minutes. Hosts available from 3:30 PM daily. Hours Mon-Thu 5-10, Fri 5-11, Sat noon-11, Sun noon-9."
+   },
+   "sources": [
+    {
+     "name": "Eater Boston 38 (updated Oct 8, 2026)",
+     "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    },
+    {
+     "name": "James Beard Awards 2026 semifinalists (New England)",
+     "url": "https://www.boston.com/food/food-news/2026/01/21/2026-james-beard-semifinalists-new-england/"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 33
+  },
+  {
+   "name": "Hecate",
+   "kind": "bar",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Back Bay",
+   "city": "Boston",
+   "cuisine": "Cocktail bar (speakeasy) with snacks",
+   "price": "$$$",
+   "address": "Public Alley 443 (behind 48 Gloucester St, below Krasi), Boston, MA 02115",
+   "phone": null,
+   "website": "https://www.hecatebar.com/",
+   "booking": {
+    "platform": "walkin",
+    "url": "https://www.hecatebar.com/contact",
+    "notes": "No reservations and no phone (per the bar's contact page): first come, first served. Tue-Sat 5 PM-1 AM. 24-seat room; arrive before 5 or expect a line."
+   },
+   "sources": [
+    {
+     "name": "Time Out: Best Cocktail Bars in Boston (Oct 2024)",
+     "url": "https://www.timeout.com/boston/bars/best-cocktail-bars-in-boston"
+    },
+    {
+     "name": "North America's 50 Best Bars 2026 (51-100 list)",
+     "url": "https://www.timeout.com/boston/news/these-two-bars-in-boston-were-just-named-some-of-the-best-in-north-america-040126"
+    },
+    {
+     "name": "Boston Magazine Best of Boston (Best Cocktail Bar winner, archive)",
+     "url": "https://bostonmagazine.com/best-of-boston-archive/"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 1
+  },
+  {
+   "name": "Yvonne's",
+   "kind": "bar",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Downtown Crossing",
+   "city": "Boston",
+   "cuisine": "Global small plates / supper club",
+   "price": "$$$",
+   "address": "2 Winter Pl, Boston, MA 02108",
+   "phone": "(617) 267-0047",
+   "website": "https://www.yvonnesboston.com/",
+   "booking": {
+    "platform": "sevenrooms",
+    "url": "https://www.sevenrooms.com/reservations/yvonneboston",
+    "notes": "Site's 'Reserve a Table' goes to SevenRooms. Reservations are for supper only (not cocktails-only); tables held 15 minutes. Open Sun 4 PM-1 AM, Mon-Thu 5 PM-1 AM, Fri-Sat 4 PM-2 AM; the bars run late after the kitchen."
+   },
+   "sources": [
+    {
+     "name": "Time Out: Best Bars in Boston (Apr 2026)",
+     "url": "https://www.timeout.com/boston/bars/best-bars-in-boston"
+    },
+    {
+     "name": "Time Out: Best Cocktail Bars in Boston (Oct 2024)",
+     "url": "https://www.timeout.com/boston/bars/best-cocktail-bars-in-boston"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 2
+  },
+  {
+   "name": "haley.henry",
+   "kind": "bar",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Downtown Crossing",
+   "city": "Boston",
+   "cuisine": "Natural wine bar, tinned fish, small plates",
+   "price": "$$",
+   "address": "45 Province St, Boston, MA 02108",
+   "phone": "(617) 208-6000",
+   "website": "https://www.haleyhenry.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/bos/haley-henry-wine-bar",
+    "notes": "Site's 'Reserve Now' links to Resy; most of the room is bar seating and walk-ins are welcome. Tue-Thu 3-11 PM, Fri 3 PM-midnight, Sat noon-midnight; closed Sun-Mon."
+   },
+   "sources": [
+    {
+     "name": "Time Out: Best Bars in Boston (Apr 2026)",
+     "url": "https://www.timeout.com/boston/bars/best-bars-in-boston"
+    },
+    {
+     "name": "The Infatuation: Best Bars in Boston (Nov 13, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-bars-boston"
+    },
+    {
+     "name": "Time Out: 29 Best Restaurants in Boston (Aug 2026)",
+     "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 3
+  },
+  {
+   "name": "Backbar",
+   "kind": "bar",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Union Square",
+   "city": "Somerville",
+   "cuisine": "Craft cocktail bar",
+   "price": "$$",
+   "address": "7 Sanborn Ct, Somerville, MA 02143",
+   "phone": "(617) 718-0249",
+   "website": "https://www.facebook.com/backbarunion/",
+   "booking": {
+    "platform": "walkin",
+    "url": null,
+    "notes": "No reservations found; walk-in only. The entrance is an orange/steel door down an alley off Union Sq (between The Independent and Bronwyn). On weekends a line forms down the hallway, and staff make people wait rather than crowd the room, so come early in the evening. Old site backbarunion.com currently shows a Wix domain error, so the Facebook page is the best official link."
+   },
+   "sources": [
+    {
+     "name": "Time Out: Best Cocktail Bars in Boston (Oct 2024)",
+     "url": "https://www.timeout.com/boston/bars/best-cocktail-bars-in-boston"
+    },
+    {
+     "name": "The Infatuation: Best Bars in Boston (Nov 13, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-bars-boston"
+    },
+    {
+     "name": "Boston Magazine Best of Boston (Best Cocktail Bar winner, archive)",
+     "url": "https://bostonmagazine.com/best-of-boston-archive/"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 4
+  },
+  {
+   "name": "Blossom Bar",
+   "kind": "bar",
+   "status": "open",
+   "area": "adjacent",
+   "neighborhood": "Brookline Village",
+   "city": "Brookline",
+   "cuisine": "Latin/tropical cocktails with Sichuan food (inside Sichuan Garden)",
+   "price": "$$",
+   "address": "295 Washington St, Brookline, MA 02445",
+   "phone": "(617) 734-1870",
+   "website": "https://www.blossombarbrookline.com/",
+   "booking": {
+    "platform": "tock",
+    "url": "https://www.exploretock.com/blossombar/",
+    "notes": "Reservations on Tock; a section is kept for walk-ins. Tables get 1 hr 30 min. Groups up to 12. Bar opens daily at 5 PM (the restaurant opens at lunch)."
+   },
+   "sources": [
+    {
+     "name": "Time Out: Best Bars in Boston (Apr 2026)",
+     "url": "https://www.timeout.com/boston/bars/best-bars-in-boston"
+    },
+    {
+     "name": "Time Out: Best Cocktail Bars in Boston (Oct 2024)",
+     "url": "https://www.timeout.com/boston/bars/best-cocktail-bars-in-boston"
+    },
+    {
+     "name": "The Infatuation: Best Bars in Boston (Nov 13, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-bars-boston"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 5
+  },
+  {
+   "name": "Liars",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Teele Square",
+   "city": "Somerville",
+   "cuisine": "Drinks-focused bistro: rare spirits, natural wine, global small plates (from the Spoke Wine Bar team)",
+   "price": "$$$",
+   "address": "1153 Broadway, Somerville, MA 02144",
+   "phone": "(617) 718-0231",
+   "website": "https://www.restaurantliars.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/liars-restaurant-reservations-somerville?restref=1536826&lang=en-US&ot_source=Restaurant%20website",
+    "notes": "OpenTable via the site's Contact + Reserve page. 14-seat bar room plus a kitchen-counter bar for perching; walk in for bar seats. Open Tue-Sat; kitchen 5-10 PM, bar until 11 PM Tue-Thu and midnight Fri-Sat."
+   },
+   "sources": [
+    {
+     "name": "The Infatuation: Best New Restaurants of 2026 (Nov 9, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-new-restaurants-boston-2026"
+    },
+    {
+     "name": "The Infatuation: Best Bars in Boston (Nov 13, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-bars-boston"
+    },
+    {
+     "name": "Eater Boston Heatmap (Nov 18, 2026)",
+     "url": "https://boston.eater.com/maps/new-best-heatmap-boston-restaurants"
+    }
+   ],
+   "source_count": 3,
+   "rank_by_sources": 34
+  },
+  {
+   "name": "Toro",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "South End",
+   "city": "Boston",
+   "cuisine": "Spanish tapas (Barcelona-style)",
+   "price": "$$$",
+   "address": "1704 Washington St, Boston, MA 02118",
+   "phone": "(617) 536-4300",
+   "website": "https://www.toro-restaurant.com/boston",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/restref/client/?rid=265075",
+    "notes": "Reservations page embeds the OpenTable widget (rid 265075). Dinner Sun-Thu 5-10, Fri-Sat 5-11; Sunday brunch 11-3. Bar seats are the fallback for walk-ins. Holiday 2026: closed Thanksgiving and Christmas; NYE is prix-fixe."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    }
+   ],
+   "source_count": 2,
+   "rank_by_sources": 35
+  },
+  {
+   "name": "Fox & the Knife",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "South Boston",
+   "city": "Boston",
+   "cuisine": "Italian (Emilia-Romagna enoteca, fresh pasta)",
+   "price": "$$$",
+   "address": "28 W Broadway, Boston, MA 02127",
+   "phone": "(617) 766-8630",
+   "website": "https://www.foxandtheknife.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/fox-and-the-knife-reservations-south-boston?restref=1186147&lang=en-US&ot_source=Restaurant%20website",
+    "notes": "Site's 'Book a table' buttons go to OpenTable (the site also contains an older Resy link). Reservations release on a rolling 30-day basis; walk-ins accommodated when possible, bar is first come first served. Hours listed Wed-Sun 4-10/11 (Mon-Tue closed); site text is inconsistent, so confirm."
+   },
+   "sources": [
+    {
+     "name": "Michelin Guide Northeast Cities 2025 (Boston selection; 2026 edition not yet announced)",
+     "url": "https://www.meetboston.com/articles/post/the-michelin-guide-announces-greater-boston-restaurant-selections/"
+    },
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    }
+   ],
+   "source_count": 2,
+   "rank_by_sources": 36
+  },
+  {
+   "name": "Row 34",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Fort Point / Seaport",
+   "city": "Boston",
+   "cuisine": "Seafood / oyster bar",
+   "price": "$$$",
+   "address": "383 Congress St, Boston, MA 02210",
+   "phone": "(617) 553-5900",
+   "website": "https://www.row34.com/location/row34-boston/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/restref/client/?rid=114622",
+    "notes": "Site's reservation widget books via OpenTable (Seaport rid 114622; public page opentable.com/r/row-34-boston). Mon-Sat 11:30-10 (drinks to 11), Sun 11:30-9. Bar seating is walk-in. Stillings St garage validation after 5 PM."
+   },
+   "sources": [
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    }
+   ],
+   "source_count": 2,
+   "rank_by_sources": 37
+  },
+  {
+   "name": "Baleia",
+   "kind": "restaurant",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "South End",
+   "city": "Boston",
+   "cuisine": "Portuguese (seafood-forward)",
+   "price": "$$$",
+   "address": "264 E Berkeley St, Boston, MA 02118",
+   "phone": "(617) 505-3243",
+   "website": "https://www.baleiaboston.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/bos/baleia",
+    "notes": "Site's Reserve buttons link to Resy. Reservations Sun-Thu 5-9 PM, Fri-Sat 5-10:30 PM. Bar seats usually available for walk-ins. Parking: Lot 4 under the overpass (274 Albany St), 5 dollars for 3 hours with validation."
+   },
+   "sources": [
+    {
+     "name": "Boston Magazine Top 50 Restaurants (Oct 27, 2026)",
+     "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+    },
+    {
+     "name": "New York Times 'Where to Eat' Boston 27 (Sep 2026, via Boston.com recap)",
+     "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+    }
+   ],
+   "source_count": 2,
+   "rank_by_sources": 38
+  },
+  {
+   "name": "The Wig Shop",
+   "kind": "bar",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Downtown Crossing",
+   "city": "Boston",
+   "cuisine": "Retro-glam cocktail lounge with canapés and Champagne",
+   "price": "$$$",
+   "address": "27 Temple Pl, Boston, MA 02111",
+   "phone": null,
+   "website": "https://www.wigshopboston.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/boston-ma/venues/the-wig-shop",
+    "notes": "Mostly first come, first served. Resy reservations (venue 67458, via the site's form) only 5-7 PM Tue-Sat and all evening Sun/Mon, parties of 2-6, released one week ahead. Open daily 5 PM-2 AM; 21+."
+   },
+   "sources": [
+    {
+     "name": "Time Out: Best Bars in Boston (Apr 2026)",
+     "url": "https://www.timeout.com/boston/bars/best-bars-in-boston"
+    },
+    {
+     "name": "North America's 50 Best Bars 2026 (51-100 list)",
+     "url": "https://www.timeout.com/boston/news/these-two-bars-in-boston-were-just-named-some-of-the-best-in-north-america-040126"
+    }
+   ],
+   "source_count": 2,
+   "rank_by_sources": 6
+  },
+  {
+   "name": "Farmacia",
+   "kind": "bar",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "North End",
+   "city": "Boston",
+   "cuisine": "Ticketed cocktail tasting bar (nine seats)",
+   "price": "$$$$",
+   "address": "5 North Square, Boston, MA 02113",
+   "phone": null,
+   "website": "https://www.farmacianorthend.com/",
+   "booking": {
+    "platform": "tock",
+    "url": "https://www.exploretock.com/farmacia",
+    "notes": "Prepaid Tock tickets (about $80+/pp, covering drinks, tax and tip) release 60 days out on the 1st of the month at 12 PM and sell out in minutes; late-night seats release weekly. Walk-ins only if a seat is free. Join the site's mailing list for release reminders."
+   },
+   "sources": [
+    {
+     "name": "Time Out: Best Bars in Boston (Apr 2026)",
+     "url": "https://www.timeout.com/boston/bars/best-bars-in-boston"
+    },
+    {
+     "name": "Boston Magazine Best of Boston (Best Cocktail Bar winner, archive)",
+     "url": "https://bostonmagazine.com/best-of-boston-archive/"
+    }
+   ],
+   "source_count": 2,
+   "rank_by_sources": 7
+  },
+  {
+   "name": "Trina's Starlite Lounge",
+   "kind": "bar",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Inman Square",
+   "city": "Somerville",
+   "cuisine": "Dive/gay bar with Southern comfort food",
+   "price": "$$",
+   "address": "3 Beacon St, Somerville, MA 02143",
+   "phone": "(617) 576-0006",
+   "website": "https://trinastarlite.com/",
+   "booking": {
+    "platform": "walkin",
+    "url": null,
+    "notes": "First come, first served (official site). Open 5 PM-1 AM Mon-Thu, to 2 AM Fri-Sat, Sunday from 11 AM for brunch; kitchen until 11 PM (midnight Fri-Sat). Expect a wait for brunch and late weekend nights; put your name in and grab a drink."
+   },
+   "sources": [
+    {
+     "name": "Time Out: Best Cocktail Bars in Boston (Oct 2024)",
+     "url": "https://www.timeout.com/boston/bars/best-cocktail-bars-in-boston"
+    },
+    {
+     "name": "The Infatuation: Best Bars in Boston (Nov 13, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-bars-boston"
+    }
+   ],
+   "source_count": 2,
+   "rank_by_sources": 8
+  },
+  {
+   "name": "The Koji Club",
+   "kind": "bar",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Brighton (Charles River Speedway)",
+   "city": "Boston",
+   "cuisine": "Sake bar with Japanese snacks",
+   "price": "$$",
+   "address": "525 Western Ave, Brighton, MA 02135",
+   "phone": null,
+   "website": "https://www.thekojiclub.com/",
+   "booking": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/boston-ma/venues/the-koji-club",
+    "notes": "Walk-ins always welcome; limited Resy reservations, also used for ticketed sake tastings. About 16 seats (8 at the bar) plus a seasonal patio. Hours Tue 5-9, Wed 5-10, Thu 5-11, Fri 4-11, Sat 2-11, Sun 2-8."
+   },
+   "sources": [
+    {
+     "name": "The Infatuation: Best Bars in Boston (Nov 13, 2026)",
+     "url": "https://www.theinfatuation.com/boston/guides/best-bars-boston"
+    },
+    {
+     "name": "James Beard Awards 2026 semifinalists (New England)",
+     "url": "https://www.boston.com/food/food-news/2026/01/21/2026-james-beard-semifinalists-new-england/"
+    }
+   ],
+   "source_count": 2,
+   "rank_by_sources": 9
+  },
+  {
+   "name": "Extra Dirty Cocktail Club",
+   "kind": "bar",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "North End",
+   "city": "Boston",
+   "cuisine": "Prepaid themed cocktail tasting lounge (inside The Red Fox)",
+   "price": "$$$$",
+   "address": "326B Commercial St, Boston, MA 02109",
+   "phone": null,
+   "website": "https://www.extradirtynorthend.com/",
+   "booking": {
+    "platform": "tock",
+    "url": "https://www.exploretock.com/extra-dirty",
+    "notes": "Prepaid, all-inclusive Tock tickets (from about $115/pp). Releases are batched; one Tock notice showed releases on the 15th at 4 PM for the following month, so check Tock. Walk-ins only via the Tock app walk-in waitlist. 20 seats, no standing; keep to the booked duration (about 110 min); changes before 4 PM day-of; purchases final."
+   },
+   "sources": [
+    {
+     "name": "Time Out: Best Bars in Boston (Apr 2026)",
+     "url": "https://www.timeout.com/boston/bars/best-bars-in-boston"
+    },
+    {
+     "name": "Resy Hit List Boston (Nov 2026)",
+     "url": "https://blog.resy.com/the-hit-list/boston-restaurants-nov-2026/"
+    }
+   ],
+   "source_count": 2,
+   "rank_by_sources": 10
+  },
+  {
+   "name": "Wusong Road",
+   "kind": "bar",
+   "status": "open",
+   "area": "core",
+   "neighborhood": "Harvard Square",
+   "city": "Cambridge",
+   "cuisine": "Tiki bar with American-Chinese food",
+   "price": "$$",
+   "address": "112 Mt Auburn St, Cambridge, MA 02138",
+   "phone": "(617) 528-9125",
+   "website": "https://www.wusongroad.com/",
+   "booking": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/wusong-road-cambridge",
+    "notes": "The official site embeds an OpenTable widget (rid 1239667); walk-ins welcome for the bar. Two floors; enter the upstairs bar through the dragon mouth. Municipal lot closed through Jan 30, so use the Charles Hotel or University Place garages (discount offered)."
+   },
+   "sources": [
+    {
+     "name": "Time Out: Best Bars in Boston (Apr 2026)",
+     "url": "https://www.timeout.com/boston/bars/best-bars-in-boston"
+    }
+   ],
+   "source_count": 1,
+   "rank_by_sources": 11
+  }
+ ]
+}

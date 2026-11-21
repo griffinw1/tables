@@ -1,0 +1,4183 @@
+{
+ "city": "boston",
+ "generated": "2026-11-21",
+ "method": "see NOTES.md",
+ "places": [
+  {
+   "name": "La Padrona",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Tagliatelle Emilia-Romagna",
+     "type": "dish",
+     "why": "The signature pasta: silky ribbons in Parmigiano cream and black pepper, finished with a line of 12-year balsamico; every critic singles it out.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/la-padrona"
+      },
+      {
+       "source": "Boston Globe (Devra First review)",
+       "url": "https://www.bostonglobe.com/2025/01/29/lifestyle/luxury-hospitality-pasta-la-padrona-is-restaurant-boston-needed/"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/news/two-boston-restaurants-made-it-on-this-best-restaurants-in-america-list-091125"
+      },
+      {
+       "source": "Tiny Urban Kitchen",
+       "url": "https://tinyurbankitchen.com/jody-adams-la-padrona-in-the-raffles-hotel/"
+      }
+     ],
+     "mentions": 4
+    },
+    {
+     "item": "Birth of Venus martini",
+     "type": "drink",
+     "why": "Oyster-infused vodka with sherry and a mignonette note, served with a little dish of pickles; the bar's calling card.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/la-padrona"
+      },
+      {
+       "source": "Boston Globe",
+       "url": "https://www.bostonglobe.com/2025/01/29/lifestyle/luxury-hospitality-pasta-la-padrona-is-restaurant-boston-needed/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Tiramisu",
+     "type": "dessert",
+     "why": "Unmolded at the table, wobbly and boozy; reviewers say save room for it.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/la-padrona"
+      },
+      {
+       "source": "Boston Globe",
+       "url": "https://www.bostonglobe.com/2025/01/29/lifestyle/luxury-hospitality-pasta-la-padrona-is-restaurant-boston-needed/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Chickpea spoon bread",
+     "type": "dish",
+     "why": "A custardy, farinata-style skillet bread with a crisp bottom; a cozy starter critics push alongside the breads.",
+     "evidence": [
+      {
+       "source": "The Infatuation (food rundown)",
+       "url": "https://www.theinfatuation.com/boston/reviews/la-padrona"
+      },
+      {
+       "source": "Boston Globe",
+       "url": "https://www.bostonglobe.com/2025/01/29/lifestyle/luxury-hospitality-pasta-la-padrona-is-restaurant-boston-needed/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Milk-braised rabbit ragu fazzoletti",
+     "type": "dish",
+     "why": "Eater's must-try: handkerchief pasta with a gentle milk-braised rabbit ragu, called one of the best pastas in town.",
+     "evidence": [
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#la-padrona"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Set an alarm for 9 AM ET exactly 14 days ahead; prime weekend slots go fast.",
+    "No reservation? The first-floor bar and lounge are walk-in only; arrive near opening.",
+    "Ask for a 'Club Room (Quiet Dining)' table if you want to talk; the main room is loud.",
+    "Order the tagliatelle for the table even if you get other pastas; pair with the martini list (Birth of Venus)."
+   ],
+   "difficulty": {
+    "level": "hard",
+    "why": "Eater/Boston Magazine best-new-restaurant winner and Michelin-recommended; prime times sell out soon after the 14-day release, though bar walk-ins help."
+   },
+   "warnings": [
+    "Dining room is very lively and loud (the restaurant says so itself).",
+    "Expensive: pastas mid-$30s, mains $40-$50+; parties add up quickly.",
+    "Rabbit fazzoletti and seasonal antipasti rotate; tagliatelle is on the current menu ($34) but others may not be."
+   ]
+  },
+  {
+   "name": "Sarma",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Harissa BBQ duck",
+     "type": "dish",
+     "why": "Sweet-spicy harissa-glazed duck, the longest-running crowd favorite and the go-to hearty plate (currently with carrot brown butter and fried almonds).",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/sarma"
+      },
+      {
+       "source": "Gayot",
+       "url": "https://www.gayot.com/restaurants/menu/sarma-somerville-ma-02145_12bo131104.html"
+      },
+      {
+       "source": "Improper Bostonian",
+       "url": "https://www.improper.com/food-drink/spice-route/"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Ekmek gyro bread",
+     "type": "dish",
+     "why": "Warm za'atar flatbread that Time Out calls the no-brainer opener; cheap and always on the menu.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/sarma"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Lentil nachos",
+     "type": "dish",
+     "why": "A playful meze with feta queso and tzatziki that Infatuation names as a favorite.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/sarma"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Lamb kofte sliders",
+     "type": "dish",
+     "why": "Spiced lamb patties on small buns with tomato butter and pickles; pictured in Infatuation's review.",
+     "evidence": [
+      {
+       "source": "The Infatuation (photo carousel)",
+       "url": "https://www.theinfatuation.com/boston/reviews/sarma"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Walk-in plan: line up just before the 5 PM opening for one of the 20 bar seats (Eater and Infatuation both advise this).",
+    "Servers circulate trays of off-menu specials dim-sum style; anything you take is added to the bill.",
+    "Plates are small and priced individually; 2-3 per person is plenty, and the tab climbs fast.",
+    "Nearest T: Gilman Square (Green Line E); don't use the private lot next door."
+   ],
+   "difficulty": {
+    "level": "hard",
+    "why": "Infatuation lists it among America's toughest reservations; the 30-day Resy window at 10 AM sells out, so bar walk-ins at 5 PM are the realistic fallback."
+   },
+   "warnings": [
+    "Menu changes often (last updated 11/12/26); a specific dish may rotate off.",
+    "Cannot accommodate allium, spice, honey, nightshade, capsaicin or olive-oil allergies; no modifications.",
+    "Loud and tight when busy.",
+    "Closed Dec 24-28 and Jan 1."
+   ]
+  },
+  {
+   "name": "Mooncusser",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Seasonal four-course tasting menu",
+     "type": "dish",
+     "why": "The whole point: a short, choose-your-own tasting menu (two options per course plus snacks) that is rewritten every six weeks or so.",
+     "evidence": [
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#mooncusser"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/mooncusser"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/mooncusser"
+      },
+      {
+       "source": "Michelin Guide",
+       "url": "https://guide.michelin.com/en/massachusetts/boston_2914838/restaurant/mooncusser"
+      },
+      {
+       "source": "Boston Magazine (Best of Boston: tasting menu)",
+       "url": "https://www.bostonmagazine.com/best-of-boston-archive/2023/mooncusser/"
+      }
+     ],
+     "mentions": 5
+    },
+    {
+     "item": "Glazed local cod",
+     "type": "dish",
+     "why": "Cod lacquered and paired with mango pickle and papadam; the dish both Michelin and Infatuation used to show off the kitchen's global seafood style.",
+     "evidence": [
+      {
+       "source": "Michelin Guide",
+       "url": "https://guide.michelin.com/en/massachusetts/boston_2914838/restaurant/mooncusser"
+      },
+      {
+       "source": "The Infatuation (food rundown)",
+       "url": "https://www.theinfatuation.com/boston/reviews/mooncusser"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Wine pairing",
+     "type": "drink",
+     "why": "Michelin calls the list and pairing well chosen and fairly priced; it's $75 on top of the menu.",
+     "evidence": [
+      {
+       "source": "Michelin Guide",
+       "url": "https://guide.michelin.com/en/massachusetts/boston_2914838/restaurant/mooncusser"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Smoked rainbow trout",
+     "type": "dish",
+     "why": "Smoked trout with crispy tortilla bits and a sharp salsa verde, an Infatuation highlight from a recent menu.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/mooncusser"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Each course offers two choices, so a pair can order different options and taste the whole menu.",
+    "Want a cheaper or more casual taste? Moon Bar on the street level is a la carte and books separately on OpenTable.",
+    "Get your garage ticket stamped by the host for the validated 10 St. James rate."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Top-25 on Infatuation and Eater 38, but the tasting format and price keep it bookable on OpenTable with some notice; weekends need a week or two."
+   },
+   "warnings": [
+    "Menu changes about every six weeks; specific dishes (cod, trout) are likely gone. The current autumn menu lists bluefin tartare, hiramasa crudo, halibut stew and venison.",
+    "Dinner only, Tuesday-Saturday; closed Sunday-Monday.",
+    "Tasting menu only upstairs; no a la carte in the dining room."
+   ]
+  },
+  {
+   "name": "Mahaniyom",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Crispy chicken skin (nang kai tod)",
+     "type": "dish",
+     "why": "Shatteringly crisp fried chicken skins, the bar snack everyone orders.",
+     "evidence": [
+      {
+       "source": "Eater Boston",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/mahaniyom"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://bostonmagazine.com/best-of-boston-archive/2024/mahaniyom-3"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Kang puu (crab curry with vermicelli)",
+     "type": "dish",
+     "why": "Fiery red crab curry over delicate rice noodles; widely called the signature.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://theinfatuation.com/boston/reviews/mahaniyom"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://www.bostonmagazine.com/best-of-boston-archive/2022/mahaniyom/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Salt-and-pepper pork cheek",
+     "type": "dish",
+     "why": "Three-spice fried pork cheeks, a drinking-food standout.",
+     "evidence": [
+      {
+       "source": "Eater Boston",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://www.bostonmagazine.com/best-of-boston-archive/2022/mahaniyom/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Green papaya pad Thai",
+     "type": "dish",
+     "why": "Pad Thai made with papaya strands instead of noodles; lightly sweet.",
+     "evidence": [
+      {
+       "source": "Eater Boston",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://theinfatuation.com/boston/reviews/mahaniyom"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Mahaniyom Sazerac",
+     "type": "drink",
+     "why": "Signature Sazerac with Thai-tea-infused rye from a Michelin-noted cocktail program.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/mahaniyom"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Order family style: roughly 5-6 small plates for two to three people.",
+    "Check the chalkboard specials (e.g., oysters with chili jam).",
+    "Sister bar Merai down the block is open until 1 AM for after-dinner drinks.",
+    "2025 Michelin Bib Gourmand plus an Exceptional Cocktails award."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Very small room and Bib Gourmand buzz; weekends need advance OpenTable booking, weeknights easier."
+   },
+   "warnings": [
+    "Closed Tuesdays.",
+    "Portions are small; plan on several plates.",
+    "Cocktail and seasonal fruit-salad menus change often."
+   ]
+  },
+  {
+   "name": "Field & Vine",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Oysters and raw bar",
+     "type": "dish",
+     "why": "Daily oysters with mignonette are the reliable opener; reviewers say to get shellfish on ice for the table.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/field-and-vine"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/field-vine"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Crudos",
+     "type": "dish",
+     "why": "Bright raw-fish plates (lately black bass aguachile and tuna tostadas) that Infatuation calls a constant.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/field-and-vine"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Weekend asado steak special",
+     "type": "dish",
+     "why": "The wood-fired Argentine grill in the open kitchen is the signature, and weekend steak specials show it off best.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/field-and-vine"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Asado-charred cabbage",
+     "type": "dish",
+     "why": "Fire-blistered cabbage with spicy black garlic crema, brown butter and crispy rice, a vegetable dish critics single out.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/field-and-vine"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Order a few plates at a time and add as you go; the menu is built for sharing.",
+    "Ask about the tasting-menu option if you want the kitchen to choose.",
+    "Union Square parking is tight; take the Green Line (Union Square) or a ride share.",
+    "The restaurant is down an alley between Bronwyn and The Independent."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Small room and an Infatuation Top 25 pick, so weekend primetime goes early on Resy, but weeknights are usually gettable."
+   },
+   "warnings": [
+    "Menu changes frequently; the cabbage and specific crudos may not be on. Steak specials are weekend-only.",
+    "2-hour table limit from your booked time; incomplete parties are not seated.",
+    "Closed Sunday and Monday."
+   ]
+  },
+  {
+   "name": "Comfort Kitchen",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Brown butter seared okra",
+     "type": "dish",
+     "why": "The breakout dish: nigella-crusted, butter-seared okra over garam masala yogurt that converts okra skeptics.",
+     "evidence": [
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#comfort-kitchen-2"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/comfort-kitchen"
+      },
+      {
+       "source": "New England Today (best new restaurants 2023)",
+       "url": "https://newengland.com/?p=565172"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Jerk-roasted duck",
+     "type": "dish",
+     "why": "Jerk-spiced duck leg confit with rice, beans and Haitian pikliz; the main most often recommended (now also served as jerk-maple duck drumettes).",
+     "evidence": [
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#comfort-kitchen-2"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/comfort-kitchen"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Baobab cocktail",
+     "type": "drink",
+     "why": "House signature built on baobab, ginger, orange and white tea; bright and easy-drinking.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/comfort-kitchen"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Monkfish coconut curry",
+     "type": "dish",
+     "why": "Monkfish in a coconut curry broth, cited by Eater as a standout of the spice-route cooking.",
+     "evidence": [
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#comfort-kitchen-2"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Book on OpenTable; reservations are effectively required at this 30-seat room, especially weekends.",
+    "No reservation: try the 6 bar stools or the patios (weather permitting) right at 4:30 PM.",
+    "Sunday brunch is easier to get and made OpenTable's Top 100 brunch list.",
+    "Street parking on Columbia Rd; Upham's Corner commuter rail and buses stop nearby."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "NYT Top 50 and Eater 38 alum in a tiny room; weekends book out days ahead, but weeknights and brunch are usually available."
+   },
+   "warnings": [
+    "Menu rotates (currently Dinner Menu #004): the current menu lists jerk duck drumettes and a prawn curry instead of the roasted duck leg and monkfish curry critics described.",
+    "Strict fees: $25/person late-cancellation and $10/guest same-day changes.",
+    "Closed Monday and Tuesday.",
+    "Automatic 20% gratuity for parties of 5+."
+   ]
+  },
+  {
+   "name": "Neptune Oyster",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Maine lobster roll (hot with butter)",
+     "type": "dish",
+     "why": "A huge, overflowing roll on toasted brioche, served hot and buttered or cold with mayo; one of Boston's most famous lobster rolls.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/neptune-oyster"
+      },
+      {
+       "source": "Eater Boston (best lobster rolls)",
+       "url": "https://boston.eater.com/maps/best-lobster-rolls-boston"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/neptune-oyster"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Raw bar oysters",
+     "type": "dish",
+     "why": "The daily list of East and West Coast oysters on the mirror behind the bar; order a mix from both coasts.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/neptune-oyster"
+      },
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#neptune-oyster-bar"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/neptune-oyster"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Wellfleet clam chowder",
+     "type": "dish",
+     "why": "Salt pork and thyme chowder that Eater calls near-perfect.",
+     "evidence": [
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#neptune-oyster-bar"
+      },
+      {
+       "source": "The Infatuation (food rundown)",
+       "url": "https://www.theinfatuation.com/boston/reviews/neptune-oyster"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Neptune Burger with fried oysters",
+     "type": "dish",
+     "why": "Cheddar burger crowned with fried oysters and garlic mayo, a surf-and-turf cult order.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/neptune-oyster"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Infatuation's trick: show up around 3 PM on a weekday to minimize (or skip) the line.",
+    "Put your name in and wander the North End; they'll call or text when a seat opens.",
+    "Bar seats turn fastest for 1-2 people.",
+    "Check the day-of-week specials (e.g., Monday lobster spaghettini, Saturday paella sarda)."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "No reservations at all; prime-time waits commonly run 1-2 hours, but off-peak afternoons are manageable."
+   },
+   "warnings": [
+    "Walk-in only; expect a line outside, including in winter.",
+    "Lobster roll is market price and expensive.",
+    "Tiny, cramped room; not good for large groups or strollers.",
+    "Website is partially 'under construction'."
+   ]
+  },
+  {
+   "name": "O Ya",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "A5 Japanese Wagyu",
+     "type": "dish",
+     "why": "Char-crusted slabs of A5 beef with potato, the decadent cooked course (also offered as an add-on striploin with frites).",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/o-ya"
+      },
+      {
+       "source": "Boston Magazine (2022 review)",
+       "url": "https://www.bostonmagazine.com/restaurants/2022/08/02/o-ya-review/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Fried Kumamoto oyster with squid ink bubbles",
+     "type": "dish",
+     "why": "A long-running signature: a fried oyster topped with yuzu aioli and squid-ink 'bubbles', the bite people remember.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/o-ya"
+      },
+      {
+       "source": "Boston Magazine (2022 review)",
+       "url": "https://www.bostonmagazine.com/restaurants/2022/08/02/o-ya-review/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Bluefin tuna (chutoro)",
+     "type": "dish",
+     "why": "Pristine bluefin served as nigiri or seared tataki; critics describe it bursting with ponzu.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/o-ya"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/o-ya"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Hamachi nigiri with banana-pepper mousse",
+     "type": "dish",
+     "why": "Tim Cushman's original signature, on the menu since the 2007 opening.",
+     "evidence": [
+      {
+       "source": "Boston Magazine (2022 review)",
+       "url": "https://www.bostonmagazine.com/restaurants/2022/08/02/o-ya-review/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Foie gras nigiri",
+     "type": "dish",
+     "why": "Seared foie gras on rice with sweet-savory glaze; a famous luxury bite.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/o-ya"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Book exactly 30 days out on OpenTable; note every allergy when booking, since the menu is composed in advance.",
+    "Ask for the counter to watch the sushi chefs (requests honored when possible, not guaranteed).",
+    "Supplemental courses (e.g., extra Wagyu) and a sake pairing can be added at the table, billed at the end.",
+    "Turning 20 in March 2027; watch the site/newsletter for anniversary dinners."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Prepaid ~$383/person keeps demand manageable; weekend prime slots go within days of the 30-day release, parties over 4 need a phone call."
+   },
+   "warnings": [
+    "Very expensive and prepaid; non-refundable (transfer only).",
+    "Setlist changes nightly; specific signatures (oyster, hamachi, foie gras) are not guaranteed.",
+    "No BYOB, few spirits (sake/wine-focused); closed Sunday and Monday.",
+    "Small room; seating type (counter vs banquette) not guaranteed."
+   ]
+  },
+  {
+   "name": "Tonino",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Taleggio cappelletti",
+     "type": "dish",
+     "why": "Little pasta pockets filled with warm, melting taleggio and finished with aged balsamic; the most-cited pasta.",
+     "evidence": [
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#tonino"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/tonino"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Countneck clams with guanciale and Calabrian chili",
+     "type": "dish",
+     "why": "Clams in a spicy, porky broth you'll want to mop up with pizza bianca.",
+     "evidence": [
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#tonino"
+      },
+      {
+       "source": "Resy blog (How to Get Into Tonino)",
+       "url": "https://blog.resy.com/2026/10/how-to-get-into-tonino-boston/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Pizza bianca with toppings",
+     "type": "dish",
+     "why": "Light, chewy Roman flatbread you customize with add-ons like ricotta and hot honey or eggplant caponata.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/tonino"
+      },
+      {
+       "source": "Resy blog (How to Get Into Tonino)",
+       "url": "https://blog.resy.com/2026/10/how-to-get-into-tonino-boston/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Tiramisu",
+     "type": "dessert",
+     "why": "Eater says not to leave without a bowl of it.",
+     "evidence": [
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#tonino"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Mortadella with pecorino and house pickles",
+     "type": "dish",
+     "why": "The GM's pick and the restaurant's own 'must' order; a generous plate meant to share.",
+     "evidence": [
+      {
+       "source": "Resy blog (How to Get Into Tonino)",
+       "url": "https://blog.resy.com/2026/10/how-to-get-into-tonino-boston/"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Be at Resy at noon exactly 30 days out; otherwise set Notify, especially for the week before your date.",
+    "Walk-in: be one of the first two at the door at 5 PM for the counter seats; wait at Jadu (wine), Casa Verde (cocktails) or Galway House (beer) if you join the list.",
+    "The two counter seats in the back look into the open kitchen (Infatuation's favorite seat).",
+    "Parking: Centre St fills up; use the free municipal lot behind Casa Verde one block away."
+   ],
+   "difficulty": {
+    "level": "hard",
+    "why": "Only 28 seats; Resy says tables fill almost immediately after the noon release, and walk-ins get just two counter seats."
+   },
+   "warnings": [
+    "Closed Tuesday and Wednesday.",
+    "Tiny room; not suited to large groups.",
+    "Menu dated 10/2/26; small plates rotate seasonally."
+   ]
+  },
+  {
+   "name": "Urban Hearth",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Chef's counter tasting menu",
+     "type": "dish",
+     "why": "Eight to twelve seasonal courses served by the cooks at a six-seat counter; every critic calls it the move.",
+     "evidence": [
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#urban-hearth"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/urban-hearth"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/urban-hearth"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Laminated buttermilk biscuit with smoked maple miso butter",
+     "type": "dish",
+     "why": "Flaky, buttery layered biscuit with a smoky-sweet miso butter; a cheap, perennial must-order on the a la carte menu.",
+     "evidence": [
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#urban-hearth"
+      },
+      {
+       "source": "The Infatuation (food rundown)",
+       "url": "https://www.theinfatuation.com/boston/reviews/urban-hearth"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Two-bite lobster cornette",
+     "type": "dish",
+     "why": "A tiny savory cone of lobster with crème fraîche gelato, optionally topped with caviar.",
+     "evidence": [
+      {
+       "source": "The Infatuation (food rundown)",
+       "url": "https://www.theinfatuation.com/boston/reviews/urban-hearth"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Savory-sweet cocktails and zero-proof drinks (e.g., Beach Rose, Low Light)",
+     "type": "drink",
+     "why": "Inventive drinks that swing between sweet and savory, including a shiso-nori zero-proof.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/urban-hearth"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "For the full experience book the Chef's Counter (5:45 or 8:15 PM); note vegetarian or dietary needs in the reservation.",
+    "Bar & Salon takes walk-ins until 11 PM for biscuits, oysters and cocktails.",
+    "Order the biscuit and lobster cornette as starters even if you go a la carte."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Six-seat counter books up ahead on weekends, but the larger new dining room and walk-in bar make a la carte tables easier."
+   },
+   "warnings": [
+    "Many listings (Eater, Time Out) still show the old Mass Ave / Davis-area address; it is now at 1281 Cambridge St in Inman Square.",
+    "Menu changes with the season; drinks named by critics may be gone.",
+    "Closed Monday; counter tasting only Tue-Sat."
+   ]
+  },
+  {
+   "name": "311 Omakase",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "18-course omakase with a dozen-plus nigiri",
+     "type": "dish",
+     "why": "Chef Wei Fa Chen's tightly sourced progression (much of the fish flown from Japan) that earned a Michelin star; the nigiri run is the heart of the meal.",
+     "evidence": [
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#three-1-one"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/311-omakase"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Crispy-scaled tilefish",
+     "type": "dish",
+     "why": "Tilefish fried so its scales go crisp, served with a light dashi; both critics call it a highlight when it's on.",
+     "evidence": [
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#three-1-one"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/311-omakase"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Uni and caviar in a shell-shaped wafer",
+     "type": "dish",
+     "why": "Sea urchin topped with caviar inside an airy, shell-like crisp; a luxurious one-biter.",
+     "evidence": [
+      {
+       "source": "Eater Boston (Essential 38)",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38#three-1-one"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Be on Tock at noon ET on the 15th; a whole month's dates (75 days out) drop at once.",
+    "Join the Tock waitlist for multiple nights; cancellations surface close to the date.",
+    "Send any allergy info at least 72 hours ahead or it can't be accommodated."
+   ],
+   "difficulty": {
+    "level": "hard",
+    "why": "Michelin-starred, roughly 10 seats and two seatings a night; Eater and Infatuation both call it one of Boston's toughest reservations."
+   },
+   "warnings": [
+    "Very expensive: roughly $250-280 per person before drinks/tip (price reported differently by Eater and Infatuation).",
+    "No vegetarian, no-raw-fish or halal accommodations.",
+    "Courses change with the market; tilefish and uni bites are not guaranteed.",
+    "Search engines also surface an unrelated '311 Omakase'-style listing in North Cambridge; this is the South End brownstone at 605 Tremont."
+   ]
+  },
+  {
+   "name": "Oleana",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Baked Alaska",
+     "type": "dessert",
+     "why": "The house signature since opening: a tall torched-meringue dome over coconut ice cream on a macaroon base, with passion fruit caramel.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/oleana"
+      },
+      {
+       "source": "Resy blog (Resy x Beli Boston list)",
+       "url": "https://blog.resy.com/2026/10/beli-restaurants-boston/"
+      },
+      {
+       "source": "The Harvard Crimson",
+       "url": "https://www.thecrimson.com/article/2024/3/26/oleana-restaurant-review-cambridge-ma-sharing-plates-chaos-complexity/"
+      },
+      {
+       "source": "Boston Magazine Best of Boston",
+       "url": "https://www.bostonmagazine.com/best-of-boston-archive/2022/oleana-14/"
+      }
+     ],
+     "mentions": 4
+    },
+    {
+     "item": "Whipped Feta with Sweet & Hot Peppers",
+     "type": "dish",
+     "why": "Airy, tangy feta dip with a pepper kick, scooped with the house seeded crackers; the standard opener.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/oleana"
+      },
+      {
+       "source": "Boston Magazine Top 50",
+       "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Lemon Chicken with Za'atar & Turkish Cheese Pancake",
+     "type": "dish",
+     "why": "A deboned half chicken, stuffed with lemon confit and seared crisp, set on a crunchy cheese pancake.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/oleana"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/oleana"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Chef's Choice Vegetable Meze & Dessert tasting",
+     "type": "dish",
+     "why": "The returned chef's-choice vegetarian tasting ($75/pp on the current menu) is the way to see the kitchen's range.",
+     "evidence": [
+      {
+       "source": "Boston Magazine Top 50",
+       "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Ask for the garden patio in warm months; it is one of Boston's most coveted and is walk-in only.",
+    "Order the baked Alaska early in the meal if the table is set on it; it is the dessert most tables come for.",
+    "The menu is largely vegetable meze; mixing 4-5 meze with one meat or fish plate is the usual move for two.",
+    "Walk-ins: arrive at opening for the held walk-in tables or the bar."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Prime weekend times on Resy go well ahead within the 30-day window, but tables are held nightly for walk-ins and the bar/patio are unreservable."
+   },
+   "warnings": [
+    "Menu is seasonal; whipped feta, lemon chicken and baked Alaska are long-running but individual meze rotate.",
+    "Interior is dated per recent reviews; the patio is the draw.",
+    "Large parties (7+) are limited to early/late seatings and a fixed family-style menu."
+   ]
+  },
+  {
+   "name": "Giulia",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Pappardelle with Braised Wild Boar",
+     "type": "dish",
+     "why": "The long-running house pasta: wide ribbons with a rich boar braise (currently with juniper and black trumpets).",
+     "evidence": [
+      {
+       "source": "Boston Magazine Top 50",
+       "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/giulia"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Bucatini all'Amatriciana",
+     "type": "dish",
+     "why": "A classic done right, loaded with house-cured pancetta in roughly equal measure to the noodles.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/giulia"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Focaccia with bean crema",
+     "type": "dish",
+     "why": "The bread is a vehicle for the savory bean crema and toppings that come with it; the version changes seasonally.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/giulia"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Chocolate Hazelnut Torta",
+     "type": "dessert",
+     "why": "Gianduja-rich chocolate cake with roasted banana malt gelato; reads like an upscale banana split.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/giulia"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Set an alarm for 10:00 AM ET exactly 14 days before your date; that is when OpenTable releases tables.",
+    "No luck? The 18-seat bar is walk-in with the full menu; arrive before the 5:30 open and put your name on the in-person list.",
+    "Order several pastas to share; the waitstaff will course them out for the table.",
+    "Big group (up to 12)? Book the Pasta Table, where the pasta is rolled by day, up to 6 months ahead for a family-style tasting."
+   ],
+   "difficulty": {
+    "level": "hard",
+    "why": "Small room, only a 2-week booking window, and it is typically fully reserved before opening; bar walk-ins are the realistic fallback."
+   },
+   "warnings": [
+    "Pastas rotate frequently; the wild boar pappardelle is a near-constant but toppings change with the season.",
+    "2-hour table limit; $25/person no-show fee.",
+    "Parties of 6 are rarely accepted in the main room.",
+    "Closed Thanksgiving (Nov 26, 2026)."
+   ]
+  },
+  {
+   "name": "Pammy's",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Lumache Bolognese with Gochujang",
+     "type": "dish",
+     "why": "The unofficial signature: snail-shell pasta in a bolognese spiked with Korean chili paste for a sweet, slow heat.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/pammys"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/pammys"
+      },
+      {
+       "source": "The Boston Globe (quoted on the restaurant's site)",
+       "url": "https://www.pammyscambridge.com/"
+      },
+      {
+       "source": "The Improper Bostonian",
+       "url": "https://www.improper.com/food-drink/wham-pam/"
+      }
+     ],
+     "mentions": 4
+    },
+    {
+     "item": "Pork Milanese",
+     "type": "dish",
+     "why": "A big, rich, garlicky cutlet that regulars treat as the main-course anchor.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/pammys"
+      },
+      {
+       "source": "Boston Magazine Best of Boston 2026",
+       "url": "https://www.bostonmagazine.com/best-of-boston-archive/2026/pammys-3/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Lobster Biscotto",
+     "type": "dish",
+     "why": "A savory lobster small plate singled out for sharing at the communal table.",
+     "evidence": [
+      {
+       "source": "Boston Magazine Best of Boston 2026",
+       "url": "https://www.bostonmagazine.com/best-of-boston-archive/2026/pammys-3/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Saffron Gnocchi with Clams & Guanciale",
+     "type": "dish",
+     "why": "A recent pasta highlight cited in the 2026 Top 50 write-up; shows the seasonal pasta side of the menu.",
+     "evidence": [
+      {
+       "source": "Boston Magazine Top 50",
+       "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Want a la carte or a quick bite? Skip the reservation and walk in for the marble bar or lounge.",
+    "On the prix fixe you can pick any three courses, including all pastas if you like.",
+    "Ask for a table by the double-sided fireplace in winter, or the flower-lined communal table for a lively night."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Prime weekend tables go within the 30-day window, but the bar/lounge holds walk-in space nightly."
+   },
+   "warnings": [
+    "Dining room is prix fixe only ($88/pp before drinks).",
+    "No reservations for groups larger than 5.",
+    "Menu changes often; seasonal dishes may not return. The lumache is the most consistent."
+   ]
+  },
+  {
+   "name": "Moëca",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Buttermilk Fried Monkfish",
+     "type": "dish",
+     "why": "A big craggy fried monkfish fillet with sesame and a tamarind hot sauce; the dish critics keep pointing to, and on the current menu.",
+     "evidence": [
+      {
+       "source": "Eater Boston 38",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+      },
+      {
+       "source": "Boston Magazine review",
+       "url": "https://www.bostonmagazine.com/restaurants/2023/02/28/moeca-review-cambridge/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Tuna 'Nduja on Squid Ink Sourdough",
+     "type": "dish",
+     "why": "Spreadable, chili-spiked tuna riff on the Calabrian sausage, on jet-black toast; a signature share plate.",
+     "evidence": [
+      {
+       "source": "Boston Magazine Top 50",
+       "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Swordfish Schnitzel",
+     "type": "dish",
+     "why": "Breaded swordfish cutlet with chicories and a yogurt gribiche; pictured in the 2026 Top 50.",
+     "evidence": [
+      {
+       "source": "Boston Magazine Top 50",
+       "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Scallop 'Trippa alla Romana'",
+     "type": "dish",
+     "why": "Scallop skirts stand in for tripe in a Roman-style tomato sauce, now served with cavatelli; a clever zero-waste dish.",
+     "evidence": [
+      {
+       "source": "Boston Magazine review",
+       "url": "https://www.bostonmagazine.com/restaurants/2023/02/28/moeca-review-cambridge/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "House-made gelato (pastry chef Renae Connolly)",
+     "type": "dessert",
+     "why": "Critics single out the desserts; the gelato is the recommended finish.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Menu is posted daily by 4:30 PM on the site; check it before you go.",
+    "Plan on 2-3 raw-bar/share plates per person plus one large plate for the table.",
+    "If Giulia is booked, Moëca (same owners, around the corner) is often easier and shares the pasta skill."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Popular and well reviewed but generally easier to book than sibling Giulia; groups of 5+ must go through phone/email."
+   },
+   "warnings": [
+    "Menu changes often (sometimes nightly); any dish may be off on a given night.",
+    "Closed Sunday and Monday (Tue-Sat per Time Out); last reservation 9 PM.",
+    "Very seafood-centric; limited options for non-fish eaters."
+   ]
+  },
+  {
+   "name": "Lenox Sophia",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Tagliatelle with black truffles (vegetarian course)",
+     "type": "dish",
+     "why": "House tagliatelle finished in butter and olive oil with aged Parmigiano and shaved truffle; the dish both critics remember.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/lenox-sophia"
+      },
+      {
+       "source": "Boston Magazine review",
+       "url": "https://www.bostonmagazine.com/restaurants/2023/01/04/lenox-sophia-review/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Squid Ink Rice (arroz negro)",
+     "type": "dish",
+     "why": "Crisp-bottomed black rice with seafood and a smoky aioli; a version (with green crab) is on the November 2026 menu.",
+     "evidence": [
+      {
+       "source": "Boston Magazine review",
+       "url": "https://www.bostonmagazine.com/restaurants/2023/01/04/lenox-sophia-review/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Buttermilk Fried Quail with nori-wasabi seasoning",
+     "type": "dish",
+     "why": "A playful Japanese-seasoned fried bird that shows the kitchen's mash-up style.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/lenox-sophia"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Grilled King Trumpet Mushrooms",
+     "type": "dish",
+     "why": "Plain-looking but packed with fermented-garlic, miso and umeboshi depth; the critic's standout.",
+     "evidence": [
+      {
+       "source": "Boston Magazine review",
+       "url": "https://www.bostonmagazine.com/restaurants/2023/01/04/lenox-sophia-review/"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "It's BYOB (wine/beer only, max 750 ml wine or 64 oz beer per person, sealed bottles); Social Wines is on the corner. No decanting or chilling service.",
+    "Ask for one of the 4 counter seats facing the open kitchen for the show.",
+    "Choose omnivore or vegetarian menu at booking; vegetarians are well served, but vegans, celiac and allium allergies cannot be accommodated.",
+    "Call if running late: tables are released after 15 minutes."
+   ],
+   "difficulty": {
+    "level": "hard",
+    "why": "Only 16 seats, 4 nights a week, and recurring top-list/James Beard semifinalist attention; book on Resy as soon as dates open."
+   },
+   "warnings": [
+    "Prix fixe only; dishes change seasonally, so individual items named in reviews may not be on.",
+    "Cannot accommodate celiac, allium allergies; limited for vegans and shellfish allergies.",
+    "$50/person late-cancel/no-show fee; 90-minute table limit.",
+    "No kids' menu or high chairs."
+   ]
+  },
+  {
+   "name": "Spoke Wine Bar",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Sunchoke Donuts (aged gouda, powdered leeks)",
+     "type": "dish",
+     "why": "Savory little sunchoke doughnuts with aged/XO gouda and leek powder; the one perennial on an otherwise rotating menu.",
+     "evidence": [
+      {
+       "source": "Boston Magazine Top 50",
+       "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+      },
+      {
+       "source": "Eater Boston 38",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/spoke"
+      }
+     ],
+     "mentions": 4
+    },
+    {
+     "item": "Griddled Chickpea Tempeh with maple vinegar",
+     "type": "dish",
+     "why": "A vegan plate that eats like chicken tenders with honey mustard; cited as an example of the kitchen's cleverness.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Grilled Clam Skewers with coconut-chowder glaze",
+     "type": "dish",
+     "why": "A chowder-inspired grilled clam bite; an example of the menu's global-meets-New-England play.",
+     "evidence": [
+      {
+       "source": "Eater Boston 38",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Cocktails with offbeat ingredients",
+     "type": "drink",
+     "why": "The bar program (e.g. vermouth-driven drinks with 'secrets', fermented plantain, habanada) gets as much praise as the wine list.",
+     "evidence": [
+      {
+       "source": "Eater Boston 38",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/spoke"
+      }
+     ],
+     "mentions": 2
+    }
+   ],
+   "tips": [
+    "Always order the sunchoke donuts; build the rest from 3-4 small plates for two.",
+    "Ask staff for by-the-glass picks from lesser-known regions; the list is the point.",
+    "Weeknights are good for walk-ins at the bar; book weekends on Resy.",
+    "Same team opened Liars in Teele Square (2026) if Spoke is full."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Small room and top-list status fill weekends, but it is open only Wed-Sat and weeknight walk-ins usually work."
+   },
+   "warnings": [
+    "Menu is seasonal and changes often; except the sunchoke donuts, named dishes may not be on.",
+    "Only open Wednesday-Saturday.",
+    "Tiny, tight space; not ideal for big groups."
+   ]
+  },
+  {
+   "name": "Dalia",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Valencia Paella",
+     "type": "dish",
+     "why": "Cooked by a dedicated three-person paella team at the central station; chicken, chorizo and shellfish over deeply savory rice, in two sizes.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/dalia"
+      },
+      {
+       "source": "Boston.com",
+       "url": "https://www.boston.com/food/restaurants/2026/04/02/dalia-spanish-southie/"
+      },
+      {
+       "source": "Caught in Southie",
+       "url": "https://caughtinsouthie.com/eat-drink/broadway-restaurant-group-opens-dalia-spanish-inspired-wood-fired-restaurant-in-south-boston/"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Ibérico Pluma with passionfruit caramel & quince",
+     "type": "dish",
+     "why": "Fire-grilled Ibérico pork with a fruity-sour caramel; a centerpiece of the wood-fired mains since opening.",
+     "evidence": [
+      {
+       "source": "Boston.com",
+       "url": "https://www.boston.com/food/restaurants/2026/04/02/dalia-spanish-southie/"
+      },
+      {
+       "source": "Caught in Southie",
+       "url": "https://caughtinsouthie.com/eat-drink/broadway-restaurant-group-opens-dalia-spanish-inspired-wood-fired-restaurant-in-south-boston/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Calamares 'Dan Dan'",
+     "type": "dish",
+     "why": "Squid cut like noodles with sobrasada and almonds in a Sichuan-style sauce; the dish that sums up Dixon's Spain-as-a-starting-point approach.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/news/this-south-boston-spanish-spot-was-named-one-of-americas-best-restaurants-of-2026-per-the-new-york-times-091726"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Hamachi Crudo (figs, sherry ponzu)",
+     "type": "dish",
+     "why": "Yellowtail layered with thin fig slices and a sherry-based ponzu; a crudo that feels new.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/dalia"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Txistorra 'Hot Dog' and Anchoa y Mantequilla",
+     "type": "dish",
+     "why": "The snack picks: a Basque chorizo 'hot dog' and anchovies with charred-onion-ash butter, best with sangria or txakoli.",
+     "evidence": [
+      {
+       "source": "The Infatuation (Best New Restaurants 2026)",
+       "url": "https://www.theinfatuation.com/boston/guides/best-new-restaurants-boston-2026"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Sit where you can watch the paella station and Josper grills under the skylight.",
+    "Share a small Valencia paella for two plus 2-3 tapas; paella comes in two sizes.",
+    "Finish with a sherry (e.g. palo cortado) or the passion-fruit 'copa' parfait.",
+    "Downstairs Leopard Lounge (21+) is the late-night cocktail option."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Big, buzzy space with late hours helps, but NYT 50-best and many 2026 best-new lists make prime weekend times competitive."
+   },
+   "warnings": [
+    "Dress code: no athletic wear, overly revealing or sheer clothing.",
+    "No outside wine (no corkage); $5/person cake-cutting fee.",
+    "Socarrat (crispy bottom) on the paella is inconsistent per reviews.",
+    "Loud, scene-y room; skews younger crowd."
+   ]
+  },
+  {
+   "name": "Bar Vlaha",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Arni stin souvla (spit-roasted lamb leg)",
+     "type": "dish",
+     "why": "Charcoal spit-roasted lamb leg with garlic and rosemary; the centerpiece.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/bar-vlaha"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/bar-vlaha"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://www.bostonmagazine.com/?p=2743826"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "House sourdough with spreads (taramosalata, kopanisti, etc.)",
+     "type": "dish",
+     "why": "Village-style sourdough with sheep's-milk butter and a trio of dips; how every meal should start.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/bar-vlaha"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/bar-vlaha"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://www.bostonmagazine.com/?p=2743826"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Savory pies (pitas)",
+     "type": "dish",
+     "why": "Daily meat and vegetable pies, e.g., kreatopita and cornmeal-crust greens pie.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/bar-vlaha"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://www.bostonmagazine.com/?p=2743826"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Manitaria (crispy fried oyster mushrooms)",
+     "type": "dish",
+     "why": "Roasted-then-fried oyster mushrooms with parsley spread.",
+     "evidence": [
+      {
+       "source": "Boston Magazine",
+       "url": "https://www.bostonmagazine.com/restaurants/2023/07/31/bar-vlaha-brookline/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Loukaniko",
+     "type": "dish",
+     "why": "House pork-and-fennel sausage with mustard yogurt.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/bar-vlaha"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Start with bread plus three or six spreads, then share a grilled or spit-roasted meat.",
+    "Ask for the long table facing the open kitchen and charcoal spits.",
+    "Greek wine list leans to rare northern/central Greek bottles.",
+    "Large groups: the 'Giorti' feast platter covers lamb, chops, chicken and sausage."
+   ],
+   "difficulty": {
+    "level": "hard",
+    "why": "Infatuation calls it one of the toughest reservations in town; prime slots need about a month's notice."
+   },
+   "warnings": [
+    "Smoky room; clothes will smell of charcoal.",
+    "Daily pies and game specials rotate."
+   ]
+  },
+  {
+   "name": "Wa Shin",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "18-course Omakase at the Hinoki Counter",
+     "type": "dish",
+     "why": "Chef Sky Zheng (trained under Daisuke Nakazawa) walks the counter through seasonal zensai then a run of mostly Japan-sourced nigiri; the meal itself is the draw.",
+     "evidence": [
+      {
+       "source": "Boston Magazine Top 50",
+       "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+      },
+      {
+       "source": "Resy blog (Resy x Beli Boston list)",
+       "url": "https://blog.resy.com/2026/10/beli-restaurants-boston/"
+      },
+      {
+       "source": "Michelin Guide",
+       "url": "https://guide.michelin.com/us/en/massachusetts/boston_2914838/restaurant/wa-shin"
+      },
+      {
+       "source": "Boston Magazine Best of Boston 2025",
+       "url": "https://www.bostonmagazine.com/best-of-boston-archive/2025/wa-shin/"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Hokkaido Uni",
+     "type": "dish",
+     "why": "Imported sea urchin is a highlight of the nigiri run, sometimes as a gunkan, sometimes layered over other fish.",
+     "evidence": [
+      {
+       "source": "Boston Magazine Best of Boston 2025",
+       "url": "https://www.bostonmagazine.com/best-of-boston-archive/2025/wa-shin/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Hokkaido Sea Scallop",
+     "type": "dish",
+     "why": "Named alongside uni as one of the prized Japanese imports in the sequence.",
+     "evidence": [
+      {
+       "source": "Boston Magazine Best of Boston 2025",
+       "url": "https://www.bostonmagazine.com/best-of-boston-archive/2025/wa-shin/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Sake list",
+     "type": "drink",
+     "why": "A strong sake program built to pair with the omakase.",
+     "evidence": [
+      {
+       "source": "Boston Magazine Best of Boston 2025",
+       "url": "https://www.bostonmagazine.com/best-of-boston-archive/2025/wa-shin/"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Be on Resy at 12:00 PM ET exactly 14 days before your date; four seatings a night means few seats.",
+    "Arrive on time: seatings are fixed and the counter starts together.",
+    "Max party size online is 4; a two-top is easiest to land."
+   ],
+   "difficulty": {
+    "level": "hard",
+    "why": "Small counter, fixed seatings, 14-day release, and Michelin/top-list attention mean prime slots go fast."
+   },
+   "warnings": [
+    "Fixed omakase only; fish changes with the season, so specific pieces vary.",
+    "Mandatory 20% administrative fee on every check.",
+    "Parties over 4 must arrange by email; no online booking.",
+    "Expensive: one of Boston's priciest meals with sake."
+   ]
+  },
+  {
+   "name": "Kaia",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Astakomakaronada (whole-roasted 2 lb lobster pasta)",
+     "type": "dish",
+     "why": "A for-the-table island classic: a whole lobster over pasta in a brown butter and Metaxa brandy sauce.",
+     "evidence": [
+      {
+       "source": "Boston Magazine Top 50",
+       "url": "https://www.bostonmagazine.com/best-restaurants-in-boston/"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/kaia"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Whole grilled fish (tsipoura / lavraki / lythrini)",
+     "type": "dish",
+     "why": "Market-priced whole fish grilled simply and dressed with ladolemono; the anchor of the menu.",
+     "evidence": [
+      {
+       "source": "Eater Boston 38",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://www.bostonmagazine.com/restaurants/2024/08/30/kaia-south-end-boston-greek-restaurant/"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/kaia"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Hamachi crudo with Greek yogurt",
+     "type": "dish",
+     "why": "Yogurt-dressed hamachi with Asian accents; the NYT singled it out, and a version is on the current raw menu.",
+     "evidence": [
+      {
+       "source": "New York Times (via Boston.com recap)",
+       "url": "https://www.boston.com/food/food-news/2026/09/30/new-york-times-best-boston-restaurants-guide-2026/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Gyro",
+     "type": "dish",
+     "why": "A deconstructed gyro with crispy meat and soft pita, ordered whole or half (now a crispy pork shoulder version).",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/kaia"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Cod Cheeks with smoky avgolemono",
+     "type": "dish",
+     "why": "Delicate cod cheeks in a smoked egg-lemon sauce; called one of the best cod dishes the critic had eaten.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/kaia"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Come with a group and share: raw bar, several meze, then a whole fish or the lobster pasta for the table.",
+    "Try walking in for the 24-seat bar, which runs until 1 AM.",
+    "Patio season is the scene in warm months.",
+    "The wine list is entirely Aegean and all by the glass; ask for the small-production picks."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "NYT/Eater/BM attention keeps weekends busy, but it is a 100-seat room with walk-in space and a big bar."
+   },
+   "warnings": [
+    "Menu rotates seasonally; cod cheeks and the NYT-praised bingsu are not on the current (late 2026) menu.",
+    "Loud, music-forward dining room.",
+    "Closed Sunday and Monday.",
+    "Whole fish and lobster are market priced and can push the bill up quickly."
+   ]
+  },
+  {
+   "name": "Celeste",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Ceviche (mixed seafood or blue cod, leche de tigre)",
+     "type": "dish",
+     "why": "Peruvian-style ceviche with a short, sharp marinade and big chunks of blue cod (the mixto adds squid and shrimp); the natural opener.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/celeste"
+      },
+      {
+       "source": "Time Out Boston (29 Best)",
+       "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Lomo Saltado",
+     "type": "dish",
+     "why": "Wok-fired sirloin with tomato, onion and soy over rice, with a tangy edge; the hearty main most tables order.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/celeste"
+      },
+      {
+       "source": "Time Out Boston (29 Best)",
+       "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Pisco cocktails (pisco sour and house pisco drinks)",
+     "type": "drink",
+     "why": "The bar is built around pisco and mezcal; the frothy sours and the purple pisco drink are part of the fun.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/celeste"
+      },
+      {
+       "source": "Time Out Boston (29 Best)",
+       "url": "https://www.timeout.com/boston/restaurants/best-restaurants-in-boston"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Seco de Cordero con Frijoles",
+     "type": "dish",
+     "why": "Slow-cooked cilantro lamb stew with creamy canary beans and rice; the cold-night order.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/celeste"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Scallops con Pasta a la Huancaína",
+     "type": "dish",
+     "why": "Seared scallops over squid-ink fettuccine in a fruity aji amarillo cream sauce.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/celeste"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Go with 3-4 people so you can share a ceviche, a causa and two entrees.",
+    "Start with ceviche and take your time before ordering mains.",
+    "Watch the flames from the open kitchen; seats near it are the most fun.",
+    "If Celeste is full, sister restaurant La Royal in Cambridge is a strong backup."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Tiny and always buzzing; reserve on OpenTable for weekends, though weeknight bar walk-ins are often possible."
+   },
+   "warnings": [
+    "Small, loud, high-energy room; can feel chaotic.",
+    "Daily specials rotate; check the posted daily menu."
+   ]
+  },
+  {
+   "name": "Jahunger",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Jahunger Noodle",
+     "type": "dish",
+     "why": "The namesake plate: thick hand-pulled noodles stir-fried with marinated beef, chives and onion - the dish every review points to first.",
+     "evidence": [
+      {
+       "source": "The Harvard Crimson",
+       "url": "https://www.thecrimson.com/article/2024/10/22/jahunger-restaurant-review"
+      },
+      {
+       "source": "Register Forum (CRLS student paper)",
+       "url": "https://registerforum.org/21254/food-culture/must-try-jahunger-is-the-newest-cambridgeport-gem"
+      },
+      {
+       "source": "Michelin Guide",
+       "url": "https://guide.michelin.com/en/massachusetts/cambridge_2914793/restaurant/jahunger"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/jahunger"
+      }
+     ],
+     "mentions": 4
+    },
+    {
+     "item": "Original Meefen",
+     "type": "dish",
+     "why": "Chewy Xinjiang rice noodles tossed with ground chicken; a regulars' favorite.",
+     "evidence": [
+      {
+       "source": "Cambridge Day",
+       "url": "https://www.cambridgeday.com/?p=129624"
+      },
+      {
+       "source": "Register Forum",
+       "url": "https://registerforum.org/21254/food-culture/must-try-jahunger-is-the-newest-cambridgeport-gem"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Laghman Noodle",
+     "type": "dish",
+     "why": "The classic Uyghur pulled-noodle dish topped with a stir-fry of meat and vegetables - Michelin calls out the pulled noodles as the specialty.",
+     "evidence": [
+      {
+       "source": "Michelin Guide",
+       "url": "https://guide.michelin.com/en/massachusetts/cambridge_2914793/restaurant/jahunger"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://bostonmagazine.com/restaurants/2024/04/19/jahunger-uyghur-restaurant-cambridge"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Cold Chicken",
+     "type": "dish",
+     "why": "Chilled chicken appetizer glossed in a secret chili sauce with onion, black fungus and scallion - a fan favorite starter.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/jahunger"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Kavap (lamb skewers)",
+     "type": "dish",
+     "why": "Small marinated lamb skewers crusted with cumin and pepper.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/jahunger"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Start with the hand-made lamb dumplings or samsa, then split two noodle dishes for the table.",
+    "Blistered green beans are the go-to vegetable foil; a can of Wang Lao Ji herbal tea helps tame the heat.",
+    "Big Plate Chicken (Chicken Stew, ~$34) is a shareable centerpiece for groups.",
+    "Weekend lunch (Sat/Sun from noon) is the easiest time to walk in.",
+    "Vegetarians: Spicy Tiger (blistered eggplant), stir-fried beans, eggplant laghman."
+   ],
+   "difficulty": {
+    "level": "easy",
+    "why": "Casual walk-in noodle house; possible short waits on weekend evenings."
+   },
+   "warnings": [
+    "Much of the menu is genuinely spicy - ask for milder heat if sensitive.",
+    "Closed Mondays.",
+    "No online reservations."
+   ]
+  },
+  {
+   "name": "Sumiao Hunan Kitchen",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Grandma's Pork",
+     "type": "dish",
+     "why": "Farmhouse-style stir-fry of thick-cut pork belly with long horn peppers and garlic - the classic Hunan home-cooking dish here, with real heat.",
+     "evidence": [
+      {
+       "source": "Michelin Guide",
+       "url": "https://guide.michelin.com/us/en/massachusetts/cambridge_2914793/restaurant/sumiao-hunan-kitchen"
+      },
+      {
+       "source": "CBS Boston / Phantom Gourmet",
+       "url": "https://www.cbsnews.com/boston/news/sumiao-hunan-kitchen-cambridge-phantom-gourmet"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Sumiao Gyoza",
+     "type": "dish",
+     "why": "Pan-fried pork potstickers done simply and precisely - the easy crowd-pleasing starter.",
+     "evidence": [
+      {
+       "source": "The Improper Bostonian",
+       "url": "https://www.improper.com/food-drink/fire-flower/"
+      },
+      {
+       "source": "CBS Boston / Phantom Gourmet",
+       "url": "https://www.cbsnews.com/boston/news/sumiao-hunan-kitchen-cambridge-phantom-gourmet"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Shaoshan Cabbage",
+     "type": "dish",
+     "why": "Hand-torn cabbage wok-charred with dried chilis, aged vinegar and garlic until it eats almost meaty - the standout vegetable.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/sumiao-hunan-kitchen"
+      },
+      {
+       "source": "The Improper Bostonian",
+       "url": "https://www.improper.com/food-drink/fire-flower/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Lava Fish",
+     "type": "dish",
+     "why": "Thick white fish fillets steamed under a pickled-chili and garlic sauce; called a must for the table.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/sumiao-hunan-kitchen"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Beef on Fire",
+     "type": "dish",
+     "why": "Hometown-style stir-fried beef with pickled yellow peppers, ginger and cilantro - bright, sour-spicy Hunan flavor.",
+     "evidence": [
+      {
+       "source": "The Improper Bostonian",
+       "url": "https://www.improper.com/food-drink/fire-flower/"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Order family-style; the restaurant itself recommends sharing.",
+    "Pair a spicy wok dish with a cooling vegetable (Shaoshan cabbage, string beans) and rice - rice is ordered separately.",
+    "Weekday lunch (Tue-Fri) has a fixed-price entree menu that is the best value.",
+    "Patio seating in warm months; live band nights listed on the site.",
+    "Dry-fried string beans with peppercorn oil are another strong vegetable side."
+   ],
+   "difficulty": {
+    "level": "easy",
+    "why": "Large Kendall room with Resy availability most nights; weekends book up modestly."
+   },
+   "warnings": [
+    "Many dishes cannot be made non-spicy (marked on the menu).",
+    "Table time limits (1.5-2 hrs).",
+    "Closed Mondays.",
+    "Auto 20% gratuity + 3% kitchen fee for parties of 7+."
+   ]
+  },
+  {
+   "name": "Brassica Kitchen + Café",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "B.K. Fried Chicken",
+     "type": "dish",
+     "why": "Chicken brined for days in the leftover ferment from the house hot sauce, then fried - one of the restaurant's most popular plates since opening; add a house hot sauce.",
+     "evidence": [
+      {
+       "source": "Boston.com / Boston Globe Media (What to order)",
+       "url": "https://www.boston.com/food/restaurants/2024/03/22/what-to-order-at-brassica-in-jamaica-plain/"
+      },
+      {
+       "source": "Phantom Gourmet / CBS Boston (crispy chicken sandwich, 2017)",
+       "url": "https://www.cbsnews.com/boston/news/brassica-kitchen-jamaica-plain-phantom-gourmet/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "B.K. Brussels",
+     "type": "dish",
+     "why": "Crispy fried Brussels sprouts dressed with maple, umeboshi, miso and lemon - a signature since the pop-up days.",
+     "evidence": [
+      {
+       "source": "Boston.com / Boston Globe Media (What to order)",
+       "url": "https://www.boston.com/food/restaurants/2024/03/22/what-to-order-at-brassica-in-jamaica-plain/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Koji Risotto",
+     "type": "dish",
+     "why": "Earthy-sweet risotto cooked in a Parmesan-rind broth with house koji - the dish the chef says best sums up the kitchen.",
+     "evidence": [
+      {
+       "source": "Boston.com / Boston Globe Media (What to order)",
+       "url": "https://www.boston.com/food/restaurants/2024/03/22/what-to-order-at-brassica-in-jamaica-plain/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Mussels (curry broth)",
+     "type": "dish",
+     "why": "Moules done with Thai curry flavors and a rotating starch for dipping; a cold-weather fixture regulars wait for.",
+     "evidence": [
+      {
+       "source": "Boston.com / Boston Globe Media (What to order)",
+       "url": "https://www.boston.com/food/restaurants/2024/03/22/what-to-order-at-brassica-in-jamaica-plain/"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "'The Ride' chef's tasting menu (~$100/pp incl. tax & tip, 2-person min; can be pescatarian) is the easy way to try everything.",
+    "Take home a bottle of the house hot sauces (carrot habanero, blueberry pasilla, etc.).",
+    "Weekend brunch is a neighborhood favorite - diners rave about biscuits & gravy and brown-butter pancakes.",
+    "Also serves Detroit- and Roman-style pizzas at dinner.",
+    "Daytime café for coffee and house donuts; steps from Forest Hills Orange Line."
+   ],
+   "difficulty": {
+    "level": "easy",
+    "why": "Neighborhood spot with OpenTable availability on most nights; weekend brunch is busiest."
+   },
+   "warnings": [
+    "Closed Mondays and Tuesdays.",
+    "Menu changes often - the Globe-praised bluefin crudo is not on the Nov 2026 menu (hamachi crudo instead); mussels are seasonal.",
+    "Service model: site describes a 20% admin + 3% benefits fee in lieu of tipping; current dinner menu says prices include tax and gratuity - check your bill, don't double tip."
+   ]
+  },
+  {
+   "name": "Fallow Kin",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Squid (stuffed Rhode Island squid / squid Milanese)",
+     "type": "dish",
+     "why": "The kitchen's signature use of the whole squid - pounded and fried crisp, or stuffed - with bright chile and citrus accents; both major reviews singled out a squid dish.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/fallow-kin"
+      },
+      {
+       "source": "The Boston Globe (4-star review)",
+       "url": "https://www.bostonglobe.com/2026/06/17/lifestyle/fallow-kin-review-restaurant-cambridge/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Feather Brook Farms Chicken",
+     "type": "dish",
+     "why": "Crisp-skinned, brick-pressed local chicken - the classic main that recurs across seasons.",
+     "evidence": [
+      {
+       "source": "The Boston Globe",
+       "url": "https://www.bostonglobe.com/2026/06/17/lifestyle/fallow-kin-review-restaurant-cambridge/"
+      },
+      {
+       "source": "Cambridge Day",
+       "url": "https://www.cambridgeday.com/2025/11/15/pumpkin-mole-and-chick-under-a-brick-at-fallow-kin/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Bar burger (Craigie on Main homage)",
+     "type": "dish",
+     "why": "A wagyu burger with cheddar sauce and giardiniera on a sesame potato bun, nodding to the beloved burger of Craigie on Main, which used to occupy the space.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/fallow-kin"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Fig Leaf Martini",
+     "type": "drink",
+     "why": "The must-order cocktail; comes in a full or a playful half-size pour.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/fallow-kin"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Bread: Hazlet rye sourdough & laminated brioche",
+     "type": "dish",
+     "why": "Thick-cut house rye sourdough (with apple butter) and honey-buttered brioche - an easy table opener the Globe called out.",
+     "evidence": [
+      {
+       "source": "The Boston Globe",
+       "url": "https://www.bostonglobe.com/2026/06/17/lifestyle/fallow-kin-review-restaurant-cambridge/"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "First visit: let the staff steer the order and pacing (Time Out's advice).",
+    "Book the Chef's Counter for the full 7-course experience; the dining room is a la carte.",
+    "Save room for dessert - reviewers rate the desserts and house ice creams among the best things here.",
+    "Try the Fallow Kin trousseau gris made for the restaurant by Jolie-Laide."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Globe 4-star review and Resy Hit List buzz make prime weekend tables and Chef's Counter seats go fast; weeknights are easier."
+   },
+   "warnings": [
+    "Menu is hyper-seasonal - the squid dishes are not on the Nov 2026 main menu, and the burger is a bar-menu item that may rotate.",
+    "Closed Tuesdays.",
+    "Bright, white-lit dining room - not a dim, candlelit vibe."
+   ]
+  },
+  {
+   "name": "Grill 23 & Bar",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "100 Day Aged Prime Ribeye",
+     "type": "dish",
+     "why": "An 18-oz prime ribeye dry-aged for 100 days and seared under an ultra-hot broiler - funky, tender and the house showpiece.",
+     "evidence": [
+      {
+       "source": "Boston Magazine",
+       "url": "https://bostonmagazine.com/?p=2658303"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Prime New York Strip (14 oz)",
+     "type": "dish",
+     "why": "The dependable classic cut; the Infatuation calls it a strong pick even next to the splurge cuts. A dry-aged version is also offered.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/grill-23-and-bar"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "A5 Wagyu Striploin",
+     "type": "dish",
+     "why": "Japanese A5 wagyu, sold as a small tasting add-on or a 6-oz steak - one of the best bites the Infatuation reviewer had in recent memory.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/grill-23-and-bar"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Shellfish Sampler (seafood tower)",
+     "type": "dish",
+     "why": "Towering platter of shrimp, oysters, lobster tail, crab and salmon tartare - the celebratory start.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/grill-23-and-bar"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Famous Coconut Cake",
+     "type": "dessert",
+     "why": "Long-running tall coconut layer cake the menu itself bills as 'famous'; frequently praised by diners.",
+     "evidence": [
+      {
+       "source": "Grill 23 menu (official)",
+       "url": "https://www.grill23.com/menus"
+      }
+     ],
+     "mentions": 0
+    }
+   ],
+   "tips": [
+    "Ask for an ice-cold martini - the Infatuation highlights them.",
+    "Chef-recommended sides with the ribeye: taleggio creamed spinach and the truffle Grill 23 tots.",
+    "Upstairs/downstairs rooms: request a secluded table for occasions, or eat at the clubby bar.",
+    "Grand Award-winning wine list - worth asking the sommelier.",
+    "Steaks are also sold raw through the Grill 23 butcher shop."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Large two-level room with good OpenTable availability, but prime weekend and holiday times (December, NYE) fill well ahead."
+   },
+   "warnings": [
+    "Very expensive: steaks ~$79-$325, sides $16-$22 a la carte.",
+    "Dressy, old-school steakhouse atmosphere; can be loud on busy nights."
+   ]
+  },
+  {
+   "name": "Puritan & Company",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Parker House Rolls",
+     "type": "dish",
+     "why": "Buttery, salt-flecked house rolls served warm with cultured butter - widely called the best version in town; order them every time.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/puritan-co"
+      },
+      {
+       "source": "The Harvard Crimson (2025)",
+       "url": "https://www.thecrimson.com/article/2025/4/15/puritan-and-co-restaurant-review"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Crab Cavatelli",
+     "type": "dish",
+     "why": "Soft house-made cavatelli with lots of sweet crab in a light lemony broth - the signature pasta.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/puritan-co"
+      },
+      {
+       "source": "The Harvard Crimson (2025)",
+       "url": "https://www.thecrimson.com/article/2025/4/15/puritan-and-co-restaurant-review"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Garlic Shrimp",
+     "type": "dish",
+     "why": "Plump shrimp in a deep black-garlic sauce under fried shallots - save a roll to mop it up.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/puritan-co"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Orecchiette Bolognese",
+     "type": "dish",
+     "why": "House orecchiette carrying a rich pork-and-beef ragu; one of the reliable pastas.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/puritan-co"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "East Coast Oysters",
+     "type": "dish",
+     "why": "Local oysters with cucumber mignonette - a recommended opener, and half price 5-6 PM.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/puritan-company"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Rolls come two per order - get one order per two people at least.",
+    "Seafood towers (Neighborhood ~$50 / Cantabrigian ~$120) for groups.",
+    "Five-course chef's tasting (~$85; whole table must participate) with optional wine pairing.",
+    "After dinner, go next door to Puritan Oyster Bar for an amaro and dessert; its swordfish pastrami and lobster toast get raves.",
+    "Much produce comes from the chef-owner's family farm in Groton - lean into the vegetable plates."
+   ],
+   "difficulty": {
+    "level": "easy",
+    "why": "Established neighborhood restaurant with OpenTable availability and walk-ins welcome; weekend prime time books up a few days out."
+   },
+   "warnings": [
+    "Crab cavatelli and garlic shrimp are not on the Nov 2026 posted dinner menu - seasonal menu; may not be available.",
+    "Metered street parking until 6 PM; Windsor lot nearby."
+   ]
+  },
+  {
+   "name": "Somaek",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Mandu (steamed dumplings)",
+     "type": "dish",
+     "why": "Hot, juicy steamed dumplings with a thicker, homestyle wrapper - repeatedly called a must-order.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/somaek"
+      },
+      {
+       "source": "The Harvard Crimson (2025)",
+       "url": "https://www.thecrimson.com/article/2025/12/21/somaek-review/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Bibim Guksu",
+     "type": "dish",
+     "why": "Cold buckwheat noodles in sweet-spicy gochujang with cucumber, gim and a soft egg - soothing and bright.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/somaek"
+      },
+      {
+       "source": "Resy",
+       "url": "https://blog.resy.com/2024/05/somaek-jamie-bissonnette-boston/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Dwaeji Bulgogi",
+     "type": "dish",
+     "why": "Spicy-sweet gochujang pork bulgogi with rice - the main staff steer people toward.",
+     "evidence": [
+      {
+       "source": "The Harvard Crimson (2025)",
+       "url": "https://www.thecrimson.com/article/2025/12/21/somaek-review/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Doenjang Jjigae",
+     "type": "dish",
+     "why": "Soybean-paste stew with pork, clams, tofu and potato - quietly deep and comforting.",
+     "evidence": [
+      {
+       "source": "Michelin Guide",
+       "url": "https://guide.michelin.com/us/en/massachusetts/boston_2914838/restaurant/somaek"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Somaek (soju + beer)",
+     "type": "drink",
+     "why": "The namesake soju-and-beer mix; pair it with a Korean-forward list of soju, makgeolli and yakju.",
+     "evidence": [
+      {
+       "source": "Resy",
+       "url": "https://blog.resy.com/2024/05/somaek-jamie-bissonnette-boston/"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Every meal comes with three free banchan (mu radish kimchi and soy-braised beef are standouts); extras cost more.",
+    "Order several small plates family-style - dishes come out as ready, not in courses.",
+    "Two can usually snag bar seats on a weeknight without a reservation.",
+    "Chef Jamie Bissonnette's Temple Records bar (sushi/listening bar) is in the same building for after dinner.",
+    "Michelin Guide recommended (2025)."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Popular, Michelin-recommended, modest-size room; prime weekend tables need a few days' notice but the bar is walk-in friendly."
+   },
+   "warnings": [
+    "Closed Sundays.",
+    "$25/pp no-show / late-cancel fee.",
+    "Mandu fillings rotate: the Nov 2026 menu lists steamed beef & scallion and fried mushroom-tofu, not the pork-kimchi version early reviews describe.",
+    "At least one diner felt the bill (~$65pp) ran high for the portions."
+   ]
+  },
+  {
+   "name": "Via Cannuccia",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Pizza alla pala",
+     "type": "dish",
+     "why": "Long Roman paddle-baked pizzas with an airy crust; reviewers push the white pies (mortadella-burrata-pistachio, quattro formaggi) and the sausage pie for the table.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/via-cannucia"
+      },
+      {
+       "source": "Dorchester Reporter",
+       "url": "https://dotnews.com/node/190534"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Supplì (cacio e pepe)",
+     "type": "dish",
+     "why": "Roman fried risotto balls, crunchy outside and molten-cheesy within, served over a Romano cream - worth the trip on their own.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/via-cannucia"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Gnocchetti",
+     "type": "dish",
+     "why": "Sardinian pasta that rotates sauces (most recently sausage with broccoli crema) - order it whenever it appears.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/via-cannucia"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Weekend pastries",
+     "type": "dessert",
+     "why": "Morning croissants, danishes and rotating Italian pastries baked in-house for the weekend brunch crowd.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/via-cannucia"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Check the chalkboard specials - seasonal dishes change almost daily.",
+    "Current menu (Nov 2026) includes Tonnarello cacio e pepe, Pacchero alla Genovese (short-rib ragu) and chef Stefano's house porchetta.",
+    "Lots of seafood: mussels, octopus salad, fettuccine alla pescatora.",
+    "Weekend brunch 9-2 is the easier way in; arrive early for pastries.",
+    "Ranked in Boston Magazine's Top 50 Restaurants (2025). A bakery/wine-bar offshoot, Bottega Cannuccia, is planned for Fields Corner."
+   ],
+   "difficulty": {
+    "level": "hard",
+    "why": "Tiny ~40-seat room, industry favorite, and described by the Globe (Aug 2026) as one of the city's toughest tables; book on OpenTable well ahead."
+   },
+   "warnings": [
+    "Closed Tuesdays.",
+    "Strict table time limits (1.5-2 hrs).",
+    "Menu rotates: on the Nov 2026 dinner menu the supplì are taleggio-spinach, not cacio e pepe, and gnocchetti are not listed.",
+    "Small kitchen - dishes may arrive at different times."
+   ]
+  },
+  {
+   "name": "Woods Hill Pier 4",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Shellfish Tower",
+     "type": "dish",
+     "why": "Towering raw-bar platter (oysters, clams, Old Bay-aioli mussels, lobster and crab salads, shrimp, crudo) built to go with the harbor view.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/woods-hill-pier-4"
+      },
+      {
+       "source": "Time Out Boston (The Ultimate Meal)",
+       "url": "https://www.timeout.com/boston/news/the-ultimate-meal-woods-hill-pier-4-051023"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Lobster Popover",
+     "type": "dish",
+     "why": "Fresh lobster salad stuffed into a warm popover - a brunch-only riff on the lobster roll with near-celebrity status around town.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/woods-hill-pier-4"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Charred Broccoli",
+     "type": "dish",
+     "why": "A menu staple: charred broccoli with cheddar and smoked-garlic aioli and crispy leeks.",
+     "evidence": [
+      {
+       "source": "Time Out Boston (The Ultimate Meal)",
+       "url": "https://www.timeout.com/boston/news/the-ultimate-meal-woods-hill-pier-4-051023"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Bucatini all'Amatriciana",
+     "type": "dish",
+     "why": "House-made bucatini with house-cured guanciale; one of the recurring pasta staples.",
+     "evidence": [
+      {
+       "source": "Time Out Boston (The Ultimate Meal)",
+       "url": "https://www.timeout.com/boston/news/the-ultimate-meal-woods-hill-pier-4-051023"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Adelita margarita",
+     "type": "drink",
+     "why": "Smoky signature margarita; the cocktail program is a highlight.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/woods-hill-pier-4"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Brunch on a sunny day in a window booth is the classic move; order the popover and the Cubano.",
+    "Most meat, produce and dairy come from The Farm at Woods Hill in Bath, NH - the meat dishes are a strength.",
+    "Save room for dessert or the espresso martini.",
+    "Pier 4 Caviar Service comes with warm popovers.",
+    "Big patio in warm months; Michelin Guide selected (2025)."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Large room with Resy availability, but weekend brunch, patio season and sunset tables fill up."
+   },
+   "warnings": [
+    "Lobster popover and Cubano are brunch-only (Sat-Sun).",
+    "Pricey: lobster popover ~$43, shellfish tower ~$138.",
+    "Menu changes seasonally.",
+    "No parking validation at nearby garages."
+   ]
+  },
+  {
+   "name": "La Royal",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Ceviche / Leche de tigre",
+     "type": "dish",
+     "why": "Bracing Lima-style ceviche (blue cod or mixto) and its 'tiger's milk' shot, served in cut-glass stemware - the place to start.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/la-royal"
+      },
+      {
+       "source": "Resy",
+       "url": "https://blog.resy.com/2022/06/everything-you-need-to-know-about-la-royal-best-peruvian-cambridge/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Patarashca",
+     "type": "dish",
+     "why": "Whole branzino grilled in plantain leaves with Amazonian seasonings, onions and peppers - Resy's 'don't miss' and an Infatuation favorite.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/la-royal"
+      },
+      {
+       "source": "Resy",
+       "url": "https://blog.resy.com/2022/06/everything-you-need-to-know-about-la-royal-best-peruvian-cambridge/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "La Royal Sour",
+     "type": "drink",
+     "why": "The house pisco sour, tinted fuchsia with hibiscus-and-pomegranate-infused pisco - the signature cocktail.",
+     "evidence": [
+      {
+       "source": "Resy",
+       "url": "https://blog.resy.com/2022/06/everything-you-need-to-know-about-la-royal-best-peruvian-cambridge/"
+      },
+      {
+       "source": "Cambridge Day",
+       "url": "https://www.cambridgeday.com/2022/03/09/egg-cream-sours-and-duck-at-la-royal/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Lomo Saltado",
+     "type": "dish",
+     "why": "Chifa classic of wok-seared sirloin with tomato, onion and soy - a savory umami bomb.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/la-royal"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Tiradito de hongo",
+     "type": "dish",
+     "why": "Nikkei-style 'sashimi' of thin portobello slices in a gingery soy dressing - a great vegetarian starter.",
+     "evidence": [
+      {
+       "source": "Resy",
+       "url": "https://blog.resy.com/2022/06/everything-you-need-to-know-about-la-royal-best-peruvian-cambridge/"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Copper bar is good for solo diners and cocktail-first visits; walk-ins welcome.",
+    "Chifa dishes (marked * on the menu) reflect the chef's own Chinese-Peruvian heritage - pescado con verduras with house XO sauce is another strong pick.",
+    "Pisco Martini (horseradish pisco) and Margarita Morada (purple-corn mezcal) are fun alternates.",
+    "Sister restaurant to Celeste in Somerville."
+   ],
+   "difficulty": {
+    "level": "easy",
+    "why": "Neighborhood spot, open nightly, OpenTable availability and walk-ins welcome; weekend prime time can fill."
+   },
+   "warnings": [
+    "Gratineed scallops (praised in reviews) are not on the Nov 2026 posted dinner menu.",
+    "Some dishes carry real aji heat.",
+    "Dinner only; a short drive or bus ride from Harvard Square."
+   ]
+  },
+  {
+   "name": "Zurito",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Pan con tomate with anchovies",
+     "type": "dish",
+     "why": "Simple garlic-and-tomato toast that critics say you must top with the Cantabrian anchovies.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/zurito"
+      },
+      {
+       "source": "Eater Boston",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/zurito"
+      },
+      {
+       "source": "Boston.com",
+       "url": "https://www.boston.com/food/restaurants/2024/12/02/5-restaurants-we-cant-wait-to-try-in-december/"
+      }
+     ],
+     "mentions": 4
+    },
+    {
+     "item": "Gildas (anchovy, guindilla, olive skewers)",
+     "type": "dish",
+     "why": "The classic Basque bar bite; the anchovy-forward pintxos are the house strength.",
+     "evidence": [
+      {
+       "source": "Boston.com",
+       "url": "https://www.boston.com/food/restaurants/2024/12/02/5-restaurants-we-cant-wait-to-try-in-december/"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/zurito"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/zurito"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Jamones y quesos board",
+     "type": "dish",
+     "why": "Hand-sliced Spanish hams (legs hang over the bar) with manchego and tomato honey.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/zurito"
+      },
+      {
+       "source": "Boston.com",
+       "url": "https://www.boston.com/food/restaurants/2024/12/02/5-restaurants-we-cant-wait-to-try-in-december/"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/zurito"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Croissant de ibérico",
+     "type": "dish",
+     "why": "Mini croissant stuffed with acorn-fed jamón ibérico paleta.",
+     "evidence": [
+      {
+       "source": "Eater Boston",
+       "url": "https://boston.eater.com/maps/best-restaurants-boston-38"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/zurito"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Txuleta tartare",
+     "type": "dish",
+     "why": "Steak tartare on toast with anchovy, olive and fried garlic; Infatuation called it a best-bite contender.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/zurito"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Order several cheap pintxos first (most are single bites), then a ham-and-cheese board, then decide on raciones.",
+    "Ask for the anchovy add-on with the pan con tomate.",
+    "Spanish-focused wine list (Wine Spectator Award of Excellence); by-the-glass Spanish reds are the value play.",
+    "Bar and standing counter up front are livelier; the back dining room is darker and quieter.",
+    "Big-group splurge: the 32 oz bone-in txuleton ribeye."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Only about 60 seats and a hot Beacon Hill opening; prime weekend slots go fast on the 30-day Resy release, but bar/high-top seats help."
+   },
+   "warnings": [
+    "Pintxos are small and priced per piece; the bill adds up quickly.",
+    "Patio is seasonal (closing party held mid-Nov 2026)."
+   ]
+  },
+  {
+   "name": "Hecate",
+   "kind": "bar",
+   "famous": [
+    {
+     "item": "Signature cocktails from the current 'book of spells' volume",
+     "type": "drink",
+     "why": "Rotating volumes of ingredient-heavy, theatrical cocktails in unusual glassware; Vol. VI (late 2026) includes She of the Night, Fasnacht and Hollow Hills.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://timeout.com/boston/bars/hecate"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://www.bostonmagazine.com/?p=2679846"
+      },
+      {
+       "source": "Axios Boston",
+       "url": "https://www.axios.com/local/boston/2022/07/01/hecate-back-bay-boston-hidden-bar-review"
+      },
+      {
+       "source": "World's 50 Best Discovery",
+       "url": "https://www.theworlds50best.com/discovery/Establishments/US/Boston/Hecate.html"
+      }
+     ],
+     "mentions": 4
+    },
+    {
+     "item": "Bar snacks (stuffed dates, fried chicken, chickpea fritters)",
+     "type": "dish",
+     "why": "A short snack list built to soak up the drinks.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://timeout.com/boston/bars/hecate"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Arrive 30 minutes before opening to skip the wait.",
+    "Tell the bartenders ('spirit guides') what you like; ordering a basic highball is frowned on.",
+    "There's also a zero-proof list.",
+    "Entrance is a door in the public alley behind Gloucester St, not on Newbury."
+   ],
+   "difficulty": {
+    "level": "hard",
+    "why": "Walk-in only with about 24 seats; waits of up to two hours reported on busy nights."
+   },
+   "warnings": [
+    "No reservations, no phone.",
+    "Closed Sunday and Monday.",
+    "Cocktails are pricey (around 20 dollars) and the named drinks change with each menu volume; older-volume drinks (Snake Oil, Dragon Gate) are gone.",
+    "Do not contact Krasi about Hecate."
+   ]
+  },
+  {
+   "name": "Yvonne's",
+   "kind": "bar",
+   "famous": [
+    {
+     "item": "Crispy tater cubes",
+     "type": "dish",
+     "why": "Labor-intensive layered potato cubes with joppiesaus and gouda; the dish reviewers lead with.",
+     "evidence": [
+      {
+       "source": "Boston Magazine",
+       "url": "https://bostonmagazine.com/?p=2055541"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/yvonnes"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Large-format mules (Passion Fruit Mule)",
+     "type": "drink",
+     "why": "Shareable mules best ordered in the book-lined Library Bar.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/yvonnes"
+      },
+      {
+       "source": "Only In Your State",
+       "url": "https://onlyinyourstate.com/food/massachusetts/work-of-art-restaurant-ma"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Crispy tuna fregola",
+     "type": "dish",
+     "why": "Feast-for-two centerpiece of seared tuna over fregola.",
+     "evidence": [
+      {
+       "source": "Boston Magazine",
+       "url": "https://bostonmagazine.com/?p=2055541"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Chicken & quinoa meatballs",
+     "type": "dish",
+     "why": "Social-plate meatballs with Chinese garlic sauce and spicy peanuts.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/yvonnes"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Entrance is through a faux hair salon off Winter Place.",
+    "Order about two plates per person and share.",
+    "Have drinks in the Library Bar; The Gallery private room hides behind a bookcase.",
+    "Good late-night option: open until 1-2 AM."
+   ],
+   "difficulty": {
+    "level": "easy",
+    "why": "Large multi-room venue; SevenRooms usually has tables, especially early or late."
+   },
+   "warnings": [
+    "Food reviews are mixed versus the spectacular room.",
+    "Popcorn brûlée and stone-fired pitas from older reviews are not on the Nov 2026 menu.",
+    "Gets loud and clubby later at night."
+   ]
+  },
+  {
+   "name": "haley.henry",
+   "kind": "bar",
+   "famous": [
+    {
+     "item": "Tinned fish service",
+     "type": "dish",
+     "why": "Imported tins (sardines, mackerel, octopus) opened tableside on a slate with chips and garnishes.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/haley-henry"
+      },
+      {
+       "source": "Eater Boston",
+       "url": "https://boston.eater.com/maps/best-wine-bars-boston"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://theinfatuation.com/boston/reviews/haleyhenry"
+      },
+      {
+       "source": "Improper Bostonian",
+       "url": "https://www.improper.com/food-drink/tin-star/"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://www.bostonmagazine.com/?p=2060479"
+      }
+     ],
+     "mentions": 5
+    },
+    {
+     "item": "Natural wine by the glass / half bottle",
+     "type": "drink",
+     "why": "James Beard-semifinalist list of small, often women-made natural wines; most bottles available as halves.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/haley-henry"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://theinfatuation.com/boston/reviews/haleyhenry"
+      },
+      {
+       "source": "Eater Boston",
+       "url": "https://boston.eater.com/maps/best-wine-bars-boston"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Crudo and ceviche",
+     "type": "dish",
+     "why": "Daily raw-fish plates, e.g., black bass ceviche with coconut and honey.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://theinfatuation.com/boston/reviews/haleyhenry"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/haley-henry"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Buttered Jonah crab toast",
+     "type": "dish",
+     "why": "Simple buttery crab toast that Time Out calls a standout.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/haley-henry"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Wiener Wednesday hot dogs",
+     "type": "dish",
+     "why": "Themed gourmet hot dogs every Wednesday.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://theinfatuation.com/boston/reviews/haleyhenry"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Ask the bartender what they're excited about; staff picks are reliable.",
+    "Half bottles let two people try more wines.",
+    "Check the events calendar for theme nights (wine-country nights, Pride parties).",
+    "Sidewalk seating expands capacity in warm months."
+   ],
+   "difficulty": {
+    "level": "easy",
+    "why": "Small but mostly walk-in bar seating plus Resy tables; waits only at peak weekend hours."
+   },
+   "warnings": [
+    "Tiny space with limited seating.",
+    "Closed Sundays and Mondays.",
+    "Crudo, ceviche and tins rotate daily."
+   ]
+  },
+  {
+   "name": "Backbar",
+   "kind": "bar",
+   "famous": [
+    {
+     "item": "Themed specialty cocktail menu",
+     "type": "drink",
+     "why": "The list is rebuilt around a pop-culture theme every few months (Star Wars, animation studios, cryptids), with nerdy, inventive drinks.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/backbar"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://www.bostonmagazine.com/restaurants/2025/12/22/backbar-somerville-new-owners-field-and-vine/"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/backbar"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Clarified milk punch",
+     "type": "drink",
+     "why": "An ever-changing clear milk punch is the house staple; the bar says it has made hundreds of versions.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/backbar"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://www.bostonmagazine.com/restaurants/2025/12/22/backbar-somerville-new-owners-field-and-vine/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Bartender's choice",
+     "type": "drink",
+     "why": "Bartenders happily build a custom drink from your mood or preferred spirit.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/backbar"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/backbar"
+      }
+     ],
+     "mentions": 2
+    }
+   ],
+   "tips": [
+    "Arrive near opening (5 PM) on Fri/Sat to skip the hallway line.",
+    "If the menu reads too obscure, describe what you like and let the bartender riff.",
+    "Ask which clarified milk punch is on right now."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Walk-in only, small room, weekend line."
+   },
+   "warnings": [
+    "Ownership changed: the Field & Vine team bought it in 2025 and cofounder Sam Treadway left at the end of 2025; menus/vibe may shift.",
+    "Official website domain is down (Wix error) as of Nov 2026; confirm hours on social media.",
+    "Specific themed drinks rotate every few months."
+   ]
+  },
+  {
+   "name": "Blossom Bar",
+   "kind": "bar",
+   "famous": [
+    {
+     "item": "Dan dan noodles",
+     "type": "dish",
+     "why": "The Sichuan Garden kitchen's tingly noodles are the go-to soak-up dish with the cocktails.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/blossom-bar"
+      },
+      {
+       "source": "Boston.com",
+       "url": "https://www.boston.com/culture/restaurants/2018/01/08/an-award-winning-bartender-just-opened-a-new-cocktail-bar-in-brookline"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Gloria",
+     "type": "drink",
+     "why": "Award-winning signature of aged rum, passionfruit, coffee, cinnamon and mascarpone.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/blossom-bar"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Angie Valencia",
+     "type": "drink",
+     "why": "Opening-era papaya cocktail named for a Colombian beauty queen turned smuggler.",
+     "evidence": [
+      {
+       "source": "Boston.com",
+       "url": "https://www.boston.com/culture/restaurants/2018/01/08/an-award-winning-bartender-just-opened-a-new-cocktail-bar-in-brookline"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Pair the tropical drinks with Sichuan dishes (dumplings in chili vinaigrette, kung pao).",
+    "Walk-in section exists; arrive at 5 PM on weekends or book Tock.",
+    "The 2026 menu leads with Palm Viper, Rosalia, Bae Bae Colada (ube) and Makrut Lime; ask if older classics can still be made."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Buzzy and loud on weekends, but bookable on Tock with walk-in space."
+   },
+   "warnings": [
+    "Gloria and Angie Valencia are not on the current posted 2026 menu, so they may be retired; ask the bartender.",
+    "90-minute table limit for reservations.",
+    "Loud, energetic room."
+   ]
+  },
+  {
+   "name": "Liars",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Beef tongue with peppers and cheese",
+     "type": "dish",
+     "why": "Tender tongue done like a sizzling cheesesteak; both reviewers called it the standout.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/liars"
+      },
+      {
+       "source": "Harvard Crimson",
+       "url": "https://www.thecrimson.com/article/2026/10/27/liars-restaurant-review/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Griddled corn muffin with blueberry ice cream",
+     "type": "dessert",
+     "why": "Buttery, hot griddled muffin topped with a scoop of blueberry ice cream.",
+     "evidence": [
+      {
+       "source": "Boston Globe",
+       "url": "https://www.bostonglobe.com/2026/09/25/lifestyle/liars-somerville-quick-bite/"
+      },
+      {
+       "source": "Harvard Crimson",
+       "url": "https://www.thecrimson.com/article/2026/10/27/liars-restaurant-review/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Tuna meatballs",
+     "type": "dish",
+     "why": "Tuna meatballs in spicy tomato sauce that the Globe called brilliant.",
+     "evidence": [
+      {
+       "source": "Boston Globe",
+       "url": "https://www.bostonglobe.com/2026/09/25/lifestyle/liars-somerville-quick-bite/"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/liars"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Coca-Cola-braised chicken wing terrine",
+     "type": "dish",
+     "why": "Smoky-sweet cold terrine with carrot ribbons; a server favorite.",
+     "evidence": [
+      {
+       "source": "Harvard Crimson",
+       "url": "https://www.thecrimson.com/article/2026/10/27/liars-restaurant-review/"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/liars"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Specific Object",
+     "type": "drink",
+     "why": "Mango distillate, pineapple rum, purple rice and sparkling wine; the Infatuation's favorite cocktail.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/liars"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Get the mixed-grain rice with crab butter on the side; Infatuation says it lifts every dish.",
+    "Cocktails get playful garnishes (squirt guns, an olive frozen in ice for the Humor Me).",
+    "Ask the spirits team for a pour you've never had; the list leans on rare bottles."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "New (Aug 2026) and well reviewed; book on OpenTable for prime time, bar walk-ins possible."
+   },
+   "warnings": [
+    "Menu is seasonal and new; dishes may rotate.",
+    "Closed Sunday and Monday.",
+    "Non-alcoholic drinks are pricey for their size (Crimson)."
+   ]
+  },
+  {
+   "name": "Toro",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Maíz asado (grilled street corn)",
+     "type": "dish",
+     "why": "The signature: charred corn slathered in alioli, lime, espelette and aged cheese.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/toro-boston"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/toro"
+      },
+      {
+       "source": "Andrew Zimmern",
+       "url": "https://andrewzimmern.com/toro/"
+      },
+      {
+       "source": "BU Today",
+       "url": "https://www.bu.edu/articles/2012/lunch-anyone-toro/"
+      }
+     ],
+     "mentions": 4
+    },
+    {
+     "item": "Paella Valenciana",
+     "type": "dish",
+     "why": "Big shareable pans of rice with shrimp, mussels, clams, chorizo and chicken.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/toro-boston"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/toro"
+      },
+      {
+       "source": "Andrew Zimmern",
+       "url": "https://andrewzimmern.com/toro/"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Patatas bravas",
+     "type": "dish",
+     "why": "Crisp fried potatoes with alioli and spicy tomato; you can upgrade to a 'brava bomb'.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/toro-boston"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/toro"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Pato con membrillo (smoked duck drumettes, quince)",
+     "type": "dish",
+     "why": "Quince-glazed duck drumsticks singled out as unforgettable.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/toro"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Hamburguesas (sliders)",
+     "type": "dish",
+     "why": "Tomato-jam and pickled-onion sliders that Infatuation calls a house favorite.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/toro-boston"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Order paella early: the menu asks for a minimum 30 minutes and it is dinner only.",
+    "A half order of corn works for two.",
+    "Bar seats face the open kitchen and are easiest to get without a booking.",
+    "Sunday brunch is back if dinner is booked out."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Popular 20-year-old South End staple; prime tables need booking ahead but the bar takes walk-ins."
+   },
+   "warnings": [
+    "Loud, party-music atmosphere.",
+    "Older guides say Toro is walk-in only; it now takes reservations via OpenTable.",
+    "Seasonal menu; specific tapas rotate."
+   ]
+  },
+  {
+   "name": "Fox & the Knife",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Taleggio-stuffed focaccia",
+     "type": "dish",
+     "why": "Warm focaccia oozing taleggio and mozzarella; the opener nearly every table gets.",
+     "evidence": [
+      {
+       "source": "Boston.com",
+       "url": "https://www.boston.com/food/restaurants/2023/12/14/what-to-order-at-fox-the-knife-in-south-boston/"
+      },
+      {
+       "source": "MICHELIN Guide",
+       "url": "https://guide.michelin.com/us/en/massachusetts/boston_2914838/restaurant/fox-the-knife"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Tagliatelle Bolognese",
+     "type": "dish",
+     "why": "Chef Akunowicz's own can't-miss pasta; hand-rolled ribbons with a rich ragù.",
+     "evidence": [
+      {
+       "source": "Boston.com",
+       "url": "https://www.boston.com/food/restaurants/2023/12/14/what-to-order-at-fox-the-knife-in-south-boston/"
+      },
+      {
+       "source": "MICHELIN Guide",
+       "url": "https://guide.michelin.com/us/en/massachusetts/boston_2914838/restaurant/fox-the-knife"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Pepe e cacio",
+     "type": "dish",
+     "why": "Cacio e pepe riff finished with goat butter and pink peppercorns.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/fox-the-knife"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Gnocco fritto with mortadella",
+     "type": "dish",
+     "why": "Puffy fried dough draped with mortadella, a lighter alternative to the focaccia.",
+     "evidence": [
+      {
+       "source": "MICHELIN Guide",
+       "url": "https://guide.michelin.com/us/en/massachusetts/boston_2914838/restaurant/fox-the-knife"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Broccoli Caesar",
+     "type": "dish",
+     "why": "Charred broccoli starter with white miso, migas and colatura.",
+     "evidence": [
+      {
+       "source": "MICHELIN Guide",
+       "url": "https://guide.michelin.com/us/en/massachusetts/boston_2914838/restaurant/fox-the-knife"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Start with the focaccia (or gnocco fritto), then share pastas course by course.",
+    "Aperitivo snacks like fried chili chickpeas pair with the spritz list; there's an amaro program for after.",
+    "Bar seats are walk-in only; arrive at opening for the best shot."
+   ],
+   "difficulty": {
+    "level": "hard",
+    "why": "Michelin-recognized chef-driven spot; prime tables vanish soon after the rolling 30-day release."
+   },
+   "warnings": [
+    "Small plates and pastas add up; plan several per person.",
+    "Menu changes seasonally; whole fish and some pastas rotate."
+   ]
+  },
+  {
+   "name": "Row 34",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Lobster roll (warm buttered or Ethel's creamy)",
+     "type": "dish",
+     "why": "Two styles from Jeremy Sewall's family recipes; the hot buttered one is the local favorite.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/row-34"
+      },
+      {
+       "source": "Eater Boston",
+       "url": "https://boston.eater.com/maps/best-lobster-rolls-boston"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://bostonmagazine.com/?p=1904245"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Raw bar oysters",
+     "type": "dish",
+     "why": "Island Creek lineage; dozens of East Coast oysters are the reason to come.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/row-34"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/guides/where-to-eat-and-drink-in-the-seaport-fort-point"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://bostonmagazine.com/?p=1904245"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Lager-steamed Maine mussels",
+     "type": "dish",
+     "why": "Beer-steamed mussels with bread for the broth; matches the strong beer list.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/row-34"
+      },
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/guides/where-to-eat-and-drink-in-the-seaport-fort-point"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Crudo",
+     "type": "dish",
+     "why": "Rotating raw fish crudos (tuna with black garlic aioli was a highlight).",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/row-34"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Sit at the L-shaped bar and order oysters by the dozen with a beer.",
+    "Beer list is deep and rotating; cocktails use cordials (no full liquor license).",
+    "Lunch is quieter than dinner.",
+    "Lobster rolls are market price; ask before ordering."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Busy and noisy most nights; typical waits for tables, but plenty of bar seats and OpenTable availability."
+   },
+   "warnings": [
+    "Loud room.",
+    "Lobster roll priced at market (MP), can be expensive.",
+    "Five Row 34 locations exist; this entry is the original Fort Point/Seaport one."
+   ]
+  },
+  {
+   "name": "Baleia",
+   "kind": "restaurant",
+   "famous": [
+    {
+     "item": "Shrimp Mozambique",
+     "type": "dish",
+     "why": "Head-on shrimp in a spicy beer-and-chili stew you'll want to drink.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/baleia"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/baleia"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Duck rice",
+     "type": "dish",
+     "why": "Saffron rice with rich duck and chouriço; a heavy-hitting main.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/baleia"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/baleia"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Seared cod with caldo verde",
+     "type": "dish",
+     "why": "Deconstructed caldo verde: cod over green sauce, crispy potato and smoky chouriço.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/baleia"
+      },
+      {
+       "source": "Resy",
+       "url": "https://blog.resy.com/2024/04/baleia-boston/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Portuguese sweet rolls",
+     "type": "dish",
+     "why": "Golden pineapple-juice buns with chamomile butter; cheap and constantly flying out of the kitchen.",
+     "evidence": [
+      {
+       "source": "Resy",
+       "url": "https://blog.resy.com/2024/04/baleia-boston/"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/restaurants/baleia"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Cataplana",
+     "type": "dish",
+     "why": "Opening signature: copper-pot stew of pork, clams, mussels and shrimp.",
+     "evidence": [
+      {
+       "source": "Resy",
+       "url": "https://blog.resy.com/2024/04/baleia-boston/"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://bostonmagazine.com/?p=2782009"
+      }
+     ],
+     "mentions": 2
+    }
+   ],
+   "tips": [
+    "Start with a white port tonic and an order of sweet rolls.",
+    "All-Portuguese wine list (about 70 bottles); port and Madeira by the glass with dessert.",
+    "Explorador tasting menu (per person) is an option for groups.",
+    "Desserts: pastéis de nata and sonhos (fried dough with port caramel)."
+   ],
+   "difficulty": {
+    "level": "easy",
+    "why": "Big room in an out-of-the-way South End block; Resy usually has tables and the bar takes walk-ins."
+   },
+   "warnings": [
+    "Cataplana and bifana sliders are not on the Nov 2026 online menu; may be retired or seasonal.",
+    "Some reviewers find the dining room chilly near the entrance."
+   ]
+  },
+  {
+   "name": "The Wig Shop",
+   "kind": "bar",
+   "famous": [
+    {
+     "item": "Lobster pancakes",
+     "type": "dish",
+     "why": "Warm lobster in harissa butter on mini buttermilk pancakes with tobiko and dill.",
+     "evidence": [
+      {
+       "source": "Resy",
+       "url": "https://blog.resy.com/2023/02/wig-shop-boston-cocktails/"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/best-bars-in-boston"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Rise & Grind",
+     "type": "drink",
+     "why": "Supercharged espresso-martini-style rum drink in a teacup with whipped cream and a chocolate pretzel; limited to one per guest.",
+     "evidence": [
+      {
+       "source": "Resy",
+       "url": "https://blog.resy.com/2023/02/wig-shop-boston-cocktails/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "I Feel Pretty",
+     "type": "drink",
+     "why": "Best-seller of citron vodka, raspberry and elderflower under glitter foam.",
+     "evidence": [
+      {
+       "source": "Resy",
+       "url": "https://blog.resy.com/2023/02/wig-shop-boston-cocktails/"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Absinthe Ritual",
+     "type": "drink",
+     "why": "Tableside absinthe service for two, a Time Out tip.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/best-bars-in-boston"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Book the 5-7 PM Resy window, or go Sun/Mon when reservations run all night.",
+    "Couch seating only, no bar stools.",
+    "Big Champagne list (30+ bottles) if celebrating.",
+    "Food is finger-food canapés; plan dinner elsewhere or order several."
+   ],
+   "difficulty": {
+    "level": "moderate",
+    "why": "Small couch-only room; prime weekend hours are walk-in only."
+   },
+   "warnings": [
+    "Rise & Grind is one per person.",
+    "21+ with ID.",
+    "Cocktail menu rotates (current toy-themed 2026-27 book); signature drinks may change."
+   ]
+  },
+  {
+   "name": "Farmacia",
+   "kind": "bar",
+   "famous": [
+    {
+     "item": "Seasonal 'chapter' cocktail progression",
+     "type": "drink",
+     "why": "Three to four bespoke cocktails from a quarterly themed menu, tailored after a chat about your tastes.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/farmacia"
+      },
+      {
+       "source": "StarChefs",
+       "url": "https://www.starchefs.com/features/nine-seats-neat"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://bostonmagazine.com/best-of-boston-archive/2023/farmacia/"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Bar snacks and dessert course",
+     "type": "dish",
+     "why": "Small palate-cleansing bites and a dessert course built into the ticket.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/farmacia"
+      },
+      {
+       "source": "StarChefs",
+       "url": "https://www.starchefs.com/features/nine-seats-neat"
+      }
+     ],
+     "mentions": 2
+    }
+   ],
+   "tips": [
+    "Set an alarm for noon on the 1st of the month, 60 days before your target date.",
+    "Tell the bartender your preferences up front; any drink can be adjusted.",
+    "Current menu (Nov 2026) is Chapter 20: Tales for the Longer Nights."
+   ],
+   "difficulty": {
+    "level": "hard",
+    "why": "Nine seats, prepaid tickets that sell out within minutes of release."
+   },
+   "warnings": [
+    "Drinks change every quarter, so pictured cocktails won't be on.",
+    "Prepaid and non-refundable style ticketing.",
+    "Brief placed it upstairs at Mare; sources describe it on North Square inside the All Day Hospitality (Ciao Roma/Mare) building."
+   ]
+  },
+  {
+   "name": "Trina's Starlite Lounge",
+   "kind": "bar",
+   "famous": [
+    {
+     "item": "Hot dogs (Starlite dog, corn dog, Hot Dog Tower)",
+     "type": "dish",
+     "why": "The bar's calling card ('hot dogs, High Lifes and hugs'); griddled dogs loaded with cheese, fries and slaw.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/trinas-starlite-lounge"
+      },
+      {
+       "source": "OnlyInYourState",
+       "url": "https://www.onlyinyourstate.com/massachusetts/more-cocktails-than-entrees-ma/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Chicken and waffles (brunch)",
+     "type": "dish",
+     "why": "Top-tier brunch plate at the Sunday brunch.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/trinas-starlite-lounge"
+      },
+      {
+       "source": "OnlyInYourState",
+       "url": "https://www.onlyinyourstate.com/massachusetts/more-cocktails-than-entrees-ma/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Mac & cheese",
+     "type": "dish",
+     "why": "Creamy Ritz-cracker-topped mac, add a hot dog if you like.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/trinas-starlite-lounge"
+      },
+      {
+       "source": "OnlyInYourState",
+       "url": "https://www.onlyinyourstate.com/massachusetts/more-cocktails-than-entrees-ma/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Somerville Speedball (espresso martini)",
+     "type": "drink",
+     "why": "Infatuation's pick for weekend drinks; the house espresso martini.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/trinas-starlite-lounge"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Weekly specials: Monday cantina, Tuesday spaghetti and meatball, Wednesday sloppy joe.",
+    "Brunch is Sundays from 11 AM; Monday industry brunch now appears limited to holiday Mondays per the menu.",
+    "Hot Dog Tower (5 dogs + fries) is the group order."
+   ],
+   "difficulty": {
+    "level": "easy",
+    "why": "Walk-in neighborhood bar; only brunch and late weekends get crowded."
+   },
+   "warnings": [
+    "No reservations.",
+    "Dark, loud dive atmosphere late at night.",
+    "Old domain trinastarlitelounge.com is parked; use trinastarlite.com."
+   ]
+  },
+  {
+   "name": "The Koji Club",
+   "kind": "bar",
+   "famous": [
+    {
+     "item": "Sake by the pour (staff-guided tastings)",
+     "type": "drink",
+     "why": "80-plus bottles with small 4 oz pours; staff taste you through styles until you find one you love.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/the-koji-club"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/koji-club"
+      },
+      {
+       "source": "Resy",
+       "url": "https://blog.resy.com/2024/11/koji-club-boston/"
+      }
+     ],
+     "mentions": 3
+    },
+    {
+     "item": "Steamed rice with toppings",
+     "type": "dish",
+     "why": "Freshly milled Hokkaido rice with add-ons like furikake, miso, pickles, butter-tamari.",
+     "evidence": [
+      {
+       "source": "The Infatuation",
+       "url": "https://www.theinfatuation.com/boston/reviews/the-koji-club"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/koji-club"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Wednesday makanai",
+     "type": "dish",
+     "why": "Chef Moe Kuroki (ex-Oisa Ramen) cooks a set family meal on Wednesday nights.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/koji-club"
+      },
+      {
+       "source": "Resy",
+       "url": "https://blog.resy.com/2024/11/koji-club-boston/"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Candy's Cukes",
+     "type": "dish",
+     "why": "Sweet-tart cucumber pickles from the founder's mother's recipe.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/koji-club"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Sit at the bar and ask for tastes; no pressure to commit to a bottle.",
+    "Go Wednesday for makanai.",
+    "Weekend afternoons (Sat/Sun from 2 PM) are calmer and good on the patio.",
+    "Parking map is on the official site (Speedway lots)."
+   ],
+   "difficulty": {
+    "level": "easy",
+    "why": "Walk-ins always welcome, though the tiny room fills on weekend nights."
+   },
+   "warnings": [
+    "Very small space.",
+    "Sake list is seasonal; featured bottles change."
+   ]
+  },
+  {
+   "name": "Extra Dirty Cocktail Club",
+   "kind": "bar",
+   "famous": [
+    {
+     "item": "Themed multi-course cocktail tasting ('Acts')",
+     "type": "drink",
+     "why": "Progressive cocktail courses with food equal to a full dinner, around a theme that changes a few times a year.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/best-bars-in-boston"
+      },
+      {
+       "source": "Boston Event Guide",
+       "url": "https://bostoneventguide.com/its-new/extra-dirty-cocktail-club"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Dirty martini",
+     "type": "drink",
+     "why": "The namesake drink; the bar plays up souped-up martinis.",
+     "evidence": [
+      {
+       "source": "Boston Event Guide",
+       "url": "https://bostoneventguide.com/its-new/extra-dirty-cocktail-club"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Espresso martini",
+     "type": "drink",
+     "why": "A creamy espresso martini singled out for sweet-tooth drinkers.",
+     "evidence": [
+      {
+       "source": "Boston Event Guide",
+       "url": "https://bostoneventguide.com/its-new/extra-dirty-cocktail-club"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Current theme (Nov 2026): Act 8, 'From Harvest to Hearth: A New England Story' (spiced carrot, pumpkin pie, corn & cheddar, apple & coffee).",
+    "Enter through The Red Fox and head behind the curtain.",
+    "Eat lightly beforehand; four courses of food are included.",
+    "Watch Instagram (@extradirtynorthend) for releases."
+   ],
+   "difficulty": {
+    "level": "hard",
+    "why": "20 seats, prepaid tickets that go fast, walk-in only through a Tock waitlist."
+   },
+   "warnings": [
+    "Prepaid and final; no standing service.",
+    "Strict time limit (~110 min).",
+    "Menu changes with each Act; earlier-reported drinks may be gone."
+   ]
+  },
+  {
+   "name": "Wusong Road",
+   "kind": "bar",
+   "famous": [
+    {
+     "item": "Crab rangoon",
+     "type": "dish",
+     "why": "Hand-folded daily with house cream cheese, notably light; the bar bills it as Boston's best.",
+     "evidence": [
+      {
+       "source": "Boston Magazine",
+       "url": "https://bostonmagazine.com/?p=2686486"
+      },
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/wusong-road"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Mai Tai",
+     "type": "drink",
+     "why": "Classic tiki mai tai built on house-made juices; often called a top version in town.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/wusong-road"
+      },
+      {
+       "source": "Time Out Boston best bars",
+       "url": "https://www.timeout.com/boston/bars/best-bars-in-boston"
+      }
+     ],
+     "mentions": 1
+    },
+    {
+     "item": "Scorpion bowl",
+     "type": "drink",
+     "why": "Old-school shareable bowl, done craft-style.",
+     "evidence": [
+      {
+       "source": "Time Out Boston",
+       "url": "https://www.timeout.com/boston/bars/wusong-road"
+      },
+      {
+       "source": "Boston Magazine",
+       "url": "https://bostonmagazine.com/?p=2686486"
+      }
+     ],
+     "mentions": 2
+    },
+    {
+     "item": "Mango Sticky Rice Colada",
+     "type": "drink",
+     "why": "Rum infused with mango sticky rice, mango puree and lime; milky and tropical.",
+     "evidence": [
+      {
+       "source": "Cambridge Day",
+       "url": "https://www.cambridgeday.com/2025/08/27/drink-wusong-road-reinvents-paradise-for-harvard-square/"
+      }
+     ],
+     "mentions": 1
+    }
+   ],
+   "tips": [
+    "Come for drinks plus rangoons rather than a full dinner; the food reviews are mixed beyond the hits.",
+    "Drinks come in collectible tiki mugs, which are sold as merch.",
+    "Pandan Express (gin, pandan, melon) is a lighter pick."
+   ],
+   "difficulty": {
+    "level": "easy",
+    "why": "Bookable on OpenTable with a big two-level space."
+   },
+   "warnings": [
+    "Food beyond the rangoons gets mixed reviews (Boston Magazine, Crimson).",
+    "Strong, sweet drinks.",
+    "Parking is hard while the municipal lot is closed."
+   ]
+  }
+ ]
+}
