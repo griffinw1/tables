@@ -137,40 +137,30 @@ function card(v, rank) {
   const plat = D.platforms[v.platform] || v.platform;
   const online = isOnline(v);
   const cur = state.day !== 'all' ? state.day : (sel[v.name] || dates[Math.max(0, firstOpen(v))]);
+  const score = v.avg != null ? `<div class="score"><div class="l"><b>Beli avg</b>${v.ratings_label ? esc(v.ratings_label) + ' ratings' : ''}</div><div class="n" style="--sc:${scoreCol(v.avg)}">${v.avg.toFixed(1)}</div></div>` : '';
+  const t25 = v.top25 ? `<div class="tag25">Beli Top 25 · #${v.top25}</div>` : v.press_rank ? `<div class="tag25">Press pick · #${v.press_rank}</div>` : '';
+  const sub = [v.cuisine, v.hood].filter(Boolean).map(esc).join(' · ');
   const vb = v.vibe || {};
-  const ring = v.avg != null ? `<div class="ring" style="--sc:${scoreCol(v.avg)};--p:${Math.max(0, Math.min(1, (v.avg - 6) / 4))}" title="Beli average${v.ratings_label ? ' · ' + esc(v.ratings_label) + ' ratings' : ''}"><b class="n">${v.avg.toFixed(1)}</b></div>` : '';
-  const badge = v.top25 ? `<span class="badge">★ Top 25</span>` : v.press_rank && v.kind === 'coffee' ? `<span class="badge">Press pick</span>` : '';
-  const meta = [cuisineOf(v), v.hood, vb.price].filter(Boolean).map(esc).join('<i>·</i>');
-  const dl = (v.dishes || []).filter(x => x.dish || x.name), top2 = dl.slice(0, 2);
-  const sig = top2.length ? top2.map((x, k) => `<span class="chip${k ? '' : ' hot'}">${k ? '' : '<s>★</s>'}${esc(x.dish || x.name)}${x.count ? `<em>${x.count}</em>` : ''}</span>`).join('')
-    : v.known_for && v.known_for.length <= 32 ? `<span class="chip">${esc(v.known_for)}</span>` : '';
-  const dmax = Math.max(1, ...dl.slice(0, 5).map(x => x.count || 0));
-  const order = dl.length > 2 ? `<div class="order"><div class="oh">Most recommended</div>${dl.slice(0, 5).map((x, k) => `<div class="od${k === 0 && x.count ? ' first' : ''}" style="--w:${x.count ? Math.round(100 * x.count / dmax) : 0}%"><span>${esc(x.dish || x.name)}</span>${x.count ? `<i>${x.count}</i>` : ''}</div>`).join('')}</div>` : '';
-  const tags = (vb.tags || []).filter(x => !/crowd$/i.test(x)).slice(0, 5).map(x => `<span class="vtag">${esc(x)}</span>`).join('');
-  const drawer = [
-    v.known_for ? `<p class="known"><b>Known for</b>${esc(v.known_for)}</p>` : '',
-    vb.vibe || v.blurb ? `<p class="dtext">${esc(vb.vibe || v.blurb)}</p>` : '',
-    tags ? `<div class="vtags">${tags}</div>` : '',
-    order,
-    [vb.crowd ? esc(vb.crowd) + ' crowd' : '', vb.energy ? esc(vb.energy) : '', vb.dress ? 'Dress: ' + esc(vb.dress) : ''].filter(Boolean).length ? `<p class="dmeta">${[vb.crowd ? esc(vb.crowd) + ' crowd' : '', vb.energy ? esc(vb.energy) : '', vb.dress ? 'Dress: ' + esc(vb.dress) : ''].filter(Boolean).join(' · ')}</p>` : '',
-    v.note ? `<p class="heads">${esc(v.note)}</p>` : '',
-    vb.heads_up ? `<p class="heads">${esc(vb.heads_up)}</p>` : '',
-    `<div class="dlinks">${secondary(v)}<span class="via">${esc(plat)}</span></div>`,
-  ].filter(Boolean).join('');
+  const vmeta = [vb.price ? `<span><b>${esc(vb.price)}</b></span>` : '', vb.crowd ? `<span>${esc(vb.crowd)} crowd</span>` : '', vb.energy ? `<span>${esc(vb.energy)}</span>` : ''].join('');
+  const vtags = (vb.tags || []).filter(x => !/crowd$/i.test(x)).slice(0, 4).map(x => `<span class="vtag">${esc(x)}</span>`).join('');
+  const dl = (v.dishes || []).filter(x => x.dish || x.name).slice(0, 3), dmax = Math.max(1, ...dl.map(x => x.count || 0));
+  const dishes = dl.map((x, i) => `<div class="od${i === 0 && x.count ? ' first' : ''}" style="--w:${x.count ? Math.round(100 * x.count / dmax) : 0}%"><span>${esc(x.dish || x.name)}</span>${x.count ? `<i>${x.count} recs</i>` : ''}</div>`).join('');
   const el = document.createElement('article');
   el.className = 'card' + (v.closed ? ' closed' : '') + (v.kind === 'coffee' ? ' coffee' : '');
   el.dataset.name = v.name;
-  el.innerHTML = `<div class="ph${(v.imgs || []).length ? ' kit-load' : ''}">${photos(v)}<div class="rank">${rank}</div>${badge}${ring}</div>
-  <div class="body"><div class="hd"><h3 class="name serif">${esc(v.name)}</h3><div class="meta">${meta}</div></div>
-  ${sig ? `<div class="sig">${sig}</div>` : ''}
+  el.innerHTML = `<div class="ph${(v.imgs || []).length ? ' kit-load' : ''}">${photos(v)}<div class="rank">${rank}</div>${t25}${score}</div>
+  <div class="body"><div><h3 class="name serif">${esc(v.name)}</h3>${vb.food ? `<div class="food">${esc(vb.food)}</div>` : ''}<div class="sub">${sub}${sub ? ' · ' : ''}${esc(plat)}</div></div>
+  ${vmeta ? `<div class="vmeta">${vmeta}</div>` : ''}
+  ${v.note ? `<p class="blurb"><b>${esc(v.note)}</b></p>` : vb.vibe ? `<p class="blurb full">${esc(vb.vibe)}</p>` : v.blurb ? `<p class="blurb" title="Tap to read more" onclick="this.classList.toggle('full')">${esc(v.blurb)}</p>` : ''}
+  ${vtags ? `<div class="vtags">${vtags}</div>` : ''}
+  ${dishes ? `<div class="order" title="Most recommended on Beli"><div class="oh">Order this</div>${dishes}</div>` : ''}
+  ${v.known_for ? `<p class="known"><b>Known for</b> ${esc(v.known_for)}</p>` : ''}
   ${v.hours ? hoursLine(v) : ''}
   ${online ? stripHtml(v, cur) + `<div class="times">${timesHtml(v, cur)}</div>` : ''}
-  <div class="acts">${primaryBtn(v, online ? cur : null)}<button class="more" aria-expanded="false" aria-label="Details"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
-  <div class="drawer"><div class="drawer-in">${drawer}</div></div></div>`;
+  ${vb.heads_up ? `<p class="heads">${esc(vb.heads_up)}</p>` : ''}
+  <div class="acts">${primaryBtn(v, online ? cur : null)}${secondary(v)}</div></div>`;
   el.querySelector('.ph').dataset.name = v.name;
-  const sn = el.querySelector('.ring .n'); if (sn) Kit.countOnce(sn, v.avg, 'c:' + v.name);
-  const mb = el.querySelector('.more');
-  mb.onclick = () => { const o = !el.classList.contains('open'); el.classList.toggle('open', o); mb.setAttribute('aria-expanded', o); };
+  const sn = el.querySelector('.score .n'); if (sn) Kit.countOnce(sn, v.avg, 'c:' + v.name);
   if (online) el.querySelectorAll('.strip button').forEach(b => b.onclick = () => {
     sel[v.name] = b.dataset.d;
     el.querySelectorAll('.strip button').forEach(x => x.classList.toggle('sel', x === b));
@@ -179,11 +169,11 @@ function card(v, rank) {
   });
   const sl = $('.slides', el);
   if (sl) {
-    sl.addEventListener('scroll', () => { const i = Math.round(sl.scrollLeft / (sl.clientWidth || 1)); el.querySelectorAll('.dots i').forEach((x, j) => x.classList.toggle('on', i === j)); }, {passive: true});
+        sl.addEventListener('scroll', () => { const i = Math.round(sl.scrollLeft / (sl.clientWidth || 1)); el.querySelectorAll('.dots i').forEach((x, j) => x.classList.toggle('on', i === j)); }, {passive: true});
     el.querySelectorAll('.nav').forEach(b => b.onclick = e => {
       e.stopPropagation(); const s = el.querySelector('.slides'); if (!s) return;
       const w = s.clientWidth, n = s.querySelectorAll('img').length, i = Math.round(s.scrollLeft / w);
-      const j = b.classList.contains('next') ? (i + 1) % n : (i - 1 + n) % n;
+      const j = b.classList.contains('next') ? (i + 1) % n : (i - 1 + n) % n;   // wrap around
       s.scrollTo({left: j * w, behavior: 'smooth'});
     });
   }
@@ -228,6 +218,7 @@ function render() {
   document.querySelectorAll('[data-view]').forEach(b => b.classList.toggle('on', b.dataset.view === state.view));
   document.querySelectorAll('[data-when]').forEach(b => b.classList.toggle('on', b.dataset.when === state.when));
   document.querySelectorAll('[data-p]').forEach(b => b.classList.toggle('on', +b.dataset.p === P));
+  { const v = $('#pval'); if (v) v.textContent = P; document.querySelectorAll('[data-pd]').forEach(b => b.disabled = (+b.dataset.pd < 0 ? P <= 2 : P >= 8)); }
   $('#days').innerHTML = `<button data-d="all" class="${state.day === 'all' ? 'on' : ''}">All<small>${dates.length} days</small></button>` + dates.map(d => {
     const n = D.venues.filter(v => slotsFor(v, d).length && v.kind === state.kind).length;
     return `<button data-d="${d}" class="${state.day === d ? 'on' : ''}">${dow(d)} ${dnum(d)}<small>${n} open</small></button>`;
@@ -272,6 +263,10 @@ document.querySelectorAll('[data-k]').forEach(b => b.onclick = () => { state.kin
 document.querySelectorAll('[data-view]').forEach(b => b.onclick = () => { state.view = b.dataset.view; render(); });
 document.querySelectorAll('[data-when]').forEach(b => b.onclick = () => { state.when = b.dataset.when; render(); });
 document.querySelectorAll('[data-p]').forEach(b => b.onclick = () => { state.party = +b.dataset.p; applyParty(state.party); render(); });
+document.querySelectorAll('[data-pd]').forEach(b => b.onclick = () => {
+  const n = Math.max(2, Math.min(8, P + +b.dataset.pd)); if (n === P) return;
+  state.party = n; applyParty(n); render(); const v = $('#pval'); if (v) { v.classList.remove('bump'); void v.offsetWidth; v.classList.add('bump'); }
+});
 $('#only').onchange = e => { state.open = e.target.checked; render(); };
 $('#onl').onchange = e => { state.online = e.target.checked; render(); };
 $('#sort').onchange = e => { state.sort = e.target.value; render(); };
@@ -384,11 +379,11 @@ render();
   const paint = () => {
     const d = atFor();
     if (!d) { txt.innerHTML = 'Party of ' + P + ' <b>not pulled yet</b>'; box.classList.add('stale'); return; }
-    txt.innerHTML = 'Updated <b>' + ago(d) + '</b>' + (P !== D.party ? ' · for ' + P : '');
+    txt.innerHTML = 'Updated <b>' + ago(d) + '</b>';
     box.classList.toggle('stale', Date.now() - d > 3.5 * 3600e3);
   };
   const say = (t, cls = '') => { msg.textContent = t; msg.className = 'pmsg ' + cls; };
-  const setBusy = b => { busy = b; box.classList.toggle('busy', b); btn.disabled = b; btn.querySelector('span').textContent = b ? 'Pulling…' : 'Pull again'; };
+  const setBusy = b => { busy = b; box.classList.toggle('busy', b); btn.disabled = b; btn.querySelector('span').textContent = b ? 'Pulling…' : 'Refresh'; };
   paint(); setInterval(paint, 30e3);
   document.querySelectorAll('[data-p]').forEach(b => b.addEventListener('click', () => setTimeout(paint)));
 
@@ -429,8 +424,8 @@ render();
       say('✗ The Mac didn\'t answer, so nothing was pulled. It\'s probably asleep or offline. Pulls resume automatically when it wakes.', 'err'); }, 45e3);
   };
   // A pull someone else started in the last 15 min? Show it.
-  fetch(NT + T + '-s/json?poll=1&since=15m').then(r => r.text()).then(t => {
+  fetch(NT + T + '-s/json?poll=1&since=8m').then(r => r.text()).then(t => {
     const last = t.trim().split('\n').filter(Boolean).map(l => { try { return JSON.parse(JSON.parse(l).message); } catch (e) { return null; } }).filter(Boolean).pop();
-    if (last && (last.state === 'started' || last.state === 'busy')) { setBusy(true); say('A pull is running on the Mac right now…'); listen(); }
+    if (last && (last.state === 'started' || last.state === 'busy')) { setBusy(true); listen(); setTimeout(() => setBusy(false), 8 * 60e3); }
   }).catch(() => {});
 })();
