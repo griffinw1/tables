@@ -1,0 +1,486 @@
+[
+ {
+  "name": "Wayward Coffee Co.",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Oak Cliff",
+  "website": "https://www.waywardcoffee.co/",
+  "instagram": "https://www.instagram.com/waywardcoffeeco/",
+  "hours": {
+   "mon": "7:00-19:00",
+   "tue": "7:00-19:00",
+   "wed": "7:00-19:00",
+   "thu": "7:00-19:00",
+   "fri": "7:00-19:00",
+   "sat": "7:00-19:00",
+   "sun": "7:00-19:00"
+  },
+  "known_for": "Gold Rush latte and house-made lavender syrup lattes",
+  "press_rank": 1,
+  "source_count": 8,
+  "photos": [
+   "https://images.squarespace-cdn.com/content/v1/5d0fd4e1c73c0b00016fdf22/2c97594d-6e2d-4a29-a3f0-459069ba3dda/_DSF0234.JPEG?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/5d0fd4e1c73c0b00016fdf22/1689686109263-PN8B2SVXBSQJ3SLJPFWZ/3BE606E5-8983-4B40-8752-E4D1A0CA1E47-25903-00000CF9DD70E138+2.JPG?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/5d0fd4e1c73c0b00016fdf22/a22f1837-09ae-4c8a-9248-e1759661b5cb/AB4F7585-43E0-4DEB-B18E-0CB7E2D1C83D-3559-00000390C351A3CA.JPG?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/5d0fd4e1c73c0b00016fdf22/1689686109323-2AIIIVGMO6BS16O30MJ9/91B7C654-8E75-4A2C-AA5B-5DE56BC29557-16923-00000D3FCF477C04.JPG?format=1500w"
+  ],
+  "beli_search": "Wayward Coffee Dallas"
+ },
+ {
+  "name": "Cultivar Coffee",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "East Dallas",
+  "website": "https://www.cultivarcoffee.com/",
+  "instagram": "https://www.instagram.com/cultivarcoffee/",
+  "hours": {
+   "mon": "7:00-18:00",
+   "tue": "7:00-18:00",
+   "wed": "7:00-18:00",
+   "thu": "7:00-18:00",
+   "fri": "7:00-18:00",
+   "sat": "7:00-18:00",
+   "sun": "7:00-18:00"
+  },
+  "known_for": "Mister Pop spiced cherry coffee soda; single-origin pour-overs",
+  "press_rank": 2,
+  "source_count": 7,
+  "photos": [
+   "https://www.cultivarcoffee.com/cdn/shop/files/eastdallas.jpg?v=1787038868&width=1500",
+   "https://www.cultivarcoffee.com/cdn/shop/files/cafehero.jpg?v=1787039132&width=1500",
+   "https://www.cultivarcoffee.com/cdn/shop/files/Dreamsicle_Matcha.webp?v=1788246795&width=1080",
+   "https://www.cultivarcoffee.com/cdn/shop/files/BFL.webp?v=1788246795&width=1080"
+  ],
+  "beli_search": "Cultivar Coffee Dallas"
+ },
+ {
+  "name": "Café Duro",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Lower Greenville",
+  "website": "https://cafe-duro.com/",
+  "instagram": "https://www.instagram.com/durohospitality/",
+  "hours": {
+   "mon": "7:00-22:00",
+   "tue": "7:00-22:00",
+   "wed": "7:00-22:00",
+   "thu": "7:00-22:00",
+   "fri": "7:00-22:00",
+   "sat": "7:00-22:00",
+   "sun": "7:00-22:00"
+  },
+  "known_for": "007 Espresso, prickly pear matcha, salted pistachio nitro latte",
+  "press_rank": 3,
+  "source_count": 7,
+  "photos": [
+   "https://cafe-duro.com/wp-content/uploads/2023/02/space.jpg",
+   "https://cafe-duro.com/wp-content/uploads/2022/08/1-6.jpg",
+   "https://cafe-duro.com/wp-content/uploads/2022/08/3.jpg",
+   "https://cafe-duro.com/wp-content/uploads/2023/02/wine.jpg"
+  ],
+  "beli_search": "Cafe Duro Greenville Dallas"
+ },
+ {
+  "name": "Davis Street Espresso",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Oak Cliff",
+  "website": "https://oakcliffcoffee.com/locations/",
+  "instagram": "",
+  "hours": {
+   "mon": "6:00-16:00",
+   "tue": "6:00-16:00",
+   "wed": "6:00-16:00",
+   "thu": "6:00-16:00",
+   "fri": "6:00-16:00",
+   "sat": "7:00-16:00",
+   "sun": "closed"
+  },
+  "known_for": "Straight espresso and the Van Buren, from Oak Cliff Coffee Roasters",
+  "press_rank": 4,
+  "source_count": 5,
+  "photos": [
+   "https://oakcliffcoffee.com/wp-content/uploads/2022/02/Davis-Street-Espresso.jpg"
+  ],
+  "beli_search": "Davis Street Espresso Dallas"
+ },
+ {
+  "name": "Magnolias Sous Le Pont",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Harwood District",
+  "website": "https://www.magnoliasdallas.com/",
+  "instagram": "https://www.instagram.com/magnoliasdallas/",
+  "hours": {
+   "mon": "7:00-17:00",
+   "tue": "7:00-17:00",
+   "wed": "7:00-17:00",
+   "thu": "7:00-17:00",
+   "fri": "7:00-17:00",
+   "sat": "7:00-17:00",
+   "sun": "7:00-17:00"
+  },
+  "known_for": "Magnolias Latte with elderflower, rose, lavender and vanilla",
+  "press_rank": 5,
+  "source_count": 5,
+  "photos": [
+   "https://images.squarespace-cdn.com/content/v1/54d8eac3e4b0a5d1c7c94996/1615577442706-NA1JCMTNHCZA14UE4OG5/image-asset.jpeg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/54d8eac3e4b0a5d1c7c94996/1614022423787-VN0OVDFTVUIG7XXYGVTK/image-asset.jpeg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/54d8eac3e4b0a5d1c7c94996/1614627107908-L0L3CP84M4EYS5IVOEH1/image-asset.jpeg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/54d8eac3e4b0a5d1c7c94996/1614967595043-MF5WX0AZT0BHSYJRE5FO/image-asset.jpeg?format=1500w"
+  ],
+  "beli_search": "Magnolias Sous Le Pont Dallas"
+ },
+ {
+  "name": "Weekend Coffee",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Downtown",
+  "website": "https://www.thejouledallas.com/weekend-coffee",
+  "instagram": "https://www.instagram.com/weekendcoffee/",
+  "hours": {
+   "mon": "7:00-15:00",
+   "tue": "7:00-15:00",
+   "wed": "7:00-15:00",
+   "thu": "7:00-15:00",
+   "fri": "7:00-15:00",
+   "sat": "7:00-15:00",
+   "sun": "7:00-15:00"
+  },
+  "known_for": "Shimmy Latte (caramel + honey) at The Joule's lobby coffee bar",
+  "press_rank": 6,
+  "source_count": 5,
+  "photos": [],
+  "beli_search": "Weekend Coffee Joule Dallas"
+ },
+ {
+  "name": "JuJu's Coffee",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Lakewood",
+  "website": "https://jujuscoffee.com/",
+  "instagram": "https://www.instagram.com/jujuscoffee/",
+  "hours": {
+   "mon": "6:00-17:00",
+   "tue": "closed",
+   "wed": "6:00-17:00",
+   "thu": "6:00-17:00",
+   "fri": "6:00-17:00",
+   "sat": "6:00-17:00",
+   "sun": "7:00-14:00"
+  },
+  "known_for": "Nostalgic-sweet lattes like the Otis; beans roasted in house",
+  "press_rank": 7,
+  "source_count": 5,
+  "photos": [
+   "https://jujuscoffee.com/cdn/shop/files/general_shop_decor.jpg?width=1500",
+   "https://jujuscoffee.com/cdn/shop/files/IMG_8431.jpg?width=1500",
+   "https://jujuscoffee.com/cdn/shop/files/display_nick_and_ju.jpg?width=1500"
+  ],
+  "beli_search": "JuJu's Coffee La Vista Dallas"
+ },
+ {
+  "name": "Full City Rooster",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "The Cedars",
+  "website": "https://www.fullcityrooster.com/",
+  "instagram": "https://www.instagram.com/fullcityrooster/",
+  "hours": {
+   "mon": "8:00-14:00",
+   "tue": "8:00-14:00",
+   "wed": "8:00-14:00",
+   "thu": "8:00-14:00",
+   "fri": "8:00-14:00",
+   "sat": "8:00-14:00",
+   "sun": "8:00-14:00"
+  },
+  "known_for": "Small-batch roaster and listening room; pour-overs and cold brew",
+  "press_rank": 8,
+  "source_count": 5,
+  "photos": [],
+  "beli_search": "Full City Rooster Dallas"
+ },
+ {
+  "name": "Ascension Coffee",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Design District",
+  "website": "https://ascension.coffee/",
+  "instagram": "https://www.instagram.com/ascensioncoffee/",
+  "hours": {
+   "mon": "6:30-18:00",
+   "tue": "6:30-18:00",
+   "wed": "6:30-18:00",
+   "thu": "6:30-18:00",
+   "fri": "6:30-18:00",
+   "sat": "6:30-18:00",
+   "sun": "6:30-18:00"
+  },
+  "known_for": "Australian-style flat whites, signature horchata latte, flights",
+  "press_rank": 9,
+  "source_count": 5,
+  "photos": [
+   "https://ascension.coffee/cdn/shop/files/1621-oak-lawn-ave-dallas-tx-75207-High-Res-17.jpg?width=1500",
+   "https://ascension.coffee/cdn/shop/files/Design.jpg?width=1500",
+   "https://ascension.coffee/cdn/shop/files/April_Design_District-85_1.jpg?width=1500",
+   "https://ascension.coffee/cdn/shop/files/April_Design_District-46.jpg?width=1500"
+  ],
+  "beli_search": "Ascension Coffee Design District"
+ },
+ {
+  "name": "Hola Cafe",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Oak Cliff (Bishop Arts)",
+  "website": "https://www.holacafedallas.com/",
+  "instagram": "https://www.instagram.com/holacafedallas/",
+  "hours": {
+   "mon": "6:30-15:00",
+   "tue": "6:30-15:00",
+   "wed": "6:30-15:00",
+   "thu": "6:30-15:00",
+   "fri": "6:30-15:00",
+   "sat": "7:00-16:00",
+   "sun": "8:00-14:00"
+  },
+  "known_for": "Small Oak Cliff café with horchata, matcha and chai lattes",
+  "press_rank": 10,
+  "source_count": 4,
+  "photos": [],
+  "beli_search": "Hola Cafe Oak Cliff Dallas"
+ },
+ {
+  "name": "Opening Bell Coffee",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "The Cedars",
+  "website": "https://www.openingbellcoffee.com/",
+  "instagram": "https://www.instagram.com/openingbellcoffee/",
+  "hours": {
+   "mon": "7:00-18:00",
+   "tue": "7:00-18:00",
+   "wed": "7:00-18:00",
+   "thu": "7:00-21:00",
+   "fri": "7:00-21:00",
+   "sat": "8:00-21:00",
+   "sun": "9:00-14:00"
+  },
+  "known_for": "Live-music coffee bar; black sesame cream matcha latte",
+  "press_rank": 11,
+  "source_count": 4,
+  "photos": [
+   "https://static.wixstatic.com/media/01c7a8_76cc74469c654c18ac64194370a6c3a7~mv2.jpg",
+   "https://static.wixstatic.com/media/78b6a2_eae84453646741628f058836d277b008~mv2.jpg"
+  ],
+  "beli_search": "Opening Bell Coffee Dallas"
+ },
+ {
+  "name": "Houndstooth Coffee",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "West Dallas",
+  "website": "https://houndstoothcoffee.com/",
+  "instagram": "https://www.instagram.com/houndstoothcoffee/",
+  "hours": {
+   "mon": "7:00-19:00",
+   "tue": "7:00-19:00",
+   "wed": "7:00-19:00",
+   "thu": "7:00-19:00",
+   "fri": "7:00-19:00",
+   "sat": "7:00-19:00",
+   "sun": "7:00-19:00"
+  },
+  "known_for": "Cortados and flat whites at a 360-degree espresso bar",
+  "press_rank": 12,
+  "source_count": 4,
+  "photos": [
+   "https://houndstoothcoffee.com/wp-content/uploads/2022/09/SYL2-1229x1536.jpg",
+   "https://houndstoothcoffee.com/wp-content/uploads/2022/09/SYL3-1229x1536.jpg",
+   "https://houndstoothcoffee.com/wp-content/uploads/2022/09/SYL1-1229x1536.jpg"
+  ],
+  "beli_search": "Houndstooth Coffee Sylvan Dallas"
+ },
+ {
+  "name": "LDU Coffee",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "East Dallas",
+  "website": "https://www.lducoffee.com/",
+  "instagram": "https://www.instagram.com/ldu.coffee/",
+  "hours": {
+   "mon": "6:45-16:00",
+   "tue": "6:45-16:00",
+   "wed": "6:45-16:00",
+   "thu": "6:45-16:00",
+   "fri": "6:45-16:00",
+   "sat": "7:00-16:00",
+   "sun": "8:00-15:00"
+  },
+  "known_for": "Strong Australian espresso: flat white + toasted banana bread",
+  "press_rank": 13,
+  "source_count": 4,
+  "photos": [
+   "https://www.lducoffee.com/assets/bitmaps/photo-banana-bread-flat-white.avif",
+   "https://www.lducoffee.com/assets/bitmaps/counter.avif",
+   "https://www.lducoffee.com/assets/bitmaps/photo-si-si.avif"
+  ],
+  "beli_search": "LDU Coffee Fitzhugh Dallas"
+ },
+ {
+  "name": "La Casita Coffee & Bakeshop",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Lake Highlands / Northwest Hwy",
+  "website": "https://lacasitabakeshop.com/",
+  "instagram": "https://www.instagram.com/lacasita_coffee/",
+  "hours": {
+   "mon": "7:00-20:00",
+   "tue": "7:00-20:00",
+   "wed": "7:00-20:00",
+   "thu": "7:00-20:00",
+   "fri": "7:00-20:00",
+   "sat": "7:00-20:00",
+   "sun": "7:00-20:00"
+  },
+  "known_for": "Mexican-inspired bakeshop: pistachio tres leches, Turkish latte",
+  "press_rank": 14,
+  "source_count": 4,
+  "photos": [
+   "https://static.spotapps.co/website_images/ab_websites/180316_website_v2/video_poster.jpg",
+   "https://static.spotapps.co/website_images/ab_websites/180316_website_v2/about_03.jpg",
+   "https://static.spotapps.co/spots/42/d0051015bd4fd4a646c96f72ca5f27/full",
+   "https://static.spotapps.co/website_images/ab_websites/180316_website_v2/drinks.jpg"
+  ],
+  "beli_search": "La Casita Bakeshop Richardson"
+ },
+ {
+  "name": "Slow & Steady Coffee",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Oak Cliff",
+  "website": "https://slowandsteady.coffee/",
+  "instagram": "https://www.instagram.com/slowandsteadycoffee/",
+  "hours": {
+   "mon": "6:30-15:00",
+   "tue": "6:30-15:00",
+   "wed": "6:30-15:00",
+   "thu": "6:30-15:00",
+   "fri": "6:30-15:00",
+   "sat": "7:00-15:00",
+   "sun": "8:00-13:00"
+  },
+  "known_for": "Seasonal song-named drinks, e.g. The Interpol shakerato",
+  "press_rank": 15,
+  "source_count": 4,
+  "photos": [
+   "https://slowandsteady.coffee/wp-content/uploads/2024/06/DSCF5002-1536x865.jpg",
+   "https://slowandsteady.coffee/wp-content/uploads/2024/06/DSCF5206-865x1536.jpg",
+   "https://slowandsteady.coffee/wp-content/uploads/2024/06/Window-1536x960.jpg",
+   "https://slowandsteady.coffee/wp-content/uploads/2024/06/DSCF6977-scaled.jpg"
+  ],
+  "beli_search": "Slow and Steady Coffee Dallas"
+ },
+ {
+  "name": "Good Boy Cafe",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Deep Ellum",
+  "website": "",
+  "instagram": "https://www.instagram.com/goodboycafedallas/",
+  "hours": {
+   "mon": "8:00-18:00",
+   "tue": "8:00-18:00",
+   "wed": "8:00-18:00",
+   "thu": "8:00-18:00",
+   "fri": "8:00-18:00",
+   "sat": "8:00-18:00",
+   "sun": "8:00-18:00"
+  },
+  "known_for": "Rose Latte with dried petals; tiny dog-friendly bar inside Hey Koneko",
+  "press_rank": 16,
+  "source_count": 4,
+  "photos": [],
+  "beli_search": "Good Boy Cafe Dallas"
+ },
+ {
+  "name": "La La Land Kind Cafe",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Lower Greenville",
+  "website": "https://lalalandcafe.com/",
+  "instagram": "https://www.instagram.com/lalalandkindcafe/",
+  "hours": {
+   "mon": "6:30-19:00",
+   "tue": "6:30-19:00",
+   "wed": "6:30-19:00",
+   "thu": "6:30-19:00",
+   "fri": "6:30-19:00",
+   "sat": "6:30-19:00",
+   "sun": "6:30-19:00"
+  },
+  "known_for": "Yellow-cup lattes in a white cottage; lavender + butterfly pea lattes",
+  "press_rank": 17,
+  "source_count": 4,
+  "photos": [
+   "https://lalalandcafe.com/cdn/shop/files/Deck_BellLineOutDoor-2SQUARE.jpg?v=1722026646&width=1500",
+   "https://lalalandcafe.com/cdn/shop/files/IG_bellfront_7-6-21-4.jpg?v=1770858875&width=1500",
+   "https://lalalandcafe.com/cdn/shop/files/La_La_Latte_example_2.png?width=1000",
+   "https://lalalandcafe.com/cdn/shop/files/Upsidedown_Latte.png?width=1000"
+  ],
+  "beli_search": "La La Land Kind Cafe Bell"
+ },
+ {
+  "name": "La Reunion",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Bishop Arts",
+  "website": "https://www.lareunioncoffee.com/",
+  "instagram": "https://www.instagram.com/lareuniondallas/",
+  "hours": {
+   "mon": "8:00-2:00",
+   "tue": "8:00-2:00",
+   "wed": "8:00-2:00",
+   "thu": "8:00-2:00",
+   "fri": "8:00-2:00",
+   "sat": "10:00-2:00",
+   "sun": "10:00-2:00"
+  },
+  "known_for": "Cortados by day, coffee cocktails and live music by night",
+  "press_rank": 19,
+  "source_count": 3,
+  "photos": [
+   "https://images.squarespace-cdn.com/content/v1/5b6f108c7e3c3aa218374982/1656468780456-YLT30XMJJ89JU9I7FUYO/DSC06459.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/5b6f108c7e3c3aa218374982/1656468779887-IJ8BBRUJZG3KQN2XSP97/DSC06453.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/5b6f108c7e3c3aa218374982/1750798498660-383NF8S3ZA5E2VD2GWLP/B41A1245_websize.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/5b6f108c7e3c3aa218374982/1750798498223-F73ZWD8GJWBFUTGUF9GM/B41A0357_websize.jpg?format=1500w"
+  ],
+  "beli_search": "La Reunion Bishop Arts"
+ },
+ {
+  "name": "Palmieri Cafe",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Farmers Market",
+  "website": "https://www.palmiericafe.com/",
+  "instagram": "",
+  "hours": {
+   "mon": "7:00-18:00",
+   "tue": "7:00-18:00",
+   "wed": "7:00-18:00",
+   "thu": "7:00-18:00",
+   "fri": "7:00-18:00",
+   "sat": "7:00-19:00",
+   "sun": "7:00-19:00"
+  },
+  "known_for": "Italian-style cappuccino on house-roasted beans, with cannoli",
+  "press_rank": 20,
+  "source_count": 3,
+  "photos": [
+   "https://images.squarespace-cdn.com/content/v1/54208463e4b0a0d6201cd77f/1476752402523-K5UEBNW02PMBOJEZFQW4/cappucc.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/54208463e4b0a0d6201cd77f/1462503138509-973JMEWROMDD9NR7WS4X/_DSC3963.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/54208463e4b0a0d6201cd77f/1462497969232-NTLGPX7CKR7RA3VHLVR9/IMG_5479.JPG?format=1500w"
+  ],
+  "beli_search": "Palmieri Cafe Dallas"
+ }
+]

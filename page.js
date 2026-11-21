@@ -63,7 +63,7 @@ function bookUrl(v, d, t) {
 }
 
 const SORTS = {
-  score: (a, b) => (a.avg == null) - (b.avg == null) || (b.avg || 0) - (a.avg || 0) || (b.ratings || 0) - (a.ratings || 0) || (a.top25 || 99) - (b.top25 || 99),
+  score: (a, b) => (a.avg == null) - (b.avg == null) || (b.avg || 0) - (a.avg || 0) || (b.ratings || 0) - (a.ratings || 0) || (a.top25 || a.press_rank || 99) - (b.top25 || b.press_rank || 99),
   open: (a, b) => nOpen(b) - nOpen(a) || SORTS.score(a, b),
   soonest: (a, b) => { const x = firstOpen(a), y = firstOpen(b); return (x < 0) - (y < 0) || x - y || SORTS.score(a, b); },
   top25: (a, b) => (a.top25 || 99) - (b.top25 || 99) || SORTS.score(a, b),
@@ -98,6 +98,18 @@ function stripHtml(v, cur) {
     return `<button data-d="${d}" class="${n ? 'has' : ''}${d === cur ? ' sel' : ''}" title="${esc(nt || (n + ' open times'))}">${dow(d)}<b>${lab}</b></button>`;
   }).join('') + '</div>';
 }
+// Coffee hours: {"mon":"7:00-18:00", ...} or "closed"; shown as open/closed now in the city's time zone.
+const DAYK = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+const hm2 = t => { const m = String(t).trim().match(/^(\d{1,2})(?::(\d\d))?\s*([ap]m)?$/i); if (!m) return null; let h = +m[1]; if (m[3]) { h %= 12; if (/p/i.test(m[3])) h += 12; } return h * 60 + +(m[2] || 0); };
+const fmt12 = n => { const h = Math.floor(n / 60) % 24, mm = n % 60; return (h % 12 || 12) + (mm ? ':' + String(mm).padStart(2, '0') : '') + (h < 12 ? ' AM' : ' PM'); };
+function hoursLine(v) {
+  const now = new Date(new Date().toLocaleString('en-US', {timeZone: (D.city || {}).tz || 'America/Chicago'}));
+  const h = (v.hours || {})[DAYK[now.getDay()]]; if (!h) return '';
+  const r = String(h).split(/[-–]/).map(hm2), cur = now.getHours() * 60 + now.getMinutes();
+  if (/closed/i.test(h) || r.length < 2 || r.some(x => x == null)) return `<p class="hrs"><i class="off"></i>Closed today</p>`;
+  const open = cur >= r[0] && cur < r[1];
+  return `<p class="hrs"><i class="${open ? 'on' : 'off'}"></i>${open ? `Open now · until ${fmt12(r[1])}` : cur < r[0] ? `Opens ${fmt12(r[0])} today` : `Closed now · ${fmt12(r[0])}–${fmt12(r[1])} today`}</p>`;
+}
 const mono = v => `<div class="mono serif">${esc(v.name.replace(/^the\s+/i, '')[0])}</div>`;
 // A hot-linked photo failed: drop it; if none are left, fall back to the monogram; keep dots/arrows in sync.
 window.imgGone = img => {
@@ -124,7 +136,7 @@ function card(v, rank) {
   const online = isOnline(v);
   const cur = state.day !== 'all' ? state.day : (sel[v.name] || dates[Math.max(0, firstOpen(v))]);
   const score = v.avg != null ? `<div class="score"><div class="l"><b>Beli avg</b>${v.ratings_label ? esc(v.ratings_label) + ' ratings' : ''}</div><div class="n" style="--sc:${scoreCol(v.avg)}">${v.avg.toFixed(1)}</div></div>` : '';
-  const t25 = v.top25 ? `<div class="tag25">Beli Top 25 · #${v.top25}</div>` : '';
+  const t25 = v.top25 ? `<div class="tag25">Beli Top 25 · #${v.top25}</div>` : v.press_rank ? `<div class="tag25">Press pick · #${v.press_rank}</div>` : '';
   const sub = [v.cuisine, v.hood].filter(Boolean).map(esc).join(' · ');
   const vb = v.vibe || {};
   const vmeta = [vb.price ? `<span><b>${esc(vb.price)}</b></span>` : '', vb.crowd ? `<span>${esc(vb.crowd)} crowd</span>` : '', vb.energy ? `<span>${esc(vb.energy)}</span>` : ''].join('');
@@ -141,6 +153,7 @@ function card(v, rank) {
   ${vtags ? `<div class="vtags">${vtags}</div>` : ''}
   ${dishes ? `<div class="order" title="Most recommended on Beli"><div class="oh">Order this</div>${dishes}</div>` : ''}
   ${v.known_for ? `<p class="known"><b>Known for</b> ${esc(v.known_for)}</p>` : ''}
+  ${v.hours ? hoursLine(v) : ''}
   ${online ? stripHtml(v, cur) + `<div class="times">${timesHtml(v, cur)}</div>` : ''}
   ${vb.heads_up ? `<p class="heads">${esc(vb.heads_up)}</p>` : ''}
   <div class="acts">${primaryBtn(v, online ? cur : null)}${secondary(v)}</div></div>`;

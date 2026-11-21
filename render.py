@@ -37,6 +37,8 @@ def load_cities() -> list[dict]:
 def build_data(city: dict, res: dict, cities: list[dict]) -> dict:
     cdir = HERE / "cities" / city["slug"]
     meta = {v["name"]: v for v in load_json(cdir / "venues.json", [])}
+    coffee = {c["name"]: c for c in load_json(cdir / "coffee.json", []) if c["name"] not in meta}  # no booking; Beli + photos + hours
+    meta.update(coffee)
     media = load_json(cdir / "media.json", {})
     vibes = load_json(cdir / "vibes.json", {})  # optional; keyed by exact venue name
     specials = load_json(cdir / "specials.json", {})  # optional: known_for / famous items (web research)
@@ -67,6 +69,9 @@ def build_data(city: dict, res: dict, cities: list[dict]) -> dict:
                                   else (f"{rt:,}" if rt else None))
             m["beli_type"] = b.get("beli_type")
         md = dict(media.get(r["name"], {}))
+        if r["name"] in coffee:
+            cf = coffee[r["name"]]
+            md.update({"images": cf.get("photos") or [], "website": cf.get("website"), "img_src": "their site"})
         extra = [x["url"] for x in (more.get(r["name"], {}) or {}).get("photos", []) if x.get("url")]
         md["images"] = list(dict.fromkeys((md.get("images") or []) + extra))[:8]
         sp = specials.get(r["name"]) or {}
@@ -95,6 +100,8 @@ def build_data(city: dict, res: dict, cities: list[dict]) -> dict:
             "cuisine": md.get("cuisine") or m.get("beli_type"),
             "blurb": md.get("blurb"),
             "known_for": sp.get("known_for") or m.get("known_for"),
+            "hours": m.get("hours"),
+            "press_rank": m.get("press_rank"),
             "status": r.get("status", {}),
             "slots": r.get("slots", {}),
             "day_notes": r.get("day_notes", {}),
@@ -381,6 +388,9 @@ background:var(--paper);cursor:pointer;font:inherit;color:inherit;text-align:lef
 .od.top span::after{content:"Most ordered";margin-left:8px;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#fff;
 background:var(--gold);border-radius:999px;padding:2px 7px;vertical-align:1px}
 .known{margin:0;font-size:13.5px;color:var(--ink)}.known b{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--city);margin-right:6px}
+
+.hrs{margin:0;font-size:13px;color:var(--soft);display:flex;align-items:center;gap:7px}
+.hrs i{width:8px;height:8px;border-radius:50%;background:var(--faint)}.hrs i.on{background:var(--open);box-shadow:0 0 0 3px var(--openbg)}
 /* kinds counters */
 .seg.kinds button i{font-style:normal;margin-left:6px;font-size:11px;opacity:.6;font-variant-numeric:tabular-nums}
 /* surprise */
