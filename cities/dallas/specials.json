@@ -1,0 +1,2057 @@
+{
+ "Shoyo": {
+  "known_for": "Jimmy Park's tiny 12-seat, ~16-course omakase counter",
+  "famous": [],
+  "tips": [
+   "Closed for its move up Greenville Ave; watch Instagram/shoyodallas.com for the reopening",
+   "When open, it's a small omakase-only counter, so book as soon as dates drop"
+  ],
+  "difficulty": "hard",
+  "closed": "Temporarily closed since Jul 26 2026 to relocate (likely 2114 Greenville Ave); D Magazine said late Sep 2026 it hoped to reopen within a month, but no reopening confirmed as of Nov 21 2026"
+ },
+ "Uchi": {
+  "known_for": "Hama chili and the cornflake-crusted fried milk dessert",
+  "famous": [
+   {
+    "item": "Hama chili",
+    "type": "dish",
+    "why": "Yellowtail with ponzu, Thai chili and orange; the house signature",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "The Infatuation",
+      "url": "https://theinfatuation.com/dallas/reviews/uchi-dallas"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   },
+   {
+    "item": "Fried milk",
+    "type": "dessert",
+    "why": "Frozen custard in cornflake crust, flash-fried so it oozes",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/restaurants/100-favorite-dishes-no-28-the-fried-milk-at-uchi-8585950"
+     },
+     {
+      "name": "The Infatuation",
+      "url": "https://theinfatuation.com/dallas/reviews/uchi-dallas"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Build the meal around hama chili, a few toyosu plates and nigiri, then fried milk",
+   "Books on SevenRooms (shared search with Uchiba / Uchiko Plano)"
+  ],
+  "difficulty": "moderate"
+ },
+ "Mamani": {
+  "known_for": "Agnolotti, ham-manchego croquettes and the veal cordon bleu",
+  "famous": [
+   {
+    "item": "Agnolotti (seasonal filling)",
+    "type": "dish",
+    "why": "Signature pasta; filling rotates with the seasons (corn, squash)",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Beli",
+      "url": ""
+     },
+     {
+      "name": "PaperCity",
+      "url": "https://www.papercitymag.com/restaurants/mamani-opening-first-taste-uptown-dallas/"
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2026/february-2026/taste-swimming-in-luxury/"
+     }
+    ]
+   },
+   {
+    "item": "Croquettes",
+    "type": "dish",
+    "why": "Ham and manchego croquettes with an almost all-molten cheese center",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Beli",
+      "url": ""
+     },
+     {
+      "name": "PaperCity",
+      "url": "https://www.papercitymag.com/restaurants/mamani-opening-first-taste-uptown-dallas/"
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2026/february-2026/taste-swimming-in-luxury/"
+     }
+    ]
+   },
+   {
+    "item": "Veal cordon bleu",
+    "type": "dish",
+    "why": "Thin veal cutlet stuffed with three cheeses and fried; a shareable platter",
+    "mentions": 4,
+    "sources": [
+     {
+      "name": "Beli",
+      "url": ""
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2026/february-2026/taste-swimming-in-luxury/"
+     },
+     {
+      "name": "Michelin Guide",
+      "url": "https://guide.michelin.com/en/texas/dallas_2954570/restaurant/mamani"
+     },
+     {
+      "name": "PaperCity",
+      "url": "https://www.papercitymag.com/restaurants/mamani-opening-first-taste-uptown-dallas/"
+     }
+    ]
+   },
+   {
+    "item": "Paris-Brest",
+    "type": "dessert",
+    "why": "Praline-cream choux ring Michelin calls pitch-perfect",
+    "mentions": 4,
+    "sources": [
+     {
+      "name": "Beli",
+      "url": ""
+     },
+     {
+      "name": "Michelin Guide",
+      "url": "https://guide.michelin.com/en/texas/dallas_2954570/restaurant/mamani"
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2026/february-2026/taste-swimming-in-luxury/"
+     },
+     {
+      "name": "PaperCity",
+      "url": "https://www.papercitymag.com/restaurants/mamani-opening-first-taste-uptown-dallas/"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "A la carte despite the Michelin star, so you can order just a few plates",
+   "Agnolotti filling changes seasonally; check the current menu",
+   "Parties of 7+ go through private events"
+  ],
+  "difficulty": "hard"
+ },
+ "Lucia": {
+  "known_for": "House sourdough and David Uygur's hand-cured salumi board",
+  "famous": [
+   {
+    "item": "House sourdough bread",
+    "type": "dish",
+    "why": "Critics have called it the best restaurant bread in Dallas; Beli's top pick",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2011/march/restaurant-review-lucia-in-dallas/"
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2019/march/these-dallas-bakers-are-turning-bread-into-art/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   },
+   {
+    "item": "Salumi misti (chef's choice salumi)",
+    "type": "dish",
+    "why": "Signature board of meats cured in-house; the cuts rotate",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2011/march/restaurant-review-lucia-in-dallas/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Books out far ahead on Resy; plan weeks out and watch for cancellations",
+   "Menu changes often, so pastas and risotto vary by season",
+   "Small room, parties up to 6 only; open Tue-Sat dinner"
+  ],
+  "difficulty": "hard"
+ },
+ "Mister Charles": {
+  "known_for": "Texas wagyu beef Wellington and the flaming baked Alaska",
+  "famous": [
+   {
+    "item": "Beef Wellington (Texas wagyu)",
+    "type": "dish",
+    "why": "The dish nearly every review calls the highlight of the meal",
+    "mentions": 4,
+    "sources": [
+     {
+      "name": "Michelin Guide",
+      "url": "https://guide.michelin.com/en/texas/dallas_2954570/restaurant/mister-charles"
+     },
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/food-drink/mister-charles-is-dallas-dining-at-its-budget-busting-best-17111930/"
+     },
+     {
+      "name": "OpenTable reviews",
+      "url": "https://opentable.com/r/mister-charles-dallas"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   },
+   {
+    "item": "Baked Alaska",
+    "type": "dessert",
+    "why": "Banana-pudding center, set alight tableside with Licor 43",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Michelin Guide",
+      "url": "https://guide.michelin.com/en/texas/dallas_2954570/restaurant/mister-charles"
+     },
+     {
+      "name": "Dallas Morning News",
+      "url": "https://dallasnews.com/food/restaurant-news/2023/07/21/inside-mister-charles-knox-streets-newest-restaurant"
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/food-drink/2023/07/mister-charles-is-open-dallas-knox-menu/"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "One of the hardest tables in Dallas; book on OpenTable well ahead",
+   "Bar seats can work as a walk-in fallback",
+   "A splurge; Wellington is the order"
+  ],
+  "difficulty": "hard"
+ },
+ "Naminohana": {
+  "known_for": "Walk-in handroll and nigiri counter, seared salmon belly",
+  "famous": [
+   {
+    "item": "Salmon belly (seared nigiri)",
+    "type": "dish",
+    "why": "Most-praised bite; chef brought the soy-mustard salmon belly over from Hatsuyuki",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Dallasites101",
+      "url": "https://www.dallasites101.com/blog/post/naminohana-handroll-deep-ellum-best-sushi-dallas/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Walk-in only, no reservations; about 14 seats, so arrive early",
+   "Open Tue-Sat for lunch and dinner; confirm hours before going"
+  ],
+  "difficulty": "moderate"
+ },
+ "St. Martin's Wine Bistro": {
+  "known_for": "Champagne brie soup at a romantic, decades-old wine bistro",
+  "famous": [
+   {
+    "item": "Champagne brie soup",
+    "type": "dish",
+    "why": "Secret-recipe house signature, carried over from the Greenville Ave days",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/restaurants/100-favorite-dishes-no-56-champagne-brie-soup-at-st-martins-8498431"
+     },
+     {
+      "name": "Dallas Morning News",
+      "url": "https://dallasnews.com/food/restaurant-news/2024/03/27/st-martins-wine-bistro-the-food-and-the-dining-room"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Order a soup course; it's the point of the visit",
+   "Now at 4223 Bryan St (left Greenville Ave); book on Resy"
+  ],
+  "difficulty": "moderate"
+ },
+ "Norman's Japanese Grill": {
+  "known_for": "Udon carbonara and the Oh' Godzilla bluefin-uni-caviar handroll",
+  "famous": [
+   {
+    "item": "Udon carbonara",
+    "type": "dish",
+    "why": "Crowd favorite with smoked pork belly, pecorino and egg yolk",
+    "mentions": 4,
+    "sources": [
+     {
+      "name": "Beli",
+      "url": ""
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2025/december/normans-western-japanese-grill-duro-review/"
+     },
+     {
+      "name": "PaperCity",
+      "url": "https://www.papercitymag.com/restaurants/normans-japanese-grill-dallas/"
+     },
+     {
+      "name": "DiningOut",
+      "url": "https://diningout.com/dallas/inside-normans-japanese-grill-duro-hospitalitys-latest-opening-full-of-texas-twang/"
+     }
+    ]
+   },
+   {
+    "item": "Oh' Godzilla handroll",
+    "type": "dish",
+    "why": "Bluefin tartare, uni and caviar; handrolls called the menu's best part",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2025/december/normans-western-japanese-grill-duro-review/"
+     },
+     {
+      "name": "PaperCity",
+      "url": "https://www.papercitymag.com/restaurants/normans-japanese-grill-dallas/"
+     }
+    ]
+   },
+   {
+    "item": "Duck and pork meatballs",
+    "type": "dish",
+    "why": "Smoky, crispy-edged small plate reviewers keep flagging",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2025/december/normans-western-japanese-grill-duro-review/"
+     },
+     {
+      "name": "pos.do diner review",
+      "url": "https://pos.do/discover/restaurant/jgWevfwe7buV/profile"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "D Magazine found the carbonara udon too soft; order it for the sauce, not chew",
+   "Handrolls are the strongest section of the menu"
+  ],
+  "difficulty": "moderate"
+ },
+ "Stillwell's": {
+  "known_for": "Beef dumplings in truffle gravy and HWD Akaushi steaks",
+  "famous": [
+   {
+    "item": "Beef dumplings in truffle gravy",
+    "type": "dish",
+    "why": "The most praised plate; the gravy is worth mopping up",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/restaurants/steaks-at-stillwells-at-dallas-hotel-swexan-warm-a-texans-heart-18270554"
+     },
+     {
+      "name": "OpenTable reviews",
+      "url": "https://opentable.ae/r/stillwells-dallas"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "A 7-course tasting menu is offered, but the whole table must order it",
+   "Dress code: no torn denim",
+   "Book on OpenTable for prime weekend times"
+  ],
+  "difficulty": "moderate"
+ },
+ "Nuri Steakhouse": {
+  "known_for": "Korean-accented steakhouse; wagyu dumplings in a creamy sauce",
+  "famous": [
+   {
+    "item": "Wagyu dumplings",
+    "type": "dish",
+    "why": "Signature starter in a herb/truffle cream sauce; most diners love it",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "PaperCity",
+      "url": "https://www.papercitymag.com/restaurants/nuri-steakhouse-dallas-first-look-taste-restaurant-opening"
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2025/january/nuri-jolts-dallas-steakhouse-scene-with-new-energy/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Kimchi fried rice is a popular side on Beli (single signal)",
+   "$20M Uptown room; reserve for weekend prime time"
+  ],
+  "difficulty": "moderate"
+ },
+ "El Carlos Elegante": {
+  "known_for": "Upscale Mexican; the long, skinny El Machete quesadilla",
+  "famous": [
+   {
+    "item": "El Machete",
+    "type": "dish",
+    "why": "Extra-long quesadilla with a rotating filling; critics call it the right order",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2023/march/the-coronation-of-king-carlos/"
+     },
+     {
+      "name": "Time Out Dallas",
+      "url": "https://timeout.com/dallas/restaurants/el-carlos-elegante"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Book on OpenTable for prime time",
+   "Filling for the Machete changes; ask what it is that night",
+   "Michelin Guide also flags the pork al pastor with house masa for table-side tacos"
+  ],
+  "difficulty": "moderate"
+ },
+ "Town Hearth": {
+  "known_for": "Open-fire steaks under a ceiling of chandeliers",
+  "famous": [
+   {
+    "item": "Wood-fired steaks",
+    "type": "dish",
+    "why": "Critics' go-to for open-fire beef; dry-aged long-bone cuts",
+    "mentions": 4,
+    "sources": [
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/guides/top-steakhouses-dallas/"
+     },
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/food-drink/review-nick-badovinus-town-hearth-is-the-most-over-the-top-steakhouse-in-dallas-9353313/"
+     },
+     {
+      "name": "Dallas Morning News",
+      "url": "https://dallasnews.com/food/restaurant-reviews/2017/04/26/town-hearth-may-be-the-swankiest-most-fabulous-steakhouse-on-the-planet"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Weekends add a fire-roasted bone-in prime rib carved to order",
+   "Loud room; not the place for quiet conversation",
+   "Dessert is an afterthought per critics; spend on steak and sides"
+  ],
+  "difficulty": "moderate"
+ },
+ "Bar Sardine": {
+  "known_for": "The house-ground cheeseburger at a candlelit Parisian bistro",
+  "famous": [
+   {
+    "item": "Cheeseburger",
+    "type": "dish",
+    "why": "Most popular item; chef grinds his own blend and smashes the bun, not the patty",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Beli",
+      "url": ""
+     },
+     {
+      "name": "Crave DFW",
+      "url": "https://cravedfw.com/2026/06/11/the-best-burger-in-the-park-cities-is-at-a-french-bistro/"
+     },
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/?p=40575344"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "OpenTable releases a new day at 9 AM on a rolling 30-day window",
+   "Bar seats are walk-in; burger is served whenever the kitchen is open",
+   "Max party of 6, 2-hour tables, cancel fee after 5 PM the day before"
+  ],
+  "difficulty": "hard"
+ },
+ "Jack & Harry's": {
+  "known_for": "Under-$50 steak frites with tallow fries, New Orleans vibe",
+  "famous": [
+   {
+    "item": "Steak frites (Harry's De Luxe Steak Dinner)",
+    "type": "dish",
+    "why": "Signature value plate: sliced steak, tallow fries, herb sauce",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Dallas Morning News",
+      "url": "https://dallasnews.com/food/restaurant-news/2024/06/01/hot-list-best-steak-frites-restaurants-dallas-fort-worth"
+     },
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/food-drink/jack-and-harrys-cajun-snider-plaze-park-cities-19556569/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "The steak frites can run out, so go early",
+   "Busy Snider Plaza spot; reserve on OpenTable for weekends"
+  ],
+  "difficulty": "moderate"
+ },
+ "Nonna Restaurant": {
+  "known_for": "Long-running Italian with its famous lobster ravioli in broth",
+  "famous": [
+   {
+    "item": "Lobster ravioli",
+    "type": "dish",
+    "why": "Paper-thin pasta stuffed with lobster in buttery broth; never leaves the menu",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/restaurants/nonna-is-the-gem-in-julian-barsottis-italian-restaurant-crown-10511207"
+     },
+     {
+      "name": "Dallas Observer Best Of 2012",
+      "url": "https://dallasobserver.com/best-of/2012/food-and-drink/best-italian-restaurant-6463501"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "House-made pastas are the draw (Infatuation 8.0)",
+   "White clam pie is another menu fixture",
+   "Book on Resy (Nonna | Tabu)"
+  ],
+  "difficulty": "moderate"
+ },
+ "Bowen House": {
+  "known_for": "Pre-Prohibition cocktails in an 1870s house; fried brie",
+  "famous": [
+   {
+    "item": "Fried brie",
+    "type": "dish",
+    "why": "Signature bar snack served with a fruit compote",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Dallas Voice",
+      "url": "https://dallasvoice.com/hits-and-misses-2"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   },
+   {
+    "item": "Bowen cheeseburger",
+    "type": "dish",
+    "why": "Simple bar burger regulars pair with a cold beer",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/?p=40506114"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Walk-ins welcome; for a table call (214) 484-1385 after noon",
+   "Seating is limited and it gets busy late on weekends"
+  ],
+  "difficulty": "easy"
+ },
+ "Fachini": {
+  "known_for": "Rigatoni alla vodka and the much-debated 100-layer lasagna",
+  "famous": [
+   {
+    "item": "Rigatoni alla vodka",
+    "type": "dish",
+    "why": "Barsotti's signature vodka sauce, praised as perfectly al dente",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2018/august/fachini-restaurant-review/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   },
+   {
+    "item": "100-layer lasagna",
+    "type": "dish",
+    "why": "Paper-thin sheets, seared crisp; the showpiece, though critics split",
+    "mentions": 4,
+    "sources": [
+     {
+      "name": "Dallas Morning News",
+      "url": "https://dallasnews.com/food/2019/12/23/this-is-how-you-ragu-the-5-most-epic-lasagnas-in-dallas"
+     },
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/food-drink/review-julian-barsottis-fachini-in-highland-park-village-doesnt-hit-the-mark-10925831/"
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2018/august/fachini-restaurant-review/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "If you only get one pasta, diners lean rigatoni over the lasagna",
+   "Books on Resy; Highland Park Village"
+  ],
+  "difficulty": "moderate"
+ },
+ "Georgie": {
+  "known_for": "Polished Knox steakhouse; corn-ricotta agnolotti a past standout",
+  "famous": [
+   {
+    "item": "Agnolotti",
+    "type": "dish",
+    "why": "Long-running pasta (corn ricotta, cornbread crumbs in 2023 version)",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Beli",
+      "url": ""
+     },
+     {
+      "name": "PaperCity",
+      "url": "https://www.papercitymag.com/restaurants/georgie-dallas-restaurants-new-chef-menu-knox-street-stephan-courseau/"
+     },
+     {
+      "name": "Foursquare",
+      "url": "https://www.foursquare.com/venue/5b630089364d97002c3f3953"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Chef and menu have turned over repeatedly (Yoakum, Whitsell, now Bruno Davaillon); check current menu",
+   "Michelin Plate steakhouse; book prime weekend slots ahead"
+  ],
+  "difficulty": "moderate"
+ },
+ "Al Biernat's": {
+  "known_for": "Classic power steakhouse famed for its coconut cream pie",
+  "famous": [
+   {
+    "item": "Al's Famous Coconut Cream Pie",
+    "type": "dessert",
+    "why": "Its most popular dessert since opening in 1998",
+    "mentions": 4,
+    "sources": [
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2013/september/the-best-pie-and-best-cobbler-in-dallas/"
+     },
+     {
+      "name": "Dallasites101",
+      "url": "https://www.dallasites101.com/blog/post/dallas-steakhouse-al-biernats-best-dallas/"
+     },
+     {
+      "name": "PureWow",
+      "url": "https://www.purewow.com/food/best-pies-in-dallas"
+     },
+     {
+      "name": "Whitewall",
+      "url": "https://whitewall.art/whitewaller/al-biernats/"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Save room for the pie; it is sold as a gift voucher too",
+   "Reserve for weekend prime time (OpenTable)"
+  ],
+  "difficulty": "moderate"
+ },
+ "il Bracco": {
+  "known_for": "Spicy vodka-sauce gemelli and warm focaccia with whipped ricotta",
+  "famous": [
+   {
+    "item": "Spicy gemelli",
+    "type": "dish",
+    "why": "Best-selling pasta in a sweet, mildly spicy vodka sauce",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Advocate",
+      "url": "https://prestonhollow.advocatemag.com/?p=67581"
+     },
+     {
+      "name": "The Infatuation",
+      "url": "https://www.theinfatuation.com/dallas/reviews/il-bracco"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   },
+   {
+    "item": "Focaccia",
+    "type": "dish",
+    "why": "House-made, with whipped ricotta and roasted garlic; order on arrival",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "My Avid Golfer",
+      "url": "https://myavidgolfer.com/after-the-round-il-bracco/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Order the focaccia as soon as you sit down",
+   "Business casual; reserve on OpenTable for weekends"
+  ],
+  "difficulty": "moderate"
+ },
+ "El Molino": {
+  "known_for": "Wood-fired Prime filet fajitas and flaming frozen margaritas",
+  "famous": [
+   {
+    "item": "Filet mignon fajitas",
+    "type": "dish",
+    "why": "In-house butchered Prime tenderloin over wood fire, rich with butter",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/?p=40618399"
+     },
+     {
+      "name": "360 West",
+      "url": "https://360westmagazine.com/el-molino-opens-in-snider-plaza-with-wood-fired-fajitas-and-rare-tequilas/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   },
+   {
+    "item": "Flaming Frozen Margarita",
+    "type": "drink",
+    "why": "The bar's showpiece, set alight at the table",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/food-drink/new-restaurant-el-molino-in-dallas-snider-plaza-opens-soon-40603107/"
+     },
+     {
+      "name": "OpenTable reviews",
+      "url": "https://www.opentable.co.uk/r/el-molino-dallas"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Book the Snider Plaza location on OpenTable; Preston Royal is a separate listing",
+   "Business-casual dress code; reportedly no kids under 12",
+   "Loud and can run behind on busy nights"
+  ],
+  "difficulty": "moderate"
+ },
+ "The Honor Bar": {
+  "known_for": "Ding's crispy chicken sandwich in Highland Park Village",
+  "famous": [
+   {
+    "item": "Ding's crispy chicken sandwich",
+    "type": "dish",
+    "why": "Buttermilk fried chicken, baby Swiss and spicy slaw; the reason people wait",
+    "mentions": 4,
+    "sources": [
+     {
+      "name": "Dallas Morning News",
+      "url": "https://dallasnews.com/food/2022/07/14/best-things-we-ate-this-week-garlicky-mustard-chicken-sandwiches-and-taco-nirvana"
+     },
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/food-drink/if-you-drive-a-lexus-and-eat-15-chicken-sandwiches-this-new-highland-park-village-spot-is-for-you-8931765/"
+     },
+     {
+      "name": "Dallasites101",
+      "url": "https://www.dallasites101.com/blog/post/11-of-the-best-fried-chicken-sandwiches-in-dallas/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Expect long waits at peak; walk-ins welcome for parties of two",
+   "Groups of 3+ should book via the Wisely widget on honorbar.com"
+  ],
+  "difficulty": "moderate"
+ },
+ "Hillstone": {
+  "known_for": "Spinach artichoke dip and the prime rib French dip",
+  "famous": [
+   {
+    "item": "Spinach artichoke dip",
+    "type": "dish",
+    "why": "Molten, cheesy starter with thin chips and salsa; D Mag published a copycat",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Beli",
+      "url": ""
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/food-drink/2016/07/dish-pirate-hillstones-spinach-and-artichoke-dip/"
+     },
+     {
+      "name": "CBS Texas",
+      "url": "https://www.cbsnews.com/dfw/news/best-artichoke-dip-in-dallas"
+     }
+    ]
+   },
+   {
+    "item": "French dip",
+    "type": "dish",
+    "why": "Sliced-to-order prime rib on house-baked roll; a cult chain sandwich",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Beli",
+      "url": ""
+     },
+     {
+      "name": "Foursquare",
+      "url": "https://foursquare.com/hillston7233888"
+     },
+     {
+      "name": "Eat This",
+      "url": "https://www.eatthis.com/best-french-dip-sandwich-chains-diners/"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Books on Hillstone's own Wisely widget, not OpenTable/Resy",
+   "Walk-ins only for parties of two; peak waits can hit an hour",
+   "Groups of 3+ need a reservation or may not be seated"
+  ],
+  "difficulty": "moderate"
+ },
+ "Quarter Acre": {
+  "known_for": "New Zealand-accented tasting menu with smoked beef tartare",
+  "famous": [
+   {
+    "item": "Smoked beef tartare",
+    "type": "dish",
+    "why": "Chef's nod to Texas barbecue; a fixture of the tasting menu",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2023/may/quarter-acre-is-dallas-newest-neighborhood-bistro-with-a-new-zealand-twist/"
+     },
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/food-drink/a-must-try-dallas-tasting-menu-is-changing-the-tune-on-fine-dining-22335817/"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Tasting-menu only (~7 courses); price and length have changed, check first",
+   "Starts with a round of small snacks; seafood is a strength"
+  ],
+  "difficulty": "moderate"
+ },
+ "Las Palmas Tex-Mex": {
+  "known_for": "Queso blanco and wagyu fajitas on an Uptown patio",
+  "famous": [
+   {
+    "item": "Queso blanco",
+    "type": "dish",
+    "why": "Start every meal with it; creamy with fresh-fried chips",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/restaurants/best-tex-mex-in-dallas-19146682"
+     },
+     {
+      "name": "Visit Dallas",
+      "url": "https://www.visitdallas.com/blog/las-palmas/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   },
+   {
+    "item": "Wagyu fajitas",
+    "type": "dish",
+    "why": "The signature and diner favorite, though early critics found them dry",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Visit Dallas",
+      "url": "https://www.visitdallas.com/blog/las-palmas/"
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/food-drink/2019/08/las-palmas-adds-milkshakes-wagyu-and-champagne-to-tex-mex/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Walk-ins welcome; Resy recommended for weekends",
+   "Hickory ribs get a Dallas Observer shout-out",
+   "Pet-friendly patio"
+  ],
+  "difficulty": "easy"
+ },
+ "Tatsu Dallas": {
+  "known_for": "Michelin-starred Edomae omakase; Dallas's hardest booking",
+  "famous": [
+   {
+    "item": "Toro (bluefin, incl. rare cuts)",
+    "type": "dish",
+    "why": "Painstakingly trimmed fatty tuna that critics say melts away",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/food-drink/tatsu-omakase-restaurant-in-deep-ellum-review-19196128/"
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2022/november/tatsu-dallas-is-the-citys-hardest-reservation-and-its-worth-the-wait/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Prepaid Tock seats drop on the 1st and 15th; be online at release",
+   "Parties of 1-4 only; seatings 5:30 and 7:45 PM Tue-Sat",
+   "Cheaper short omakase at the bar is easier to land",
+   "Arrive early; cancel 5+ days out or lose the prepayment"
+  ],
+  "difficulty": "hard"
+ },
+ "Sushi by Scratch Restaurants: Dallas": {
+  "known_for": "10-seat hidden omakase in an Adolphus hotel room",
+  "famous": [
+   {
+    "item": "Bone marrow nigiri",
+    "type": "dish",
+    "why": "Roasted marrow with soy, salt and fresh wasabi; the late-course signature",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/restaurants/sushi-by-scratch-come-to-dallas-via-a-hotel-room-at-the-adolphus-17985927"
+     },
+     {
+      "name": "PaperCity",
+      "url": "https://www.papercitymag.com/restaurants/new-dallas-restaurants-unavida-sushi-bar-scratch-gingers/"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Seats release monthly and go fast; set an alarm",
+   "Arrive 30 min early for the pre-dinner drink lounge",
+   "Sake pairing gets repeat praise"
+  ],
+  "difficulty": "hard"
+ },
+ "Sushi Bar Dallas": {
+  "known_for": "12-seat, 17-course all-nigiri omakase plus Ginger's speakeasy",
+  "famous": [],
+  "tips": [
+   "Ginger's cocktail lounge (2115 Jackson) works before/after, no omakase res needed",
+   "Lively, music-forward counter; expect a party vibe over hushed reverence",
+   "Rolling 30-day booking window on Resy; 22% service charge added"
+  ],
+  "difficulty": "hard"
+ },
+ "Casa Brasa": {
+  "known_for": "Omar Flores' open-fire Latin grill with a sushi counter",
+  "famous": [],
+  "tips": [
+   "Opened Oct 2025; critics single out the cocktails and the whole snapper",
+   "Go easy on the free chips and salsa so you have room",
+   "Kamilla, its speakeasy lounge, books separately on Resy"
+  ],
+  "difficulty": "moderate"
+ },
+ "Nobu Dallas": {
+  "known_for": "Nobu classics: black cod miso and yellowtail jalapeño",
+  "famous": [
+   {
+    "item": "Black cod miso",
+    "type": "dish",
+    "why": "The signature; called the crown jewel of the menu",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/?p=40501148"
+     },
+     {
+      "name": "Crescent Court",
+      "url": "https://crescentcourt.com/dining/nobu"
+     },
+     {
+      "name": "OpenTable reviews",
+      "url": "https://www.opentable.com/nobu-dallas"
+     }
+    ]
+   },
+   {
+    "item": "Yellowtail jalapeño",
+    "type": "dish",
+    "why": "Classic sashimi starter that lives up to the hype",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "TripAdvisor",
+      "url": "https://www.tripadvisor.cn/ShowUserReviews-g55711-d577138-r3025401109565938696-Nobu_Dallas-Dallas_Texas.html"
+     },
+     {
+      "name": "AOL",
+      "url": "https://www.aol.com/tried-nobus-most-famous-dishes-142300605.html"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Dallas-only items: scallops with jalapeño salsa, ranchero rib-eye",
+   "Expect roughly $150-300 a head",
+   "Service reviews are mixed"
+  ],
+  "difficulty": "moderate"
+ },
+ "MĀBO": {
+  "known_for": "8-seat yakitori kappo omakase over binchotan by Masa Otaka",
+  "famous": [
+   {
+    "item": "Binchotan yakitori (incl. chicken oyster)",
+    "type": "dish",
+    "why": "The grill is the show; ex-Teppo chef's skewers are the highlight",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2024/july/yakitori-is-the-star-of-the-200-show-at-mabo/"
+     },
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/?p=40590942"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Only 8 seats per seating (about 5:30 and 8:30 PM); book via OpenTable / Instagram link",
+   "About $200 pp before drinks, tax and tip; parties of 1-4"
+  ],
+  "difficulty": "hard"
+ },
+ "Sushi Kozy": {
+  "known_for": "Michelin-recommended kaiseki-meets-sushi omakase by ex-Uchi chef",
+  "famous": [],
+  "tips": [
+   "Michelin advises sitting at the counter",
+   "Weekdays are easier for counter seats",
+   "No valet; plan parking downtown"
+  ],
+  "difficulty": "moderate"
+ },
+ "Carbone Dallas": {
+  "known_for": "Spicy rigatoni vodka and veal parm with red-sauce theater",
+  "famous": [
+   {
+    "item": "Spicy rigatoni vodka",
+    "type": "dish",
+    "why": "The famed dish; creamy, only mildly spicy",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Beli",
+      "url": ""
+     },
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/food-drink/carbone-dallas-upholds-a-star-studded-legacy-in-the-heart-of-texas-21100156/"
+     },
+     {
+      "name": "Dallas Observer (Carbone's)",
+      "url": "https://www.dallasobserver.com/food-drink/cant-get-reservation-at-carbone-we-got-a-tip-13749585/"
+     }
+    ]
+   },
+   {
+    "item": "Veal parmesan",
+    "type": "dish",
+    "why": "Bone-on veal chop parm, the other routine must-try",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Dallas Morning News",
+      "url": "https://dallasnews.com/food/restaurant-news/2022/03/30/carbone-dallas-biggest-restaurant-opening-of-2022-is-open/"
+     },
+     {
+      "name": "OpenTable",
+      "url": "https://opentable.com.au/r/carbone-dallas"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Resy releases 30 days out at 9 AM; early or late slots are easiest",
+   "Sister Carbone Vino next door takes walk-ins and serves some of the same dishes"
+  ],
+  "difficulty": "hard"
+ },
+ "Mot Hai Ba": {
+  "known_for": "Bib Gourmand Vietnamese-French; shaking beef and foie dumplings",
+  "famous": [
+   {
+    "item": "Shaking beef (bo luc lac)",
+    "type": "dish",
+    "why": "Long-running signature, tender and paired with garlic noodles",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "VisitDallas (Michelin dishes)",
+      "url": "https://www.visitdallas.com/blog/dallas-michelin-dining/"
+     },
+     {
+      "name": "CultureMap Dallas",
+      "url": "https://dallas.culturemap.com/news/restaurants-bars/04-04-14-mot-hai-ba-vietnamese-east-dallas-new-dinner-menu"
+     }
+    ]
+   },
+   {
+    "item": "Kimchi and foie gras dumplings",
+    "type": "dish",
+    "why": "With pear compote and wagyu, finished tableside with pho tallow; rich",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/?p=40361326"
+     },
+     {
+      "name": "Wanderlog reviews",
+      "url": "https://wanderlog.com/place/details/1047944/mot-hai-ba"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Michelin's dessert pick is the coconut lemongrass panna cotta",
+   "Lakewood location is 6047 Lewis St; there is also a Victory Park outpost"
+  ],
+  "difficulty": "moderate"
+ },
+ "Olōyō": {
+  "known_for": "23-seat Mexican fine dining built on heirloom masa and moles",
+  "famous": [
+   {
+    "item": "Tamales in pipián verde",
+    "type": "dish",
+    "why": "Masa showcase in a bright green pumpkin-seed sauce",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Resy",
+      "url": "https://blog.resy.com/2026/06/oloyo-dallas/"
+     },
+     {
+      "name": "The Infatuation",
+      "url": "https://www.theinfatuation.com/dallas/reviews/ol-y"
+     }
+    ]
+   },
+   {
+    "item": "Duck in mole (pato en mole)",
+    "type": "dish",
+    "why": "Rotating seasonal mole over duck; a reviewer favorite",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Resy",
+      "url": "https://blog.resy.com/2026/06/oloyo-dallas/"
+     },
+     {
+      "name": "The Infatuation",
+      "url": "https://www.theinfatuation.com/dallas/reviews/ol-y"
+     }
+    ]
+   },
+   {
+    "item": "Seasonal aguachile",
+    "type": "dish",
+    "why": "Citrusy raw seafood that changes with the season",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Resy",
+      "url": "https://blog.resy.com/2026/06/oloyo-dallas/"
+     },
+     {
+      "name": "The Infatuation",
+      "url": "https://www.theinfatuation.com/dallas/reviews/ol-y"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Resy drops 21 days out at 10 AM; only 23 seats",
+   "Menu rotates often; order at least two masa dishes",
+   "D Magazine says get the steak"
+  ],
+  "difficulty": "hard"
+ },
+ "Purepecha and Revolver Taco Lounge": {
+  "known_for": "Michoacan tasting menu in a back room behind a taqueria",
+  "famous": [
+   {
+    "item": "Mole (chicken or lamb shoulder)",
+    "type": "dish",
+    "why": "Deep, earthy mole is the recurring standout on the rotating menu",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Time Out Dallas",
+      "url": "https://www.timeout.com/dallas/restaurants/purepecha"
+     },
+     {
+      "name": "Crave DFW",
+      "url": "https://cravedfw.com/2026/06/10/purepecha-is-one-of-the-best-restaurants-in-dallas-heres-what-you-need-to-know-about-it/"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Reservation only on OpenTable, released 30 days out at midnight",
+   "7-course kitchen table seats 8; 4-course is in the front room",
+   "Menu rotates; front Revolver taqueria is walk-in"
+  ],
+  "difficulty": "hard"
+ },
+ "Tango Room": {
+  "known_for": "Fruits de mer tower and lobster corn dogs at a sultry steakhouse",
+  "famous": [
+   {
+    "item": "Fruits de mer",
+    "type": "dish",
+    "why": "Oysters, prawns, king crab and crab Louie; the table centerpiece",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/food-drink/tango-room-in-dallas-design-district-enters-a-new-era-20770327/"
+     },
+     {
+      "name": "CraveDFW",
+      "url": "https://cravedfw.com/2026/05/12/tango-room-is-one-of-the-best-steakhouses-in-dallas-and-most-people-dont-know-it-exists/"
+     },
+     {
+      "name": "Pearl",
+      "url": "https://joinpearl.co/restaurants/dallas/tango-room"
+     }
+    ]
+   },
+   {
+    "item": "Lobster corn dogs",
+    "type": "dish",
+    "why": "The starter most tables order first",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "CraveDFW",
+      "url": "https://cravedfw.com/2026/05/12/tango-room-is-one-of-the-best-steakhouses-in-dallas-and-most-people-dont-know-it-exists/"
+     },
+     {
+      "name": "Pearl",
+      "url": "https://joinpearl.co/restaurants/dallas/tango-room"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Happy hour (Tue-Thu ~5-7) has half-off cocktails and a cheaper fruits de mer",
+   "Prime times book solid; reserve on Resy",
+   "Closed Sun-Mon"
+  ],
+  "difficulty": "moderate"
+ },
+ "Lions Den": {
+  "known_for": "Michael White crab bucatini and lobster burrata at the Stoneleigh",
+  "famous": [
+   {
+    "item": "Crab bucatini",
+    "type": "dish",
+    "why": "Springy pasta, sweet crab and Calabrian chile; the top pick",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "The Infatuation",
+      "url": "https://www.theinfatuation.com/dallas/reviews/lions-den"
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/food-drink/2026/10/taste-test-uptowns-31-burger/"
+     },
+     {
+      "name": "Pearl",
+      "url": "https://joinpearl.co/restaurants/dallas/lion-s-den"
+     }
+    ]
+   },
+   {
+    "item": "Lobster burrata",
+    "type": "dish",
+    "why": "White's longtime signature, carried over from his NYC menus",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "The Infatuation",
+      "url": "https://www.theinfatuation.com/dallas/reviews/lions-den"
+     },
+     {
+      "name": "Pearl",
+      "url": "https://joinpearl.co/restaurants/dallas/lion-s-den"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Open all day but most special at dinner",
+   "The $185 lobster truffle pot pie is the splurge; burrata is the cheaper lobster fix"
+  ],
+  "difficulty": "moderate"
+ },
+ "Uchiba": {
+  "known_for": "Uchi's rowdier upstairs bar: Japanese whisky, highballs, skewers",
+  "famous": [
+   {
+    "item": "Japanese whisky list and highballs",
+    "type": "drink",
+    "why": "Deep whisky selection; the fizzy highballs get the praise",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "The Infatuation",
+      "url": "https://www.theinfatuation.com/dallas/reviews/uchiba-dallas"
+     },
+     {
+      "name": "Axios",
+      "url": "https://www.axios.com/local/austin/2023/10/27/uchi-restaurant-unchiba-uchiko-reviews"
+     }
+    ]
+   },
+   {
+    "item": "Uncommon Ramen (monthly guest-chef bowl)",
+    "type": "dish",
+    "why": "One-night monthly ramen collab with visiting chefs",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/food-drink/uchiba-serves-one-of-the-most-exclusive-bowls-of-ramen-in-dallas-18105658/"
+     },
+     {
+      "name": "Uchiba (official)",
+      "url": "https://uchiba.uchirestaurants.com/uncommon-ramen-dallas/"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Happy hour has drink and nigiri deals; bar seats are walk-in friendly",
+   "Ramen nights sell out, so reserve ahead for those",
+   "Try the chicken thigh skewers and tsukune"
+  ],
+  "difficulty": "easy"
+ },
+ "Otaru Sushi & Handroll Bar": {
+  "known_for": "Quick, affordable handroll sets and a daily nigiri board",
+  "famous": [
+   {
+    "item": "Handroll combo sets",
+    "type": "dish",
+    "why": "Good-value set menus for a fast counter meal",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/food-drink/2024/09/otaru-sushi-brings-speedy-handrolls-to-bishop-arts/"
+     },
+     {
+      "name": "Dallasites101",
+      "url": "https://www.dallasites101.com/blog/post/otaru-dallas-sushi-handroll/"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Walk-in only at the U-shaped bar",
+   "Check the daily nigiri specials board",
+   "Only the omakase takes reservations (~$100, good value)"
+  ],
+  "difficulty": "easy"
+ },
+ "Namo": {
+  "known_for": "Handroll bar turned omakase spot; baked crab handroll",
+  "famous": [
+   {
+    "item": "Baked crab handroll",
+    "type": "dish",
+    "why": "Torched, creamy crab with avocado; the crowd favorite from day one",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Dallas Morning News",
+      "url": "https://dallasnews.com/food/restaurant-reviews/2019/02/14/nori-vs-namo-a-hand-roll-smackdown-starring-two-new-sushi-bars-in-dallas"
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/publications/d-magazine/2019/february/grabbing-a-bite-at-nori-handroll-bar/"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Reservations are scarce and reportedly drop on the 1st of the month at 10 AM",
+   "90-minute slots, 10-minute grace period",
+   "D Magazine rates the lunch okonomi as a luxury bargain"
+  ],
+  "difficulty": "hard"
+ },
+ "Koryo Korean BBQ": {
+  "known_for": "Charcoal-grilled kalbi and one of Dallas's best banchan spreads",
+  "famous": [
+   {
+    "item": "Banchan",
+    "type": "dish",
+    "why": "Large, daily-changing spread, sometimes three kimchis",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "The Infatuation",
+      "url": "https://theinfatuation.com/dallas/reviews/koryo-kalbi-korean-bbq"
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/guides/where-you-can-try-the-best-korean-food-in-dallas/"
+     },
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/location/koryo-kalbi-11407038/"
+     }
+    ]
+   },
+   {
+    "item": "Marinated beef short rib (kalbi)",
+    "type": "dish",
+    "why": "The best thing on the menu per critics; grilled over charcoal",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "The Infatuation",
+      "url": "https://theinfatuation.com/dallas/reviews/koryo-kalbi-korean-bbq"
+     },
+     {
+      "name": "Wanderlog",
+      "url": "https://wanderlog.com/place/details/1161557/koryo-korean-bbq"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Tabletop grilling needs 2+ BBQ orders; comes with soup and steamed egg",
+   "Open late (to 2 AM Thu-Sat per listings)",
+   "Call for parties of 6+"
+  ],
+  "difficulty": "easy"
+ },
+ "Nick & Sam's": {
+  "known_for": "Giant steaks, lobster mac and the glowing cotton-candy dessert",
+  "famous": [
+   {
+    "item": "Lobster mac and cheese",
+    "type": "dish",
+    "why": "Rich, decadent side often called the best in town",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Spoon University",
+      "url": "https://spoonuniversity.com/place/where-to-find-the-best-mac-and-cheese-in-dallas"
+     },
+     {
+      "name": "Foursquare",
+      "url": "https://lv.foursquare.com/v/4d115af70c786ea8994bd0ab"
+     },
+     {
+      "name": "OpenTable",
+      "url": "https://www.opentable.com/nick-and-sams-steakhouse"
+     }
+    ]
+   },
+   {
+    "item": "Giant cotton candy",
+    "type": "dessert",
+    "why": "Torso-sized, lit-from-inside cotton candy, often with the rainbow cake",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Dallas Morning News",
+      "url": "https://dallasnews.com/food/2016/01/21/5-odd-awesome-desserts-in-dallas-and-beyond"
+     },
+     {
+      "name": "Audacy",
+      "url": "https://www.audacy.com/alt1037dfw/blogs/deleted-alt-1037/dallas-steak-house-serves-giant-cotton-candy"
+     },
+     {
+      "name": "Narcity",
+      "url": "https://www.narcity.com/dallas/this-dallas-steakhouse-serves-massive-cotton-candy-desserts"
+     }
+    ]
+   },
+   {
+    "item": "Oversized steaks (77-oz strip, Kagoshima ribeye)",
+    "type": "dish",
+    "why": "Showpiece large-format and wagyu cuts",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Tasting Table",
+      "url": "https://www.tastingtable.com/2114809/nick-and-sam-dallas-steakhouse-77-ounce-steak"
+     },
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/location/nick-and-sams-6451889/"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Ask about off-menu cuts like the 41-oz bone-in filet",
+   "Go easy on the sauce so the beef shows"
+  ],
+  "difficulty": "moderate"
+ },
+ "Yujo": {
+  "known_for": "Approachable omakase counter known for dry-aged fish",
+  "famous": [
+   {
+    "item": "Dry-aged fish nigiri",
+    "type": "dish",
+    "why": "The house specialty that sets it apart from other omakase spots",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/?p=40588802"
+     },
+     {
+      "name": "OpenTable listing",
+      "url": "https://www.opentable.com/r/yujo-dallas"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Reservation-only, 80-minute seatings; pace is quick",
+   "Several omakase tiers, from traditional to uni/caviar add-ons",
+   "Easier to book than most Dallas omakase counters"
+  ],
+  "difficulty": "moderate"
+ },
+ "Bar Colette": {
+  "known_for": "Clarified milk punch cocktails from a Michelin-awarded bartender",
+  "famous": [
+   {
+    "item": "Provence (clarified milk punch)",
+    "type": "drink",
+    "why": "Signature with poached pear; the style that won Rolon a Michelin award",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Dallas Morning News",
+      "url": "https://dallasnews.com/food/restaurant-news/2023/11/14/inside-bar-colette-the-newest-cocktail-lounge-in-dallas"
+     },
+     {
+      "name": "Dallas Observer",
+      "url": "https://dallasobserver.com/restaurants/bar-colette-in-dallas-17996745"
+     },
+     {
+      "name": "PaperCity",
+      "url": "https://www.papercitymag.com/restaurants/bar-colette-dallas-ruben-rolon"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Limited 90-min reservations; bar seats are walk-in",
+   "Free daily welcome sip; 'Two Sip' half-pours to sample",
+   "21+, business casual"
+  ],
+  "difficulty": "moderate"
+ },
+ "Vintage Wine Bar": {
+  "known_for": "Wine bar with charcuterie boards (details unverified)",
+  "famous": [],
+  "tips": [
+   "Could not verify this venue online; likely walk-in"
+  ],
+  "difficulty": "easy"
+ },
+ "Ayahuasca Cantina": {
+  "known_for": "Esquire-listed hidden sotol and mezcal bar behind Xaman Cafe",
+  "famous": [
+   {
+    "item": "The Ayahuasca (house cocktail)",
+    "type": "drink",
+    "why": "Agave spirit with ginger, lime and house tepache; owner's pride",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Dallas Morning News",
+      "url": "https://dallasnews.com/food/restaurant-news/2024/06/03/ayahuasca-cantina-best-bar-america-esquire-dallas-oak-cliff-hidden"
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://dmagazine.com/food-drink/2020/07/xaman-cafe-and-ayahuasca-cantina-are-unlike-any-cafe-bar-in-dallas/"
+     }
+    ]
+   },
+   {
+    "item": "Sotol flight",
+    "type": "drink",
+    "why": "Rare sotols few Dallas bars carry; Esquire's suggested starter",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/food-drink/ayahuasca-in-dallas-named-one-of-the-best-bars-in-us-19501084/"
+     },
+     {
+      "name": "PaperCity",
+      "url": "https://www.papercitymag.com/restaurants/dallas-restaurants-coffee-bar-xaman-cafe-ayahuasca-cantina/"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Enter through Xaman Cafe and down the hallway; no sign",
+   "Reserve since the Esquire nod; full dinner menu only Fri-Sat",
+   "Clarified margarita won Observer's Best Margarita 2024"
+  ],
+  "difficulty": "moderate"
+ },
+ "Kilmac's": {
+  "known_for": "Smoked Guinness Old Fashioned and NY-style pizza on a huge patio",
+  "famous": [
+   {
+    "item": "Smoked Guinness Old Fashioned",
+    "type": "drink",
+    "why": "Guinness reduction, chocolate bitters, served still smoldering",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/food-drink/kilmacs-now-open-in-oak-cliff-dallas-40656996/"
+     },
+     {
+      "name": "Crave DFW",
+      "url": "https://cravedfw.com/2026/05/11/kilmacs-brought-a-smoked-guinness-old-fashioned-west-davis-street/"
+     }
+    ]
+   },
+   {
+    "item": "Drunken Pepperoni pizza",
+    "type": "dish",
+    "why": "Thin pie with vodka sauce and pickled jalapenos",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Beli",
+      "url": ""
+     },
+     {
+      "name": "The Infatuation",
+      "url": "https://www.theinfatuation.com/dallas/reviews/kilmacs"
+     }
+    ]
+   },
+   {
+    "item": "Toasted coconut daiquiri",
+    "type": "drink",
+    "why": "House riff on the classic that critics keep naming",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "The Infatuation",
+      "url": "https://www.theinfatuation.com/dallas/reviews/kilmacs"
+     },
+     {
+      "name": "Advocate Oak Cliff",
+      "url": "https://oakcliff.advocatemag.com/?p=89709"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Happy hour 5-7 Tue-Fri: house cocktails $9",
+   "No reservations; aim for the big back patio on a nice night",
+   "Open Wed-Sun 5 PM-2 AM"
+  ],
+  "difficulty": "easy"
+ },
+ "Marlowe Lounge": {
+  "known_for": "Art Deco Uptown cocktail lounge with live music",
+  "famous": [],
+  "tips": [
+   "Opened fall 2026 in the old Theory Nightclub space (2912 McKinney)",
+   "Cocktails about $18-22; the High Tea cocktail can become a group tea service",
+   "Tables held 15 min; dress up, it is a lounge not a club"
+  ],
+  "difficulty": "moderate"
+ },
+ "Triumphs Espresso & Whiskey": {
+  "known_for": "Coffee bar by day, whiskey and live jazz lounge by night",
+  "famous": [
+   {
+    "item": "Everything Nice latte",
+    "type": "drink",
+    "why": "Bourbon-pecan syrup latte; the daytime stand-in for whiskey",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "The Infatuation",
+      "url": "https://www.theinfatuation.com/dallas/reviews/triumphs-espresso-and-whiskey"
+     },
+     {
+      "name": "Triumphs menu (Toast)",
+      "url": "https://toast.app/r/triumphs-espresso-whiskey-141-manufacturing-st-suite-110/order"
+     }
+    ]
+   },
+   {
+    "item": "Triumphs Martini",
+    "type": "drink",
+    "why": "House espresso-martini twist with pecan bourbon",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Axios Dallas",
+      "url": "https://www.axios.com/local/dallas/2024/09/20/one-cocktail-to-go-triumphs"
+     },
+     {
+      "name": "Wanderlog",
+      "url": "https://wanderlog.com/place/details/5911390/triumphs-espresso--whiskey"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Live jazz Wed-Sat; small music fee added per tab",
+   "No laptops after 7 PM",
+   "Valet can cost more than the coffee"
+  ],
+  "difficulty": "easy"
+ },
+ "Mike's Gemini Twin Lounge": {
+  "known_for": "Cedars dive bar: hot dogs and dirty martinis",
+  "famous": [
+   {
+    "item": "Hot dog",
+    "type": "dish",
+    "why": "Simple all-beef dog; Dallas Observer's Best Hot Dog 2024",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://dallasobserver.com/best-of/2024/food-and-drink/best-hot-dog-20607399"
+     },
+     {
+      "name": "Dallasites101",
+      "url": "https://www.dallasites101.com/blog/post/mikes-gemini-cedars/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   },
+   {
+    "item": "Dirty martini",
+    "type": "drink",
+    "why": "Cheap, briny house martini with gin or vodka",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/food-drink/10-dirtiest-martinis-in-dallas-texas-22008487/"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Walk-in only; open 4 PM to 2 AM",
+   "Look for the hot dog + martini combo deal",
+   "Try the jalapeno cheese sausage with all the toppings"
+  ],
+  "difficulty": "easy"
+ },
+ "The Mansion Bar": {
+  "known_for": "Clubby Rosewood hotel bar with live music on weekends",
+  "famous": [],
+  "tips": [
+   "Live music Fri-Sat 8:30 PM-midnight with a cover (~$15)",
+   "Call to reserve; smart casual",
+   "Mansion G&T uses a house-made cinchona tonic"
+  ],
+  "difficulty": "moderate"
+ },
+ "Apothecary": {
+  "known_for": "Grilled-pineapple soft-serve margarita in a two-room cocktail den",
+  "famous": [
+   {
+    "item": "Soft serve margarita",
+    "type": "drink",
+    "why": "Dairy-free grilled pineapple soft serve with tequila, lime, chili salt",
+    "mentions": 2,
+    "sources": [
+     {
+      "name": "Beli",
+      "url": ""
+     },
+     {
+      "name": "PaperCity",
+      "url": "https://www.papercitymag.com/restaurants/new-dallas-restaurants-openings-apothecary-bread-club/"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Reopened 2026 as two rooms (Archive and Alchemy); pick one on arrival",
+   "Book on Tock (small deposit); some seats held for walk-ins",
+   "2-hour limit for 3+ at busy times; separate Tock listing for golden hour"
+  ],
+  "difficulty": "moderate"
+ },
+ "Katy Trail Ice House": {
+  "known_for": "Huge trailside beer-garden patio with cold Texas drafts",
+  "famous": [
+   {
+    "item": "Frosty schooners of Texas draft beer",
+    "type": "drink",
+    "why": "Big frosted mugs from a long Texas tap list; the patio staple",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/food-drink/2011/03/first-take-bar-review-katy-trail-ice-house/"
+     },
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/location/katy-trail-ice-house-6465253"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "No reservations; weekend waits can stretch long, go early",
+   "Sits right on the Katy Trail; patio is the draw"
+  ],
+  "difficulty": "easy"
+ },
+ "Lounge Here": {
+  "known_for": "Retro East Dallas lounge with bacon deviled eggs and wine",
+  "famous": [
+   {
+    "item": "Smoked bacon deviled eggs",
+    "type": "dish",
+    "why": "The go-to bar snack, though one reviewer found them bland",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "Dallas Observer",
+      "url": "https://www.dallasobserver.com/restaurants/the-lounge-here-brings-marfa-vibes-to-lakewood-8778966"
+     },
+     {
+      "name": "Birdeye reviews",
+      "url": "https://reviews.birdeye.com/lounge-here-165103701150534"
+     },
+     {
+      "name": "Beli",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Always packed; call ahead, not on OpenTable",
+   "Closed Mon-Tue; Sunday brunch",
+   "Wine beats the cocktails per the Observer"
+  ],
+  "difficulty": "moderate"
+ },
+ "SILO": {
+  "known_for": "Big electronic music club in a converted grain silo",
+  "famous": [],
+  "tips": [
+   "Ticketed events only, no table bookings; most shows 18+ with physical ID",
+   "Doors ~9 PM, headliners around midnight; arrive early to skip the line",
+   "Recent reviews are mixed on staff and safety"
+  ],
+  "difficulty": "easy"
+ },
+ "Clifton Club Bar & Lounge": {
+  "known_for": "The $20 adult Happy Meal and strong martinis",
+  "famous": [
+   {
+    "item": "Adult Happy Meal",
+    "type": "dish",
+    "why": "Mini smashburger, fries, a cocktail and a cigarette 'toy' in a box",
+    "mentions": 3,
+    "sources": [
+     {
+      "name": "The Infatuation",
+      "url": "https://www.theinfatuation.com/dallas/reviews/clifton-club"
+     },
+     {
+      "name": "D Magazine",
+      "url": "https://www.dmagazine.com/food-drink/2025/09/a-katz-brothers-burger-crawl/"
+     },
+     {
+      "name": "OpenTable (venue listing)",
+      "url": "https://www.opentable.com/r/clifton-club-dallas"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   "Happy Meal is a happy-hour item; go early",
+   "Walk-ins at the 25-seat bar; OpenTable for tables",
+   "Valet or street parking only"
+  ],
+  "difficulty": "easy"
+ }
+}
