@@ -7,6 +7,7 @@ as JSON: started / busy / cooldown / done / failed. Runs under launchd
 (scripts/com.dallasreswatch.pull.plist, KeepAlive). Log: ~/.tables/pull.log
 """
 import datetime as dt, json, os, subprocess, sys, time, urllib.request
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent.parent
@@ -35,16 +36,69 @@ def last_pull(party=4, city="dallas"):
         return None
 
 
+LOCK = Path.home() / ".tables" / "run.lock"
+
+
+def check_date(city, party, date):
+    """Check one night for one city + party, commit cities/<city>/results/custom/<date>-p<party>.json, push."""
+    out = HERE / "cities" / city / "results" / "custom" / f"{date}-p{party}.json"
+    if out.exists() and time.time() - out.stat().st_mtime < 30 * 60:
+        log("custom fresh", city, date, party); tell(state="done", date=date, city=city, party=party); return
+    tell(state="queued" if LOCK.exists() else "started", date=date, city=city, party=party)
+    for _ in range(120):  # wait up to 20 min for a running publish to finish
+        try:
+            LOCK.mkdir(parents=True); break
+        except FileExistsError:
+            time.sleep(10)
+    else:
+        tell(state="failed", date=date, city=city, party=party, why="busy"); return
+    try:
+        tell(state="started", date=date, city=city, party=party)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        py = str(HERE / ".venv" / "bin" / "python")
+        with open(Path.home() / ".tables/launchd.log", "a") as lg:
+            lg.write(f"\n=== date check {city} {date} p{party} {dt.datetime.now():%F %T} ===\n"); lg.flush()
+            rc = subprocess.run([py, "check.py", "--city", city, "--party", str(party), "--start-date", date, "--end-date", date,
+                                 "--out", str(out)], cwd=HERE, stdout=lg, stderr=subprocess.STDOUT).returncode
+            if rc == 0:
+                git = lambda *a: subprocess.run(["git", *a], cwd=HERE, stdout=lg, stderr=subprocess.STDOUT).returncode
+                git("add", str(out.relative_to(HERE)))
+                git("commit", "-qm", f"date check: {city} {date} for {party}")
+                for i in range(4):
+                    git("pull", "-q", "--rebase", "--autostash")
+                    if git("push", "-q") == 0:
+                        break
+                    time.sleep(5 * (i + 1))
+        log("date check", city, date, party, "rc", rc)
+        tell(state="done" if rc == 0 else "failed", date=date, city=city, party=party)
+    finally:
+        try:
+            LOCK.rmdir()
+        except OSError:
+            pass
+
+
 def handle(body):
     try:
         msg = json.loads(body)
         party, city = int(msg.get("party", 4)), str(msg.get("city", "dallas"))
+        date = str(msg.get("date") or "")
     except Exception:
-        party, city = 4, "dallas"
-    if city not in {c["slug"] for c in json.loads((HERE / "cities.json").read_text())}:
+        party, city, date = 4, "dallas", ""
+    cities = {c["slug"]: c for c in json.loads((HERE / "cities.json").read_text())}
+    if city not in cities:
         city = "dallas"
     if not 2 <= party <= 8:
         party = 4
+    if date:
+        try:
+            d = dt.date.fromisoformat(date)
+        except ValueError:
+            return
+        today = dt.datetime.now(ZoneInfo(cities[city].get("tz", "America/Chicago"))).date()
+        if not today <= d <= today + dt.timedelta(days=90):
+            tell(state="failed", date=date, city=city, party=party, why="range"); return
+        check_date(city, party, date); return
     if Path.home().joinpath(".tables/run.lock").exists():
         log("busy"); tell(state="busy"); return
     lp = last_pull(party, city)

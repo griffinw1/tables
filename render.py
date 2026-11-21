@@ -446,6 +446,12 @@ footer{font-size:12px!important;text-align:center}
 .stats span{padding:5px 10px;font-size:12.5px}.step{flex:0 0 auto}}
 @media (prefers-reduced-motion:reduce){.step b.bump,.pmsg{animation:none}}
 
+/* ---- pick any night ---- */
+.days .pickd{border-style:dashed!important;color:var(--city)!important;background:transparent!important}
+.days .pickd small{color:var(--faint)!important}
+.days button.cust{border-color:var(--city)}
+.dpick{position:fixed;left:50%;top:50%;width:1px;height:1px;opacity:0;pointer-events:none}
+.pmsg.ok{color:var(--open)}.pmsg.err{color:var(--accent)}
 /* ---- map view ---- */
 .map-wrap{position:relative;margin-top:28px;border-radius:22px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);background:var(--chip)}
 #map{height:min(72vh,760px);min-height:440px;width:100%}

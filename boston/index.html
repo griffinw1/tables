@@ -395,6 +395,12 @@ footer{font-size:12px!important;text-align:center}
 .stats span{padding:5px 10px;font-size:12.5px}.step{flex:0 0 auto}}
 @media (prefers-reduced-motion:reduce){.step b.bump,.pmsg{animation:none}}
 
+/* ---- pick any night ---- */
+.days .pickd{border-style:dashed!important;color:var(--city)!important;background:transparent!important}
+.days .pickd small{color:var(--faint)!important}
+.days button.cust{border-color:var(--city)}
+.dpick{position:fixed;left:50%;top:50%;width:1px;height:1px;opacity:0;pointer-events:none}
+.pmsg.ok{color:var(--open)}.pmsg.err{color:var(--accent)}
 /* ---- map view ---- */
 .map-wrap{position:relative;margin-top:28px;border-radius:22px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);background:var(--chip)}
 #map{height:min(72vh,760px);min-height:440px;width:100%}
@@ -645,7 +651,9 @@ const TODAY0 = new Date().toLocaleDateString('en-CA', {timeZone: (D.city || {}).
 const dates = D.dates.filter(d => d >= TODAY0).length ? D.dates.filter(d => d >= TODAY0) : D.dates;  // past nights drop off
 D.venues.forEach(v => { v._base = [v.slots, v.status, v.day_notes]; });
 // Swap every venue's slots to the chosen party size (4 is the main check; others come from by_size).
+const CUST = new Set();  // nights added with "＋ Date" (for the current party size only)
 const applyParty = n => {
+  if (n !== P) { CUST.forEach(d => { const i = dates.indexOf(d); if (i >= 0) dates.splice(i, 1); }); if (CUST.has(state.day)) state.day = 'all'; CUST.clear(); }
   P = n; const src = n === D.party ? null : (D.by_size || {})[n];
   D.venues.forEach(v => {
     if (n === D.party) { [v.slots, v.status, v.day_notes] = v._base; return; }
@@ -861,9 +869,10 @@ function render() {
   { const v = $('#pval'); if (v) v.textContent = P; document.querySelectorAll('[data-pd]').forEach(b => b.disabled = (+b.dataset.pd < 0 ? P <= 2 : P >= 8)); }
   $('#days').innerHTML = `<button data-d="all" class="${state.day === 'all' ? 'on' : ''}">All<small>${dates.length} days</small></button>` + dates.map(d => {
     const n = D.venues.filter(v => slotsFor(v, d).length && v.kind === state.kind).length;
-    return `<button data-d="${d}" class="${state.day === d ? 'on' : ''}">${dow(d)} ${dnum(d)}<small>${n} open</small></button>`;
-  }).join('');
-  document.querySelectorAll('#days button').forEach(b => b.onclick = () => { state.day = b.dataset.d; render(); });
+    return `<button data-d="${d}" class="${state.day === d ? 'on' : ''}${CUST.has(d) ? ' cust' : ''}">${dow(d)} ${dnum(d)}<small>${n} open</small></button>`;
+  }).join('') + `<button class="pickd" id="pickd" type="button" title="Check any night">＋ Date<small>any night</small></button>`;
+  $('#pickd').onclick = () => openPicker();
+  document.querySelectorAll('#days button[data-d]').forEach(b => b.onclick = () => { state.day = b.dataset.d; render(); });
   $('#only').checked = state.open; $('#onl').checked = state.online; $('#sort').value = state.sort;
   const pool = D.venues.filter(v => v.kind === state.kind);
   KINDS.forEach(k => { const c = $('#c-' + k); if (c) c.textContent = D.venues.filter(v => v.kind === k).length || ''; });
@@ -1123,4 +1132,61 @@ render();
     if (last && (last.state === 'started' || last.state === 'busy')) { setBusy(true); listen(); setTimeout(() => setBusy(false), 8 * 60e3); }
   }).catch(() => {});
 })();
+
+
+// ---- "＋ Date": check any night on demand -----------------------------------------------
+// Fetches cities/<city>/results/custom/<date>-p<N>.json if the Mac already checked it recently;
+// otherwise asks the Mac (ntfy, same topic as Refresh) to check that one night, then loads it.
+function openPicker() {
+  let inp = $('#dpick');
+  if (!inp) {
+    inp = document.createElement('input'); inp.type = 'date'; inp.id = 'dpick'; inp.className = 'dpick'; inp.setAttribute('aria-label', 'Pick a night');
+    document.body.appendChild(inp);
+    inp.onchange = () => { if (inp.value) checkNight(inp.value); };
+  }
+  const t = new Date(TODAY0 + 'T12:00:00'), max = new Date(t); max.setDate(max.getDate() + 90);
+  inp.min = TODAY0; inp.max = max.toISOString().slice(0, 10); inp.value = '';
+  try { inp.showPicker(); } catch (e) { inp.focus(); inp.click(); }
+}
+const toast = (t, cls = '') => { const m = $('#pmsg'); if (!m) return; m.textContent = t; m.className = 'pmsg ' + cls; clearTimeout(toast.t); if (cls !== 'stay') toast.t = setTimeout(() => { if (m.textContent === t) m.textContent = ''; }, 9000); };
+const nice = d => new Date(d + 'T12:00:00').toLocaleDateString('en-US', {weekday: 'short', month: 'short', day: 'numeric'});
+function addNight(d, j) {
+  if (!dates.includes(d)) { dates.push(d); dates.sort(); CUST.add(d); }
+  const rows = {}; (j.venues || []).forEach(r => rows[r.name] = r);
+  D.venues.forEach(v => { const r = rows[v.name]; if (!r) return;
+    v.slots[d] = (r.slots || {})[d] || []; v.status[d] = (r.status || {})[d] || ''; v.day_notes[d] = (r.day_notes || {})[d] || ''; });
+  state.day = d; render();
+  const n = D.venues.filter(v => slotsFor(v, d).length && v.kind === state.kind).length;
+  toast(`${nice(d)} for ${P}: ${n} places with tables`, 'ok');
+}
+async function fetchNight(d) {
+  try { const r = await fetch(`../cities/${CITY.slug}/results/custom/${d}-p${P}.json?t=${Date.now()}`, {cache: 'no-store'}); if (r.ok) return await r.json(); } catch (e) {}
+  return null;
+}
+async function checkNight(d) {
+  if (dates.includes(d) && !CUST.has(d)) { state.day = d; render(); return; }   // already in the weekly window
+  const have = await fetchNight(d);
+  if (have && Date.now() - new Date(have.generated_at) < 6 * 3600e3) { addNight(d, have); return; }
+  const T = D.pull_topic, NT = 'https://ntfy.sh/';
+  if (!T) { toast('Checking other nights isn’t set up here.', 'err'); return; }
+  toast(`Asking the Mac to check ${nice(d)} for ${P}…`, 'stay');
+  const es = new EventSource(NT + T + '-s/sse'); let done = false;
+  const stop = () => { done = true; es.close(); };
+  const noReply = setTimeout(() => { if (!done) { stop(); toast(`✗ The Mac didn’t answer, so ${nice(d)} wasn’t checked. It’s probably asleep or offline.`, 'err'); } }, 45e3);
+  es.onmessage = async e => {
+    let m; try { m = JSON.parse(JSON.parse(e.data).message); } catch (x) { return; }
+    if (!m || m.date !== d || m.city !== CITY.slug || +m.party !== P) return;
+    clearTimeout(noReply);
+    if (m.state === 'queued') toast(`Another check is running; ${nice(d)} is next…`, 'stay');
+    else if (m.state === 'started') toast(`Checking ${nice(d)} for ${P} now. This takes 2–4 minutes; you can keep browsing.`, 'stay');
+    else if (m.state === 'failed') { stop(); toast(`✗ Couldn’t check ${nice(d)}${m.why === 'range' ? ' (only the next 90 days)' : ''}.`, 'err'); }
+    else if (m.state === 'done') {
+      stop(); toast(`Checked. Loading ${nice(d)}…`, 'stay');
+      for (let i = 0; i < 30; i++) { const j = await fetchNight(d); if (j && Date.now() - new Date(j.generated_at) < 3600e3) { addNight(d, j); return; } await new Promise(r => setTimeout(r, 8000)); }
+      toast(`Checked, but the site hasn’t updated yet. Try ${nice(d)} again in a minute.`, 'err');
+    }
+  };
+  try { await fetch(NT + T, {method: 'POST', body: JSON.stringify({city: CITY.slug, party: P, date: d})}); }
+  catch (e) { stop(); clearTimeout(noReply); toast('✗ Couldn’t send the request (no connection?).', 'err'); }
+}
 </script></body></html>
