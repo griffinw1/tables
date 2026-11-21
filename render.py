@@ -41,6 +41,7 @@ def build_data(city: dict, res: dict, cities: list[dict]) -> dict:
     meta.update(coffee)
     media = load_json(cdir / "media.json", {})
     vibes = load_json(cdir / "vibes.json", {})  # optional; keyed by exact venue name
+    geo = (load_json(cdir / "geo.json", {}) or {}).get("venues", {})
     specials = load_json(cdir / "specials.json", {})  # optional: known_for / famous items (web research)
     more = load_json(cdir / "media_more.json", {})  # optional: extra tagged photos from official/platform listings
     beli = {}
@@ -101,6 +102,7 @@ def build_data(city: dict, res: dict, cities: list[dict]) -> dict:
             "blurb": md.get("blurb"),
             "known_for": sp.get("known_for") or m.get("known_for"),
             "hours": m.get("hours"),
+            "ll": [geo[r["name"]]["lat"], geo[r["name"]]["lng"]] if r["name"] in geo else None,
             "press_rank": m.get("press_rank"),
             "status": r.get("status", {}),
             "slots": r.get("slots", {}),
@@ -123,7 +125,7 @@ def build_data(city: dict, res: dict, cities: list[dict]) -> dict:
     return {"generated_at": res["generated_at"], "party": res.get("party", 4), "by_size": by_size,
             "window": res.get("window", {}), "dates": res["dates"], "venues": venues,
             "platforms": PLATFORM, "pull_topic": PULL_TOPIC,
-            "city": {k: city.get(k) for k in ("slug", "name", "state", "tz", "accent", "accent_dark", "tagline")},
+            "city": {k: city.get(k) for k in ("slug", "name", "state", "tz", "accent", "accent_dark", "tagline", "bbox")},
             "cities": [{"slug": c["slug"], "name": c["name"], "state": c.get("state"), "status": c.get("status"),
                         "accent": c.get("accent"), "tagline": c.get("tagline")} for c in cities]}
 
@@ -444,6 +446,37 @@ footer{font-size:12px!important;text-align:center}
 .stats span{padding:5px 10px;font-size:12.5px}.step{flex:0 0 auto}}
 @media (prefers-reduced-motion:reduce){.step b.bump,.pmsg{animation:none}}
 
+/* ---- map view ---- */
+.map-wrap{position:relative;margin-top:28px;border-radius:22px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);background:var(--chip)}
+#map{height:min(72vh,760px);min-height:440px;width:100%}
+.map-leg{position:absolute;left:12px;bottom:12px;z-index:500;display:flex;gap:12px;align-items:center;padding:7px 12px;border-radius:999px;
+background:color-mix(in srgb,var(--paper) 88%,transparent);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);font-size:12px;color:var(--soft);box-shadow:var(--shadow)}
+.map-leg span{display:inline-flex;align-items:center;gap:6px}.map-leg i{width:10px;height:10px;border-radius:50%}
+.lg-open{background:var(--open);box-shadow:0 0 0 3px var(--openbg)}.lg-none{background:var(--faint)}
+.pinm{background:none;border:0}
+.pin{position:relative;display:grid;place-items:center;width:34px;height:34px;border-radius:50% 50% 50% 4px;transform:rotate(-45deg);
+background:var(--sc);color:#fff;box-shadow:0 6px 14px -4px rgba(0,0,0,.55);border:2px solid #fff;transition:transform .15s ease}
+.pin b{transform:rotate(45deg);font:700 11.5px Inter,system-ui,sans-serif;font-variant-numeric:tabular-nums}
+.pin.off{filter:saturate(.25) brightness(1.05);opacity:.75}
+.pin.open::after{content:"";position:absolute;inset:-6px;border-radius:inherit;border:2px solid var(--open);opacity:.8}
+.pinm:hover .pin,.pin.hl{transform:rotate(-45deg) scale(1.18);z-index:1000}
+.leaflet-popup-content-wrapper{border-radius:18px!important;padding:0!important;overflow:hidden;background:var(--paper)!important;color:var(--ink)!important;box-shadow:var(--k-shadow-lift)!important}
+.leaflet-popup-content{margin:0!important;width:260px!important;font:13px/1.4 Inter,system-ui,sans-serif}
+.leaflet-popup-tip{background:var(--paper)!important}
+.leaflet-container a.leaflet-popup-close-button{color:#fff;top:8px;right:8px;width:24px;height:24px;border-radius:50%;background:rgba(0,0,0,.35);font-size:16px;line-height:22px}
+.mp-ph{height:120px;background:var(--chip) center/cover no-repeat}
+.mp-b{padding:12px 14px 14px;display:grid;gap:8px}
+.mp-h{display:flex;align-items:flex-start;gap:8px}.mp-h b{flex:1;font:400 22px/1.05 "Instrument Serif",Georgia,serif}
+.mp-sc{color:#fff;background:var(--sc);border-radius:999px;padding:2px 8px;font-weight:700;font-size:12px}
+.mp-m{color:var(--soft);font-size:12px}
+.mp-t{display:flex;gap:5px;flex-wrap:wrap}.mp-t a{font-size:12px;font-weight:600;color:var(--open)!important;border:1.5px solid var(--open);border-radius:999px;padding:3px 8px;text-decoration:none}
+.mp-a{display:flex;gap:6px}.mp-a a,.mp-a button{flex:1;text-align:center;font:600 12.5px Inter,system-ui,sans-serif;padding:8px 10px;border-radius:12px;cursor:pointer;text-decoration:none}
+.mp-a .go{background:var(--accent);color:var(--accent-ink)!important;border:0}.mp-a .see{background:var(--chip);color:var(--ink);border:0}
+.leaflet-control-zoom a{background:var(--paper)!important;color:var(--ink)!important;border-color:var(--line)!important}
+.leaflet-control-attribution{font-size:10px!important;background:color-mix(in srgb,var(--paper) 80%,transparent)!important;color:var(--faint)!important}
+.leaflet-control-attribution a{color:var(--soft)!important}
+@media (max-width:640px){#map{height:66vh;min-height:380px}.map-wrap{border-radius:18px;margin-top:20px}.map-leg{right:12px;justify-content:center;flex-wrap:wrap;row-gap:2px}}
+
 """
 
 KIT_CSS = r"""
@@ -734,7 +767,7 @@ def render(city: dict, res: dict, cities: list[dict]) -> str:
 <div class="step" role="group" aria-label="Party size"><button data-pd="-1" aria-label="Fewer people">−</button><span><b id="pval">4</b><small>guests</small></span><button data-pd="1" aria-label="More people">+</button></div>
 <div class="days" id="days"></div>
 <button class="fbtn" id="fbtn" aria-expanded="false" aria-controls="filters" aria-label="Filters"><svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path d="M2 3h12M4.5 8h7M7 13h2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg><span class="lbl">Filters</span><i id="fcount"></i></button>
-<div class="seg vseg" role="group" aria-label="View"><button data-view="cards" title="Cards" aria-label="Cards"><svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><rect x="2" y="2" width="5" height="5" rx="1.2"/><rect x="9" y="2" width="5" height="5" rx="1.2"/><rect x="2" y="9" width="5" height="5" rx="1.2"/><rect x="9" y="9" width="5" height="5" rx="1.2"/></svg><span class="lbl">Cards</span></button><button data-view="list" title="List" aria-label="List"><svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><rect x="2" y="2.5" width="12" height="3" rx="1"/><rect x="2" y="6.5" width="12" height="3" rx="1"/><rect x="2" y="10.5" width="12" height="3" rx="1"/></svg><span class="lbl">List</span></button></div>
+<div class="seg vseg" role="group" aria-label="View"><button data-view="cards" title="Cards" aria-label="Cards"><svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><rect x="2" y="2" width="5" height="5" rx="1.2"/><rect x="9" y="2" width="5" height="5" rx="1.2"/><rect x="2" y="9" width="5" height="5" rx="1.2"/><rect x="9" y="9" width="5" height="5" rx="1.2"/></svg><span class="lbl">Cards</span></button><button data-view="list" title="List" aria-label="List"><svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><rect x="2" y="2.5" width="12" height="3" rx="1"/><rect x="2" y="6.5" width="12" height="3" rx="1"/><rect x="2" y="10.5" width="12" height="3" rx="1"/></svg><span class="lbl">List</span></button><button data-view="map" title="Map" aria-label="Map"><svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path d="M8 14.5s4.5-4.2 4.5-8A4.5 4.5 0 0 0 3.5 6.5c0 3.8 4.5 8 4.5 8z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="8" cy="6.5" r="1.6"/></svg><span class="lbl">Map</span></button></div>
 </div>
 <div class="row2" id="filters">
 <div class="seg when" role="group" aria-label="Time of night"><button data-when="any">Any time</button><button data-when="early" title="5–7 PM">Early</button><button data-when="prime" title="7–8:30 PM">Prime</button><button data-when="late" title="8:30 PM on">Late</button></div>
@@ -749,6 +782,7 @@ def render(city: dict, res: dict, cities: list[dict]) -> str:
 </div>
 </div></div>
 <main>
+<section id="s-map" class="hide"><div class="map-wrap"><div id="map" role="region" aria-label="Map of places"></div><div class="map-leg"><span><i class="lg-open"></i>Table tonight</span><span><i class="lg-none"></i>Nothing tonight</span><span id="map-n"></span></div></div></section>
 <section id="s-restaurant"><div class="sec-h"><h2 class="serif">Restaurants</h2><span id="n-restaurant"></span></div>
 <div class="grid" id="g-restaurant"></div><div class="none hide" id="e-restaurant">Nothing matches these filters. Try another day, a wider time, or Reset.</div></section>
 <section id="s-bar"><div class="sec-h"><h2 class="serif">Bars</h2><span id="n-bar"></span></div>

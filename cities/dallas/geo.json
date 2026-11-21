@@ -339,6 +339,91 @@
    "lng": -96.770105,
    "src": "osm-address",
    "hood_km": 0.0
+  },
+  "Wayward Coffee Co.": {
+   "lat": 32.749417,
+   "lng": -96.843125,
+   "src": "osm-address"
+  },
+  "Cultivar Coffee": {
+   "lat": 32.839239,
+   "lng": -96.697217,
+   "src": "osm-address"
+  },
+  "Café Duro": {
+   "lat": 32.82331,
+   "lng": -96.770014,
+   "src": "osm-address"
+  },
+  "Davis Street Espresso": {
+   "lat": 32.749635,
+   "lng": -96.836729,
+   "src": "osm-address"
+  },
+  "Magnolias Sous Le Pont": {
+   "lat": 32.793167,
+   "lng": -96.807828,
+   "src": "osm-address"
+  },
+  "Weekend Coffee": {
+   "lat": 32.780213,
+   "lng": -96.798229,
+   "src": "osm-name"
+  },
+  "JuJu's Coffee": {
+   "lat": 32.812914,
+   "lng": -96.763707,
+   "src": "osm-address"
+  },
+  "Full City Rooster": {
+   "lat": 32.767657,
+   "lng": -96.789736,
+   "src": "osm-name"
+  },
+  "Ascension Coffee": {
+   "lat": 32.796979,
+   "lng": -96.82013,
+   "src": "osm-address"
+  },
+  "Hola Cafe": {
+   "lat": 32.748305,
+   "lng": -96.83748,
+   "src": "osm-address"
+  },
+  "Opening Bell Coffee": {
+   "lat": 32.749212,
+   "lng": -96.767676,
+   "src": "osm-address"
+  },
+  "Houndstooth Coffee": {
+   "lat": 32.811554,
+   "lng": -96.774542,
+   "src": "osm-name"
+  },
+  "LDU Coffee": {
+   "lat": 32.814733,
+   "lng": -96.785287,
+   "src": "osm-address"
+  },
+  "Slow & Steady Coffee": {
+   "lat": 32.727999,
+   "lng": -96.844699,
+   "src": "osm-address"
+  },
+  "La La Land Kind Cafe": {
+   "lat": 32.815224,
+   "lng": -96.771191,
+   "src": "osm-address"
+  },
+  "La Reunion": {
+   "lat": 32.746769,
+   "lng": -96.828455,
+   "src": "osm-address"
+  },
+  "Palmieri Cafe": {
+   "lat": 32.74758,
+   "lng": -96.828483,
+   "src": "osm-name"
   }
  },
  "missing": []

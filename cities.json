@@ -11,7 +11,13 @@
   "accent": "#b4532a",
   "accent_dark": "#e8875a",
   "tagline": "Big-city steak, sushi and Tex-Mex",
-  "beli_dir": "dallas-tx"
+  "beli_dir": "dallas-tx",
+  "bbox": [
+   32.55,
+   -97.05,
+   33.1,
+   -96.5
+  ]
  },
  {
   "slug": "boston",
@@ -25,6 +31,12 @@
   "accent": "#1f5c4a",
   "accent_dark": "#6cc3a2",
   "tagline": "Seafood, North End Italian and Cambridge cocktails",
-  "beli_dir": "boston-ma"
+  "beli_dir": "boston-ma",
+  "bbox": [
+   42.22,
+   -71.25,
+   42.45,
+   -70.95
+  ]
  }
 ]

@@ -1,0 +1,240 @@
+{
+ "generated_by": "scripts/geocode_city.py",
+ "venues": {
+  "Sarma": {
+   "lat": 42.388187,
+   "lng": -71.095475,
+   "src": "osm-address"
+  },
+  "Mooncusser": {
+   "lat": 42.349836,
+   "lng": -71.070798,
+   "src": "osm-address"
+  },
+  "Mahaniyom": {
+   "lat": 42.332634,
+   "lng": -71.11877,
+   "src": "osm-address"
+  },
+  "Field & Vine": {
+   "lat": 42.379992,
+   "lng": -71.094516,
+   "src": "osm-address"
+  },
+  "Comfort Kitchen": {
+   "lat": 42.317475,
+   "lng": -71.064052,
+   "src": "osm-address"
+  },
+  "Neptune Oyster": {
+   "lat": 42.363243,
+   "lng": -71.056003,
+   "src": "osm-address"
+  },
+  "O Ya": {
+   "lat": 42.351354,
+   "lng": -71.056934,
+   "src": "osm-address"
+  },
+  "Tonino": {
+   "lat": 42.32064,
+   "lng": -71.110784,
+   "src": "osm-address"
+  },
+  "Urban Hearth": {
+   "lat": 42.373598,
+   "lng": -71.098772,
+   "src": "osm-address"
+  },
+  "311 Omakase": {
+   "lat": 42.343143,
+   "lng": -71.073644,
+   "src": "osm-address"
+  },
+  "Oleana": {
+   "lat": 42.370567,
+   "lng": -71.097179,
+   "src": "osm-address"
+  },
+  "Giulia": {
+   "lat": 42.38252,
+   "lng": -71.119987,
+   "src": "osm-address"
+  },
+  "Pammy's": {
+   "lat": 42.368433,
+   "lng": -71.109187,
+   "src": "osm-address"
+  },
+  "Moëca": {
+   "lat": 42.381845,
+   "lng": -71.119947,
+   "src": "osm-address"
+  },
+  "Lenox Sophia": {
+   "lat": 42.344166,
+   "lng": -71.055081,
+   "src": "osm-address"
+  },
+  "Spoke Wine Bar": {
+   "lat": 42.398894,
+   "lng": -71.124307,
+   "src": "osm-address"
+  },
+  "Dalia": {
+   "lat": 42.336267,
+   "lng": -71.047463,
+   "src": "osm-address"
+  },
+  "Bar Vlaha": {
+   "lat": 42.338747,
+   "lng": -71.136561,
+   "src": "osm-address"
+  },
+  "Wa Shin": {
+   "lat": 42.350339,
+   "lng": -71.068896,
+   "src": "osm-address"
+  },
+  "Kaia": {
+   "lat": 42.335862,
+   "lng": -71.074003,
+   "src": "osm-address"
+  },
+  "Celeste": {
+   "lat": 42.381394,
+   "lng": -71.097258,
+   "src": "osm-address"
+  },
+  "Jahunger": {
+   "lat": 42.357421,
+   "lng": -71.107733,
+   "src": "osm-address"
+  },
+  "Sumiao Hunan Kitchen": {
+   "lat": 42.365873,
+   "lng": -71.082114,
+   "src": "osm-address"
+  },
+  "Brassica Kitchen + Café": {
+   "lat": 42.30025,
+   "lng": -71.11309,
+   "src": "osm-address"
+  },
+  "Fallow Kin": {
+   "lat": 42.363448,
+   "lng": -71.09873,
+   "src": "osm-address"
+  },
+  "Grill 23 & Bar": {
+   "lat": 42.349368,
+   "lng": -71.072048,
+   "src": "osm-address"
+  },
+  "Puritan & Company": {
+   "lat": 42.373089,
+   "lng": -71.096813,
+   "src": "osm-address"
+  },
+  "Somaek": {
+   "lat": 42.355228,
+   "lng": -71.062061,
+   "src": "osm-address"
+  },
+  "Via Cannuccia": {
+   "lat": 42.290949,
+   "lng": -71.063006,
+   "src": "osm-address"
+  },
+  "Woods Hill Pier 4": {
+   "lat": 42.34943,
+   "lng": -71.045327,
+   "src": "osm-address"
+  },
+  "La Royal": {
+   "lat": 42.382879,
+   "lng": -71.131584,
+   "src": "osm-address"
+  },
+  "Zurito": {
+   "lat": 42.356766,
+   "lng": -71.069969,
+   "src": "osm-address"
+  },
+  "Yvonne's": {
+   "lat": 42.355427,
+   "lng": -71.061372,
+   "src": "osm-address"
+  },
+  "haley.henry": {
+   "lat": 42.357198,
+   "lng": -71.059941,
+   "src": "osm-address"
+  },
+  "Backbar": {
+   "lat": 42.37975,
+   "lng": -71.094538,
+   "src": "osm-address"
+  },
+  "Blossom Bar": {
+   "lat": 42.333427,
+   "lng": -71.119568,
+   "src": "osm-address"
+  },
+  "Liars": {
+   "lat": 42.403588,
+   "lng": -71.127698,
+   "src": "osm-address"
+  },
+  "Toro": {
+   "lat": 42.336971,
+   "lng": -71.075929,
+   "src": "osm-address"
+  },
+  "Fox & the Knife": {
+   "lat": 42.340672,
+   "lng": -71.053535,
+   "src": "osm-address"
+  },
+  "Row 34": {
+   "lat": 42.349587,
+   "lng": -71.047492,
+   "src": "osm-address"
+  },
+  "Baleia": {
+   "lat": 42.34326,
+   "lng": -71.062803,
+   "src": "osm-address"
+  },
+  "The Wig Shop": {
+   "lat": 42.355191,
+   "lng": -71.062217,
+   "src": "osm-address"
+  },
+  "Farmacia": {
+   "lat": 42.363996,
+   "lng": -71.053558,
+   "src": "osm-address"
+  },
+  "Trina's Starlite Lounge": {
+   "lat": 42.37453,
+   "lng": -71.101501,
+   "src": "osm-address"
+  },
+  "The Koji Club": {
+   "lat": 42.361597,
+   "lng": -71.144685,
+   "src": "osm-address"
+  },
+  "Extra Dirty Cocktail Club": {
+   "lat": 42.365316,
+   "lng": -71.051271,
+   "src": "osm-address"
+  },
+  "Wusong Road": {
+   "lat": 42.372935,
+   "lng": -71.122036,
+   "src": "osm-address"
+  }
+ }
+}

@@ -237,9 +237,11 @@ function render() {
   fillSelect('#vibe', vopts, 'Any vibe'); $('#vibe').classList.toggle('hide', !vopts.length);
   if (!vopts.includes(state.vibe)) state.vibe = '';
   $('#vibe').value = state.vibe;
-  let shown = 0; const fresh = [];
+  let shown = 0; const fresh = []; let mapList = [];
+  const isMap = state.view === 'map';
+  $('#s-map').classList.toggle('hide', !isMap);
   KINDS.forEach(k => {
-    const sec = $('#s-' + k), on = state.kind === k;
+    const sec = $('#s-' + k), on = state.kind === k && !isMap;
     sec.classList.toggle('hide', !on);
     const all = D.venues.filter(v => v.kind === k);
     const scoreRank = new Map(all.filter(v => !v.closed).sort(SORTS.score).map((v, i) => [v.name, i + 1]));  // closed places get no number
@@ -249,7 +251,9 @@ function render() {
     $('#n-' + k).textContent = list.length === all.length ? `${all.length}` : `${list.length} / ${all.length}`;
     $('#e-' + k).classList.toggle('hide', list.length > 0);
     if (on) shown += list.length;
+    if (isMap && state.kind === k) mapList = list;
   });
+  if (isMap) drawMap(mapList);
   Kit.reveal(fresh);
   document.querySelectorAll('.bar .seg').forEach(s => Kit.slide(s)); Kit.slide($('#days'));
   const nf = [state.open, state.online, state.hood, state.cuisine, state.vibe, state.q, state.when !== 'any'].filter(Boolean).length;
@@ -286,6 +290,56 @@ document.querySelector('main').addEventListener('click', e => {
   const via = v.img_src || D.platforms[v.platform] || '';
   Kit.open(srcs, i, {title: v.name, credit: [v.name, via ? 'via ' + via : ''].filter(Boolean).join(' '), href: v.url || v.website});
 });
+
+// ---- Map view (Leaflet, loaded on first use) ------------------------------------------
+let LMAP = null, LLAYER = null, LKEY = '', leafletP = null;
+const loadLeaflet = () => leafletP || (leafletP = new Promise((ok, no) => {
+  const c = document.createElement('link'); c.rel = 'stylesheet'; c.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'; document.head.appendChild(c);
+  const s = document.createElement('script'); s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'; s.onload = ok; s.onerror = no; document.head.appendChild(s);
+}));
+const darkQ = matchMedia('(prefers-color-scheme: dark)');
+function tileLayer() {
+  const t = darkQ.matches ? 'Dark' : 'Light', base = 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_' + t + '_Gray_';
+  const attr = 'Tiles &copy; <a href="https://www.esri.com" target="_blank" rel="noopener">Esri</a>, HERE, Garmin, &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>';
+  return L.layerGroup([L.tileLayer(base + 'Base/MapServer/tile/{z}/{y}/{x}', {maxZoom: 16, attribution: attr}),
+    L.tileLayer(base + 'Reference/MapServer/tile/{z}/{y}/{x}', {maxZoom: 16, pane: 'overlayPane'})]);
+}
+function popupHtml(v, d) {
+  const ts = d && isOnline(v) ? laterSlots(v, d).slice(0, 4) : [];
+  const img = (v.imgs || [])[0];
+  return `${img ? `<div class="mp-ph" style="background-image:url('${esc(img)}')"></div>` : ''}<div class="mp-b">
+    <div class="mp-h"><b>${esc(v.name)}</b>${v.avg != null ? `<span class="mp-sc" style="--sc:${scoreCol(v.avg)}">${v.avg.toFixed(1)}</span>` : ''}</div>
+    <div class="mp-m">${[cuisineOf(v), v.hood, (v.vibe || {}).price].filter(Boolean).map(esc).join(' · ')}</div>
+    ${v.known_for ? `<div class="mp-m">${esc(v.known_for)}</div>` : ''}
+    ${ts.length ? `<div class="mp-t">${ts.map(t => `<a href="${esc(bookUrl(v, d, t))}" target="_blank" rel="noopener">${esc(short(t))}</a>`).join('')}</div>` : ''}
+    <div class="mp-a">${isOnline(v) && v.url ? `<a class="go" href="${esc(bookUrl(v, d))}" target="_blank" rel="noopener">Book</a>` : ''}<button class="see" data-see="${esc(v.name)}">See card</button></div></div>`;
+}
+async function drawMap(list) {
+  try { await loadLeaflet(); } catch (e) { $('#map').textContent = 'The map could not load (no connection?).'; return; }
+  if (!LMAP) {
+    LMAP = L.map('map', {zoomControl: true, scrollWheelZoom: false, tap: true});
+    let tl = tileLayer().addTo(LMAP);
+    darkQ.addEventListener('change', () => { LMAP.removeLayer(tl); tl = tileLayer().addTo(LMAP); });
+    LMAP.on('focus', () => LMAP.scrollWheelZoom.enable());
+    $('#map').addEventListener('click', e => { const b = e.target.closest('[data-see]'); if (!b) return; const v = D.venues.find(x => x.name === b.dataset.see); if (!v) return; state.view = 'cards'; LMAP.closePopup(); goTo(v); });
+  }
+  setTimeout(() => LMAP.invalidateSize(), 0);
+  if (LLAYER) LMAP.removeLayer(LLAYER);
+  const d = state.day !== 'all' ? state.day : nightOf();
+  const pts = list.filter(v => v.ll);
+  LLAYER = L.layerGroup(pts.map(v => {
+    const open = d && isOnline(v) && laterSlots(v, d).length > 0;
+    const lab = v.avg != null ? v.avg.toFixed(1) : (v.top25 || v.press_rank || '•');
+    const off = isOnline(v) && !open;
+    const icon = L.divIcon({className: 'pinm', iconSize: [34, 34], iconAnchor: [4, 34], popupAnchor: [13, -30],
+      html: `<span class="pin${open ? ' open' : ''}${off ? ' off' : ''}" style="--sc:${v.avg != null ? scoreCol(v.avg) : 'var(--city)'}"><b>${esc(String(lab))}</b></span>`});
+    return L.marker(v.ll, {icon, title: v.name, riseOnHover: true, zIndexOffset: open ? 500 : 0}).bindPopup(popupHtml(v, d), {maxWidth: 280, minWidth: 260, autoPanPadding: [20, 20]});
+  })).addTo(LMAP);
+  $('#map-n').textContent = `${pts.length} places`;
+  const key = CITY.slug + state.kind + pts.length;
+  if (key !== LKEY && pts.length) { LKEY = key; LMAP.fitBounds(L.latLngBounds(pts.map(v => v.ll)).pad(0.08), {maxZoom: 14}); }
+  else if (!pts.length && CITY.bbox) LMAP.fitBounds([[CITY.bbox[0], CITY.bbox[1]], [CITY.bbox[2], CITY.bbox[3]]]);
+}
 
 // ---- v2: Tonight, Greatest hits, city picker, Surprise me ----------------------------
 const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
