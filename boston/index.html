@@ -401,6 +401,31 @@ footer{font-size:12px!important;text-align:center}
 .days button.cust{border-color:var(--city)}
 .dpick{position:fixed;left:50%;top:50%;width:1px;height:1px;opacity:0;pointer-events:none}
 .pmsg.ok{color:var(--open)}.pmsg.err{color:var(--accent)}
+/* ---- map view v2 ---- */
+.map-ui{position:absolute;top:12px;left:12px;right:12px;z-index:600;display:flex;justify-content:space-between;align-items:flex-start;gap:8px;pointer-events:none}
+.map-ui>*{pointer-events:auto}
+.mstyle{display:inline-flex;padding:3px;border-radius:999px;background:color-mix(in srgb,var(--paper) 86%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:var(--k-shadow-lift)}
+.mstyle button{border:0;background:none;color:var(--soft);font:600 12.5px Inter,system-ui,sans-serif;padding:7px 13px;border-radius:999px;cursor:pointer;transition:background .2s,color .2s}
+.mstyle button.on{background:var(--ink);color:var(--paper)}
+.mtools{display:flex;flex-direction:column;gap:6px}
+.mt{width:38px;height:38px;border-radius:12px;border:0;display:grid;place-items:center;cursor:pointer;color:var(--ink);
+background:color-mix(in srgb,var(--paper) 86%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:var(--k-shadow-lift);transition:transform .15s}
+.mt:hover{transform:translateY(-1px)}.mt:active{transform:scale(.94)}.mt.busy svg{animation:pblink 1s infinite}
+.map-wrap.full{position:fixed;inset:0;z-index:120;margin:0;border-radius:0;border:0}
+.map-wrap.full #map{height:100vh;height:100dvh}
+#map[data-style=satellite] .pin{border-color:#fff}
+.clm{background:none;border:0}
+.cl{display:grid;place-content:center;width:42px;height:42px;border-radius:50%;background:var(--sc);color:#fff;border:3px solid #fff;
+box-shadow:0 8px 18px -6px rgba(0,0,0,.6);text-align:center;line-height:1}
+.cl b{font:700 14px Inter,system-ui,sans-serif}.cl small{font:600 9.5px Inter,system-ui,sans-serif;opacity:.85;margin-top:1px}
+.cl.open{box-shadow:0 0 0 4px color-mix(in srgb,var(--open) 55%,transparent),0 8px 18px -6px rgba(0,0,0,.6)}
+.me{background:none;border:0}.me i{display:block;width:18px;height:18px;border-radius:50%;background:#2f7bf6;border:3px solid #fff;box-shadow:0 0 0 6px rgba(47,123,246,.25)}
+.mtip{background:var(--ink)!important;color:var(--paper)!important;border:0!important;border-radius:8px!important;font:600 12px Inter,system-ui,sans-serif!important;padding:4px 8px!important;box-shadow:var(--shadow)!important}
+.mtip::before{display:none}
+.leaflet-bottom.leaflet-right{margin-bottom:20px}
+.map-leg{z-index:600}
+@media (hover:none){.mtip{display:none}}
+@media (max-width:640px){.mstyle button{padding:6px 10px;font-size:12px}.map-leg{bottom:10px}}
 /* ---- map view ---- */
 .map-wrap{position:relative;margin-top:28px;border-radius:22px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);background:var(--chip)}
 #map{height:min(72vh,760px);min-height:440px;width:100%}
@@ -940,18 +965,33 @@ document.querySelector('main').addEventListener('click', e => {
   Kit.open(srcs, i, {title: v.name, credit: [v.name, via ? 'via ' + via : ''].filter(Boolean).join(' '), href: v.url || v.website});
 });
 
-// ---- Map view (Leaflet, loaded on first use) ------------------------------------------
-let LMAP = null, LLAYER = null, LKEY = '', leafletP = null;
-const loadLeaflet = () => leafletP || (leafletP = new Promise((ok, no) => {
-  const c = document.createElement('link'); c.rel = 'stylesheet'; c.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'; document.head.appendChild(c);
-  const s = document.createElement('script'); s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'; s.onload = ok; s.onerror = no; document.head.appendChild(s);
-}));
+// ---- Map view (Leaflet + markercluster, loaded on first use) -------------------------
+let LMAP = null, LLAYER = null, LKEY = '', leafletP = null, BASE = null, ME = null;
+const loadJS = src => new Promise((ok, no) => { const s = document.createElement('script'); s.src = src; s.onload = ok; s.onerror = no; document.head.appendChild(s); });
+const loadCSS = href => { const c = document.createElement('link'); c.rel = 'stylesheet'; c.href = href; document.head.appendChild(c); };
+const loadLeaflet = () => leafletP || (leafletP = (async () => {
+  loadCSS('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
+  loadCSS('https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css');
+  await loadJS('https://unpkg.com/leaflet@1.9.4/dist/leaflet.js');
+  await loadJS('https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js');
+})());
 const darkQ = matchMedia('(prefers-color-scheme: dark)');
-function tileLayer() {
-  const t = darkQ.matches ? 'Dark' : 'Light', base = 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_' + t + '_Gray_';
-  const attr = 'Tiles &copy; <a href="https://www.esri.com" target="_blank" rel="noopener">Esri</a>, HERE, Garmin, &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>';
-  return L.layerGroup([L.tileLayer(base + 'Base/MapServer/tile/{z}/{y}/{x}', {maxZoom: 16, attribution: attr}),
-    L.tileLayer(base + 'Reference/MapServer/tile/{z}/{y}/{x}', {maxZoom: 16, pane: 'overlayPane'})]);
+const ESRI = 'https://server.arcgisonline.com/ArcGIS/rest/services/';
+const ATTR = 'Tiles &copy; <a href="https://www.esri.com" target="_blank" rel="noopener">Esri</a> and contributors, &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>';
+const STYLES = {
+  map: () => { const t = darkQ.matches ? 'Dark' : 'Light'; return [ESRI + `Canvas/World_${t}_Gray_Base/MapServer/tile/{z}/{y}/{x}`, ESRI + `Canvas/World_${t}_Gray_Reference/MapServer/tile/{z}/{y}/{x}`]; },
+  terrain: () => [ESRI + 'World_Topo_Map/MapServer/tile/{z}/{y}/{x}'],
+  satellite: () => [ESRI + 'World_Imagery/MapServer/tile/{z}/{y}/{x}', ESRI + 'Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}'],
+};
+let mapStyle = 'map'; try { mapStyle = localStorage.getItem('tablesMapStyle') || 'map'; } catch (e) {}
+function setStyle(st) {
+  if (!STYLES[st]) st = 'map';
+  mapStyle = st; try { localStorage.setItem('tablesMapStyle', st); } catch (e) {}
+  if (BASE) LMAP.removeLayer(BASE);
+  const urls = STYLES[st]();
+  BASE = L.layerGroup(urls.map((u, k) => L.tileLayer(u, {maxZoom: 19, maxNativeZoom: st === 'satellite' ? 19 : 16, attribution: k ? '' : ATTR, pane: k ? 'overlayPane' : 'tilePane'}))).addTo(LMAP);
+  $('#map').dataset.style = st;
+  document.querySelectorAll('.mstyle button').forEach(b => b.classList.toggle('on', b.dataset.ms === st));
 }
 function popupHtml(v, d) {
   const ts = d && isOnline(v) ? laterSlots(v, d).slice(0, 4) : [];
@@ -960,33 +1000,66 @@ function popupHtml(v, d) {
     <div class="mp-h"><b>${esc(v.name)}</b>${v.avg != null ? `<span class="mp-sc" style="--sc:${scoreCol(v.avg)}">${v.avg.toFixed(1)}</span>` : ''}</div>
     <div class="mp-m">${[cuisineOf(v), v.hood, (v.vibe || {}).price].filter(Boolean).map(esc).join(' · ')}</div>
     ${v.known_for ? `<div class="mp-m">${esc(v.known_for)}</div>` : ''}
-    ${ts.length ? `<div class="mp-t">${ts.map(t => `<a href="${esc(bookUrl(v, d, t))}" target="_blank" rel="noopener">${esc(short(t))}</a>`).join('')}</div>` : ''}
-    <div class="mp-a">${isOnline(v) && v.url ? `<a class="go" href="${esc(bookUrl(v, d))}" target="_blank" rel="noopener">Book</a>` : ''}<button class="see" data-see="${esc(v.name)}">See card</button></div></div>`;
+    ${ts.length ? `<div class="mp-t">${ts.map(t => `<a href="${esc(bookUrl(v, d, t))}" target="_blank" rel="noopener">${esc(short(t))}</a>`).join('')}</div>` : (d && isOnline(v) ? `<div class="mp-m">No tables ${d === tzToday() ? 'tonight' : dow(d) + ' ' + dnum(d)} for ${P}</div>` : '')}
+    <div class="mp-a">${isOnline(v) && v.url ? `<a class="go" href="${esc(bookUrl(v, d))}" target="_blank" rel="noopener">Book</a>` : ''}<a class="see" href="https://www.google.com/maps/dir/?api=1&destination=${v.ll.join(',')}" target="_blank" rel="noopener">Directions</a><button class="see" data-see="${esc(v.name)}">Card</button></div></div>`;
+}
+function buildMapUI() {
+  const wrap = $('.map-wrap');
+  const ui = document.createElement('div'); ui.className = 'map-ui';
+  ui.innerHTML = `<div class="mstyle" role="group" aria-label="Map style"><button data-ms="map">Map</button><button data-ms="terrain">Terrain</button><button data-ms="satellite">Satellite</button></div>
+    <div class="mtools"><button class="mt" data-mt="me" title="Near me" aria-label="Show places near me"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="3" fill="currentColor"/><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+    <button class="mt" data-mt="fit" title="Show all" aria-label="Show all places"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><rect x="2.5" y="2.5" width="11" height="11" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="6" cy="7" r="1.3" fill="currentColor"/><circle cx="10.5" cy="6" r="1.3" fill="currentColor"/><circle cx="8.5" cy="10.5" r="1.3" fill="currentColor"/></svg></button>
+    <button class="mt" data-mt="full" title="Full screen" aria-label="Full screen map"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M6 2H2v4M10 2h4v4M14 10v4h-4M2 10v4h4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button></div>`;
+  wrap.appendChild(ui);
+  ui.querySelectorAll('[data-ms]').forEach(b => b.onclick = () => setStyle(b.dataset.ms));
+  ui.querySelector('[data-mt="fit"]').onclick = () => { LKEY = ''; render(); };
+  ui.querySelector('[data-mt="full"]').onclick = () => { const on = !wrap.classList.contains('full'); wrap.classList.toggle('full', on); document.documentElement.classList.toggle('kit-lock', on); setTimeout(() => LMAP.invalidateSize(), 60); };
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && wrap.classList.contains('full')) ui.querySelector('[data-mt="full"]').click(); });
+  ui.querySelector('[data-mt="me"]').onclick = e => {
+    const b = e.currentTarget; if (!navigator.geolocation) return; b.classList.add('busy');
+    navigator.geolocation.getCurrentPosition(pos => {
+      b.classList.remove('busy'); const ll = [pos.coords.latitude, pos.coords.longitude];
+      if (ME) LMAP.removeLayer(ME);
+      ME = L.marker(ll, {icon: L.divIcon({className: 'me', iconSize: [18, 18], html: '<i></i>'}), interactive: false, zIndexOffset: 2000}).addTo(LMAP);
+      LMAP.flyTo(ll, 14, {duration: RM ? 0 : .8});
+    }, () => { b.classList.remove('busy'); toast('Location is off, so the map can’t show where you are.', 'err'); }, {enableHighAccuracy: true, timeout: 10000});
+  };
 }
 async function drawMap(list) {
   try { await loadLeaflet(); } catch (e) { $('#map').textContent = 'The map could not load (no connection?).'; return; }
   if (!LMAP) {
-    LMAP = L.map('map', {zoomControl: true, scrollWheelZoom: false, tap: true});
-    let tl = tileLayer().addTo(LMAP);
-    darkQ.addEventListener('change', () => { LMAP.removeLayer(tl); tl = tileLayer().addTo(LMAP); });
+    LMAP = L.map('map', {zoomControl: false, scrollWheelZoom: false, tap: true});
+    L.control.zoom({position: 'bottomright'}).addTo(LMAP);
+    setStyle(mapStyle);
+    darkQ.addEventListener('change', () => { if (mapStyle === 'map') setStyle('map'); });
     LMAP.on('focus', () => LMAP.scrollWheelZoom.enable());
-    $('#map').addEventListener('click', e => { const b = e.target.closest('[data-see]'); if (!b) return; const v = D.venues.find(x => x.name === b.dataset.see); if (!v) return; state.view = 'cards'; LMAP.closePopup(); goTo(v); });
+    $('#map').addEventListener('click', e => { const b = e.target.closest('[data-see]'); if (!b) return; const v = D.venues.find(x => x.name === b.dataset.see); if (!v) return; state.view = 'cards'; LMAP.closePopup(); const w = $('.map-wrap'); if (w.classList.contains('full')) w.querySelector('[data-mt="full"]').click(); goTo(v); });
+    buildMapUI(); setStyle(mapStyle);
   }
   setTimeout(() => LMAP.invalidateSize(), 0);
   if (LLAYER) LMAP.removeLayer(LLAYER);
   const d = state.day !== 'all' ? state.day : nightOf();
   const pts = list.filter(v => v.ll);
-  LLAYER = L.layerGroup(pts.map(v => {
-    const open = d && isOnline(v) && laterSlots(v, d).length > 0;
+  LLAYER = L.markerClusterGroup({showCoverageOnHover: false, maxClusterRadius: 38, disableClusteringAtZoom: 15, spiderfyOnMaxZoom: true,
+    iconCreateFunction: c => {
+      const ms = c.getAllChildMarkers(), best = Math.max(...ms.map(m => m.options.avg ?? -1)), open = ms.some(m => m.options.open);
+      return L.divIcon({className: 'clm', iconSize: [42, 42], html: `<span class="cl${open ? ' open' : ''}" style="--sc:${best >= 0 ? scoreCol(best) : 'var(--city)'}"><b>${ms.length}</b><small>${best >= 0 ? best.toFixed(1) : ''}</small></span>`});
+    }});
+  pts.forEach(v => {
+    const open = !!(d && isOnline(v) && laterSlots(v, d).length > 0);
     const lab = v.avg != null ? v.avg.toFixed(1) : (v.top25 || v.press_rank || '•');
     const off = isOnline(v) && !open;
     const icon = L.divIcon({className: 'pinm', iconSize: [34, 34], iconAnchor: [4, 34], popupAnchor: [13, -30],
       html: `<span class="pin${open ? ' open' : ''}${off ? ' off' : ''}" style="--sc:${v.avg != null ? scoreCol(v.avg) : 'var(--city)'}"><b>${esc(String(lab))}</b></span>`});
-    return L.marker(v.ll, {icon, title: v.name, riseOnHover: true, zIndexOffset: open ? 500 : 0}).bindPopup(popupHtml(v, d), {maxWidth: 280, minWidth: 260, autoPanPadding: [20, 20]});
-  })).addTo(LMAP);
-  $('#map-n').textContent = `${pts.length} places`;
+    LLAYER.addLayer(L.marker(v.ll, {icon, title: v.name, riseOnHover: true, zIndexOffset: open ? 500 : 0, avg: v.avg, open})
+      .bindPopup(popupHtml(v, d), {maxWidth: 280, minWidth: 260, autoPanPadding: [24, 60]})
+      .bindTooltip(esc(v.name), {direction: 'top', offset: [13, -32], className: 'mtip'}));
+  });
+  LMAP.addLayer(LLAYER);
+  const nOpen = pts.filter(v => d && isOnline(v) && laterSlots(v, d).length).length;
+  $('#map-n').textContent = `${pts.length} places${nOpen ? ' · ' + nOpen + ' open' : ''}`;
   const key = CITY.slug + state.kind + pts.length;
-  if (key !== LKEY && pts.length) { LKEY = key; LMAP.fitBounds(L.latLngBounds(pts.map(v => v.ll)).pad(0.08), {maxZoom: 14}); }
+  if (key !== LKEY && pts.length) { LKEY = key; LMAP.fitBounds(L.latLngBounds(pts.map(v => v.ll)).pad(0.06), {maxZoom: 14}); }
   else if (!pts.length && CITY.bbox) LMAP.fitBounds([[CITY.bbox[0], CITY.bbox[1]], [CITY.bbox[2], CITY.bbox[3]]]);
 }
 
