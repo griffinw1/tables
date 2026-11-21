@@ -1,0 +1,30 @@
+[
+ {
+  "slug": "dallas",
+  "name": "Dallas",
+  "state": "TX",
+  "tz": "America/Chicago",
+  "window": "17:00-22:00",
+  "dates": "2026-11-20..2026-11-28",
+  "party": 4,
+  "status": "live",
+  "accent": "#b4532a",
+  "accent_dark": "#e8875a",
+  "tagline": "Big-city steak, sushi and Tex-Mex",
+  "beli_dir": "dallas-tx"
+ },
+ {
+  "slug": "boston",
+  "name": "Boston",
+  "state": "MA",
+  "tz": "America/New_York",
+  "window": "17:00-22:00",
+  "dates": "rolling:9",
+  "party": 4,
+  "status": "soon",
+  "accent": "#1f5c4a",
+  "accent_dark": "#6cc3a2",
+  "tagline": "Seafood, North End Italian and Cambridge cocktails",
+  "beli_dir": "boston-ma"
+ }
+]

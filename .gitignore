@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.prev.json
+.theirs.json
+.ours.json
+logs/
+.DS_Store
+cities/*/research/*.tmp

@@ -1,0 +1,1247 @@
+{
+ "Shoyo": {
+  "food": "Edomae-style sushi omakase from chef Jimmy Park; ~20 courses, mostly nigiri, ~$195/pp",
+  "vibe": "A tiny chef's counter of about a dozen seats with fixed seatings. Everyone eats together, so the room is quiet and focused, with friendly chat with the chef. A splurge date or a small-group sushi night.",
+  "tags": [
+   "Small room",
+   "Intimate",
+   "Counter seating",
+   "Tasting menu",
+   "Splurge"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$$$",
+  "dress": "Smart casual",
+  "good_for": "Date night, special-occasion sushi for 2-4",
+  "heads_up": "Closed since Jul 2026 while it moves up Greenville Ave; no reopening date yet",
+  "sources": [
+   "https://www.dmagazine.com/publications/d-magazine/2024/may/the-ultimate-dallas-omakase-sushi-guide/"
+  ]
+ },
+ "Uchi": {
+  "food": "Tyson Cole's modern Japanese: creative sushi, hama chili, wagyu, and the famous fried milk dessert",
+  "vibe": "A stylish, always-full Uptown room, dim and warm with a lively hum and music. Polished-casual, half dates and half friend groups. It runs on the energy of shared plates passing around.",
+  "tags": [
+   "Buzzy",
+   "Date night",
+   "Mixed crowd",
+   "Splurge",
+   "Counter seating"
+  ],
+  "crowd": "Mixed",
+  "energy": "Buzzy",
+  "price": "$$$$",
+  "dress": "Smart casual",
+  "good_for": "Date night, dinner for 2-6, birthdays",
+  "heads_up": "Happy hour at the bar is the value play; bills add up fast with shared plates",
+  "sources": [
+   "https://theinfatuation.com/dallas/reviews/uchi-dallas",
+   "https://www.dmagazine.com/publications/d-magazine/2015/october/restaurant-review-uchi/",
+   "https://dallasnews.com/food/restaurant-reviews/2016/09/20/at-uchi-the-scene-still-sizzles-but-the-wow-factor-fizzles"
+  ]
+ },
+ "Mamani": {
+  "food": "Michelin-starred contemporary French (Christophe De Lellis): agnolotti, croquettes, cordon bleu",
+  "vibe": "A Riviera-inspired room in Uptown's Quad with peach tones and a stained-glass wall: elegant and calm, but unstuffy. A special-occasion room that skews grown-up; better for 2-4 than a rowdy table.",
+  "tags": [
+   "Dressy",
+   "Date night",
+   "Splurge",
+   "Older crowd",
+   "Quiet"
+  ],
+  "crowd": "Older",
+  "energy": "Relaxed",
+  "price": "$$$$",
+  "dress": "Dress up",
+  "good_for": "Date night, special occasion",
+  "heads_up": "Parties of 7+ book through the restaurant; one of the hardest tables in town",
+  "sources": [
+   "https://galeriemagazine.com/mamani-dallas-restaurant-bryan-osullivan-studio/",
+   "https://www.dmagazine.com/publications/d-magazine/2026/february-2026/taste-swimming-in-luxury/",
+   "https://dallasinnovates.com/french-restaurant-mamani-earns-dallas-a-second-michelin-star-just-weeks-after-opening/"
+  ]
+ },
+ "Lucia": {
+  "food": "David Uygur's rustic Italian: housemade salumi, sourdough, handmade pastas and risotto on a changing menu",
+  "vibe": "A small, cozy Bishop Arts dining room (about 40-50 seats, tables close together) with an open kitchen. Warm and conversational, more foodie pilgrimage than party.",
+  "tags": [
+   "Small room",
+   "Intimate",
+   "Quaint",
+   "Date night",
+   "Splurge"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Date night, dinner for 2-4",
+  "heads_up": "One of Dallas's hardest reservations; parties up to 6 only",
+  "sources": [
+   "https://www.timeout.com/dallas/things-to-do/lucia-dallas",
+   "https://www.dmagazine.com/publications/d-magazine/2011/march/restaurant-review-lucia-in-dallas/",
+   "https://restaurantsforkings.com/city/dallas/lucia"
+  ]
+ },
+ "Mister Charles": {
+  "food": "Retro continental fine dining from Duro Hospitality: foie gras, Dover sole, caviar, steaks; big cocktails",
+  "vibe": "A lavish, theatrical room on Knox in the old Highland Park Soda Fountain: plush, colorful, dim and glamorous. Buzzy and dressed-up, with a moneyed Park Cities crowd and plenty of celebrations.",
+  "tags": [
+   "Buzzy",
+   "Dressy",
+   "See-and-be-seen",
+   "Date night",
+   "Cocktails"
+  ],
+  "crowd": "Mixed",
+  "energy": "Buzzy",
+  "price": "$$$$",
+  "dress": "Dress up",
+  "good_for": "Date night, celebration dinner, cocktails at the bar",
+  "heads_up": null,
+  "sources": [
+   "https://www.dmagazine.com/food-drink/2023/07/mister-charles-is-open-dallas-knox-menu/",
+   "https://foodle.pro/restaurants/dallas/mister-charles"
+  ]
+ },
+ "Naminohana": {
+  "food": "Hand-roll bar plus omakase and sashimi, from a Hatsuyuki (Fort Worth) alum; strong value for the quality",
+  "vibe": "A strip-mall counter on upper Greenville with roughly 14 stools and no tables. Low-key and quick-moving, with conversation across the bar. It feels like a neighborhood find, not a scene.",
+  "tags": [
+   "Small room",
+   "Counter seating",
+   "Hidden gem",
+   "Casual",
+   "Good value"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$",
+  "dress": "Casual",
+  "good_for": "Quick dinner for 2-3, casual date",
+  "heads_up": "Mostly walk-in, so expect a wait at peak; groups over 3-4 won't sit together",
+  "sources": [
+   "https://communityimpact.com/dallas-fort-worth/lake-highlands-lakewood/dining/2023/06/16/japanese-restaurant-brings-sushi-hand-roll-bar-to-northeast-dallas",
+   "https://dallas.culturemap.com/news/restaurants-bars/namino-hana-sushi-greenville-ave",
+   "https://directory.dmagazine.com/restaurants/naminohana-handroll-bar-and-sushi/"
+  ]
+ },
+ "St. Martin's Wine Bistro": {
+  "food": "Old-school French bistro with a deep wine list: steak frites, escargot, chocolate fondue",
+  "vibe": "A dim, romantic Old East Dallas room with chandeliers and a pianist playing near the door most nights. Classic and a little old-fashioned, with plenty of regulars; the piano can drown out talk.",
+  "tags": [
+   "Intimate",
+   "Date night",
+   "Wine bar",
+   "Live music",
+   "Classic Dallas"
+  ],
+  "crowd": "Older",
+  "energy": "Small & intimate",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Date night, anniversary",
+  "heads_up": "Very dim, and the piano is loud near the front",
+  "sources": [
+   "https://dallasnews.com/food/restaurant-news/2024/03/27/st-martins-wine-bistro-dallas-bryan-street-photos-open",
+   "https://www.dallasites101.com/blog/post/st-martins-wine-bistro-dallas/",
+   "https://cravedfw.com/2026/05/20/st-martins-wine-bistro-is-back-and-heres-what-to-know/"
+  ]
+ },
+ "Norman's Japanese Grill": {
+  "food": "Japanese robata, raw bar and sushi counter with a Texas twist (Duro Hospitality): skewers, wagyu, otoro",
+  "vibe": "A stylish Oak Lawn room that mixes Japanese art with cowhide and Western touches. Moody and sceney but relaxed; a good date spot that works for a small group.",
+  "tags": [
+   "Buzzy",
+   "Date night",
+   "Cocktails",
+   "Counter seating",
+   "Splurge"
+  ],
+  "crowd": "Mixed",
+  "energy": "Buzzy",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Date night, dinner for 4",
+  "heads_up": "Reserve for weekends",
+  "sources": [
+   "https://www.papercitymag.com/restaurants/normans-japanese-grill-dallas/",
+   "https://www.dallasobserver.com/food-drink/normans-is-set-to-open-in-dallas-from-group-behind-el-carlos-elegante-22787650/",
+   "https://www.opentable.ie/r/normans-japanese-grill-dallas"
+  ]
+ },
+ "Stillwell's": {
+  "food": "Upscale Texas steakhouse on the 7th floor of Hotel Swexan: prime steaks, wagyu, classic sides",
+  "vibe": "A plush mid-century room with rich wood, leather, jewel tones and a cowboy-neon flourish. Polished and dressy but not stuffy; it draws hotel guests, anniversaries and business dinners more than a young party crowd.",
+  "tags": [
+   "Dressy",
+   "Date night",
+   "Older crowd",
+   "Splurge",
+   "Cocktails"
+  ],
+  "crowd": "Older",
+  "energy": "Relaxed",
+  "price": "$$$$",
+  "dress": "Dress up (no torn denim)",
+  "good_for": "Date night, parents-in-town dinner",
+  "heads_up": "Dress code enforced",
+  "sources": [
+   "https://guide.michelin.com/us/en/texas/dallas_2954570/restaurant/stillwell-s",
+   "https://dallasnews.com/food/restaurant-news/2023/06/15/inside-dallas-newest-hotel-swexan-which-includes-stillwells-steakhouse-and-babous-bar",
+   "https://www.timeout.com/texas/news/hotel-swexan-review-021525"
+  ]
+ },
+ "Nuri Steakhouse": {
+  "food": "Korean steakhouse: dry-aged prime and wagyu grilled tableside, banchan, Korean-accented sides",
+  "vibe": "A sleek, dramatic Uptown room built for occasions, with servers grilling at the table. Noise is moderate and it feels fancy; good for a celebration with a small group or a big date.",
+  "tags": [
+   "Dressy",
+   "Date night",
+   "Splurge",
+   "Group-friendly",
+   "See-and-be-seen"
+  ],
+  "crowd": "Mixed",
+  "energy": "Buzzy",
+  "price": "$$$$",
+  "dress": "Smart casual to dressy",
+  "good_for": "Celebration dinner, date night",
+  "heads_up": "Not the same as Nuri Grill (KBBQ on Royal Ln)",
+  "sources": [
+   "https://www.dmagazine.com/publications/d-magazine/2025/january/nuri-jolts-dallas-steakhouse-scene-with-new-energy/",
+   "https://opentable.com/r/nuri-steakhouse-uptown-dallas",
+   "https://www.foodrepublic.com/1876571/best-steakhouse-texas-local/"
+  ]
+ },
+ "El Carlos Elegante": {
+  "food": "Upscale Mexican with house-made masa: tortillas, aguachile, moles, wood-fired meats, strong margaritas",
+  "vibe": "A packed, tiled Design District room: tight tables, very loud, and celebratory. Better for a fun dinner with friends than a quiet date.",
+  "tags": [
+   "Loud",
+   "Lively",
+   "Group-friendly",
+   "Younger crowd",
+   "Cocktails"
+  ],
+  "crowd": "Mixed",
+  "energy": "Big & lively",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Friends' dinner, birthday",
+  "heads_up": "Very loud, hard to talk across a big table",
+  "sources": [
+   "https://www.dmagazine.com/publications/d-magazine/2023/march/the-coronation-of-king-carlos/",
+   "https://www.dallasobserver.com/food-drink/review-el-carlos-elegante-shines-in-the-design-district-16922895/",
+   "https://theinfatuation.com/dallas/reviews/el-carlos-elegante"
+  ]
+ },
+ "Town Hearth": {
+  "food": "Nick Badovinus's over-the-top steakhouse: wood-fired steaks, raw bar, big sides",
+  "vibe": "A huge, glittering Design District room with dozens of chandeliers, motorcycles and a submarine in a tank. Loud and theatrical; a fun group splurge, not a quiet talk.",
+  "tags": [
+   "Big room",
+   "Loud",
+   "Lively",
+   "Group-friendly",
+   "Splurge"
+  ],
+  "crowd": "Mixed",
+  "energy": "Big & lively",
+  "price": "$$$$",
+  "dress": "Smart casual",
+  "good_for": "Big group dinner, birthdays",
+  "heads_up": "Hard to hear across the table",
+  "sources": [
+   "https://dallasnews.com/food/restaurant-reviews/2017/04/26/town-hearth-may-be-the-swankiest-most-fabulous-steakhouse-on-the-planet",
+   "https://www.dallasobserver.com/food-drink/review-nick-badovinus-town-hearth-is-the-most-over-the-top-steakhouse-in-dallas-9353313/",
+   "https://directory.dmagazine.com/restaurants/town-hearth/"
+  ]
+ },
+ "Bar Sardine": {
+  "food": "Parisian bistro (Vandelay): steak frites, Dover sole, lobster ravioli, great fries and gin cocktails",
+  "vibe": "A small, pretty Paris-style bistro on Snider Plaza: intimate, candlelit and chatty, with a polished Park Cities crowd. The bar runs late on weekends.",
+  "tags": [
+   "Small room",
+   "Intimate",
+   "Date night",
+   "Cocktails",
+   "Mixed crowd"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Date night, dinner for 2-4",
+  "heads_up": "Max party 6, 2-hr tables, $35/pp late-cancel fee; slots go fast",
+  "sources": [
+   "https://opentable.com/r/bar-sardine-dallas",
+   "https://www.axios.com/local/dallas/2025/09/19/one-cocktail-to-go-bar-sardine",
+   "https://restaurant-hospitality.com:443/new-restaurants/vandelay-hospitality-opens-le-bistrot-bar-sardine-in-dallas"
+  ]
+ },
+ "Jack & Harry's": {
+  "food": "New Orleans-flavored steakhouse (Vandelay): gumbo, Creole seafood, French onion filet",
+  "vibe": "A clubby NOLA-styled room on Snider Plaza with jazz on the speakers. Lively and loud at prime time, with a Park Cities crowd that skews established; fun for a group, less so for long talks.",
+  "tags": [
+   "Lively",
+   "Loud",
+   "Group-friendly",
+   "Older crowd",
+   "Splurge"
+  ],
+  "crowd": "Older",
+  "energy": "Big & lively",
+  "price": "$$$$",
+  "dress": "Smart casual",
+  "good_for": "Group dinner, parents' night out",
+  "heads_up": null,
+  "sources": [
+   "https://dallas.culturemap.com/news/restaurants-bars/jack-harrys-steakhouse-vandelay",
+   "https://dallasnews.com/food/restaurant-news/2024/03/29/jack-harrys-open-snider-plaza-hudson-house",
+   "https://dallasobserver.com/restaurants/jack-and-harrys-cajun-snider-plaze-park-cities-19556569"
+  ]
+ },
+ "Nonna Restaurant": {
+  "food": "Julian Barsotti's Italian: daily-changing handmade pastas, wood-fired pizza and grilled meats",
+  "vibe": "A snug neighborhood Italian room on Lomo Alto: warm, friendly and close-quartered. It's a loyal Highland Park crowd of regulars and families; a classic date spot.",
+  "tags": [
+   "Small room",
+   "Intimate",
+   "Date night",
+   "Older crowd",
+   "Quaint"
+  ],
+  "crowd": "Older",
+  "energy": "Small & intimate",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Date night, dinner with parents",
+  "heads_up": null,
+  "sources": [
+   "https://dallasnews.com/food/restaurant-reviews/2015/10/29/at-eight-years-old-nonna-is-wonderful-as-ever-4-stars",
+   "https://www.dallasobserver.com/restaurants/nonna-is-the-gem-in-julian-barsottis-italian-restaurant-crown-10511207",
+   "https://www.papercitymag.com/city-guide/dallas-restaurants-nonna/"
+  ]
+ },
+ "Bowen House": {
+  "food": "Craft cocktail bar in a historic Uptown house; bar food like tartare, fried brie, burger",
+  "vibe": "A dim, cozy speakeasy-ish bar in an old home: chandelier over the main bar, booths and a small patio. Moody and date-friendly early, busier and louder later.",
+  "tags": [
+   "Intimate",
+   "Cocktails",
+   "Date night",
+   "Patio",
+   "Late night"
+  ],
+  "crowd": "Mixed",
+  "energy": "Relaxed",
+  "price": "$$",
+  "dress": "Smart casual",
+  "good_for": "Drinks date, pre- or after-dinner drinks in Uptown",
+  "heads_up": "Walk-ins welcome; call after noon for tables. Better for drinks than a full dinner",
+  "sources": [
+   "https://www.dmagazine.com/publications/d-magazine/2014/august/bar-review-bowen-house-in-dallas/",
+   "https://www.papercitymag.com/Bowen-house",
+   "https://wanderlog.com/place/details/882770"
+  ]
+ },
+ "Fachini": {
+  "food": "Old-school upscale Italian-American (Barsotti): wagyu carpaccio, veal, tableside classics",
+  "vibe": "A theatrical Highland Park Village room with chandeliers, white tablecloths and tuxedoed waiters. Buzzy and glamorous, with a well-dressed, moneyed crowd; some critics find it more show than substance.",
+  "tags": [
+   "Dressy",
+   "See-and-be-seen",
+   "Buzzy",
+   "Older crowd",
+   "Splurge"
+  ],
+  "crowd": "Older",
+  "energy": "Buzzy",
+  "price": "$$$$",
+  "dress": "Dress up",
+  "good_for": "Celebration dinner, date night",
+  "heads_up": "Free valet",
+  "sources": [
+   "https://www.texasmonthly.com/restaurant/fachini/",
+   "https://www.dmagazine.com/publications/d-magazine/2018/august/fachini-restaurant-review/",
+   "https://www.dallasobserver.com/food-drink/review-julian-barsottis-fachini-in-highland-park-village-doesnt-hit-the-mark-10925831/"
+  ]
+ },
+ "Georgie": {
+  "food": "Modern steakhouse-meets-bistro on Knox: famous bread and butter, steaks, oysters, duck",
+  "vibe": "A warm, retro-styled room that's packed and lively on weekends. Polished but social, a date or small-group dinner spot with a Knox-Henderson crowd.",
+  "tags": [
+   "Buzzy",
+   "Date night",
+   "Cocktails",
+   "Mixed crowd",
+   "Splurge"
+  ],
+  "crowd": "Mixed",
+  "energy": "Buzzy",
+  "price": "$$$$",
+  "dress": "Smart casual",
+  "good_for": "Date night, dinner for 4",
+  "heads_up": "Chef turnover in 2025-26; recent meals are reported as less consistent",
+  "sources": [
+   "https://www.dmagazine.com/publications/d-magazine/2024/april/with-a-new-chef-and-new-swagger-georgie-is-the-talk-of-dallas/",
+   "https://www.papercitymag.com/restaurants/georgie-dallas-new-executive-chef-wes-whitsell/",
+   "https://www.papercitymag.com/city-guide/georgie"
+  ]
+ },
+ "Al Biernat's": {
+  "food": "Classic Dallas prime steakhouse: big steaks, seafood towers, the famous coconut cream pie",
+  "vibe": "A buzzing, white-tablecloth Oak Lawn institution, packed with birthdays, business dinners and old-guard regulars. Lively bar, classic service; it skews older and expense-account.",
+  "tags": [
+   "Classic Dallas",
+   "Older crowd",
+   "Dressy",
+   "Splurge",
+   "Lively"
+  ],
+  "crowd": "Older",
+  "energy": "Buzzy",
+  "price": "$$$$",
+  "dress": "Smart casual to dressy",
+  "good_for": "Family celebration, parents-in-town dinner",
+  "heads_up": "Valet only",
+  "sources": [
+   "https://www.dmagazine.com/food-drink/2018/09/al-biernats-on-oak-lawn-gets-a-facelift/",
+   "https://wanderlog.com/place/details/836651/al-biernats",
+   "https://restaurantsforkings.com/city/dallas/al-biernats"
+  ]
+ },
+ "il Bracco": {
+  "food": "Polished Italian-American: housemade pastas, chicken piccata, steaks; great value for the polish",
+  "vibe": "A sleek, busy Preston Center room with a lively bar and patio. It's upbeat and neighborhood-y, with a very Park Cities crowd of button-downs, families and friends.",
+  "tags": [
+   "Lively",
+   "Patio",
+   "Mixed crowd",
+   "Group-friendly",
+   "Classic Dallas"
+  ],
+  "crowd": "Mixed",
+  "energy": "Buzzy",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Easy group dinner, date, parents",
+  "heads_up": null,
+  "sources": [
+   "https://www.theinfatuation.com/dallas/reviews/il-bracco",
+   "https://www.dmagazine.com/publications/d-magazine/2019/september/at-il-bracco-eat-the-perfect-pasta-a-la-park-cities/",
+   "https://www.papercitymag.com/restaurants/il-bracco-dallas-restaurant-preston-center-review-thomas-keller-cred/"
+  ]
+ },
+ "El Molino": {
+  "food": "Upscale Tex-Mex (Vandelay): wood-fired fajitas, spicy queso, ceviche, flaming margaritas",
+  "vibe": "A compact (~83 seats), stylish Snider Plaza room with a small bar. Energetic and noisy when full, with a Park Cities and SMU crowd.",
+  "tags": [
+   "Lively",
+   "Loud",
+   "Cocktails",
+   "Mixed crowd",
+   "Group-friendly"
+  ],
+  "crowd": "Mixed",
+  "energy": "Buzzy",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Friends' dinner, margaritas",
+  "heads_up": "Gets loud; a second, bigger location is at Preston Royal, so book the Snider Plaza one",
+  "sources": [
+   "https://www.papercitymag.com/restaurants/el-molino-vandelay-hospitalitys-dallas-snider-plaza/",
+   "https://dallas.culturemap.com/news/restaurants-bars/el-molino-vandelay-snider-plaza/",
+   "https://www.dallasobserver.com/food-drink/new-restaurant-el-molino-in-dallas-snider-plaza-opens-soon-40603107/"
+  ]
+ },
+ "The Honor Bar": {
+  "food": "Hillstone's small bar-and-grill: Honor burger, kale salad, chicken sandwich, cocktails",
+  "vibe": "A small, dark, clubby room in Highland Park Village with booths, beams and a nice patio. Social and preppy: Highland Park regulars, shoppers and young professionals.",
+  "tags": [
+   "Small room",
+   "Patio",
+   "Cocktails",
+   "See-and-be-seen",
+   "Casual"
+  ],
+  "crowd": "Mixed",
+  "energy": "Buzzy",
+  "price": "$$",
+  "dress": "Smart casual",
+  "good_for": "Casual dinner or drinks for 2-4, lunch",
+  "heads_up": "Small; waits can be long at peak, and big groups are tough",
+  "sources": [
+   "https://www.papercitymag.com/culture/honor-ball-restaurant-dallas-newest-hot-spot-california-implant",
+   "https://dallasnews.com/food/restaurant-reviews/2017/01/25/three-hour-wait-to-dine-at-honor-bar-maybe-think-twice-before-committing",
+   "https://joinpearl.co/restaurants/dallas/the-honor-bar"
+  ]
+ },
+ "Hillstone": {
+  "food": "Reliable American classics: spinach-artichoke dip, French dip, ribs, sushi, Hawaiian ribeye",
+  "vibe": "A dark, clubby Preston Center room with leather booths, low beams and a busy bar. Consistent and comfortable; a mix of families, couples and older regulars.",
+  "tags": [
+   "Classic Dallas",
+   "Mixed crowd",
+   "Patio",
+   "Date night",
+   "Group-friendly"
+  ],
+  "crowd": "Mixed",
+  "energy": "Buzzy",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Easy dinner, parents, date",
+  "heads_up": "Big groups are hard; expect a wait without a booking",
+  "sources": [
+   "https://indagare.com/restaurant/hillstone",
+   "https://dallas.culturemap.com/news/restaurants-bars/09-20-13-hillstone-preston-center-best-restaurant-bars"
+  ]
+ },
+ "Quarter Acre": {
+  "food": "New Zealand-born chef Toby Archibald's tasting menu (~7-10 courses), seafood and beef focus",
+  "vibe": "A sleek, cozy Lower Greenville room with a forest-garden feel. Calm and service-forward; a fine-dining date, not a group night.",
+  "tags": [
+   "Tasting menu",
+   "Intimate",
+   "Date night",
+   "Splurge",
+   "Quiet"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$$$",
+  "dress": "Smart casual to dressy",
+  "good_for": "Date night, anniversary",
+  "heads_up": "Tasting menu only; few options if you avoid beef or seafood",
+  "sources": [
+   "https://www.dmagazine.com/food-drink/2025/07/quarter-acres-tasting-menu-leaps-to-a-new-level-of-excellence/",
+   "https://www.dallasobserver.com/food-drink/a-must-try-dallas-tasting-menu-is-changing-the-tune-on-fine-dining-22335817/",
+   "https://www.papercitymag.com/restaurants/dallas-best-tasting-menus/"
+  ]
+ },
+ "Las Palmas Tex-Mex": {
+  "food": "Upscale Tex-Mex: queso, wagyu fajitas, hickory ribs, margaritas",
+  "vibe": "A big, dark, retro Uptown room (~8,700 sq ft) with a wraparound bar. It feels more like a cocktail bar than a combo-plate joint: loud, fun and young-professional.",
+  "tags": [
+   "Big room",
+   "Lively",
+   "Younger crowd",
+   "Group-friendly",
+   "Patio"
+  ],
+  "crowd": "Younger",
+  "energy": "Big & lively",
+  "price": "$$",
+  "dress": "Casual",
+  "good_for": "Big group dinner, pre-game margaritas",
+  "heads_up": "Parties of 6+ call ahead; the bar is walk-in",
+  "sources": [
+   "https://theinfatuation.com/dallas/reviews/las-palmas",
+   "https://dallasnews.com/food/restaurant-reviews/2019/07/17/at-las-palmas-two-brothers-from-a-dallas-restaurant-family-aim-to-create-a-tex-mex-classic-of-their-own",
+   "https://www.dallasobserver.com/restaurants/dont-miss-the-hickory-ribs-at-las-palmas-tex-mex-16898906"
+  ]
+ },
+ "Tatsu Dallas": {
+  "food": "Michelin-starred Edomae sushi omakase: 15-18 courses of nigiri, a hand roll, miso soup, dessert (not ramen)",
+  "vibe": "About ten seats at one cypress counter in the Continental Gin building, Deep Ellum. Calm and hushed, all eyes on the chef; one seating eats in sync over ~1 hr 45. Polished but not stiff, a true special-occasion meal.",
+  "tags": [
+   "Intimate",
+   "Quiet",
+   "Counter seating",
+   "Tasting menu",
+   "Splurge"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$$$",
+  "dress": "Smart casual (dressing up encouraged)",
+  "good_for": "Date night or a 2-4 person splurge",
+  "heads_up": "Sushi omakase, not ramen. Prepaid on Tock (~$185-195 + service), max 4. Seatings 5:30 & 7:45; arrive 15 min early, skip heavy cologne",
+  "sources": [
+   "https://www.tatsu-dallas.com/home-1",
+   "https://www.dmagazine.com/publications/d-magazine/2022/november/tatsu-dallas-is-the-citys-hardest-reservation-and-its-worth-the-wait/",
+   "https://guide.michelin.com/jp/ja/texas/dallas_2954570/restaurant/tatsu-dallas",
+   "https://dallasnews.com/food/restaurant-news/2022/05/24/inside-dallas-new-10-seat-restaurant-tatsu-now-open"
+  ]
+ },
+ "Sushi by Scratch Restaurants: Dallas": {
+  "food": "Playful 17-course nigiri omakase (sweet corn, bone-marrow touches), ~$165/pp + 20% service",
+  "vibe": "A hidden 10-seat counter in the Adolphus hotel: ring a bell, have a welcome drink in a candlelit lounge, then sit at the counter. It feels like a fun, intimate dinner party rather than a stiff tasting.",
+  "tags": [
+   "Hidden gem",
+   "Counter seating",
+   "Tasting menu",
+   "Date night",
+   "Splurge"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$$$",
+  "dress": "Smart casual",
+  "good_for": "Date night, a 2-4 person splurge",
+  "heads_up": "Arrive 30 min early; fixed seatings at 5:00, 7:15 and 9:30",
+  "sources": [
+   "https://dallas.culturemap.com/news/restaurants-bars/sushi-by-scratch-adolphus-hotel",
+   "https://www.dmagazine.com/food-drink/2024/01/heres-your-complete-guide-to-downtown-dallas-two-new-near-identical-omakase-sushi-spots/",
+   "https://cravedfw.com/2026/06/10/sushi-by-scratch-at-the-adolphus-dallass-best-kept-secret-is-on-the-8th-floor/"
+  ]
+ },
+ "Sushi Bar Dallas": {
+  "food": "17-course nigiri omakase with bold toppings (compound butters, kosho), ~$185/pp + 22% service",
+  "vibe": "A 12-seat speakeasy counter in the basement of the old Oldsmobile building: industrial and dim, with louder music and a call-and-response, party-ish energy. The most fun of the omakases.",
+  "tags": [
+   "Counter seating",
+   "Tasting menu",
+   "Lively",
+   "Younger crowd",
+   "Splurge"
+  ],
+  "crowd": "Younger",
+  "energy": "Buzzy",
+  "price": "$$$$",
+  "dress": "Smart casual",
+  "good_for": "Fun date, small group of friends (up to the counter)",
+  "heads_up": "Fixed seatings; Gingers speakeasy bar is attached for drinks after",
+  "sources": [
+   "https://www.dmagazine.com/food-drink/2024/01/heres-your-complete-guide-to-downtown-dallas-two-new-near-identical-omakase-sushi-spots/",
+   "https://www.dallasobserver.com/food-drink/sushi-bar-joins-dallas-growing-omakase-scene-with-bonus-speakeasy-gingers-17910595/",
+   "https://www.papercitymag.com/restaurants/best-omakases-dallas/"
+  ]
+ },
+ "Casa Brasa": {
+  "food": "Omar Flores's live-fire South American steakhouse plus a sushi bar: ribeye, tomahawk, lamb chops, ceviche",
+  "vibe": "A big, glamorous room across from Preston Center: warm gold light, wood, stone, bold fabrics and a central bar. Festive and fairly loud at peak; private rooms plus the Kamilla speakeasy lounge.",
+  "tags": [
+   "Big room",
+   "Lively",
+   "Dressy",
+   "See-and-be-seen",
+   "Group-friendly"
+  ],
+  "crowd": "Mixed",
+  "energy": "Big & lively",
+  "price": "$$$$",
+  "dress": "Dress up (they ask for elegant attire; no caps, collared shirts or a jacket for men)",
+  "good_for": "Big family or group dinner, celebrations, drinks in Kamilla after",
+  "heads_up": "Large party? Ask about a private room. Shared plates fill you up fast, so order in waves",
+  "sources": [
+   "https://www.peoplenewspapers.com/2025/10/29/first-look-casa-brasa-is-going-to-be-white-hot/",
+   "https://cravedfw.com/2026/02/10/casa-brasa",
+   "https://dallas.culturemap.com/news/restaurants-bars/casa-brasa-omar-flores/",
+   "https://www.dmagazine.com/food-drink/2025/11/mini-reviews-of-mamani-casa-brasa-and-four-more-new-dallas-area-restaurants/"
+  ]
+ },
+ "Nobu Dallas": {
+  "food": "Nobu's signature Japanese-Peruvian: black cod miso, yellowtail jalapeño, rock shrimp, sushi",
+  "vibe": "A polished, fairly large room off the Rosewood Crescent lobby, all onyx, birch and stone. Upscale and lively, with birthdays and business dinners; brunch gets a DJ. A known name more than a hot scene.",
+  "tags": [
+   "Dressy",
+   "Big room",
+   "Mixed crowd",
+   "Splurge",
+   "Group-friendly"
+  ],
+  "crowd": "Mixed",
+  "energy": "Buzzy",
+  "price": "$$$$",
+  "dress": "Smart casual to dressy",
+  "good_for": "Birthday dinner, group sushi splurge",
+  "heads_up": null,
+  "sources": [
+   "https://cravedfw.com/2025/06/11/nobu-dallas-timeless-luxury-with-a-texas-edge",
+   "https://www.dmagazine.com/publications/d-magazine/2017/july/nobu-still-feels-fresh/",
+   "https://opentable.com/nobu-dallas"
+  ]
+ },
+ "MĀBO": {
+  "food": "Yakitori kappo tasting (~$200/pp): binchotan-grilled chicken skewers plus seasonal Japanese courses",
+  "vibe": "A dim, speakeasy-like room around an 8-seat chef's counter; a curtain lifts as service starts. Theatrical but hushed and unhurried (plan ~3 hours). Strictly a date or tiny-group splurge.",
+  "tags": [
+   "Intimate",
+   "Counter seating",
+   "Tasting menu",
+   "Hidden gem",
+   "Splurge"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$$$",
+  "dress": "Smart casual",
+  "good_for": "Date night, anniversary",
+  "heads_up": "8 seats, parties of 1-4; seatings 5:30 or 8:30 Tue-Sat; ~3 hours",
+  "sources": [
+   "https://www.dmagazine.com/publications/d-magazine/2024/july/yakitori-is-the-star-of-the-200-show-at-mabo/",
+   "https://www.opentable.com/r/mabo-dallas",
+   "https://prestonhollow.advocatemag.com/?p=89188"
+  ]
+ },
+ "Sushi Kozy": {
+  "food": "17-course omakase (~$195) from ex-Uchi head sushi chef Paul Ko; creative, kaiseki-leaning",
+  "vibe": "A warm, modern Arts District room with a sushi bar plus regular tables, so it's less rigid than most omakase counters. Calm, gracious and food-focused; good for a date.",
+  "tags": [
+   "Counter seating",
+   "Tasting menu",
+   "Intimate",
+   "Date night",
+   "Splurge"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$$$",
+  "dress": "Smart casual",
+  "good_for": "Date night, sushi splurge for 2-4",
+  "heads_up": "Omakase-only at dinner",
+  "sources": [
+   "https://www.dmagazine.com/publications/d-magazine/2025/december/sushi-kozy-kawa-omakase-review/",
+   "https://www.dallasites101.com/blog/post/sushi-kozy-downtown-dallas-omakase-experience/",
+   "https://www.opentable.co.uk/r/sushi-kozy-dallas"
+  ]
+ },
+ "Carbone Dallas": {
+  "food": "Major Food Group's red-sauce Italian: spicy rigatoni vodka, veal parm, Caesar tableside, meatballs",
+  "vibe": "A retro, moody room with tuxedoed waiters, a mid-century soundtrack and tableside theatrics. Sceney and glamorous, with plenty of birthdays and dressed-up groups. Big portions are made to share.",
+  "tags": [
+   "See-and-be-seen",
+   "Dressy",
+   "Buzzy",
+   "Date night",
+   "Splurge"
+  ],
+  "crowd": "Mixed",
+  "energy": "Buzzy",
+  "price": "$$$$",
+  "dress": "Dress up (business casual minimum)",
+  "good_for": "Celebration dinner, date night, group of 4-6",
+  "heads_up": "Releases 30 days out at 9 AM and goes fast; valet",
+  "sources": [
+   "https://opentable.com.au/r/carbone-dallas",
+   "https://opentable.co.uk/restaurant/profile/1241656"
+  ]
+ },
+ "Mot Hai Ba": {
+  "food": "Bib Gourmand modern Vietnamese-French: garlic noodles, shaking beef, bao, natural wines",
+  "vibe": "A tiny, beloved corner spot in Lakewood: casual-chic and cozy, with a neighborhood crowd. Close quarters, moderate noise; a great low-key date or dinner for 4.",
+  "tags": [
+   "Small room",
+   "Quaint",
+   "Hidden gem",
+   "Date night",
+   "Good value"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$",
+  "dress": "Casual",
+  "good_for": "Casual date, dinner for 2-4",
+  "heads_up": "Small, so book ahead; groups over 4 are tough",
+  "sources": [
+   "https://theinfatuation.com/dallas/reviews/mot-hai-ba",
+   "https://opentable.co.uk/r/mot-hai-ba-lakewood-dallas"
+  ]
+ },
+ "Olōyō": {
+  "food": "Chef Olivia López's heirloom-masa Mexican: tacos, sopes, tamales, seasonal plates; agave-heavy bar",
+  "vibe": "A 23-seat room in a 100-year-old Gaston Ave building with the open kitchen in the middle and no sign out front. Intimate and personal, a chef-driven date spot rather than a party.",
+  "tags": [
+   "Small room",
+   "Intimate",
+   "Date night",
+   "Hidden gem",
+   "Cocktails"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Date night, dinner for 2-4",
+  "heads_up": "Only 23 seats; Resy drops 21 days out at 10 AM. Pricing drew online debate, so check the menu first",
+  "sources": [
+   "https://www.theinfatuation.com/dallas/reviews/ol-y",
+   "https://www.dmagazine.com/publications/d-magazine/2026/october/oloyo-review-mexican-fine-dining-in-dallas/",
+   "https://blog.resy.com/2026/06/oloyo-dallas/",
+   "https://cravedfw.com/2026/06/01/oloyo-just-opened-in-east-dallas-its-been-worth-the-wait/"
+  ]
+ },
+ "Purepecha and Revolver Taco Lounge": {
+  "food": "Michoacán-style tacos and ceviche up front; Purépecha's 4- or 7-course regional Mexican tasting in back",
+  "vibe": "Revolver is a casual, colorful Deep Ellum taco joint; Purépecha is a small reservation-only room in back (~14 seats, or 8 at the chef's table). A low-key, personal tasting, not fancy.",
+  "tags": [
+   "Tasting menu",
+   "Hidden gem",
+   "Small room",
+   "Casual",
+   "Good value"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$$",
+  "dress": "Casual",
+  "good_for": "Adventurous date, small group tasting",
+  "heads_up": "Purépecha is reservation-only; on Main St in Deep Ellum, a short drive from Tatsu",
+  "sources": [
+   "https://www.dallasobserver.com/restaurants/deep-ellums-revolver-taco-lounge-serves-some-of-dallas-best-tacos-and-ceviche-9575739",
+   "https://www.opentable.com/r/purepecha-dallas",
+   "https://www.papercitymag.com/city-guide/purepecha/",
+   "https://cravedfw.com/2026/06/10/purepecha-is-one-of-the-best-restaurants-in-dallas-heres-what-you-need-to-know-about-it/"
+  ]
+ },
+ "Tango Room": {
+  "food": "Luxe little steakhouse: caviar, truffles, foie gras, lobster corndog, Peking duck to share; great martinis",
+  "vibe": "A nearly unmarked, ~60-seat Design District hideaway behind velvet drapes: plush booths, art and a '60s lounge glamour. Intimate and sexy, and the bar gets busy late.",
+  "tags": [
+   "Intimate",
+   "Date night",
+   "Cocktails",
+   "Hidden gem",
+   "Splurge"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$$$",
+  "dress": "Dress up",
+  "good_for": "Date night, cocktails after Carbone",
+  "heads_up": "Closed Sun-Mon; weekend bar lines and a cover when packed",
+  "sources": [
+   "https://www.texasmonthly.com/restaurant/tango-room/",
+   "https://www.dallasobserver.com/food-drink/tango-room-in-dallas-design-district-enters-a-new-era-20770327/",
+   "https://cravedfw.com/2026/05/12/tango-room-is-one-of-the-best-steakhouses-in-dallas-and-most-people-dont-know-it-exists/"
+  ]
+ },
+ "Lions Den": {
+  "food": "Michael White's Italian supper club at the Stoneleigh: crab bucatini, pastas, the $31 'White Burger'",
+  "vibe": "A plush hideaway at the back of the Stoneleigh hotel: burgundy walls, wallpapered ceilings, banquettes, discreet service. Sultry and grown-up; it gets moodier at night.",
+  "tags": [
+   "Intimate",
+   "Dressy",
+   "Date night",
+   "Cocktails",
+   "Splurge"
+  ],
+  "crowd": "Mixed",
+  "energy": "Relaxed",
+  "price": "$$$$",
+  "dress": "Smart casual (enforced: no athletic wear, caps, shorts or hoodies)",
+  "good_for": "Date night, dinner for 2-4",
+  "heads_up": "Dress code enforced",
+  "sources": [
+   "https://www.theinfatuation.com/dallas/reviews/lions-den",
+   "https://www.dmagazine.com/food-drink/2026/10/taste-test-uptowns-31-burger/",
+   "https://www.papercitymag.com/restaurants/new-dallas-restaurants-openings-lions-den-la-lupita/"
+  ]
+ },
+ "Uchiba": {
+  "food": "Uchi's izakaya sibling: yakitori, nigiri, karaage, pork belly bao, highballs and Japanese whisky",
+  "vibe": "The livelier, more casual upstairs bar above Uchi: dim, social and drink-forward, with a younger crowd. Great at the bar for 2, or for a happy hour that rolls into dinner.",
+  "tags": [
+   "Buzzy",
+   "Cocktails",
+   "Younger crowd",
+   "Date night",
+   "Pre-game spot"
+  ],
+  "crowd": "Younger",
+  "energy": "Buzzy",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Drinks plus bites, date, happy hour",
+  "heads_up": "Happy hour is the value move",
+  "sources": [
+   "https://www.theinfatuation.com/dallas/reviews/uchiba-dallas"
+  ]
+ },
+ "Otaru Sushi & Handroll Bar": {
+  "food": "Quick handroll sets and nigiri (sibling of Kome), plus a 17-course omakase by reservation; ~$50/pp",
+  "vibe": "A small, minimalist counter in Bishop Arts: casual and fast, more hand-roll stop than long dinner. Good before or after wandering Bishop Arts.",
+  "tags": [
+   "Small room",
+   "Counter seating",
+   "Casual",
+   "Good value"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$",
+  "dress": "Casual",
+  "good_for": "Quick dinner for 2, casual date",
+  "heads_up": "Walk-in only except the omakase; not for groups",
+  "sources": [
+   "https://www.dmagazine.com/food-drink/2024/09/otaru-sushi-brings-speedy-handrolls-to-bishop-arts/",
+   "https://www.papercitymag.com/city-guide/otaru-sushi-handroll-bar/",
+   "https://www.dallasites101.com/blog/post/otaru-dallas-sushi-handroll/"
+  ]
+ },
+ "Namo": {
+  "food": "Edomae-style nigiri and handrolls at a counter (started as a handroll bar, now more refined)",
+  "vibe": "A sleek, square ~16-seat counter in West Village: dark and quiet-moderate, watching the chefs. A date-night pairing with Bar Colette next door.",
+  "tags": [
+   "Small room",
+   "Counter seating",
+   "Date night",
+   "Intimate",
+   "Splurge"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Date night, then cocktails at Bar Colette",
+  "heads_up": "Very limited reservations, 90-minute slots, 10-minute grace period",
+  "sources": [
+   "https://360westmagazine.com/namo-hand-roll-and-sushi-bar-dallas/",
+   "https://www.dallasites101.com/blog/post/romantic-sushi-cocktail-duo-west-village-namo-bar-colette/",
+   "https://www.opentable.ie/r/namo-sushi-dallas"
+  ]
+ },
+ "Koryo Korean BBQ": {
+  "food": "Old-school Korean BBQ on Royal Lane: galbi, combo sets, a huge banchan spread, steamed egg",
+  "vibe": "A no-frills, smoky KBBQ dining room with grill tables. Loud, casual and fun, built for groups sharing meat and soju.",
+  "tags": [
+   "Casual",
+   "Group-friendly",
+   "Lively",
+   "Good value",
+   "Loud"
+  ],
+  "crowd": "Mixed",
+  "energy": "Big & lively",
+  "price": "$$",
+  "dress": "Casual (you'll smell like BBQ)",
+  "good_for": "Big group dinner",
+  "heads_up": "Call for parties of 6+",
+  "sources": [
+   "https://theinfatuation.com/dallas/reviews/koryo-kalbi-korean-bbq",
+   "https://www.dmagazine.com/guides/where-you-can-try-the-best-korean-food-in-dallas/",
+   "https://www.dallasnews.com/food/restaurant-news/2021/10/15/new-koryo-korean-bbq-reunites-the-team-behind-one-of-dallas-korean-food-landmarks"
+  ]
+ },
+ "Nick & Sam's": {
+  "food": "Flashy Uptown prime steakhouse: big steaks, seafood towers, caviar, giant desserts",
+  "vibe": "A white-tablecloth room with nightly live piano, a buzzing bar and a see-and-be-seen crowd. Loud and crowded on weekends, celebratory and showy; skews older and expense-account.",
+  "tags": [
+   "See-and-be-seen",
+   "Live music",
+   "Classic Dallas",
+   "Older crowd",
+   "Splurge"
+  ],
+  "crowd": "Older",
+  "energy": "Big & lively",
+  "price": "$$$$",
+  "dress": "Dress up (business casual minimum)",
+  "good_for": "Birthday or celebration steak dinner",
+  "heads_up": "Loud and packed on weekends",
+  "sources": [
+   "https://indagare.com/restaurant/nick-and-sams",
+   "https://www.gayot.com/restaurants/awards/nick-sams-dallas-tx-75201_15df9941.html",
+   "https://www.dallasobserver.com/?p=40512267"
+  ]
+ },
+ "Yujo": {
+  "food": "Japanese omakase with dry-aged fish, bluefin and A5 wagyu; monthly 'Tuna Show' whole-tuna breakdowns",
+  "vibe": "A warm, Japan-styled room in a Preston Road (far North Dallas) center with a sushi bar and tables. Calm and intimate most nights; tuna-show nights are more fun and social.",
+  "tags": [
+   "Tasting menu",
+   "Counter seating",
+   "Intimate",
+   "Splurge",
+   "Hidden gem"
+  ],
+  "crowd": "Mixed",
+  "energy": "Relaxed",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Sushi splurge, tuna-show night with friends",
+  "heads_up": "Far north (12835 Preston Rd); book omakase/Tuna Show on Tock",
+  "low_confidence": true,
+  "sources": [
+   "https://www.insidehook.com/?p=915651",
+   "https://joinpearl.co/restaurants/dallas/yujo",
+   "https://www.opentable.co.uk/r/yujo-dallas"
+  ]
+ },
+ "Bar Colette": {
+  "food": "Serious seasonal cocktails from Ruben Rolon (milk punches, house chartreuse) plus caviar waffles, duck, steak",
+  "vibe": "A small, European-feeling cocktail lounge in West Village next to Namo: dim, plush and date-y, filling up soon after opening. Polished and grown-up rather than rowdy; 21+.",
+  "tags": [
+   "Cocktails",
+   "Small room",
+   "Intimate",
+   "Date night",
+   "Hidden gem"
+  ],
+  "crowd": "Mixed",
+  "energy": "Small & intimate",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Date drinks, after-dinner drinks, pairing with Namo",
+  "heads_up": "Limited reservations in 90-min slots; bar seats walk-in. ~10 min drive to Tatsu if used as a pre",
+  "sources": [
+   "https://www.timeout.com/dallas/bars/bar-colette",
+   "https://dallasnews.com/food/restaurant-news/2023/11/14/inside-bar-colette-the-newest-cocktail-lounge-in-dallas",
+   "https://www.papercitymag.com/restaurants/bar-colette-dallas-ruben-rolon"
+  ]
+ },
+ "Vintage Wine Bar": {
+  "food": "Unknown: no Dallas venue found under this name",
+  "vibe": "Couldn't find this bar in reviews, press, Resy or OpenTable. It may be listed under a different name; nearby East Dallas wine bars include Bodega Wine Bar and Times Ten Cellars.",
+  "tags": [
+   "Wine bar",
+   "Chill",
+   "Mixed crowd"
+  ],
+  "crowd": "Mixed",
+  "energy": "Relaxed",
+  "price": "$$",
+  "dress": "Casual",
+  "good_for": "Unknown",
+  "heads_up": "Couldn't verify it exists; check the name/address",
+  "low_confidence": true,
+  "sources": []
+ },
+ "Ayahuasca Cantina": {
+  "food": "Mezcal, sotol and tequila cocktails and flights, plus Mexican small plates",
+  "vibe": "A tiny, moody speakeasy behind Xamán Café in Oak Cliff (back hallway, wooden door, no sign). Candlelit and a little mystical; on Esquire's best-bars list. Strictly a small-group or date spot.",
+  "tags": [
+   "Hidden gem",
+   "Small room",
+   "Intimate",
+   "Cocktails",
+   "Date night"
+  ],
+  "crowd": "Younger",
+  "energy": "Small & intimate",
+  "price": "$$",
+  "dress": "Casual",
+  "good_for": "Date drinks, small group of 2-4",
+  "heads_up": "Book on Resy for Fri/Sat; 90-min (2) / 2-hr (4+) table limits. Oak Cliff, far from Tatsu",
+  "sources": [
+   "https://www.dallasites101.com/blog/post/ayahuasca-cantina-speakeasy-dallas/",
+   "https://dallasnews.com/food/restaurant-news/2024/06/03/ayahuasca-cantina-best-bar-america-esquire-dallas-oak-cliff-hidden",
+   "https://www.dallasobserver.com/food-drink/xaman-cafe-ayahuasca-cantina-mezcal-coffee-oak-cliff-new-11937555/"
+  ]
+ },
+ "Kilmac's": {
+  "food": "Irish-leaning cocktail pub: smoked Guinness old fashioned, martinis, pizza",
+  "vibe": "A moody bar on West Davis with one of the city's biggest patios: gravel, string lights and an Airstream bar. Social and music-forward, and it stays busy late; easy for a big group.",
+  "tags": [
+   "Patio",
+   "Lively",
+   "Late night",
+   "Group-friendly",
+   "Younger crowd"
+  ],
+  "crowd": "Younger",
+  "energy": "Big & lively",
+  "price": "$$",
+  "dress": "Casual",
+  "good_for": "Group drinks, late night, patio hang",
+  "heads_up": "Open Wed-Sun 5 PM-2 AM; walk-in. Oak Cliff, not near Tatsu",
+  "sources": [
+   "https://www.theinfatuation.com/dallas/reviews/kilmacs",
+   "https://dallas.culturemap.com/news/restaurants-bars/kilmacs-bar-oak-cliff/",
+   "https://diningout.com/dallas/kilmacs-opens-in-oak-cliff-with-cocktails-pizza-and-one-of-dallas-biggest-new-patios/"
+  ]
+ },
+ "Marlowe Lounge": {
+  "food": "Dressed-up cocktail lounge with food and live music (Art Deco, in the old Theory nightclub space)",
+  "vibe": "A heavily designed, Art Deco Uptown lounge: vaulted ceilings, plush banquettes, antique mirrors and live music. A polished, dressy late-night scene; they insist it's a lounge, not a club.",
+  "tags": [
+   "Dressy",
+   "Late night",
+   "Live music",
+   "Cocktails",
+   "See-and-be-seen"
+  ],
+  "crowd": "Younger",
+  "energy": "Buzzy",
+  "price": "$$$",
+  "dress": "Dress up",
+  "good_for": "Big night out, after-dinner drinks",
+  "heads_up": "Open Wed-Sat only; tables held 15 min; 9+ guests is a private event",
+  "low_confidence": true,
+  "sources": [
+   "https://www.dmagazine.com/food-drink/2026/10/marlowe-lounge-dallas-drinks/",
+   "https://www.dallasobserver.com/food-drink/marlowe-dallas-art-deco-bar-opens-this-fall-40704506/",
+   "https://joinpearl.co/bars/dallas/marlowe"
+  ]
+ },
+ "Triumphs Espresso & Whiskey": {
+  "food": "Coffee shop by day, whiskey and cocktail bar by night (the pecan-bourbon Triumphs martini)",
+  "vibe": "A cozy Design District spot that turns into a jazz bar with live sets Wed-Sat ~8-11 PM. Warm, dim and chatty; it gets crowded on weekends. Good for a date or a small group.",
+  "tags": [
+   "Live music",
+   "Cocktails",
+   "Hidden gem",
+   "Chill",
+   "Date night"
+  ],
+  "crowd": "Mixed",
+  "energy": "Relaxed",
+  "price": "$$",
+  "dress": "Casual",
+  "good_for": "After-dinner drinks with jazz, date",
+  "heads_up": "Weekend lines; cover possible when busy; watch towing when parking",
+  "sources": [
+   "https://www.theinfatuation.com/dallas/reviews/triumphs-espresso-and-whiskey",
+   "https://www.dallasites101.com/blog/post/triumphs-dallas-design-district-coffee-jazz-cafe-bar/",
+   "https://dallas.culturemap.com/news/restaurants-bars/triumphs-espresso-whiskey-design"
+  ]
+ },
+ "Mike's Gemini Twin Lounge": {
+  "food": "Cheap beer, simple cocktails and famously good hot dogs (some gumbo)",
+  "vibe": "A small, windowless dive in the Cedars with a pool table and a dartboard. It's the nicest dive around: dark, casual and unpretentious, from the Bowen House and Braindead folks.",
+  "tags": [
+   "Casual",
+   "Good value",
+   "Late night",
+   "Pre-game spot",
+   "Hidden gem"
+  ],
+  "crowd": "Younger",
+  "energy": "Relaxed",
+  "price": "$",
+  "dress": "Casual",
+  "good_for": "Pre-drinks, low-key late night",
+  "heads_up": "Opens 4 PM daily; ~10 min drive to Tatsu, so it works as an early pre",
+  "sources": [
+   "https://www.dallasobserver.com/food-drink/mikes-gemini-twin-is-the-cedars-new-dive-bar-11567031/",
+   "https://www.tastingtable.com/2035888/best-dive-bars-dallas/",
+   "https://www.dallasites101.com/blog/post/mikes-gemini-cedars/"
+  ]
+ },
+ "The Mansion Bar": {
+  "food": "Classic cocktails and bar bites at the Rosewood Mansion on Turtle Creek",
+  "vibe": "A dark, leather-walled hotel bar: hushed for a conversation early, then live music Fri-Sat from 8:30 PM. Well-dressed regulars, hotel guests and an older crowd; a classic Dallas nightcap.",
+  "tags": [
+   "Classic Dallas",
+   "Older crowd",
+   "Live music",
+   "Dressy",
+   "Cocktails"
+  ],
+  "crowd": "Older",
+  "energy": "Relaxed",
+  "price": "$$$",
+  "dress": "Smart casual to dressy",
+  "good_for": "Nightcap, parents' drinks, date",
+  "heads_up": "Cover on Fri/Sat after 8:30 PM (~$10-15); reserve ahead",
+  "sources": [
+   "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/default",
+   "https://www.visitdallas.com/blog/upscale-nightlife-experiences/",
+   "https://wanderlog.com/place/details/3999681/the-mansion-bar"
+  ]
+ },
+ "Apothecary": {
+  "food": "Avant-garde cocktails (culinary, odd ingredients) in Alchemy; martinis, whiskey and wine in Archive",
+  "vibe": "Two small, cozy rooms on Lower Greenville: Alchemy is the experimental speakeasy, Archive the easier wine-and-martini side. Intimate and conversation-friendly; great for 2-4.",
+  "tags": [
+   "Cocktails",
+   "Intimate",
+   "Date night",
+   "Hidden gem",
+   "Pre-game spot"
+  ],
+  "crowd": "Younger",
+  "energy": "Small & intimate",
+  "price": "$$$",
+  "dress": "Smart casual",
+  "good_for": "Date drinks, pre-dinner drinks for a small group",
+  "heads_up": "Book on Tock (small deposit). Opens ~5 PM, so it suits the 7:45 Tatsu seating; ~8 min drive",
+  "sources": [
+   "https://www.dallasobserver.com/food-drink/archive-and-alchemy-apothecary-reopens-as-a-two-room-experience-40654491/",
+   "https://diningout.com/dallas/inside-dallas-apothecary-expansion-a-new-dual-concept-bar-rises-in-ryes-former-space/",
+   "https://www.dmagazine.com/publications/d-magazine/2021/november/lower-greenville-speakeasy-apothecary-is-a-den-of-all-out-creativity/"
+  ]
+ },
+ "Katy Trail Ice House": {
+  "food": "Beer-garden staples: burgers, brisket, wings, buckets of cheap beer and frozen drinks",
+  "vibe": "A huge Uptown patio of picnic tables right on the Katy Trail. Loud, packed and social on weekends with a young, post-college crowd and dogs everywhere; zero dress code.",
+  "tags": [
+   "Big room",
+   "Patio",
+   "Loud",
+   "Younger crowd",
+   "Pre-game spot"
+  ],
+  "crowd": "Younger",
+  "energy": "Big & lively",
+  "price": "$",
+  "dress": "Casual",
+  "good_for": "Big group day-drinking, pre-game",
+  "heads_up": "Walk-in only; weekends get slammed",
+  "sources": [
+   "https://theinfatuation.com/dallas/reviews/katy-trail-ice-house",
+   "https://www.dmagazine.com/food-drink/2011/03/first-take-bar-review-katy-trail-ice-house/",
+   "https://www.cbsnews.com/texas/news/katy-trail-ice-house-a-review"
+  ]
+ },
+ "Lounge Here": {
+  "food": "Cocktail lounge with a solid wine-by-the-glass list and comfort-food menu",
+  "vibe": "A retro '70s airport-lounge look on Garland Rd by White Rock: plush banquettes, low light and a chill neighborhood crowd. Better for wine and a long chat than for a scene.",
+  "tags": [
+   "Chill",
+   "Wine bar",
+   "Mixed crowd",
+   "Date night",
+   "Hidden gem"
+  ],
+  "crowd": "Mixed",
+  "energy": "Relaxed",
+  "price": "$$",
+  "dress": "Casual",
+  "good_for": "Low-key drinks, casual date",
+  "heads_up": "Cocktails are hit-or-miss (wine is the safer order). Opens 4 PM Wed; ~15 min drive to Tatsu",
+  "sources": [
+   "https://www.opentable.com/r/lounge-here-dallas?lang=it",
+   "https://www.dallasobserver.com/?p=40582893"
+  ]
+ },
+ "SILO": {
+  "food": "Not a restaurant: a ~3,100-capacity electronic music club with several bars",
+  "vibe": "A big Design District warehouse club with LED walls, lasers, CO2 jets and a heavy sound system. Ticketed EDM/house shows, standing room, a young crowd, very loud; open late.",
+  "tags": [
+   "Big room",
+   "Loud",
+   "Dancing",
+   "Late night",
+   "Younger crowd"
+  ],
+  "crowd": "Younger",
+  "energy": "Big & lively",
+  "price": "$$",
+  "dress": "Casual (club wear)",
+  "good_for": "Late night dancing after dinner",
+  "heads_up": "Ticketed events only (mostly Fri/Sat, doors ~9 PM); 18+/21+ with physical ID; parking ~$10-30",
+  "sources": [
+   "https://timeout.com/dallas/nightlife/silo",
+   "https://dallasites101.com/blog/post/silo-dallas-new-electronic-dance-music-concert-venue",
+   "https://www.technoairlines.com/club/silo-dallas"
+  ]
+ },
+ "Clifton Club Bar & Lounge": {
+  "food": "Cocktail-forward lounge with real food: whipped ricotta, steak tartare toast, deviled eggs, smash burger",
+  "vibe": "A dim, sexy lounge on Fitzhugh: funky wallpaper, low ceilings, booths and a green-marble C-shaped bar (~25 seats). Polished but relaxed; good for dates or a small group.",
+  "tags": [
+   "Cocktails",
+   "Intimate",
+   "Date night",
+   "Late night",
+   "Pre-game spot"
+  ],
+  "crowd": "Mixed",
+  "energy": "Relaxed",
+  "price": "$$",
+  "dress": "Smart casual",
+  "good_for": "Pre-dinner drinks, date, nightcap",
+  "heads_up": "Opens 4:30 PM, so it works before either Tatsu seating (~8 min drive); OpenTable or walk in at the bar",
+  "sources": [
+   "https://dallasnews.com/food/restaurant-news/2022/05/03/inside-clifton-club-the-dallas-cocktail-bar-you-wish-you-had-in-your-home",
+   "https://www.theinfatuation.com/dallas/reviews/clifton-club",
+   "https://www.papercitymag.com/restaurants/dallas-restaurants-clifton-club-greg-katz-beverleys-fitzhugh/"
+  ]
+ }
+}

@@ -1,0 +1,345 @@
+{
+ "generated_by": "media_build/geocode.py",
+ "venues": {
+  "Shoyo": {
+   "lat": 32.813487,
+   "lng": -96.770105,
+   "src": "osm-address",
+   "hood_km": 0.0
+  },
+  "Uchi": {
+   "lat": 32.796857,
+   "lng": -96.806546,
+   "src": "osm-address",
+   "hood_km": 0.5
+  },
+  "Mamani": {
+   "lat": 32.798435,
+   "lng": -96.803532,
+   "src": "osm-address",
+   "hood_km": 0.2
+  },
+  "Lucia": {
+   "lat": 32.747095,
+   "lng": -96.830642,
+   "src": "resy",
+   "hood_km": 0.3
+  },
+  "Mister Charles": {
+   "lat": 32.823274,
+   "lng": -96.78944,
+   "src": "osm-address",
+   "hood_km": 0.2
+  },
+  "Naminohana": {
+   "lat": 32.853569,
+   "lng": -96.769805,
+   "src": "osm-address"
+  },
+  "St. Martin's Wine Bistro": {
+   "lat": 32.799172,
+   "lng": -96.779596,
+   "src": "resy",
+   "hood_km": 0.7
+  },
+  "Norman's Japanese Grill": {
+   "lat": 32.817534,
+   "lng": -96.802243,
+   "src": "osm-address",
+   "hood_km": 1.5
+  },
+  "El Carlos Elegante": {
+   "lat": 32.790216,
+   "lng": -96.820006,
+   "src": "osm-name",
+   "hood_km": 0.8
+  },
+  "Town Hearth": {
+   "lat": 32.796503,
+   "lng": -96.824127,
+   "src": "osm-address",
+   "hood_km": 0.1
+  },
+  "Bar Sardine": {
+   "lat": 32.848642,
+   "lng": -96.788074,
+   "src": "osm-address",
+   "hood_km": 0.8
+  },
+  "Jack & Harry's": {
+   "lat": 32.848818,
+   "lng": -96.788072,
+   "src": "osm-address",
+   "hood_km": 0.8
+  },
+  "Nonna Restaurant": {
+   "lat": 32.821137,
+   "lng": -96.81527,
+   "src": "resy"
+  },
+  "Bowen House": {
+   "lat": 32.797997,
+   "lng": -96.801959,
+   "src": "osm-address",
+   "hood_km": 0.1
+  },
+  "Fachini": {
+   "lat": 32.836241,
+   "lng": -96.806308,
+   "src": "resy",
+   "hood_km": 1.4
+  },
+  "Georgie": {
+   "lat": 32.822328,
+   "lng": -96.790589,
+   "src": "osm-address",
+   "hood_km": 0.1
+  },
+  "Al Biernat's": {
+   "lat": 32.819929,
+   "lng": -96.802469,
+   "src": "osm-address",
+   "hood_km": 1.6
+  },
+  "il Bracco": {
+   "lat": 32.864685,
+   "lng": -96.802675,
+   "src": "osm-address",
+   "hood_km": 2.3
+  },
+  "El Molino": {
+   "lat": 32.848724,
+   "lng": -96.788073,
+   "src": "osm-address",
+   "hood_km": 0.8
+  },
+  "The Honor Bar": {
+   "lat": 32.835477,
+   "lng": -96.80672,
+   "src": "osm-name",
+   "hood_km": 1.5
+  },
+  "Hillstone": {
+   "lat": 32.863825,
+   "lng": -96.80374,
+   "src": "osm-address",
+   "hood_km": 2.2
+  },
+  "Quarter Acre": {
+   "lat": 32.814269,
+   "lng": -96.770297,
+   "src": "osm-address",
+   "hood_km": 0.1
+  },
+  "Las Palmas Tex-Mex": {
+   "lat": 32.797521,
+   "lng": -96.802649,
+   "src": "resy",
+   "hood_km": 0.2
+  },
+  "Sushi by Scratch Restaurants: Dallas": {
+   "lat": 32.779937,
+   "lng": -96.800204,
+   "src": "osm-address",
+   "hood_km": 0.2
+  },
+  "Sushi Bar Dallas": {
+   "lat": 32.781384,
+   "lng": -96.791569,
+   "src": "resy",
+   "hood_km": 0.6
+  },
+  "Casa Brasa": {
+   "lat": 32.86123,
+   "lng": -96.80466,
+   "src": "resy",
+   "hood_km": 2.0
+  },
+  "Nobu Dallas": {
+   "lat": 32.794148,
+   "lng": -96.8042,
+   "src": "osm-address",
+   "hood_km": 2.0
+  },
+  "MĀBO": {
+   "lat": 32.864947,
+   "lng": -96.806327,
+   "src": "osm-address",
+   "hood_km": 2.5
+  },
+  "Sushi Kozy": {
+   "lat": 32.786958,
+   "lng": -96.799066,
+   "src": "osm-address",
+   "hood_km": 0.7
+  },
+  "Carbone Dallas": {
+   "lat": 32.794853,
+   "lng": -96.819196,
+   "src": "resy",
+   "hood_km": 0.6
+  },
+  "Mot Hai Ba": {
+   "lat": 32.812212,
+   "lng": -96.762574,
+   "src": "osm-address",
+   "hood_km": 0.7
+  },
+  "Olōyō": {
+   "lat": 32.796703,
+   "lng": -96.773437,
+   "src": "resy",
+   "hood_km": 0.2
+  },
+  "Tango Room": {
+   "lat": 32.795425,
+   "lng": -96.819347,
+   "src": "resy",
+   "hood_km": 0.5
+  },
+  "Lions Den": {
+   "lat": 32.798009,
+   "lng": -96.807451,
+   "src": "resy",
+   "hood_km": 0.6
+  },
+  "Uchiba": {
+   "lat": 32.796857,
+   "lng": -96.806546,
+   "src": "osm-address",
+   "hood_km": 0.5
+  },
+  "Otaru Sushi & Handroll Bar": {
+   "lat": 32.747985,
+   "lng": -96.828584,
+   "src": "osm-address",
+   "hood_km": 0.1
+  },
+  "Namo": {
+   "lat": 32.807584,
+   "lng": -96.79795,
+   "src": "osm-address",
+   "hood_km": 0.5
+  },
+  "Koryo Korean BBQ": {
+   "lat": 32.895545,
+   "lng": -96.89263,
+   "src": "osm-address",
+   "hood_km": 1.3
+  },
+  "Nick & Sam's": {
+   "lat": 32.798485,
+   "lng": -96.807525,
+   "src": "osm-address",
+   "hood_km": 1.5
+  },
+  "Yujo": {
+   "lat": 32.924384,
+   "lng": -96.80529,
+   "src": "osm-address",
+   "hood_km": 0.8
+  },
+  "Bar Colette": {
+   "lat": 32.807584,
+   "lng": -96.79795,
+   "src": "osm-address",
+   "hood_km": 0.5
+  },
+  "Vintage Wine Bar": {
+   "lat": 32.812342,
+   "lng": -96.760889,
+   "src": "osm-name",
+   "hood_km": 1.8
+  },
+  "Ayahuasca Cantina": {
+   "lat": 32.743639,
+   "lng": -96.827964,
+   "src": "resy",
+   "hood_km": 0.4
+  },
+  "Kilmac's": {
+   "lat": 32.749387,
+   "lng": -96.836116,
+   "src": "osm-address",
+   "hood_km": 1.2
+  },
+  "Marlowe Lounge": {
+   "lat": 32.800654,
+   "lng": -96.800702,
+   "src": "osm-address",
+   "hood_km": 1.7
+  },
+  "Triumphs Espresso & Whiskey": {
+   "lat": 32.794225,
+   "lng": -96.830889,
+   "src": "osm-address"
+  },
+  "Mike's Gemini Twin Lounge": {
+   "lat": 32.772477,
+   "lng": -96.783643,
+   "src": "osm-address",
+   "hood_km": 1.1
+  },
+  "The Mansion Bar": {
+   "lat": 32.803414,
+   "lng": -96.806794,
+   "src": "osm-address",
+   "hood_km": 1.1
+  },
+  "Katy Trail Ice House": {
+   "lat": 32.800808,
+   "lng": -96.80753,
+   "src": "osm-address",
+   "hood_km": 1.2
+  },
+  "Lounge Here": {
+   "lat": 32.827062,
+   "lng": -96.710458,
+   "src": "osm-address",
+   "hood_km": 0.6
+  },
+  "SILO": {
+   "lat": 32.797622,
+   "lng": -96.829503,
+   "src": "osm-address",
+   "hood_km": 0.5
+  },
+  "Clifton Club Bar & Lounge": {
+   "lat": 32.817106,
+   "lng": -96.794227,
+   "src": "osm-address",
+   "hood_km": 2.1
+  },
+  "Stillwell's": {
+   "lat": 32.792362,
+   "lng": -96.80602,
+   "src": "osm-address",
+   "hood_km": 0.8
+  },
+  "Nuri Steakhouse": {
+   "lat": 32.796431,
+   "lng": -96.805242,
+   "src": "osm-address",
+   "hood_km": 0.4
+  },
+  "Tatsu Dallas": {
+   "lat": 32.786451,
+   "lng": -96.776758,
+   "src": "osm-address",
+   "hood_km": 1.5
+  },
+  "Purepecha and Revolver Taco Lounge": {
+   "lat": 32.784048,
+   "lng": -96.784138,
+   "src": "osm-address",
+   "hood_km": 2.0
+  },
+  "Apothecary": {
+   "lat": 32.813507,
+   "lng": -96.770105,
+   "src": "osm-address",
+   "hood_km": 0.0
+  }
+ },
+ "missing": []
+}

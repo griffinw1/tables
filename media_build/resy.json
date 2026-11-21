@@ -1,0 +1,151 @@
+{
+ "Lucia": {
+  "images": [
+   "https://image.resy.com/3/003/2/955/700d20d351087541e7c71f74b6827f33cd048b19/jpg/1600x900",
+   "https://image.resy.com/3/003/2/955/4c66ecd5870a14ebac0499f16d7c5c23945497c4/jpg/1600x900",
+   "https://image.resy.com/3/003/2/955/e27db96aedb009525e7c5361d1fb38efb5bf2cb6/jpg/1600x900"
+  ],
+  "website": "http://www.luciadallas.com/",
+  "menu": null,
+  "blurb": "Chef David Uygur\u2019s rustic Italian fare has earned national recognition for Lucia, including a James Beard nomination for the country\u2019s Outstanding Restaurant. Its reputation as one of the toughest reservations in town is entirely justified, as every meal here is an absolute joy. ",
+  "price": 2,
+  "cuisine": "Italian"
+ },
+ "St. Martin's Wine Bistro": {
+  "images": [
+   "https://image.resy.com/3/003/2/79640/24b4ca5b46b9d96a9beed82cbadd702f0449671a/jpg/1600x900"
+  ],
+  "website": "https://www.stmartinswinebistro.com/",
+  "menu": null,
+  "blurb": "There\u2019s no telling how many romances were kindled at the original St. Martin\u2019s on Greenville Avenue that\u2019s now closed, with its seductive lighting, live piano music, and first-rate French food (and wine). But the old magic \u2014 including the very same piano \u2014 is still going strong at this updated version in Old East Dallas, as enchanting and romantic as ever.",
+  "price": 1,
+  "cuisine": "French - American"
+ },
+ "Nonna Restaurant": {
+  "images": [
+   "https://image.resy.com/3/003/2/68067/22895788b9d441cea580eb05f35c260687709f70/jpg/1600x900",
+   "https://image.resy.com/3/003/2/68067/50443196da8ddfa874bae7f16296d9c08a230518/jpg/1600x900",
+   "https://image.resy.com/3/003/2/68067/f2c16164cadf3d885d079ed1c8d03a1e4ed0fac6/jpg/1600x900",
+   "https://image.resy.com/3/003/2/68067/ea4e9e26d0b8a62902af53b5f8f45b4b835a9b8f/jpg/1600x900"
+  ],
+  "website": "https://www.nonna-dallas.com/",
+  "menu": null,
+  "blurb": "Save this one for date night: a friendly, intimate Highland Park Italian with traditional but often unusual dishes from a constantly evolving menu of housemade pasta, pizza, and wood-grilled meat and seafood. One dish that\u2019s always on the menu and is not to be missed: Nonna's Maine lobster ravioli.",
+  "price": 3,
+  "cuisine": "Italian"
+ },
+ "Fachini": {
+  "images": [
+   "https://image.resy.com/3/003/2/68065/1d57af5d98d3a438bc3ffebd76279c162981e4b8/jpg/1600x900",
+   "https://image.resy.com/3/003/2/68065/2cfe4a224080f2b1a81b6cbc3dcd0bb04627fd2a/jpg/1600x900",
+   "https://image.resy.com/3/003/2/68065/7e48de01d5d76fb84e672d7aced4f6bd492f5ef1/jpg/1600x900",
+   "https://image.resy.com/3/003/2/68065/4f541070293bcba3faaf6a341cb6d51d6fcab784/jpg/1600x900"
+  ],
+  "website": "",
+  "menu": null,
+  "blurb": "Italian food maestro Julian Barsotti (of Nonna, Carbone\u2019s, etc.) scores again with this Highland Park Village standout. The dining room pays tribute to old-style upscale Italian-American restaurants and the menu offers everything from Texas Wagyu carpaccio to a signature \u201c100 layer lasagna alla Sunday.\u201d",
+  "price": 2,
+  "cuisine": "Italian"
+ },
+ "Las Palmas Tex-Mex": {
+  "images": [
+   "https://image.resy.com/3/003/2/6938/abf59d4f481c8de060a730051ff71e941fc8022f/jpg/1600x900",
+   "https://image.resy.com/3/003/2/6938/6145b570f20523bc43d9bb0338427988422671be/jpg/1600x900",
+   "https://image.resy.com/3/003/2/6938/9105c5845c2ca26e2b34ef0906528fb2f0b7a746/jpg/1600x900",
+   "https://image.resy.com/3/003/2/6938/542a403d27c5f85084f124e35b64da83fa2c2864/jpg/1600x900"
+  ],
+  "website": "http://laspalmasdallas.com/",
+  "menu": null,
+  "blurb": "Valet is located at the front entrance. \n\nIf you are running late on your reservation time, please contact us directly at (214) 647-1232 and we will hold your table for 15 minutes before offering the table to our waitlist. \n\nFor parties of 6 or more, contact us directly!\n",
+  "price": 1,
+  "cuisine": "Mexican"
+ },
+ "Sushi Bar Dallas": {
+  "images": [
+   "https://image.resy.com/3/003/2/96543/acea625d2ed4991cdfccd7da8e2f13ae3c53c557/jpg/1600x900",
+   "https://image.resy.com/3/003/2/96543/f9994216da189a48a1f635f8651bad45f699e3d7/jpg/1600x900",
+   "https://image.resy.com/3/003/2/96543/ba4788bfb831b0be07aa688aff5714d15fbd1c59/jpg/1600x900",
+   "https://image.resy.com/3/003/2/96543/8b3ed18b6c2ca14b7704353ff7f9f16a0bd66fa1/jpg/1600x900"
+  ],
+  "website": "https://sushibarhospitality.com/locations/dallas/",
+  "menu": null,
+  "blurb": "Power sushi is on full display in the basement of the century-old Oldsmobile Building in downtown\u2019s East Quarter. The 17-course, all-nigiri omakase tricks out fish from Japan, Australia, and California with compound butter, togarashi, lemongrass kosho, and everything bagel seasoning for a result that remains on the mind as well as the palate. ",
+  "price": 4,
+  "cuisine": "Sushi"
+ },
+ "Casa Brasa": {
+  "images": [
+   "https://image.resy.com/3/003/2/89456/a1c4031c799349307867e7ee0939fe4db9bd91b9/jpg/1600x900",
+   "https://image.resy.com/3/003/2/89456/4ffde91726a7c3a65fc04f47ee423403d6376111/jpg/1600x900",
+   "https://image.resy.com/3/003/2/89456/cfa3e18ca6f23d6f7125c7f6b67ef8f571ed1f3a/jpg/1600x900",
+   "https://image.resy.com/3/003/2/89456/0ecfea5a0954f5e5967fc2a22d71ea2fd28efd15/jpg/1600x900"
+  ],
+  "website": "http://thecasabrasa.com",
+  "menu": null,
+  "blurb": "Chef Omar Flores\u2019 already\u2013superb restaurant group (including Whistle Britches, Even Coast, and Muchacho Tex Mex) hit a whole new level with this live-fire South American steakhouse and sushi bar. The space calls for gussying up for chic lunches and dinners, and the adjacent Kamilla Lounge offers maximalist cocktails, sushi, and selections from the raw bar every night after 5 p.m. ",
+  "price": 1,
+  "cuisine": "South American Steakhouse"
+ },
+ "Carbone Dallas": {
+  "images": [
+   "https://image.resy.com/3/003/2/56586/df6e03dea531de45121c69f335ce17c669784630/jpg/1600x900",
+   "https://image.resy.com/3/003/2/56586/02337d2a2db3c2bd6063465ee067086d4f139c98/jpg/1600x900",
+   "https://image.resy.com/3/003/2/56586/fc46eba0e46e147c5f0de7edfc51738e92cd2763/jpg/1600x900",
+   "https://image.resy.com/3/003/2/56586/2d869b28d833cd785e4baa40a414f08af116f921/jpg/1600x900"
+  ],
+  "website": "https://carbonedallas.com/",
+  "menu": "https://carbonedallas.com/?menu=dinner",
+  "blurb": "If anyone\u2019s brought old-school red-sauce Italian cooking into modern times, it\u2019s the team behind New York\u2019s Major Food Group, and you\u2019ll definitely want a seat at the eagerly awaited Design District outpost of their flagship Carbone. One-word Pro tip: meatballs.",
+  "price": 4,
+  "cuisine": "Italian"
+ },
+ "Ol\u014dy\u014d": {
+  "images": [
+   "https://image.resy.com/3/003/2/96055/cd42b7f661b80e728a2686ea42d7a3faf83b1d99/jpg/1600x900"
+  ],
+  "website": "https://www.instagram.com/oloyo_dtx",
+  "menu": "",
+  "blurb": "The focus here is lovingly placed on heirloom corn masa, which chef Olivia L\u00f3pez turns into tacos, sopes, and tamales. You may remember Ol\u014dy\u014d from their wildly popular pop-up \u2014 we thought it was peak, but having more room to grow and experiment has only made them even better.",
+  "price": 4,
+  "cuisine": "Mexican"
+ },
+ "Tango Room": {
+  "images": [
+   "https://image.resy.com/3/003/2/54450/2fc1fce470ecb33441ebc34a52666706eb3c7cd1/jpg/1600x900",
+   "https://image.resy.com/3/003/2/54450/692c845b4c30e331bda0878d7bc3f71b34e989fe/jpg/1600x900",
+   "https://image.resy.com/3/003/2/54450/3f931eefe2610e8598870c204eacf6ed7dd8b043/jpg/1600x900",
+   "https://image.resy.com/3/003/2/54450/f05d7b7f6a5cfdfdbc2162fb7304c2d805edef40/jpg/1600x900"
+  ],
+  "website": "http://www.tangoroomdallas.com/",
+  "menu": null,
+  "blurb": "The Tango Room is an intimate, elegant Design District hideaway with a luxury-tinged steakhouse menu full of caviar, truffles, foie gras, and even a lobster corndog. Pro tip: Come hungry and share one of the restaurant\u2019s large-format offerings (Peking duck, whole salt-baked red snapper, etc.).",
+  "price": 4,
+  "cuisine": "Steakhouse"
+ },
+ "Lions Den": {
+  "images": [
+   "https://image.resy.com/3/003/2/94984/95020a93b882e711697c842142fca9da1233d821/jpg/1600x900",
+   "https://image.resy.com/3/003/2/94984/ea0529f3f023cf6fe85fb3d2e0ad30b25111c3e7/jpg/1600x900",
+   "https://image.resy.com/3/003/2/94984/cfc24cae9f37897c66e0efcf20bbc4f0e335d8c3/jpg/1600x900",
+   "https://image.resy.com/3/003/2/94984/f9aed3d423f6bfaea800dd022327bfdebbae1743/jpg/1600x900"
+  ],
+  "website": "https://lionsdendallas.com/",
+  "menu": "https://lionsdendallas.com/menu/",
+  "blurb": "We kindly ask guests to observe a smart casual dress code. Athletic wear, beachwear, flip flops, tank tops, shorts, baseball caps, sweatpants, and hooded sweatshirts are not permitted.\n\n",
+  "price": 3,
+  "cuisine": "Italian"
+ },
+ "Ayahuasca Cantina": {
+  "images": [
+   "https://image.resy.com/3/003/2/59115/b36c6057e744c2585ab04585446162970b33d984/jpg/1600x900",
+   "https://image.resy.com/3/003/2/59115/1a8c6af4949686a826893ade05433fda27d1a56a/jpg/1600x900",
+   "https://image.resy.com/3/003/2/59115/c30f3d14b32d13f119c1e1f314b96a37a6aef208/jpg/1600x900",
+   "https://image.resy.com/3/003/2/59115/f79e842a1ebd01260f80a1bde2b186f859a8b358/jpg/1600x900"
+  ],
+  "website": "https://www.xamancafe.com/ayahuasca",
+  "menu": "",
+  "blurb": "Open\nTuesday-Saturday 5:00pm-12:00am\nKitchen Hours\nTuesday-Thursday 5:00pm-10:00pm\nFriday & Saturday 5:00pm-11:00pm\n\nFridays and Saturdays due to our limited seating capacity, \nTime limit per parties of 2 is 1:30 hours\nParties of 4 or more is 2:00 hours limit, unless we have space available.\nTime starts at time of RESERVATION.\n60% of your party needs to be present to be seated.\n \nAll parking meter",
+  "price": 1,
+  "cuisine": "Mexican"
+ }
+}

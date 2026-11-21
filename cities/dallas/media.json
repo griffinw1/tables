@@ -1,0 +1,723 @@
+{
+ "Lucia": {
+  "images": [
+   "https://image.resy.com/3/003/2/955/700d20d351087541e7c71f74b6827f33cd048b19/jpg/1600x900",
+   "https://image.resy.com/3/003/2/955/4c66ecd5870a14ebac0499f16d7c5c23945497c4/jpg/1600x900",
+   "https://image.resy.com/3/003/2/955/e27db96aedb009525e7c5361d1fb38efb5bf2cb6/jpg/1600x900"
+  ],
+  "website": "http://www.luciadallas.com/",
+  "menu": null,
+  "cuisine": "Italian",
+  "blurb": "Chef David Uygur’s rustic Italian fare has earned national recognition for Lucia, including a James Beard nomination for the country’s Outstanding Restaurant. Its reputation as one of the toughest reservations in town is entirely justified, as every meal here is an absolute joy. ",
+  "img_src": "Resy"
+ },
+ "St. Martin's Wine Bistro": {
+  "images": [
+   "https://cdn.sanity.io/images/5gc1mhta/production/787c0c10f41c615f62b83461b785d441a3e3ce40-1280x1920.jpg?w=1600&auto=format",
+   "https://cdn.sanity.io/images/5gc1mhta/production/bae3de9264770aa4f704f4242fc72a21c751ef00-1280x1920.jpg?w=1600&auto=format",
+   "https://cdn.sanity.io/images/5gc1mhta/production/d3c62ccd7649bf133297b97d9ca6508593cddf2d-1280x1920.jpg?w=1600&auto=format",
+   "https://cdn.sanity.io/images/5gc1mhta/production/b18854cc2d3c8483936ec5461824aeb4016c7828-4095x3330.jpg?w=1600&auto=format",
+   "https://image.resy.com/3/003/2/79640/24b4ca5b46b9d96a9beed82cbadd702f0449671a/jpg/1600x900"
+  ],
+  "website": "https://www.stmartinswinebistro.com/",
+  "menu": null,
+  "cuisine": "French bistro",
+  "blurb": "There’s no telling how many romances were kindled at the original St. Martin’s on Greenville Avenue that’s now closed, with its seductive lighting, live piano music, and first-rate French food (and wine). But the old magic — including the very same piano — is still going strong at this updated version in Old East Dallas, as enchanting and romantic as ever.",
+  "img_src": "stmartinswinebistro.com"
+ },
+ "Nonna Restaurant": {
+  "images": [
+   "https://image.resy.com/3/003/2/68067/22895788b9d441cea580eb05f35c260687709f70/jpg/1600x900",
+   "https://image.resy.com/3/003/2/68067/50443196da8ddfa874bae7f16296d9c08a230518/jpg/1600x900",
+   "https://image.resy.com/3/003/2/68067/f2c16164cadf3d885d079ed1c8d03a1e4ed0fac6/jpg/1600x900",
+   "https://image.resy.com/3/003/2/68067/ea4e9e26d0b8a62902af53b5f8f45b4b835a9b8f/jpg/1600x900"
+  ],
+  "website": "https://www.nonna-dallas.com/",
+  "menu": "https://www.nonna-dallas.com/menus/",
+  "cuisine": "Italian",
+  "blurb": "Save this one for date night: a friendly, intimate Highland Park Italian with traditional but often unusual dishes from a constantly evolving menu of housemade pasta, pizza, and wood-grilled meat and seafood. One dish that’s always on the menu and is not to be missed: Nonna's Maine lobster ravioli.",
+  "img_src": "Resy"
+ },
+ "Fachini": {
+  "images": [
+   "https://image.resy.com/3/003/2/68065/4f541070293bcba3faaf6a341cb6d51d6fcab784/jpg/1600x900",
+   "https://image.resy.com/3/003/2/68065/7e48de01d5d76fb84e672d7aced4f6bd492f5ef1/jpg/1600x900",
+   "https://image.resy.com/3/003/2/68065/1d57af5d98d3a438bc3ffebd76279c162981e4b8/jpg/1600x900",
+   "https://image.resy.com/3/003/2/68065/2cfe4a224080f2b1a81b6cbc3dcd0bb04627fd2a/jpg/1600x900"
+  ],
+  "website": null,
+  "menu": null,
+  "cuisine": "Italian",
+  "blurb": "Italian food maestro Julian Barsotti (of Nonna, Carbone’s, etc.) scores again with this Highland Park Village standout. The dining room pays tribute to old-style upscale Italian-American restaurants and the menu offers everything from Texas Wagyu carpaccio to a signature “100 layer lasagna alla Sunday.”",
+  "img_src": "Resy"
+ },
+ "Las Palmas Tex-Mex": {
+  "images": [
+   "https://image.resy.com/3/003/2/6938/9105c5845c2ca26e2b34ef0906528fb2f0b7a746/jpg/1600x900",
+   "https://image.resy.com/3/003/2/6938/542a403d27c5f85084f124e35b64da83fa2c2864/jpg/1600x900",
+   "https://image.resy.com/3/003/2/6938/abf59d4f481c8de060a730051ff71e941fc8022f/jpg/1600x900",
+   "https://image.resy.com/3/003/2/6938/6145b570f20523bc43d9bb0338427988422671be/jpg/1600x900"
+  ],
+  "website": "http://laspalmasdallas.com/",
+  "menu": null,
+  "cuisine": "Mexican",
+  "blurb": "Valet is located at the front entrance. \n\nIf you are running late on your reservation time, please contact us directly at (214) 647-1232 and we will hold your table for 15 minutes before offering the table to our waitlist. \n\nFor parties of 6 or more, contact us directly!\n",
+  "img_src": "Resy"
+ },
+ "Sushi Bar Dallas": {
+  "images": [
+   "https://sushibarhospitality.com/img/chef-counter.webp",
+   "https://image.resy.com/3/003/2/96543/acea625d2ed4991cdfccd7da8e2f13ae3c53c557/jpg/1600x900",
+   "https://image.resy.com/3/003/2/96543/f9994216da189a48a1f635f8651bad45f699e3d7/jpg/1600x900",
+   "https://image.resy.com/3/003/2/96543/ba4788bfb831b0be07aa688aff5714d15fbd1c59/jpg/1600x900",
+   "https://image.resy.com/3/003/2/96543/8b3ed18b6c2ca14b7704353ff7f9f16a0bd66fa1/jpg/1600x900"
+  ],
+  "website": "https://sushibarhospitality.com/locations/dallas/",
+  "menu": null,
+  "cuisine": "Sushi omakase",
+  "blurb": "Power sushi is on full display in the basement of the century-old Oldsmobile Building in downtown’s East Quarter. The 17-course, all-nigiri omakase tricks out fish from Japan, Australia, and California with compound butter, togarashi, lemongrass kosho, and everything bagel seasoning for a result that remains on the mind as well as the palate. ",
+  "img_src": "sushibarhospitality.com"
+ },
+ "Casa Brasa": {
+  "images": [
+   "https://image.resy.com/3/003/2/89456/4ffde91726a7c3a65fc04f47ee423403d6376111/jpg/1600x900",
+   "https://image.resy.com/3/003/2/89456/0ecfea5a0954f5e5967fc2a22d71ea2fd28efd15/jpg/1600x900",
+   "https://image.resy.com/3/003/2/89456/cfa3e18ca6f23d6f7125c7f6b67ef8f571ed1f3a/jpg/1600x900",
+   "https://image.resy.com/3/003/2/89456/a1c4031c799349307867e7ee0939fe4db9bd91b9/jpg/1600x900"
+  ],
+  "website": "http://thecasabrasa.com",
+  "menu": "https://thecasabrasa.com/menu/",
+  "cuisine": "South American Steakhouse",
+  "blurb": "Chef Omar Flores’ already–superb restaurant group (including Whistle Britches, Even Coast, and Muchacho Tex Mex) hit a whole new level with this live-fire South American steakhouse and sushi bar. The space calls for gussying up for chic lunches and dinners, and the adjacent Kamilla Lounge offers maximalist cocktails, sushi, and selections from the raw bar every night after 5 p.m. ",
+  "img_src": "Resy"
+ },
+ "Carbone Dallas": {
+  "images": [
+   "https://image.resy.com/3/003/2/56586/df6e03dea531de45121c69f335ce17c669784630/jpg/1600x900",
+   "https://image.resy.com/3/003/2/56586/02337d2a2db3c2bd6063465ee067086d4f139c98/jpg/1600x900",
+   "https://image.resy.com/3/003/2/56586/fc46eba0e46e147c5f0de7edfc51738e92cd2763/jpg/1600x900",
+   "https://image.resy.com/3/003/2/56586/2d869b28d833cd785e4baa40a414f08af116f921/jpg/1600x900"
+  ],
+  "website": "https://carbonedallas.com/",
+  "menu": "https://carbonedallas.com/?menu=dinner",
+  "cuisine": "Italian",
+  "blurb": "If anyone’s brought old-school red-sauce Italian cooking into modern times, it’s the team behind New York’s Major Food Group, and you’ll definitely want a seat at the eagerly awaited Design District outpost of their flagship Carbone. One-word Pro tip: meatballs.",
+  "img_src": "Resy"
+ },
+ "Olōyō": {
+  "images": [
+   "https://image.resy.com/3/003/2/96055/cd42b7f661b80e728a2686ea42d7a3faf83b1d99/jpg/1600x900"
+  ],
+  "website": "https://www.instagram.com/oloyo_dtx",
+  "menu": null,
+  "cuisine": "Mexican",
+  "blurb": "The focus here is lovingly placed on heirloom corn masa, which chef Olivia López turns into tacos, sopes, and tamales. You may remember Olōyō from their wildly popular pop-up — we thought it was peak, but having more room to grow and experiment has only made them even better.",
+  "img_src": "Resy"
+ },
+ "Tango Room": {
+  "images": [
+   "https://image.resy.com/3/003/2/54450/692c845b4c30e331bda0878d7bc3f71b34e989fe/jpg/1600x900",
+   "https://image.resy.com/3/003/2/54450/3f931eefe2610e8598870c204eacf6ed7dd8b043/jpg/1600x900",
+   "https://image.resy.com/3/003/2/54450/2fc1fce470ecb33441ebc34a52666706eb3c7cd1/jpg/1600x900",
+   "https://image.resy.com/3/003/2/54450/f05d7b7f6a5cfdfdbc2162fb7304c2d805edef40/jpg/1600x900"
+  ],
+  "website": "http://www.tangoroomdallas.com/",
+  "menu": "https://cdn.shopify.com/s/files/1/0580/2931/0141/files/TangoRoomMenu.pdf?v=1792594191",
+  "cuisine": "Steakhouse",
+  "blurb": "The Tango Room is an intimate, elegant Design District hideaway with a luxury-tinged steakhouse menu full of caviar, truffles, foie gras, and even a lobster corndog. Pro tip: Come hungry and share one of the restaurant’s large-format offerings (Peking duck, whole salt-baked red snapper, etc.).",
+  "img_src": "Resy"
+ },
+ "Lions Den": {
+  "images": [
+   "https://image.resy.com/3/003/2/94984/95020a93b882e711697c842142fca9da1233d821/jpg/1600x900",
+   "https://image.resy.com/3/003/2/94984/ea0529f3f023cf6fe85fb3d2e0ad30b25111c3e7/jpg/1600x900",
+   "https://image.resy.com/3/003/2/94984/cfc24cae9f37897c66e0efcf20bbc4f0e335d8c3/jpg/1600x900",
+   "https://image.resy.com/3/003/2/94984/f9aed3d423f6bfaea800dd022327bfdebbae1743/jpg/1600x900"
+  ],
+  "website": "https://lionsdendallas.com/",
+  "menu": "https://lionsdendallas.com/menu/",
+  "cuisine": "Italian",
+  "blurb": "We kindly ask guests to observe a smart casual dress code. Athletic wear, beachwear, flip flops, tank tops, shorts, baseball caps, sweatpants, and hooded sweatshirts are not permitted.\n\n",
+  "img_src": "Resy"
+ },
+ "Ayahuasca Cantina": {
+  "images": [
+   "https://images.squarespace-cdn.com/content/v1/5ed598ce79e0133845641304/1597156823731-PDSXVK2EH0S6RNW728US/IMG_3806.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/5ed598ce79e0133845641304/1597087593485-68LPCM7U7W3TSZ4NK7FB/IMG_5787.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/5ed598ce79e0133845641304/1597088049547-1P9ZD6IZX42DGUDCBZBN/drink-ayahuasca.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/5ed598ce79e0133845641304/1596913521028-FIR23P0S12UR6BT587PV/IMG_5509.jpg?format=1500w",
+   "https://image.resy.com/3/003/2/59115/b36c6057e744c2585ab04585446162970b33d984/jpg/1600x900",
+   "https://image.resy.com/3/003/2/59115/1a8c6af4949686a826893ade05433fda27d1a56a/jpg/1600x900",
+   "https://image.resy.com/3/003/2/59115/c30f3d14b32d13f119c1e1f314b96a37a6aef208/jpg/1600x900",
+   "https://image.resy.com/3/003/2/59115/f79e842a1ebd01260f80a1bde2b186f859a8b358/jpg/1600x900"
+  ],
+  "website": "https://www.xamancafe.com/ayahuasca",
+  "menu": "https://www.xamancafe.com/s/Ayahuasca-menu.pdf",
+  "cuisine": "Mezcal & cocktail bar",
+  "blurb": "Open\nTuesday-Saturday 5:00pm-12:00am\nKitchen Hours\nTuesday-Thursday 5:00pm-10:00pm\nFriday & Saturday 5:00pm-11:00pm\n\nFridays and Saturdays due to our limited seating capacity, \nTime limit per parties of 2 is 1:30 hours\nParties of 4 or more is 2:00 hours limit, unless we have space available.\nTime starts at time of RESERVATION.\n60% of your party needs to be present to be seated.\n \nAll parking meter",
+  "img_src": "xamancafe.com"
+ },
+ "Mamani": {
+  "images": [
+   "https://resizer.otstatic.com/v4/photos/88734070-2?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/87193345-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/87193106-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/87193238-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/88734070-2?width=640&height=640",
+   "https://resizer.otstatic.com/v4/photos/88734070-2?width=1280&height=720&format=avif",
+   "https://resizer.otstatic.com/v4/photos/89241829-1?width=160&height=160&format=avif",
+   "https://resizer.otstatic.com/v4/photos/87193106-1?width=160&height=160"
+  ],
+  "website": "https://www.mamanirestaurant.com/",
+  "menu": "https://cdn.sanity.io/files/2gup0440/production/49ef8ec132131dcb3ac66d065b91cdd8d998a465.pdf",
+  "cuisine": "French-Italian",
+  "blurb": "Polished Uptown dining room serving refined French-Italian cooking; the whole duck is a standout.",
+  "img_src": "OpenTable"
+ },
+ "Mister Charles": {
+  "images": [
+   "https://themistercharles.com/wp-content/uploads/2023/07/space.jpg",
+   "https://themistercharles.com/wp-content/uploads/2023/07/drinks-1.jpg",
+   "https://themistercharles.com/wp-content/uploads/2023/07/1-11.jpg",
+   "https://resizer.otstatic.com/v4/photos/67652532-1?width=640&height=360",
+   "https://resizer.otstatic.com/v4/photos/95678564-2?width=320&height=320",
+   "https://resizer.otstatic.com/v4/photos/95678564-2?width=160&height=160",
+   "https://resizer.otstatic.com/v4/photos/71215569-2?width=320&height=320"
+  ],
+  "website": "https://themistercharles.com/",
+  "menu": "https://themistercharles.com/menu/",
+  "cuisine": "French-Italian",
+  "blurb": "Opulent Knox-Henderson dining room serving glamorous French and Italian classics.",
+  "img_src": "themistercharles.com"
+ },
+ "Norman's Japanese Grill": {
+  "images": [
+   "https://resizer.otstatic.com/v4/photos/79883275-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/79883272-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/79883271-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/79871289-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/79883227-2?width=640&height=640",
+   "https://resizer.otstatic.com/v4/photos/79883227-2?width=1280&height=720&format=avif",
+   "https://resizer.otstatic.com/v4/photos/79883227-2?width=752&height=752&format=avif",
+   "https://resizer.otstatic.com/v4/photos/79871289-1?width=752&height=752&format=avif"
+  ],
+  "website": "https://normansjapanese.com/",
+  "menu": "https://normansjapanese.com/menu/",
+  "cuisine": "Japanese",
+  "blurb": "Lively Oak Lawn spot mixing sushi, charcoal-grilled skewers and Texas-sized Japanese-American plates.",
+  "img_src": "OpenTable"
+ },
+ "Stillwell's": {
+  "images": [
+   "https://images.getbento.com/accounts/23944f3569b38db32b617fee4853ddbb/media/images/67318SWEXAN_SEPT_MTG_HR-20_1_2_1.jpg?w=1600&fit=max&auto=compress,format&cs=origin",
+   "https://images.getbento.com/accounts/23944f3569b38db32b617fee4853ddbb/media/images/68449SWEXAN_SEPT_MTG_HR-21_1_1.jpg?w=1600&fit=max&auto=compress,format&cs=origin",
+   "https://images.getbento.com/accounts/23944f3569b38db32b617fee4853ddbb/media/images/510290K9A5110.jpg?w=1600&fit=max&auto=compress,format&cs=origin",
+   "https://images.getbento.com/accounts/23944f3569b38db32b617fee4853ddbb/media/images/62291stillwells--image-min.png?w=1600&fit=max&auto=compress,format&cs=origin",
+   "https://resizer.otstatic.com/v4/photos/97591451-1?width=1280&height=720",
+   "https://resizer.otstatic.com/v4/photos/97591451-1?width=752&height=423",
+   "https://resizer.otstatic.com/v4/photos/97591451-1?width=640&height=360",
+   "https://resizer.otstatic.com/v4/photos/97591451-1?width=160&height=160"
+  ],
+  "website": "https://www.stillwellsdallas.com/",
+  "menu": "https://www.stillwellsdallas.com/menus/",
+  "cuisine": "Steakhouse",
+  "blurb": "Moody Texas steakhouse inside Hôtel Swexan with ranch-sourced beef and a clubby bar.",
+  "img_src": "stillwellsdallas.com"
+ },
+ "Nuri Steakhouse": {
+  "images": [
+   "https://www.nuristeakhouse.com/wp-content/uploads/2024/11/Interiors-15-1536x1025.jpg",
+   "https://www.nuristeakhouse.com/wp-content/uploads/2024/01/landing-slide-image-3-1920x1080.jpg",
+   "https://www.nuristeakhouse.com/wp-content/uploads/2024/08/Press-Release-13-1536x1025.jpg",
+   "https://www.nuristeakhouse.com/wp-content/uploads/2024/08/Press-Release-3-1536x1025.jpg",
+   "https://resizer.otstatic.com/v4/photos/94832700-1?width=640&height=360",
+   "https://resizer.otstatic.com/v4/photos/92479852-1?width=160&height=160",
+   "https://resizer.otstatic.com/v4/photos/92479853-1?width=160&height=160",
+   "https://resizer.otstatic.com/v4/photos/91892131-2?width=160&height=160"
+  ],
+  "website": "https://www.nuristeakhouse.com/",
+  "menu": "https://www.nuristeakhouse.com/steakhouse/#menus",
+  "cuisine": "Korean steakhouse",
+  "blurb": "Glossy Uptown Korean steakhouse with tableside-grilled prime cuts, a raw bar and a big wine list.",
+  "img_src": "nuristeakhouse.com"
+ },
+ "El Carlos Elegante": {
+  "images": [
+   "https://resizer.otstatic.com/v4/photos/67587361-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/73855132-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/70134865-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/94792911-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/67587361-1?width=640&height=640",
+   "https://resizer.otstatic.com/v4/photos/67587361-1?width=1280&height=720&format=avif",
+   "https://resizer.otstatic.com/v4/photos/73855132-1?width=320&height=180?width=320&height=180&format=avif",
+   "https://resizer.otstatic.com/v4/photos/70134865-1?width=320&height=320?width=320&height=320&format=avif"
+  ],
+  "website": "https://elcarloselegante.com/",
+  "menu": "https://elcarloselegante.com/menu/",
+  "cuisine": "Mexican",
+  "blurb": "Atmospheric Design District restaurant serving regional Mexican cooking and a tasting menu.",
+  "img_src": "OpenTable"
+ },
+ "Town Hearth": {
+  "images": [
+   "https://resizer.otstatic.com/v4/photos/66270185-3?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/66270185-3?width=640&height=640",
+   "https://resizer.otstatic.com/v4/photos/66270185-3?width=1280&height=720&format=avif",
+   "https://resizer.otstatic.com/v4/photos/66270185-3?width=105&height=105",
+   "https://resizer.otstatic.com/v4/photos/77674139-1?width=105&height=105"
+  ],
+  "website": "https://www.townhearth.com/",
+  "menu": "https://www.townhearth.com/dinnermenu",
+  "cuisine": "Steakhouse",
+  "blurb": "Swanky Design District steakhouse glittering with chandeliers, a raw bar and dry-aged steaks.",
+  "img_src": "OpenTable"
+ },
+ "Bar Sardine": {
+  "images": [
+   "https://resizer.otstatic.com/v4/photos/71555134-2?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/71730050-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/71730047-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/71730049-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/71555134-2?width=640&height=640",
+   "https://resizer.otstatic.com/v4/photos/71555134-2?width=1280&height=720&format=avif",
+   "https://resizer.otstatic.com/v4/photos/71555134-2?width=752&height=752&format=avif",
+   "https://resizer.otstatic.com/v4/photos/71730050-1?width=752&height=752&format=avif"
+  ],
+  "website": "https://www.thebarsardine.com/",
+  "menu": "https://www.thebarsardine.com/menus/",
+  "cuisine": "French bistro",
+  "blurb": "Tiny, buzzy French-leaning bar and bistro famous for its burger.",
+  "img_src": "OpenTable"
+ },
+ "Jack & Harry's": {
+  "images": [
+   "https://resizer.otstatic.com/v4/photos/63721272-2?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/63995006-2?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/63995009-2?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/63995045-2?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/63721272-2?width=640&height=640",
+   "https://resizer.otstatic.com/v4/photos/63721272-2?width=1280&height=720&format=avif",
+   "https://resizer.otstatic.com/v4/photos/63721272-2?width=752&height=752&format=avif",
+   "https://resizer.otstatic.com/v4/photos/63995006-2?width=752&height=752&format=avif"
+  ],
+  "website": "https://www.thejackandharrys.com/",
+  "menu": "https://www.thejackandharrys.com/menus/",
+  "cuisine": "Seafood & steak",
+  "blurb": "Bright, clubby Uptown grill with a long bar, oysters, steaks and seafood.",
+  "img_src": "OpenTable"
+ },
+ "Georgie": {
+  "images": [
+   "https://georgiedallas.com/wp-content/uploads/2020/01/mobile.jpg",
+   "https://georgiedallas.com/wp-content/uploads/2023/05/1-5.jpg",
+   "https://georgiedallas.com/wp-content/uploads/2023/05/1-3.jpg",
+   "https://resizer.otstatic.com/v4/photos/93298681-1?width=640&height=360",
+   "https://resizer.otstatic.com/v4/photos/90064237-4?width=320&height=320",
+   "https://resizer.otstatic.com/v4/photos/90064237-4?width=160&height=160",
+   "https://resizer.otstatic.com/v4/photos/23667358-1?width=320&height=320"
+  ],
+  "website": "https://georgiedallas.com/",
+  "menu": "https://georgiedallas.com/menus/",
+  "cuisine": "American brasserie",
+  "blurb": "Elegant Knox-Henderson brasserie with a red-banquette dining room and Michelin-noted cooking.",
+  "img_src": "georgiedallas.com"
+ },
+ "Al Biernat's": {
+  "images": [
+   "https://resizer.otstatic.com/v4/photos/47879884-3?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/66293238-2?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/75871748-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/88571919-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/47879884-3?width=640&height=640",
+   "https://resizer.otstatic.com/v4/photos/47879884-3?width=1280&height=720&format=avif",
+   "https://resizer.otstatic.com/v4/photos/66293238-2?width=320&height=180?width=320&height=180&format=avif",
+   "https://resizer.otstatic.com/v4/photos/75871748-1?width=320&height=320?width=320&height=320&format=avif"
+  ],
+  "website": "https://www.albiernats.com/locations/oak-lawn/",
+  "menu": "https://www.albiernats.com/wp-content/uploads/2026/10/Dinner-Menu-10-1.pdf",
+  "cuisine": "Steakhouse",
+  "blurb": "Classic Oak Lawn steakhouse known for prime steaks, polished service and a power-dinner crowd.",
+  "img_src": "OpenTable"
+ },
+ "il Bracco": {
+  "images": [
+   "https://resizer.otstatic.com/v4/photos/68716984-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/68640635-2?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/68879197-2?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/68716988-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/68879197-2?width=640&height=640",
+   "https://resizer.otstatic.com/v4/photos/68879197-2?width=1280&height=720&format=avif",
+   "https://resizer.otstatic.com/v4/photos/68879197-2?width=752&height=752&format=avif",
+   "https://resizer.otstatic.com/v4/photos/68716984-1?width=752&height=752&format=avif"
+  ],
+  "website": "https://www.ilbraccorestaurant.com/location/park-cities/",
+  "menu": "https://media-cdn.getbento.com/accounts/a83d752229a2a4242bc8f621df6487c4/media/kxfFPMHsSyGHr0XI5BcM_iB1%20Menu%2010.1.26%20copy.pdf",
+  "cuisine": "Italian",
+  "blurb": "Warm Park Cities Italian spot with handmade pasta and a busy patio.",
+  "img_src": "OpenTable"
+ },
+ "El Molino": {
+  "images": [
+   "https://resizer.otstatic.com/v4/photos/85745042-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/85744742-10?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/85375631-2?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/85744939-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/85744742-10?width=640&height=640",
+   "https://resizer.otstatic.com/v4/photos/85744742-10?width=1280&height=720&format=avif",
+   "https://resizer.otstatic.com/v4/photos/85744742-10?width=752&height=752&format=avif",
+   "https://resizer.otstatic.com/v4/photos/85745042-1?width=752&height=752&format=avif"
+  ],
+  "website": "https://www.elmolinofajitas.com/",
+  "menu": "https://www.elmolinofajitas.com/menus/",
+  "cuisine": "Tex-Mex",
+  "blurb": "Moody, red-lit Tex-Mex bistro centered on sizzling fajitas and margaritas.",
+  "img_src": "OpenTable"
+ },
+ "Quarter Acre": {
+  "images": [
+   "https://resizer.otstatic.com/v4/photos/77421127-3?width=640&height=640",
+   "https://resizer.otstatic.com/v4/photos/77421127-3?width=1280&height=720&format=avif",
+   "https://resizer.otstatic.com/v4/photos/69589319-3?width=160&height=160&format=avif",
+   "https://resizer.otstatic.com/v4/photos/98799794-1?width=160&height=160&format=avif"
+  ],
+  "website": "https://www.quarteracrerestaurant.com/",
+  "menu": "https://www.quarteracrerestaurant.com/food",
+  "cuisine": "Modern global",
+  "blurb": "Chef Toby Archibald's Lower Greenville spot with New Zealand-inspired dishes and a tasting menu.",
+  "img_src": "OpenTable"
+ },
+ "Nobu Dallas": {
+  "images": [
+   "https://resizer.otstatic.com/v4/photos/23686406-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/80591469-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/79138059-2?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/98222926-1?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/23686406-1?width=640&height=640",
+   "https://resizer.otstatic.com/v4/photos/79138059-2?width=752&height=752&format=avif",
+   "https://resizer.otstatic.com/v4/photos/79138060-2?width=480&height=270&format=avif",
+   "https://resizer.otstatic.com/v4/photos/23686406-1?width=480&height=270&format=avif"
+  ],
+  "website": "https://noburestaurants.com/dallas/home",
+  "menu": "https://noburestaurants.com/dallas/menus-2/",
+  "cuisine": "Japanese",
+  "blurb": "Nobu's Dallas outpost for signature Japanese-Peruvian dishes, sushi and a sleek bar.",
+  "img_src": "OpenTable"
+ },
+ "MĀBO": {
+  "images": [
+   "https://resizer.otstatic.com/v4/photos/89998704-2?width=640&height=640",
+   "https://resizer.otstatic.com/v4/photos/89998704-2?width=1280&height=720&format=avif",
+   "https://resizer.otstatic.com/v4/photos/89998704-2?width=105&height=105",
+   "https://resizer.otstatic.com/v4/photos/98958915-1?width=752&height=752"
+  ],
+  "website": "",
+  "menu": "https://www.theinfatuation.com/dallas/reviews/mabo",
+  "cuisine": "Yakitori omakase",
+  "blurb": "Eight-seat yakitori omakase counter serving a seasonal skewer tasting menu.",
+  "img_src": "OpenTable"
+ },
+ "Sushi Kozy": {
+  "images": [
+   "https://assets.zyrosite.com/m7Vk6MKlvWtbnN4a/kakaotalk_20250726_093524660-dJobDyJElwInwODX.jpg",
+   "https://resizer.otstatic.com/v4/photos/98515038-2?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/98515038-2?width=640&height=640",
+   "https://resizer.otstatic.com/v4/photos/98515038-2?width=1280&height=720&format=avif",
+   "https://resizer.otstatic.com/v4/photos/98515038-2?width=105&height=105",
+   "https://resizer.otstatic.com/v4/photos/92248854-1?width=105&height=105"
+  ],
+  "website": "https://sushikozy.com/",
+  "menu": "https://sushikozy.com/menu",
+  "cuisine": "Sushi omakase",
+  "blurb": "Kaiseki-inspired downtown omakase counter with a seasonal multi-course menu.",
+  "img_src": "sushikozy.com"
+ },
+ "Mot Hai Ba": {
+  "images": [
+   "https://popmenucloud.com/cdn-cgi/image/width%3D1600%2Cheight%3D1600%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D70/mhcvpnew/ddd4ded8-5889-49a4-ae58-f0f9dde68450.jpg",
+   "https://popmenucloud.com/cdn-cgi/image/width%3D1600%2Cheight%3D1600%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D70/mhcvpnew/6e1a50ef-f92e-4340-8ccb-bc8fa1bc0b9a.jpg"
+  ],
+  "website": "https://www.mothaibadallas.com/",
+  "menu": "https://www.mothaibadallas.com/menu",
+  "cuisine": "Vietnamese",
+  "blurb": "Lakewood neighborhood bistro blending Vietnamese flavors with French technique.",
+  "img_src": "mothaibadallas.com"
+ },
+ "Purepecha and Revolver Taco Lounge": {
+  "images": [
+   "https://rtacolounge.wpenginepowered.com/wp-content/uploads/2018/08/purepecha-kitchen.jpg"
+  ],
+  "website": "https://revolvertacolounge.com/purepecha/",
+  "menu": null,
+  "cuisine": "Mexican",
+  "blurb": "Intimate Deep Ellum tasting room behind Revolver Taco Lounge serving Michoacán-style alta cocina.",
+  "img_src": "revolvertacolounge.com"
+ },
+ "Namo": {
+  "images": [
+   "https://static1.squarespace.com/static/6345d6b0ba087b15ba22ca4c/t/63475711571e015d3d5d1a46/1665619729814/DB5A7647.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/6345d6b0ba087b15ba22ca4c/3d75cf5d-fd6a-483c-8b05-5eb215451fc2/DB5A9078.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/6345d6b0ba087b15ba22ca4c/7a8113fe-2cf2-4a13-b6d7-26f55d577661/0K9A0739.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/6345d6b0ba087b15ba22ca4c/4d4fbf76-8ab6-4a0c-8bc1-2a40268ee82f/0K9A1685.jpg?format=1500w"
+  ],
+  "website": "https://www.namosushi.com/",
+  "menu": "https://www.namosushi.com/s/217-NEW-w9ex.pdf",
+  "cuisine": "Japanese",
+  "blurb": "Uptown sushi and handroll spot with a busy counter, crudo plates and a sake-heavy drinks list.",
+  "img_src": "namosushi.com"
+ },
+ "Nick & Sam's": {
+  "images": [
+   "https://resizer.otstatic.com/v4/photos/66270250-3?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/71518401-2?width=1280&height=720&format=jpg",
+   "https://resizer.otstatic.com/v4/photos/66270250-3?width=640&height=640",
+   "https://resizer.otstatic.com/v4/photos/66270250-3?width=1280&height=720&format=avif",
+   "https://resizer.otstatic.com/v4/photos/71518401-2?width=160&height=160&format=avif",
+   "https://resizer.otstatic.com/v4/photos/26246009-1?width=160&height=160"
+  ],
+  "website": "https://nick-sams.com/",
+  "menu": "https://nick-sams.com/food-menu",
+  "cuisine": "Steakhouse",
+  "blurb": "Glitzy Uptown steakhouse with a grand piano, prime cuts and a celebratory crowd.",
+  "img_src": "OpenTable"
+ },
+ "Yujo": {
+  "images": [
+   "https://yujomakase.com/images/w-yujo-sub-loc.png",
+   "https://yujomakase.com/images/new4dallas.png",
+   "https://yujomakase.com/images/w-yujo-sub-tunashow_rectangle-239.png",
+   "https://yujomakase.com/images/w-yujo-sub-loc_rectangle-253_2.png"
+  ],
+  "website": "https://yujomakase.com/dallas/",
+  "menu": null,
+  "cuisine": "Japanese omakase",
+  "blurb": "Dim, intimate omakase and sushi bar with an aged-fish focus and sake pairings.",
+  "img_src": "yujomakase.com"
+ },
+ "Bar Colette": {
+  "images": [
+   "https://cdn.sanity.io/images/4i1nkyjw/production/1429b6c0bdbea3335cb80956570509b095ff6b89-5603x3735.jpg?w=1600&auto=format",
+   "https://cdn.sanity.io/images/4i1nkyjw/production/9f89700f07e441367bc9d6ae61e47daa20a35704-3765x5648.jpg?w=1600&auto=format",
+   "https://cdn.sanity.io/images/4i1nkyjw/production/33462d030868d314729cf2af69c658dff32cd3d1-3715x5572.jpg?w=1600&auto=format",
+   "https://cdn.sanity.io/images/4i1nkyjw/production/c32ecb7bd020df0dcd227198453de3cb8c442dc1-2365x2956.jpg?w=1600&auto=format"
+  ],
+  "website": "https://www.barcolette.com/",
+  "menu": "https://drive.google.com/file/d/1aETRD26GAx3U-3GcSePR6uSzQGgZx2Y1/view",
+  "cuisine": "Cocktail bar",
+  "blurb": "Warm, low-lit cocktail bar with a glowing back bar, polished bartenders and a small food menu.",
+  "img_src": "barcolette.com"
+ },
+ "Clifton Club Bar & Lounge": {
+  "images": [
+   "https://cliftonclubdallas.com/wp-content/uploads/2025/09/CC_Home_Section2-1034x1536.jpg",
+   "https://cliftonclubdallas.com/wp-content/uploads/2025/09/CC_Home_Section5-768x1079.jpg",
+   "https://cliftonclubdallas.com/wp-content/uploads/2025/09/CC_Home_Section4_4-1123x1536.jpg",
+   "https://cliftonclubdallas.com/wp-content/uploads/2025/09/CC_Home_Section4_5-1113x1536.jpg"
+  ],
+  "website": "https://cliftonclubdallas.com/",
+  "menu": "https://cliftonclubdallas.com/menus/",
+  "cuisine": "Cocktail lounge",
+  "blurb": "Chic retro cocktail lounge near Highland Park with martinis, DJs and late-night bites.",
+  "img_src": "cliftonclubdallas.com"
+ },
+ "Tatsu Dallas": {
+  "images": [
+   "https://static.wixstatic.com/media/e3d1a9_879ee7d3128b4770baa27ca9cd6a882f~mv2.jpg/v1/fit/w_1600,h_1600,q_85/e3d1a9_879ee7d3128b4770baa27ca9cd6a882f.jpg",
+   "https://static.wixstatic.com/media/e3d1a9_6016ea5d905b4c34a8c4bb97ebd5fa4f~mv2.jpg/v1/fit/w_1600,h_1600,q_85/e3d1a9_6016ea5d905b4c34a8c4bb97ebd5fa4f.jpg",
+   "https://static.wixstatic.com/media/e3d1a9_6c18bcd0bd0c48bc80f96cfe33b8a784~mv2.jpg/v1/fit/w_1600,h_1600,q_85/e3d1a9_6c18bcd0bd0c48bc80f96cfe33b8a784.jpg",
+   "https://static.wixstatic.com/media/e3d1a9_b242425aeacf402e8dfcd50f99d3034e~mv2.jpg/v1/fit/w_1600,h_1600,q_85/e3d1a9_b242425aeacf402e8dfcd50f99d3034e.jpg"
+  ],
+  "website": "https://www.tatsu-dallas.com/",
+  "cuisine": "Japanese omakase",
+  "blurb": "Michelin-starred Edomae sushi counter tucked away in Deep Ellum.",
+  "img_src": "tatsu-dallas.com"
+ },
+ "Apothecary": {
+  "images": [
+   "https://images.squarespace-cdn.com/content/v1/661f7eebe9cd0d366b87c12c/696763e1-a403-40d7-bc4a-93431bac9c93/5P2A9967.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/661f7eebe9cd0d366b87c12c/1a7f45f2-e7ba-40aa-8912-4a80abb1750f/Cocktails+in+the+bar.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/661f7eebe9cd0d366b87c12c/be57fadb-d7cd-4760-b244-ac8bb437427a/8_4_23_APOTHECARY_SREYNOLDS-80.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/661f7eebe9cd0d366b87c12c/0bb229b8-bc0b-4059-a41a-c4f65536457f/10_13_26_APOTHECARY_SREYNOLDS-87.jpg?format=1500w"
+  ],
+  "website": "https://www.apothecary.bar/",
+  "menu": "https://www.apothecary.bar/menu",
+  "cuisine": "Cocktail bar",
+  "blurb": "Moody Lower Greenville cocktail lounge known for inventive, theatrical drinks and small plates.",
+  "img_src": "apothecary.bar"
+ },
+ "Marlowe Lounge": {
+  "images": [
+   "https://cdn.prod.website-files.com/6a232fbfb80e1cee8f8b2d35/6ab19ef3d945ce8846cbe0c8_1D8B5AB9-1AFE-4770-9A53-245F72275E3B.PNG",
+   "https://cdn.prod.website-files.com/6a232fbfb80e1cee8f8b2d35/6aea99787a16ba5c85cfab24_nav-events.webp",
+   "https://cdn.prod.website-files.com/6a232fbfb80e1cee8f8b2d35/6aea997862b86d9739414c34_nav-welcome.webp",
+   "https://cdn.prod.website-files.com/6a232fbfb80e1cee8f8b2d35/6aea99787a16ba5c85cfab3a_nav-menu-3.webp"
+  ],
+  "website": "https://marlowelounge.com/",
+  "menu": "https://marlowelounge.com/menu",
+  "cuisine": "Cocktail lounge",
+  "blurb": "Art-deco Uptown cocktail lounge with velvet booths, caviar bites and signature drinks.",
+  "img_src": "marlowelounge.com"
+ },
+ "Sushi by Scratch Restaurants: Dallas": {
+  "images": [
+   "https://static.wixstatic.com/media/3cac79_08a1e20da65c4deca6311df2ce95d2cd~mv2.jpeg/v1/fit/w_1600,h_1600,q_85/3cac79_08a1e20da65c4deca6311df2ce95d2cd.jpg",
+   "https://static.wixstatic.com/media/3cac79_c5e84369baa94b0ab2a8790d7f2b3ddc~mv2.jpg/v1/fit/w_1600",
+   "h_1600",
+   "q_85/3cac79_c5e84369baa94b0ab2a8790d7f2b3ddc.jpg"
+  ],
+  "website": "https://www.sushibyscratchrestaurants.com/dallas",
+  "cuisine": "Sushi omakase",
+  "blurb": "Chef Phillip Frankland Lee's playful omakase counter hidden inside The Adolphus Hotel.",
+  "img_src": "sushibyscratchrestaurants.com"
+ },
+ "Uchiba": {
+  "images": [
+   "https://uchiba.uchirestaurants.com/wp-content/uploads/2022/10/Uchiba-Dallas-Location-scaled.jpg",
+   "https://uchiba.uchirestaurants.com/wp-content/uploads/2022/10/Uchiba-Dallas-71-of-97-1536x1274.jpg",
+   "https://uchiba.uchirestaurants.com/wp-content/uploads/2022/10/Uchiba-Dallas-93-of-97-1-1024x683.jpg",
+   "https://uchiba.uchirestaurants.com/wp-content/uploads/2022/10/Uchiba-Dallas-20-of-97-1-1428x1536.jpg"
+  ],
+  "website": "https://uchiba.uchirestaurants.com/location/sushi-dallas/",
+  "menu": "https://uchiba.uchirestaurants.com/location/sushi-dallas/menu/",
+  "cuisine": "Japanese izakaya",
+  "blurb": "Uchi's izakaya-style sibling upstairs in Uptown: sushi, yakitori and a deep Japanese whisky list.",
+  "img_src": "uchiba.uchirestaurants.com"
+ },
+ "Uchi": {
+  "images": [
+   "https://uchi.uchirestaurants.com/wp-content/uploads/2022/10/image-176-e1668656315291.jpg",
+   "https://uchi.uchirestaurants.com/wp-content/uploads/2022/10/image-177-e1668667778337.jpg",
+   "https://uchi.uchirestaurants.com/wp-content/uploads/2022/10/image-151.jpg",
+   "https://uchi.uchirestaurants.com/wp-content/uploads/2022/10/Hot-Rock.jpg"
+  ],
+  "website": "https://uchi.uchirestaurants.com/location/sushi-dallas/",
+  "menu": "https://uchi.uchirestaurants.com/location/sushi-dallas/menu/",
+  "cuisine": "Japanese",
+  "blurb": "Tyson Cole's acclaimed modern Japanese spot in Uptown, known for creative sushi and tastings.",
+  "img_src": "uchi.uchirestaurants.com"
+ },
+ "Koryo Korean BBQ": {
+  "images": [
+   "https://images.squarespace-cdn.com/content/v1/60a42be35b5c3643c41f8c28/86705d40-3df4-4911-916b-5019571762c2/_thaninphoto_0194.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/60a42be35b5c3643c41f8c28/3dde32fa-3251-4343-9cb3-72b11fba870e/_thaninphoto_0276.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/60a42be35b5c3643c41f8c28/949ead83-32e6-4692-b0f5-d392bbc1e022/soondubu.jpg?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/60a42be35b5c3643c41f8c28/565a0dcc-8c6c-42b8-b4df-c434223a1bbd/_thaninphoto_0202.jpg?format=1500w"
+  ],
+  "website": "https://www.eatkoryo.com/",
+  "menu": "https://www.eatkoryo.com/our-menus",
+  "cuisine": "Korean BBQ",
+  "blurb": "Tabletop-grill Korean barbecue with premium cuts, banchan and hearty stews.",
+  "img_src": "eatkoryo.com"
+ },
+ "Bowen House": {
+  "images": [
+   "https://i-p.rmcdn.net/5ef661180ee781005f2c9b41/4685542/image-65a8716a-af5d-4f3e-8242-6b436e43012b.jpg?e=webp"
+  ],
+  "website": "https://www.bowenhousetx.com/",
+  "menu": "https://www.bowenhousetx.com/menus/",
+  "cuisine": "Cocktail bar",
+  "blurb": "Intimate cocktail bar in a restored 1890s Uptown house, with a small seasonal food menu.",
+  "img_src": "bowenhousetx.com"
+ },
+ "Kilmac's": {
+  "images": [],
+  "website": "https://www.kilmacsoakcliff.com/",
+  "menu": "https://www.kilmacsoakcliff.com/menu",
+  "cuisine": "Cocktail bar",
+  "blurb": "Dark, moody Bishop Arts cocktail bar with pizza and a big hill-country-style patio."
+ },
+ "Vintage Wine Bar": {
+  "images": [],
+  "website": "https://vintagewinebardallas.com/",
+  "cuisine": "Wine bar",
+  "blurb": "Boutique East Dallas wine bar doubling as a shoppable vintage home store."
+ },
+ "Triumphs Espresso & Whiskey": {
+  "images": [
+   "https://triumphsdallas.com/wp-content/uploads/2025/05/08-720x1024.jpg",
+   "https://triumphsdallas.com/wp-content/uploads/2025/05/09-720x1024.jpg",
+   "https://triumphsdallas.com/wp-content/uploads/2025/05/07-e1784219219869-747x1024.jpg",
+   "https://triumphsdallas.com/wp-content/uploads/2025/05/03-720x1024.jpg"
+  ],
+  "website": "https://triumphsdallas.com/",
+  "menu": "https://triumphsdallas.com/bar-menus",
+  "cuisine": "Whiskey & jazz bar",
+  "blurb": "Design District coffee-by-day, whiskey-by-night bar with live jazz.",
+  "img_src": "triumphsdallas.com"
+ },
+ "Mike's Gemini Twin Lounge": {
+  "images": [],
+  "website": "https://www.mikesgeminitwin.com/",
+  "cuisine": "Cocktail bar",
+  "blurb": "Retro Cedars lounge pouring cocktails and wagyu hot dogs until 2 AM."
+ },
+ "The Honor Bar": {
+  "images": [
+   "https://www.honorbar.com/images/locations/honorbar-060.jpg"
+  ],
+  "website": "https://www.honorbar.com/locations/dallas/",
+  "menu": "https://hillstonerestaurant.olo.com/menu/honor-bar-highland-park",
+  "cuisine": "American",
+  "blurb": "Hillstone's casual Highland Park Village spot for burgers, sandwiches, wine and a big patio.",
+  "img_src": "honorbar.com"
+ },
+ "Hillstone": {
+  "images": [
+   "https://hillstonerestaurant.com/images/locations/hillstone-013.jpg"
+  ],
+  "website": "https://hillstonerestaurant.com/locations/dallas-parkcities/",
+  "cuisine": "American",
+  "blurb": "Polished Park Cities American grill with cozy leather booths, beamed ceilings and a classic menu.",
+  "img_src": "hillstonerestaurant.com"
+ },
+ "The Mansion Bar": {
+  "images": [
+   "https://images.rosewoodhotels.com/is/image/rwhg/the-mansion-bar-edited-3?wid=1600"
+  ],
+  "website": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/dining/mansion-bar",
+  "menu": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/dining/mansion-bar/bar-menu",
+  "cuisine": "Hotel bar",
+  "blurb": "Clubby bar at Rosewood Mansion on Turtle Creek with classic cocktails, a deep wine list and live jazz.",
+  "img_src": "rosewoodhotels.com"
+ },
+ "Katy Trail Ice House": {
+  "images": [
+   "https://katyicehouse.com/assets/images/Home/Katy-Ice-House-Dallas-TX-2.jpg",
+   "https://katyicehouse.com/assets/images/Home/Katy-Ice-House-Dallas-TX-1.jpg",
+   "https://katyicehouse.com/assets/images/Home/Katy-Ice-House-Dallas-TX-3.jpg",
+   "https://katyicehouse.com/assets/images/About/About-1.jpg"
+  ],
+  "website": "https://katyicehouse.com/",
+  "menu": "https://katyicehouse.com/pages/Menu/Menu.html",
+  "cuisine": "Beer garden",
+  "blurb": "Sprawling, tree-shaded Uptown beer garden by the Katy Trail with Texas BBQ and frozen drinks.",
+  "img_src": "katyicehouse.com"
+ },
+ "SILO": {
+  "images": [],
+  "website": "https://silodallas.com/",
+  "cuisine": "Nightclub",
+  "blurb": "Electronic dance music nightclub in the Design District."
+ },
+ "Shoyo": {
+  "images": [
+   "https://cdn.prod.website-files.com/6058ff8f090f5773f816391d/60d293235ed0bc5c1602443a_fiF4fvyI-p-1600.jpeg",
+   "https://cdn.prod.website-files.com/6058ff8f090f5773f816391d/605902b8ed50611ff7be1912_home_photo.jpg"
+  ],
+  "website": "https://www.shoyodallas.com/",
+  "cuisine": "Japanese omakase",
+  "blurb": "Tiny, intimate omakase counter in Victory Park serving an inventive multi-course sushi tasting.",
+  "img_src": "shoyodallas.com"
+ },
+ "Lounge Here": {
+  "images": [
+   "https://theloungehere.com/pluto-images/a9ff8762-8d1e-4e9c-bac4-b0318975dfe9",
+   "https://theloungehere.com/pluto-images/73a094d1-97da-48c4-a63f-19ccb66e7b98",
+   "https://theloungehere.com/pluto-images/d8e473c9-ad19-46af-ae30-e3aff11590c5"
+  ],
+  "website": "https://theloungehere.com/",
+  "menu": "https://theloungehere.com/menu",
+  "cuisine": "Cocktail lounge",
+  "blurb": "Retro-cool Forest Hills lounge with tufted booths, craft cocktails and comfort-food bites.",
+  "img_src": "theloungehere.com"
+ }
+}

@@ -1,0 +1,4 @@
+# Resy + SevenRooms need only the Python 3.11+ standard library.
+# OpenTable + Tock need Playwright (it drives a headless Chrome over CDP; the installed
+# Google Chrome is used, so `playwright install` is not required on a Mac with Chrome).
+playwright==1.64.1

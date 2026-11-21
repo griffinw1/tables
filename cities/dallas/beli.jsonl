@@ -1,0 +1,57 @@
+{"name": "Shoyo", "avg": 9.3, "ratings": 567, "dishes": [], "beli_type": null, "note": "previously known"}
+{"name": "Bar Colette", "avg": 8.5, "ratings": 830, "dishes": [], "beli_type": null, "note": "previously known"}
+{"name": "Uchi", "avg": 9.0, "ratings": 8000, "dishes": [{"dish": "Fried milk", "count": 271}, {"dish": "Hama chili", "count": 208}, {"dish": "Gyutoro", "count": 84}, {"dish": "Kinoko nabe", "count": 51}, {"dish": "Walu walu", "count": 50}], "beli_type": "Izakaya, Japanese, Sushi", "note": "Beli shows 8k ratings (rounded)"}
+{"name": "Mamani", "avg": 9.0, "ratings": 1000, "dishes": [{"dish": "Agnolotti", "count": 102}, {"dish": "Croquettes", "count": 69}, {"dish": "Veal cordon bleu", "count": 66}, {"dish": "Paris-brest", "count": 59}, {"dish": "Whole duck", "count": 55}], "beli_type": "French, Bistro, Italian", "note": "Beli shows 1k ratings (rounded)"}
+{"name": "Lucia", "avg": 8.9, "ratings": 2000, "dishes": [{"dish": "Sourdough", "count": 30}, {"dish": "Chef's choice salumi", "count": 22}, {"dish": "Sourdough with cu... (truncated)", "count": 22}, {"dish": "Risotto", "count": 15}, {"dish": "Foie gras stuffed p... (truncated)", "count": 8}], "beli_type": "Italian", "note": "Beli shows 2k ratings (rounded)"}
+{"name": "Mister Charles", "avg": 9.0, "ratings": 3000, "dishes": [{"dish": "Beef wellington", "count": 133}], "beli_type": "French, Italian", "note": "ratings rounded"}
+{"name": "Naminohana", "avg": 9.0, "ratings": 1000, "dishes": [{"dish": "Salmon belly", "count": 77}, {"dish": "Spicy salmon", "count": 51}], "beli_type": "Sushi, Japanese", "note": "ratings rounded"}
+{"name": "St. Martin's Wine Bistro", "avg": 8.9, "ratings": 843, "dishes": [{"dish": "Champagne brie soup", "count": 56}, {"dish": "Escargot", "count": 44}], "beli_type": "French", "note": null}
+{"name": "Norman's Japanese Grill", "avg": 8.8, "ratings": 3000, "dishes": [{"dish": "Udon carbonara", "count": 288}], "beli_type": "Japanese, Grill", "note": "ratings rounded"}
+{"name": "Stillwell's", "avg": 8.8, "ratings": 714, "dishes": [{"dish": "Beef dumplings", "count": 62}], "beli_type": "Steakhouse", "note": null}
+{"name": "Nuri Steakhouse", "avg": 8.8, "ratings": 1000, "dishes": [{"dish": "Wagyu dumplings", "count": 69}, {"dish": "Kimchi fried rice", "count": 32}], "beli_type": "Steakhouse, Korean", "note": "ratings rounded"}
+{"name": "El Carlos Elegante", "avg": 8.7, "ratings": 2000, "dishes": [{"dish": "El machete", "count": 171}], "beli_type": "Mexican", "note": "ratings rounded"}
+{"name": "Town Hearth", "avg": 8.7, "ratings": 2000, "dishes": [{"dish": "Steak", "count": 53}], "beli_type": "American, Steakhouse", "note": "ratings rounded"}
+{"name": "Bar Sardine", "avg": 8.6, "ratings": 2000, "dishes": [{"dish": "Cheeseburger", "count": 154}], "beli_type": "French", "note": "ratings rounded"}
+{"name": "Jack & Harry's", "avg": 8.7, "ratings": 2000, "dishes": [{"dish": "Steak frites", "count": 116}], "beli_type": "French, Seafood, Cajun", "note": "ratings rounded"}
+{"name": "Nonna Restaurant", "avg": 8.6, "ratings": 1000, "dishes": [{"dish": "Lobster ravioli", "count": 32}], "beli_type": "Italian", "note": "ratings rounded"}
+{"name": "Bowen House", "avg": 8.6, "ratings": 4000, "dishes": [{"dish": "Cheeseburger", "count": 131}, {"dish": "Fried brie", "count": 68}], "beli_type": "Cocktail Bar, Meat, American", "note": "ratings rounded"}
+{"name": "Fachini", "avg": 8.5, "ratings": 3000, "dishes": [{"dish": "Rigatoni alla vodka", "count": 117}, {"dish": "100 layer lasagna", "count": 74}], "beli_type": "Italian", "note": "ratings rounded"}
+{"name": "Georgie", "avg": 8.5, "ratings": 1000, "dishes": [{"dish": "Agnolotti", "count": 19}], "beli_type": "American, Steakhouse", "note": "ratings rounded"}
+{"name": "Al Biernat's", "avg": 8.5, "ratings": 4000, "dishes": [{"dish": "Filet mignon", "count": 105}, {"dish": "Mac and cheese", "count": 44}], "beli_type": "Seafood, Steakhouse", "note": "ratings rounded"}
+{"name": "il Bracco", "avg": 8.5, "ratings": 5000, "dishes": [{"dish": "Spicy gemelli", "count": 422}, {"dish": "Focaccia", "count": 260}], "beli_type": "Italian", "note": "ratings rounded"}
+{"name": "El Molino", "avg": 8.4, "ratings": 1000, "dishes": [{"dish": "Filet mignon fajitas", "count": 81}, {"dish": "Flaming fries", "count": 72}], "beli_type": "Mexican, Tex-Mex", "note": "ratings rounded; Snider Plaza location"}
+{"name": "The Honor Bar", "avg": 8.5, "ratings": 5000, "dishes": [{"dish": "Chicken sandwich", "count": 224}, {"dish": "Fries", "count": 128}], "beli_type": "American", "note": "ratings rounded"}
+{"name": "Hillstone", "avg": 8.5, "ratings": 3000, "dishes": [{"dish": "Spinach artichoke dip", "count": 169}, {"dish": "French dip", "count": 85}], "beli_type": "American", "note": "ratings rounded"}
+{"name": "Quarter Acre", "avg": 8.4, "ratings": 519, "dishes": [{"dish": "Salmon", "count": 13}], "beli_type": "New Zealand", "note": null}
+{"name": "Las Palmas Tex-Mex", "avg": 8.4, "ratings": 10000, "dishes": [{"dish": "Wagyu fajitas", "count": 540}, {"dish": "Queso", "count": 275}], "beli_type": "Tex-Mex", "note": "ratings rounded"}
+{"name": "Tatsu Dallas", "avg": 9.4, "ratings": 534, "dishes": [{"dish": "Toro", "count": 27}, {"dish": "Unagi", "count": 14}], "beli_type": "Japanese, Omakase, Sushi", "note": null}
+{"name": "Sushi by Scratch Restaurants: Dallas", "avg": 9.5, "ratings": 286, "dishes": [], "beli_type": "Omakase, Sushi", "note": null}
+{"name": "Sushi Bar Dallas", "avg": 9.3, "ratings": 307, "dishes": [{"dish": "Unagi", "count": null}, {"dish": "Otoro", "count": null}], "beli_type": "Omakase, Sushi", "note": null}
+{"name": "Casa Brasa", "avg": 8.5, "ratings": 748, "dishes": [], "beli_type": "Mexican, Steakhouse, Sushi", "note": null}
+{"name": "Nobu Dallas", "avg": 8.1, "ratings": 3000, "dishes": [], "beli_type": "Japanese, Sushi", "note": "ratings shown as 3k"}
+{"name": "MĀBO", "avg": 9.1, "ratings": 88, "dishes": [], "beli_type": "Japanese, Yakitori", "note": null}
+{"name": "Sushi Kozy", "avg": 9.5, "ratings": 304, "dishes": [], "beli_type": "Omakase, Japanese, Sushi", "note": null}
+{"name": "Carbone Dallas", "avg": 8.3, "ratings": 6000, "dishes": [{"dish": "Spicy Rigatoni Vodka", "count": null}], "beli_type": "Italian", "note": "ratings shown as 6k"}
+{"name": "Mot Hai Ba", "avg": 9.2, "ratings": 2000, "dishes": [], "beli_type": "Vietnamese, French", "note": "ratings shown as 2k"}
+{"name": "Olōyō", "avg": 8.9, "ratings": 86, "dishes": [], "beli_type": "Mexican", "note": null}
+{"name": "Purepecha and Revolver Taco Lounge", "avg": 7.7, "ratings": 291, "dishes": [], "beli_type": "Mexican", "note": "Beli listing = Revolver Taco Lounge (Old East Dallas); Purepecha tasting room has no separate listing"}
+{"name": "Tango Room", "avg": 8.8, "ratings": 381, "dishes": [], "beli_type": "Steakhouse", "note": null}
+{"name": "Lions Den", "avg": 9.0, "ratings": 180, "dishes": [], "beli_type": "Italian, Seafood", "note": null}
+{"name": "Uchiba", "avg": 8.9, "ratings": 4000, "dishes": [], "beli_type": "Japanese, Sushi", "note": "ratings shown as 4k"}
+{"name": "Otaru Sushi & Handroll Bar", "avg": 8.8, "ratings": 404, "dishes": [{"dish": "Salmon truffle ponzu", "count": 17}], "beli_type": "Sushi, Japanese", "note": null}
+{"name": "Namo", "avg": 8.8, "ratings": 2000, "dishes": [], "beli_type": "Sushi, Japanese", "note": "ratings shown as 2k"}
+{"name": "Koryo Korean BBQ", "avg": 8.7, "ratings": 704, "dishes": [], "beli_type": "Barbecue, Korean", "note": null}
+{"name": "Nick & Sam's", "avg": 8.1, "ratings": 5000, "dishes": [], "beli_type": "Steakhouse", "note": "ratings shown as 5k"}
+{"name": "Yujo", "avg": 8.7, "ratings": 359, "dishes": [], "beli_type": "Japanese, Sushi", "note": null}
+{"name": "Vintage Wine Bar", "avg": 8.6, "ratings": 30, "dishes": [{"dish": "Charcuterie board", "count": 3}], "beli_type": "Wine Bar", "note": null}
+{"name": "Ayahuasca Cantina", "avg": 8.5, "ratings": 148, "dishes": [{"dish": "Churro", "count": 6}, {"dish": "Machete", "count": 4}], "beli_type": "Mexican, Bar", "note": null}
+{"name": "Kilmac's", "avg": 8.2, "ratings": 45, "dishes": [{"dish": "Drunken pepperoni", "count": 4}], "beli_type": "African, Arepas, Georgian", "note": null}
+{"name": "Marlowe Lounge", "avg": 8.7, "ratings": 63, "dishes": [{"dish": "Stacy's mom", "count": 6}], "beli_type": "Cocktail Bar", "note": null}
+{"name": "Triumphs Espresso & Whiskey", "avg": 8.2, "ratings": 439, "dishes": [{"dish": "Tiramisu", "count": 5}, {"dish": "Espresso", "count": 5}], "beli_type": "Coffee Shop, Bar", "note": null}
+{"name": "Mike's Gemini Twin Lounge", "avg": 8.5, "ratings": 200, "dishes": [{"dish": "Hot dog", "count": 15}, {"dish": "Dirty martini", "count": 6}], "beli_type": "American, Bar", "note": null}
+{"name": "The Mansion Bar", "avg": 8.6, "ratings": 271, "dishes": [], "beli_type": "Bar", "note": null}
+{"name": "Apothecary", "avg": 8.3, "ratings": 1000, "dishes": [{"dish": "Soft serve margarita", "count": 48}, {"dish": "Truffle fries", "count": 23}], "beli_type": "Cocktail Bar", "note": "ratings shown as 1k"}
+{"name": "Katy Trail Ice House", "avg": 7.4, "ratings": 9000, "dishes": [{"dish": "Summer beer", "count": 281}, {"dish": "Cheese fries", "count": 135}], "beli_type": "Barbecue, Southern", "note": "ratings shown as 9k"}
+{"name": "Lounge Here", "avg": 8.0, "ratings": 209, "dishes": [{"dish": "Deviled eggs", "count": 8}], "beli_type": "American", "note": null}
+{"name": "SILO", "avg": 8.4, "ratings": 108, "dishes": [], "beli_type": "Venue", "note": null}
+{"name": "Clifton Club Bar & Lounge", "avg": 8.2, "ratings": 845, "dishes": [], "beli_type": "Bar, Bar Food, American", "note": null}
