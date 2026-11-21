@@ -142,7 +142,7 @@ function card(v, rank) {
   const vmeta = [vb.price ? `<span><b>${esc(vb.price)}</b></span>` : '', vb.crowd ? `<span>${esc(vb.crowd)} crowd</span>` : '', vb.energy ? `<span>${esc(vb.energy)}</span>` : ''].join('');
   const vtags = (vb.tags || []).filter(x => !/crowd$/i.test(x)).slice(0, 4).map(x => `<span class="vtag">${esc(x)}</span>`).join('');
   const dl = (v.dishes || []).filter(x => x.dish || x.name).slice(0, 3), dmax = Math.max(1, ...dl.map(x => x.count || 0));
-  const dishes = dl.map((x, i) => `<div class="od${i === 0 && x.count ? ' top' : ''}" style="--w:${x.count ? Math.round(100 * x.count / dmax) : 0}%"><span>${esc(x.dish || x.name)}</span>${x.count ? `<i>${x.count} recs</i>` : ''}</div>`).join('');
+  const dishes = dl.map((x, i) => `<div class="od${i === 0 && x.count ? ' first' : ''}" style="--w:${x.count ? Math.round(100 * x.count / dmax) : 0}%"><span>${esc(x.dish || x.name)}</span>${x.count ? `<i>${x.count} recs</i>` : ''}</div>`).join('');
   const el = document.createElement('article');
   el.className = 'card' + (v.closed ? ' closed' : '') + (v.kind === 'coffee' ? ' coffee' : '');
   el.dataset.name = v.name;

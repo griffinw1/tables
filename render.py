@@ -385,7 +385,7 @@ background:var(--paper);cursor:pointer;font:inherit;color:inherit;text-align:lef
 .od::before{content:"";position:absolute;inset:0 auto 0 0;width:var(--w);background:color-mix(in srgb,var(--gold) 20%,transparent)}
 .od span{position:relative;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:500}
 .od i{position:relative;font-style:normal;font-variant-numeric:tabular-nums;color:var(--soft);font-size:12px}
-.od.top span::after{content:"Most ordered";margin-left:8px;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#fff;
+.od.first span::after{content:"Most ordered";margin-left:8px;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#fff;
 background:var(--gold);border-radius:999px;padding:2px 7px;vertical-align:1px}
 .known{margin:0;font-size:13.5px;color:var(--ink)}.known b{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--city);margin-right:6px}
 
