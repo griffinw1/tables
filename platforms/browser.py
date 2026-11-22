@@ -103,7 +103,7 @@ def headless_chrome(profile: Path | None = None):
             profile = DEFAULT_PROFILE
         profile.mkdir(parents=True, exist_ok=True)
         # A headless Chrome left over from a killed run keeps the profile locked; clear it first.
-        subprocess.run(["pkill", "-f", f"--headless=new.*--user-data-dir={profile}"], check=False)
+        subprocess.run(["pkill", "-f", f"headless=new.*user-data-dir={profile}"], check=False)
         port = _free_port()
         ua_os = "Macintosh; Intel Mac OS X 10_15_7" if os.uname().sysname == "Darwin" else "X11; Linux x86_64"
         args = [binary, "--headless=new", f"--remote-debugging-port={port}",
