@@ -1,0 +1,403 @@
+[
+ {
+  "name": "Gracenote Coffee",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Leather District",
+  "website": "https://gracenotecoffee.com/",
+  "hours": {
+   "mon": "7:00-16:00",
+   "tue": "7:00-16:00",
+   "wed": "7:00-16:00",
+   "thu": "7:00-16:00",
+   "fri": "7:00-16:00",
+   "sat": "9:00-15:00",
+   "sun": "9:00-15:00"
+  },
+  "known_for": "Miso caramel latte and espresso at a tiny Lincoln St bar with a listening room",
+  "press_rank": 1,
+  "source_count": 7,
+  "photos": [
+   "https://gracenotecoffee.com/cdn/shop/files/IMG_6871.jpg?v=1739154995&width=1500",
+   "https://gracenotecoffee.com/cdn/shop/files/image-about-us.jpg?v=1738864026&width=1500",
+   "https://gracenotecoffee.com/cdn/shop/files/0X9A9992.jpg?v=1739241925&width=1500"
+  ],
+  "beli_search": "Gracenote Coffee Boston"
+ },
+ {
+  "name": "George Howell Coffee",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Downtown Crossing",
+  "website": "https://georgehowellcoffee.com/",
+  "instagram": "https://www.instagram.com/ghowellcoffee/",
+  "hours": {
+   "mon": "6:30-18:30",
+   "tue": "6:30-18:30",
+   "wed": "6:30-18:30",
+   "thu": "6:30-18:30",
+   "fri": "6:30-18:30",
+   "sat": "7:00-18:30",
+   "sun": "7:00-18:30"
+  },
+  "known_for": "The Original frozen coffee drink and rotating single-origin pour-overs",
+  "press_rank": 2,
+  "source_count": 7,
+  "photos": [
+   "https://georgehowellcoffee.com/cdn/shop/files/6_0fa1aeb5-0a1d-4039-b570-a7da4c6e3726.jpg?v=1664557776&width=1200",
+   "https://georgehowellcoffee.com/cdn/shop/files/82-DSC01335.jpg?v=1781297903&width=1200",
+   "https://georgehowellcoffee.com/cdn/shop/files/edited2Godfrey_exerior.png?v=1665502631&width=1200",
+   "https://georgehowellcoffee.com/cdn/shop/files/38-DSC01079_resized_05970a9a-19e1-4047-8d03-25582b432f0b.jpg?v=1783698417&width=1200"
+  ],
+  "beli_search": "George Howell Coffee Godfrey Boston"
+ },
+ {
+  "name": "Pavement Coffeehouse",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Back Bay",
+  "website": "https://pavementcoffeehouse.com/",
+  "instagram": "https://www.instagram.com/pavementcoffee/",
+  "hours": {
+   "mon": "7:00-18:00",
+   "tue": "7:00-18:00",
+   "wed": "7:00-18:00",
+   "thu": "7:00-18:00",
+   "fri": "7:00-18:00",
+   "sat": "7:00-18:00",
+   "sun": "7:00-18:00"
+  },
+  "known_for": "Iced Maple Death Cream and house-made bagels",
+  "press_rank": 3,
+  "source_count": 6,
+  "photos": [
+   "https://pavementcoffeehouse.com/cdn/shop/files/newbury_2048x2048.jpg?v=1653020934",
+   "https://pavementcoffeehouse.com/cdn/shop/files/1_6342e3f0-117a-4a36-a5b2-c6e8bc149d96_2048x2048.jpg?v=1727315377",
+   "https://pavementcoffeehouse.com/cdn/shop/files/Pavement_HomePage_bagels2_f071225e-a58c-4453-8f8d-5bc3549c8d2e_2048x2048.jpg?v=1727315231"
+  ],
+  "beli_search": "Pavement Coffeehouse Newbury Boston"
+ },
+ {
+  "name": "Ogawa Coffee",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Downtown Crossing",
+  "website": "https://www.ogawacoffeeusa.com/",
+  "known_for": "Kyoto-roasted espresso with latte art; spicy dark hot chocolate",
+  "press_rank": 4,
+  "source_count": 5,
+  "photos": [],
+  "beli_search": "Ogawa Coffee Boston"
+ },
+ {
+  "name": "Broadsheet Coffee Roasters",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Cambridge",
+  "website": "https://broadsheetcoffee.com/",
+  "instagram": "https://www.instagram.com/broadsheetcoffee/",
+  "hours": {
+   "mon": "7:30-16:00",
+   "tue": "7:30-16:00",
+   "wed": "7:30-16:00",
+   "thu": "7:30-16:00",
+   "fri": "7:30-16:00",
+   "sat": "8:00-16:00",
+   "sun": "8:00-16:00"
+  },
+  "known_for": "House-roasted pour-overs and pastries baked in-house near Harvard Yard",
+  "press_rank": 5,
+  "source_count": 5,
+  "photos": [
+   "https://broadsheetcoffee.com/cdn/shop/files/Drew_Katz_Graffito_DEK06941.jpg?v=1731435286&width=1500",
+   "https://broadsheetcoffee.com/cdn/shop/files/Drew_Katz_Graffito_DEK06946.jpg?v=1731435340&width=1500",
+   "https://broadsheetcoffee.com/cdn/shop/files/Drew_Katz_Graffito_DEK05477.jpg?v=1731435358&width=1500",
+   "https://broadsheetcoffee.com/cdn/shop/files/Drew_Katz_Graffito_DEK05444.jpg?v=1731513600&width=1500"
+  ],
+  "beli_search": "Broadsheet Coffee Cambridge"
+ },
+ {
+  "name": "Thinking Cup",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Boston Common",
+  "website": "https://thinkingcup.info/",
+  "instagram": "https://www.instagram.com/thinkingcup/",
+  "hours": {
+   "mon": "7:00-19:00",
+   "tue": "7:00-19:00",
+   "wed": "7:00-19:00",
+   "thu": "7:00-19:00",
+   "fri": "7:00-19:00",
+   "sat": "7:00-19:00",
+   "sun": "7:00-19:00"
+  },
+  "known_for": "Mocha with house-made chocolate sauce on Stumptown espresso",
+  "press_rank": 6,
+  "source_count": 5,
+  "photos": [
+   "https://thinkingcup.info/assets/images/TC-1.jpg",
+   "https://thinkingcup.info/assets/images/TC-2.jpg",
+   "https://thinkingcup.info/assets/images/main-thinking-cup.jpg"
+  ],
+  "beli_search": "Thinking Cup Tremont Boston"
+ },
+ {
+  "name": "Madhouse Cafe",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Roxbury",
+  "website": "https://madhousecafe.com/",
+  "instagram": "https://www.instagram.com/madhouse.cafe/",
+  "hours": {
+   "mon": "closed",
+   "tue": "8:00-16:00",
+   "wed": "8:00-16:00",
+   "thu": "8:00-16:00",
+   "fri": "8:00-16:00",
+   "sat": "8:00-16:00",
+   "sun": "8:00-16:00"
+  },
+  "known_for": "Sweet tahini latte and Lebanese hand pies beside a motorcycle garage",
+  "press_rank": 7,
+  "source_count": 5,
+  "photos": [
+   "https://images.squarespace-cdn.com/content/v1/632b8a3644ac9a252056f027/e1345bc7-46fa-4dce-b6db-ffdbdb8ac8ad/img_2909-hdr.JPG?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/632b8a3644ac9a252056f027/e2efdb92-d192-4ea3-afda-a005b36127f2/21BB91EE-F546-4FBC-8A61-A640567F2E09.JPG?format=1500w",
+   "https://images.squarespace-cdn.com/content/v1/632b8a3644ac9a252056f027/bc4a716f-51c9-4ce0-9282-df8eb30d812a/IMG_6381.JPG?format=1500w"
+  ],
+  "beli_search": "Madhouse Cafe Boston"
+ },
+ {
+  "name": "1369 Coffee House",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Inman Square",
+  "website": "https://www.1369coffeehouse.com/",
+  "hours": {
+   "mon": "7:00-15:00",
+   "tue": "7:00-15:00",
+   "wed": "7:00-15:00",
+   "thu": "7:00-15:00",
+   "fri": "7:00-15:00",
+   "sat": "8:00-16:00",
+   "sun": "8:00-16:00"
+  },
+  "known_for": "Frozen mocha slide and house-made chai",
+  "press_rank": 8,
+  "source_count": 4,
+  "photos": [],
+  "beli_search": "1369 Coffee House Cambridge"
+ },
+ {
+  "name": "barismo 364",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Mid-Cambridge",
+  "website": "https://www.barismo.com/",
+  "instagram": "https://www.instagram.com/barismocoffee/",
+  "known_for": "Draft latte, nitro cold brew and a cold brew flight",
+  "press_rank": 9,
+  "source_count": 4,
+  "photos": [
+   "https://images.squarespace-cdn.com/content/v1/5669c0b8d82d5ea7c96ae03f/1449776966717-WG9QDFMFVD8PYRBES2TE/image-asset.jpeg?format=1500w"
+  ],
+  "beli_search": "Barismo 364 Cambridge"
+ },
+ {
+  "name": "3 Little Figs",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Somerville",
+  "website": "https://www.3littlefigs.com/",
+  "hours": {
+   "mon": "8:00-14:00",
+   "tue": "8:00-14:00",
+   "wed": "8:00-14:00",
+   "thu": "8:00-14:00",
+   "fri": "8:00-14:00",
+   "sat": "8:00-14:00",
+   "sun": "8:00-14:00"
+  },
+  "known_for": "Spinach pie and baked goods with rotating guest roasters",
+  "press_rank": 10,
+  "source_count": 4,
+  "photos": [
+   "https://static.wixstatic.com/media/df78f9_212a0a945ce04b32b78beb47fad1b49a~mv2.jpg",
+   "https://static.wixstatic.com/media/df78f9_66d6129d5c58427a8b9ec5bb405a26ea~mv2.jpg"
+  ],
+  "beli_search": "3 Little Figs Somerville"
+ },
+ {
+  "name": "KoHi Coffee Company",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "South End",
+  "website": "https://www.kohicoffee.com/",
+  "instagram": "https://www.instagram.com/kohicoffeecompany/",
+  "hours": {
+   "mon": "7:00-16:00",
+   "tue": "7:00-16:00",
+   "wed": "7:00-16:00",
+   "thu": "7:00-16:00",
+   "fri": "7:00-16:00",
+   "sat": "8:00-16:00",
+   "sun": "8:00-16:00"
+  },
+  "known_for": "NoLa Cold Brew steeped with chicory",
+  "press_rank": 11,
+  "source_count": 3,
+  "photos": [
+   "https://images.squarespace-cdn.com/content/v1/69642a28ff6ab07c41accea3/b26cdf88-bfe1-4965-863a-f4ad438d6f91/IMG_6449.jpeg?format=1500w"
+  ],
+  "beli_search": "KoHi Coffee South End Boston"
+ },
+ {
+  "name": "Diesel Cafe",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Davis Square",
+  "website": "https://www.diesel-cafe.com/",
+  "instagram": "https://www.instagram.com/diesel_cafe/",
+  "hours": {
+   "mon": "7:00-19:00",
+   "tue": "7:00-19:00",
+   "wed": "7:00-19:00",
+   "thu": "7:00-19:00",
+   "fri": "7:00-19:00",
+   "sat": "7:00-19:00",
+   "sun": "7:00-19:00"
+  },
+  "known_for": "Vietnamese coffee with condensed milk; Tuck's Turtle hot cocoa",
+  "press_rank": 12,
+  "source_count": 3,
+  "photos": [
+   "https://cdn.prod.website-files.com/6a214e80791e8f6f8e0aa516/6a21f1aa8983624e7e8aa3e4_Header%20Image-p-1600.webp",
+   "https://cdn.prod.website-files.com/6a214e80791e8f6f8e0aa516/6a21f386d55e202947505b94_Image-p-1600.webp",
+   "https://cdn.prod.website-files.com/6a214e80791e8f6f8e0aa516/6a21f3862f559d7f80537443_Image-8-p-1600.webp"
+  ],
+  "beli_search": "Diesel Cafe Somerville"
+ },
+ {
+  "name": "Tradesman Coffee Shop & Lounge",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Financial District",
+  "website": "https://tradesmanboston.com/",
+  "hours": {
+   "mon": "7:00-17:00",
+   "tue": "7:00-17:00",
+   "wed": "7:00-17:00",
+   "thu": "7:00-17:00",
+   "fri": "7:00-17:00",
+   "sat": "7:00-17:00",
+   "sun": "7:00-17:00"
+  },
+  "known_for": "Over-the-top croissants with Barrington Coffee drip",
+  "press_rank": 13,
+  "source_count": 3,
+  "photos": [
+   "https://tradesmanboston.com/images/salted%20caramel%20latte-buttonu57244-fr_2x.jpg",
+   "https://tradesmanboston.com/images/croissants-buttonu11016-fr_2x.png",
+   "https://tradesmanboston.com/images/cocktails1_2x.jpg"
+  ],
+  "beli_search": "Tradesman Coffee Boston"
+ },
+ {
+  "name": "Phin Coffee House",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Financial District",
+  "website": "https://www.phincoffeehouse.com/",
+  "instagram": "https://www.instagram.com/phin.coffee.house/",
+  "hours": {
+   "mon": "7:00-17:00",
+   "tue": "7:00-17:00",
+   "wed": "7:00-17:00",
+   "thu": "7:00-17:00",
+   "fri": "7:00-17:00",
+   "sat": "9:00-17:00",
+   "sun": "closed"
+  },
+  "known_for": "Citrus espresso and cà phê phin Vietnamese drip coffee",
+  "press_rank": 14,
+  "source_count": 3,
+  "photos": [
+   "https://static.wixstatic.com/media/ca0b9a_0d140986e3bb45d7a7d11c2f4c67faa5~mv2.jpg",
+   "https://static.wixstatic.com/media/ca0b9a_6d2772a408584fd6a59e71e4b2baf499~mv2.jpg",
+   "https://static.wixstatic.com/media/ca0b9a_56d72835eece437f87550d2ae54c8cdf~mv2.jpg"
+  ],
+  "beli_search": "Phin Coffee House Boston"
+ },
+ {
+  "name": "Recreo Coffee & Roasterie",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "West Roxbury",
+  "website": "https://www.recreocoffee.com/",
+  "instagram": "https://www.instagram.com/elrecreocoffee/",
+  "hours": {
+   "mon": "7:00-16:00",
+   "tue": "7:00-16:00",
+   "wed": "7:00-16:00",
+   "thu": "7:00-16:00",
+   "fri": "7:00-16:00",
+   "sat": "8:00-16:00",
+   "sun": "8:00-16:00"
+  },
+  "known_for": "Coffee roasted in-house from the owners' family farm in Nicaragua",
+  "press_rank": 15,
+  "source_count": 3,
+  "photos": [
+   "https://static.wixstatic.com/media/18d952_68e5c7bf97634157a4aa4ead916aeda6~mv2.jpg",
+   "https://static.wixstatic.com/media/18d952_e81d10a2b2f9448f832633a8bccf2234~mv2.jpg"
+  ],
+  "beli_search": "Recreo Coffee West Roxbury"
+ },
+ {
+  "name": "Jaho Coffee Roaster & Wine Bar",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "South End",
+  "website": "https://www.jaho.com/",
+  "instagram": "https://www.instagram.com/jahocoffee/",
+  "known_for": "House-roasted espresso by day, espresso martinis at night",
+  "press_rank": 16,
+  "source_count": 3,
+  "photos": [],
+  "beli_search": "Jaho Coffee South End Boston"
+ },
+ {
+  "name": "Phinista Cafe",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "Fenway",
+  "website": "https://www.phinista.com/",
+  "known_for": "Saigon Buzz and phin-brewed Ca Phe Trung egg coffee",
+  "press_rank": 17,
+  "source_count": 2,
+  "photos": [],
+  "beli_search": "Phinista Cafe Boston"
+ },
+ {
+  "name": "Greystone Cafe, Bakery & Provisions",
+  "kind": "coffee",
+  "platform": "none",
+  "hood": "South End",
+  "website": "https://www.toasttab.com/local/order/greystone",
+  "hours": {
+   "mon": "7:00-16:00",
+   "tue": "7:00-16:00",
+   "wed": "7:00-16:00",
+   "thu": "7:00-16:00",
+   "fri": "7:00-16:00",
+   "sat": "7:00-16:00",
+   "sun": "7:00-16:00"
+  },
+  "known_for": "Black Tulip iced mint espresso and Mom's Famous Apple Cake",
+  "press_rank": 18,
+  "source_count": 2,
+  "photos": [],
+  "beli_search": "Greystone Cafe South End Boston"
+ }
+]

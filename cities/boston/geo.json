@@ -235,6 +235,96 @@
    "lat": 42.372935,
    "lng": -71.122036,
    "src": "osm-address"
+  },
+  "Gracenote Coffee": {
+   "lat": 42.351579,
+   "lng": -71.058129,
+   "src": "osm-address"
+  },
+  "George Howell Coffee": {
+   "lat": 42.354732,
+   "lng": -71.061488,
+   "src": "osm-address"
+  },
+  "Pavement Coffeehouse": {
+   "lat": 42.348886,
+   "lng": -71.084412,
+   "src": "osm-address"
+  },
+  "Ogawa Coffee": {
+   "lat": 42.356842,
+   "lng": -71.058079,
+   "src": "osm-address"
+  },
+  "Broadsheet Coffee Roasters": {
+   "lat": 42.377978,
+   "lng": -71.10733,
+   "src": "osm-address"
+  },
+  "Thinking Cup": {
+   "lat": 42.353932,
+   "lng": -71.063673,
+   "src": "osm-address"
+  },
+  "Madhouse Cafe": {
+   "lat": 42.324301,
+   "lng": -71.07548,
+   "src": "osm-address"
+  },
+  "1369 Coffee House": {
+   "lat": 42.373788,
+   "lng": -71.100399,
+   "src": "osm-address"
+  },
+  "barismo 364": {
+   "lat": 42.370495,
+   "lng": -71.104388,
+   "src": "osm-address"
+  },
+  "3 Little Figs": {
+   "lat": 42.391792,
+   "lng": -71.111885,
+   "src": "osm-address"
+  },
+  "KoHi Coffee Company": {
+   "lat": 42.345885,
+   "lng": -71.070854,
+   "src": "osm-address"
+  },
+  "Diesel Cafe": {
+   "lat": 42.395713,
+   "lng": -71.121962,
+   "src": "osm-address"
+  },
+  "Tradesman Coffee Shop & Lounge": {
+   "lat": 42.357336,
+   "lng": -71.053477,
+   "src": "osm-address"
+  },
+  "Phin Coffee House": {
+   "lat": 42.35378,
+   "lng": -71.056451,
+   "src": "osm-address"
+  },
+  "Recreo Coffee & Roasterie": {
+   "lat": 42.285786,
+   "lng": -71.155432,
+   "src": "osm-address"
+  },
+  "Jaho Coffee Roaster & Wine Bar": {
+   "lat": 42.337885,
+   "lng": -71.075384,
+   "src": "osm-address"
+  },
+  "Phinista Cafe": {
+   "lat": 42.343048,
+   "lng": -71.099298,
+   "src": "osm-address"
+  },
+  "Greystone Cafe, Bakery & Provisions": {
+   "lat": 42.34527,
+   "lng": -71.074571,
+   "src": "osm-address"
   }
  }
 }
