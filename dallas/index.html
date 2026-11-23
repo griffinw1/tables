@@ -871,8 +871,9 @@ function row(v, rank) {
 
 function matches(v) {
   const has = state.day === 'all' ? nOpen(v) > 0 : slotsFor(v, state.day).length > 0;
-  if (state.open && !has) return false;
-  if (state.online && !ONLINE.includes(v.platform)) return false;
+  const book = v.kind !== 'coffee';  // coffee never takes reservations: table/online filters don't apply
+  if (book && state.open && !has) return false;
+  if (book && state.online && !ONLINE.includes(v.platform)) return false;
   if (state.hood && v.hood !== state.hood) return false;
   if (state.cuisine && cuisineOf(v) !== state.cuisine) return false;
   if (state.vibe && !(VIBES[state.vibe] && VIBES[state.vibe](v))) return false;
@@ -924,6 +925,7 @@ function render() {
     list.forEach(v => { const el = state.view === 'list' ? row(v, scoreRank.get(v.name) || '–') : card(v, scoreRank.get(v.name) || '–'); g.appendChild(el); if (on) fresh.push(el); });
     $('#n-' + k).textContent = list.length === all.length ? `${all.length}` : `${list.length} / ${all.length}`;
     $('#e-' + k).classList.toggle('hide', list.length > 0);
+    if (!list.length && all.length) $('#e-' + k).textContent = 'Nothing matches these filters. Clear them to see all ' + all.length + '.';
     if (on) shown += list.length;
     if (isMap && state.kind === k) mapList = list;
   });
