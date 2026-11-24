@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T21:00:01-06:00",
+ "generated_at": "2026-11-24T13:11:12-06:00",
  "party": 7,
  "city": "dallas",
  "window": {
@@ -8,13 +8,13 @@
   "tz": "America/Chicago"
  },
  "dates": [
-  "2026-11-23",
   "2026-11-24",
   "2026-11-25",
   "2026-11-26",
   "2026-11-27",
   "2026-11-28",
-  "2026-11-29"
+  "2026-11-29",
+  "2026-11-30"
  ],
  "platforms_checked_this_run": [
   "phone",
@@ -38,25 +38,25 @@
    "hood": "Lower Greenville",
    "notes": "CLOSED since Jul 26 2026 for relocation; Resy listing inactive, no reopening date. Resy slug: shoyo (site's Book link). Resy slug: shoyo. Omakase counter. Official site (fetched 2026-11-18) still shows: final day at 1916 Greenville Ave was July 26; moving to a bigger space up the road (likely 2114 Greenville Ave); reopening date 'will be announced'. D Magazine (Sep 2026) said reopening delayed, then 'within a month'. Resy venue slug 'shoyo' returns 'inactive or not found' from the Resy API, so currently NOT bookable. Historical: fixed seatings Tue-Fri 5:45 & 8:15 PM, Sat lunch 2 PM + dinner 5:45/8:15, Sun 5:45 PM; ~$195/pp, reservations released 1st of month; 12-13 seats. Re-check once reopened (likely new Resy listing/ID).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "unknown platform",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "Uchi",
@@ -71,10 +71,7 @@
    "hood": "Uptown",
    "notes": "Official Uchi site links Dallas reservations to SevenRooms (explore/uchidallas, shared search with Uchiba + Uchiko Plano). A Resy listing (id 10806, slug uchi, 2817 Maple Ave) exists but the website does not use it. Not OpenTable.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
-     "8:30 PM",
-     "8:45 PM",
      "9:00 PM",
      "9:15 PM",
      "9:30 PM",
@@ -82,8 +79,8 @@
      "10:00 PM"
     ],
     "2026-11-25": [
+     "7:15 PM",
      "7:30 PM",
-     "8:15 PM",
      "8:30 PM",
      "8:45 PM",
      "9:00 PM",
@@ -95,7 +92,6 @@
     "2026-11-26": [],
     "2026-11-27": [
      "5:00 PM",
-     "6:00 PM",
      "6:15 PM",
      "7:45 PM",
      "8:00 PM",
@@ -134,26 +130,46 @@
      "9:30 PM",
      "9:45 PM",
      "10:00 PM"
+    ],
+    "2026-11-30": [
+     "5:00 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "6:45 PM",
+     "7:00 PM",
+     "7:15 PM",
+     "7:30 PM",
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM",
+     "8:45 PM",
+     "9:00 PM",
+     "9:15 PM",
+     "9:30 PM",
+     "9:45 PM",
+     "10:00 PM"
     ]
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "ok"
    },
-   "checked_at": "2026-11-23T20:59:39-06:00",
+   "checked_at": "2026-11-24T13:10:52-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:59:39-06:00",
-    "2026-11-24": "2026-11-23T20:59:39-06:00",
-    "2026-11-25": "2026-11-23T20:59:39-06:00",
-    "2026-11-26": "2026-11-23T20:59:39-06:00",
-    "2026-11-27": "2026-11-23T20:59:39-06:00",
-    "2026-11-28": "2026-11-23T20:59:39-06:00",
-    "2026-11-29": "2026-11-23T20:59:39-06:00"
+    "2026-11-24": "2026-11-24T13:10:52-06:00",
+    "2026-11-25": "2026-11-24T13:10:52-06:00",
+    "2026-11-26": "2026-11-24T13:10:52-06:00",
+    "2026-11-27": "2026-11-24T13:10:52-06:00",
+    "2026-11-28": "2026-11-24T13:10:52-06:00",
+    "2026-11-29": "2026-11-24T13:10:52-06:00",
+    "2026-11-30": "2026-11-24T13:10:52-06:00"
    }
   },
   {
@@ -169,22 +185,22 @@
    "hood": "Uptown",
    "notes": "Official site's Reservations link goes to opentable.com/r/mamani-dallas (no rid in HTML; caller to resolve). 2681 Howell St #BU4 (The Quad). Contemporary French, Michelin star. Parties of 7+ go through private events.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403"
+    "2026-11-29": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:42-06:00",
    "good_at": {
@@ -217,41 +233,41 @@
    "hood": "Bishop Arts",
    "notes": "Resy slug: lucia. Website 'Book your Lucia reservation on Resy' (links resy.com/cities/dfw/lucia). 287 N Bishop Ave. Dining room Tue-Sat 5-10pm. Resy party size 1-6. Notoriously hard reservation. A 'dining room temporarily closed' notice in the site HTML is commented out (stale).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "closed",
     "2026-11-24": "sold-out",
     "2026-11-25": "sold-out",
     "2026-11-26": "closed",
     "2026-11-27": "sold-out",
     "2026-11-28": "sold-out",
-    "2026-11-29": "closed"
+    "2026-11-29": "closed",
+    "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-23T20:58:54-06:00",
+   "checked_at": "2026-11-24T13:09:29-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:58:54-06:00",
-    "2026-11-24": "2026-11-23T20:58:54-06:00",
-    "2026-11-25": "2026-11-23T20:58:54-06:00",
-    "2026-11-26": "2026-11-23T20:58:54-06:00",
-    "2026-11-27": "2026-11-23T20:58:54-06:00",
-    "2026-11-28": "2026-11-23T20:58:54-06:00",
-    "2026-11-29": "2026-11-23T20:58:54-06:00"
+    "2026-11-24": "2026-11-24T13:09:29-06:00",
+    "2026-11-25": "2026-11-24T13:09:29-06:00",
+    "2026-11-26": "2026-11-24T13:09:29-06:00",
+    "2026-11-27": "2026-11-24T13:09:29-06:00",
+    "2026-11-28": "2026-11-24T13:09:29-06:00",
+    "2026-11-29": "2026-11-24T13:09:29-06:00",
+    "2026-11-30": "2026-11-24T13:09:29-06:00"
    }
   },
   {
@@ -267,7 +283,6 @@
    "hood": "Knox/Henderson",
    "notes": "Official site book link = OpenTable restref 1311778. 3219/3229 Knox St (Duro Hospitality). Phone from official site.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [
      "5:00 PM",
@@ -283,16 +298,17 @@
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:42-06:00",
    "good_at": {
@@ -325,25 +341,25 @@
    "hood": "Dallas",
    "notes": "Small handroll/omakase counter (~14 seats) at 5521 Greenville Ave Ste 111. Dallasites101 (Nov 2024) and Yelp reviewers say walk-in only, no reservations; one aggregator (Atly) claims reservations recommended and lists a 17-course omakase at ~$165. No official website or booking page found on Resy/OpenTable/Tock.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "St. Martin's Wine Bistro",
@@ -358,41 +374,41 @@
    "hood": "Old East Dallas",
    "notes": "Resy slug: st-martins. Official site links to Resy st-martins. Resy venue: 4223 Bryan St, Old East Dallas.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-24": "sold-out",
     "2026-11-25": "sold-out",
     "2026-11-26": "sold-out",
     "2026-11-27": "sold-out",
     "2026-11-28": "sold-out",
-    "2026-11-29": "sold-out"
+    "2026-11-29": "sold-out",
+    "2026-11-30": "sold-out"
    },
-   "checked_at": "2026-11-23T20:58:55-06:00",
+   "checked_at": "2026-11-24T13:09:31-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:58:55-06:00",
-    "2026-11-24": "2026-11-23T20:58:55-06:00",
-    "2026-11-25": "2026-11-23T20:58:55-06:00",
-    "2026-11-26": "2026-11-23T20:58:55-06:00",
-    "2026-11-27": "2026-11-23T20:58:55-06:00",
-    "2026-11-28": "2026-11-23T20:58:55-06:00",
-    "2026-11-29": "2026-11-23T20:58:55-06:00"
+    "2026-11-24": "2026-11-24T13:09:31-06:00",
+    "2026-11-25": "2026-11-24T13:09:31-06:00",
+    "2026-11-26": "2026-11-24T13:09:31-06:00",
+    "2026-11-27": "2026-11-24T13:09:31-06:00",
+    "2026-11-28": "2026-11-24T13:09:31-06:00",
+    "2026-11-29": "2026-11-24T13:09:31-06:00",
+    "2026-11-30": "2026-11-24T13:09:31-06:00"
    }
   },
   {
@@ -408,22 +424,22 @@
    "hood": "Oak Lawn",
    "notes": "Website reserve link is OpenTable restref=1433068 (restref normally equals rid). 4002 Oak Lawn Ave. Duro Hospitality.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:42-06:00",
    "good_at": {
@@ -456,22 +472,22 @@
    "hood": "Uptown",
    "notes": "Hotel Swexan 7th floor; reserve link on hotel page = OpenTable restref 1311763. Phone is the hotel main line. Dinner Sun-Thu 5-10, Fri-Sat 5-11; dress code (no torn denim).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:42-06:00",
    "good_at": {
@@ -504,26 +520,6 @@
    "hood": "Uptown",
    "notes": "Website reservation link is OpenTable with restref=1266151 (restref = rid).",
    "slots": {
-    "2026-11-23": [
-     "5:00 PM",
-     "5:15 PM",
-     "5:30 PM",
-     "5:45 PM",
-     "6:00 PM",
-     "6:15 PM",
-     "6:45 PM",
-     "7:15 PM",
-     "7:30 PM",
-     "7:45 PM",
-     "8:00 PM",
-     "8:15 PM",
-     "8:30 PM",
-     "8:45 PM",
-     "9:00 PM",
-     "9:15 PM",
-     "9:30 PM",
-     "9:45 PM"
-    ],
     "2026-11-24": [
      "5:00 PM",
      "5:15 PM",
@@ -585,16 +581,17 @@
      "9:45 PM",
      "10:00 PM"
     ],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "ok",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:42-06:00",
    "good_at": {
@@ -627,14 +624,6 @@
    "hood": "Design District",
    "notes": "Site's Reservations/Reserve Now links use OpenTable restref=1287916. Site also contains a leftover Resy widget (venueId 65658) but Resy API returns nothing for that id; OpenTable is the live channel.",
    "slots": {
-    "2026-11-23": [
-     "5:00 PM",
-     "5:15 PM",
-     "5:30 PM",
-     "5:45 PM",
-     "6:00 PM",
-     "9:30 PM"
-    ],
     "2026-11-24": [
      "8:30 PM",
      "8:45 PM",
@@ -660,16 +649,17 @@
      "5:15 PM",
      "5:30 PM"
     ],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "ok",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:42-06:00",
    "good_at": {
@@ -702,25 +692,6 @@
    "hood": "Design District",
    "notes": "Website embeds OpenTable widgets for several Duro Hospitality venues; rid 264862 maps to /restaurant/profile/264862 = town-hearth-dallas per search results. 1617 Market Center Blvd.",
    "slots": {
-    "2026-11-23": [
-     "5:00 PM",
-     "5:15 PM",
-     "5:30 PM",
-     "5:45 PM",
-     "6:00 PM",
-     "6:15 PM",
-     "6:30 PM",
-     "6:45 PM",
-     "7:00 PM",
-     "7:15 PM",
-     "7:30 PM",
-     "7:45 PM",
-     "8:00 PM",
-     "8:15 PM",
-     "8:30 PM",
-     "8:45 PM",
-     "9:00 PM"
-    ],
     "2026-11-24": [
      "5:00 PM",
      "5:15 PM",
@@ -775,16 +746,17 @@
      "9:45 PM",
      "10:00 PM"
     ],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "ok",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "ok",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:42-06:00",
    "good_at": {
@@ -817,22 +789,22 @@
    "hood": "Park Cities",
    "notes": "Le Bistrot Bar Sardine, 6805 Snider Plaza (Vandelay). BentoBox widget data-reservation-service=opentable id 1399624. Rolling 30-day window, new day opens 9 AM; max party 6; 2-hr tables; $35/pp cancel fee after 5 PM day before; bar seats walk-in. Phone from OpenTable listing (not on site).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:42-06:00",
    "good_at": {
@@ -865,27 +837,22 @@
    "hood": "Park Cities",
    "notes": "Official domain currently redirects to a parked '/lander' page, so could not confirm from the site. OpenTable listing jack-and-harrys-dallas (6833 Snider Plaza, Vandelay Hospitality) is active per search results; rid not found. Phone from OpenTable listing.",
    "slots": {
-    "2026-11-23": [
-     "8:00 PM",
-     "8:15 PM",
-     "8:30 PM",
-     "8:45 PM"
-    ],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "ok",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:42-06:00",
    "good_at": {
@@ -918,41 +885,41 @@
    "hood": "Dallas",
    "notes": "Resy slug: nonna-tx. Resy listing 'Nonna | Tabu' is at 4115 Lomo Alto Dr with phone +1 214-521-1800, matching Nonna (Tabu appears to be its bar). OpenTable says not on its network. Official site nonnadallas.com failed TLS for us, so the booking link was not confirmed on the site itself.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-24": "sold-out",
     "2026-11-25": "sold-out",
     "2026-11-26": "sold-out",
     "2026-11-27": "sold-out",
     "2026-11-28": "sold-out",
-    "2026-11-29": "closed"
+    "2026-11-29": "closed",
+    "2026-11-30": "sold-out"
    },
-   "checked_at": "2026-11-23T20:58:56-06:00",
+   "checked_at": "2026-11-24T13:09:32-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:58:56-06:00",
-    "2026-11-24": "2026-11-23T20:58:56-06:00",
-    "2026-11-25": "2026-11-23T20:58:56-06:00",
-    "2026-11-26": "2026-11-23T20:58:56-06:00",
-    "2026-11-27": "2026-11-23T20:58:56-06:00",
-    "2026-11-28": "2026-11-23T20:58:56-06:00",
-    "2026-11-29": "2026-11-23T20:58:56-06:00"
+    "2026-11-24": "2026-11-24T13:09:32-06:00",
+    "2026-11-25": "2026-11-24T13:09:32-06:00",
+    "2026-11-26": "2026-11-24T13:09:32-06:00",
+    "2026-11-27": "2026-11-24T13:09:32-06:00",
+    "2026-11-28": "2026-11-24T13:09:32-06:00",
+    "2026-11-29": "2026-11-24T13:09:32-06:00",
+    "2026-11-30": "2026-11-24T13:09:32-06:00"
    }
   },
   {
@@ -968,25 +935,25 @@
    "hood": "Uptown",
    "notes": "Official Reservations page: 'For reservations, please call +1 (214) 484-1385 after 12PM. Walk-ins always welcome.' OpenTable page exists but is not bookable. 2614 Boll St. Sun-Tue 4pm-late, Wed-Sat 4pm-2am.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "call",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "Fachini",
@@ -1001,41 +968,41 @@
    "hood": "Park Cities",
    "notes": "Resy slug: fachini. Official site embeds Resy widget venueId 68065. Highland Park Village.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-24": "sold-out",
     "2026-11-25": "sold-out",
     "2026-11-26": "closed",
     "2026-11-27": "sold-out",
     "2026-11-28": "sold-out",
-    "2026-11-29": "sold-out"
+    "2026-11-29": "sold-out",
+    "2026-11-30": "sold-out"
    },
-   "checked_at": "2026-11-23T20:58:57-06:00",
+   "checked_at": "2026-11-24T13:09:33-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:58:57-06:00",
-    "2026-11-24": "2026-11-23T20:58:57-06:00",
-    "2026-11-25": "2026-11-23T20:58:57-06:00",
-    "2026-11-26": "2026-11-23T20:58:57-06:00",
-    "2026-11-27": "2026-11-23T20:58:57-06:00",
-    "2026-11-28": "2026-11-23T20:58:57-06:00",
-    "2026-11-29": "2026-11-23T20:58:57-06:00"
+    "2026-11-24": "2026-11-24T13:09:33-06:00",
+    "2026-11-25": "2026-11-24T13:09:33-06:00",
+    "2026-11-26": "2026-11-24T13:09:33-06:00",
+    "2026-11-27": "2026-11-24T13:09:33-06:00",
+    "2026-11-28": "2026-11-24T13:09:33-06:00",
+    "2026-11-29": "2026-11-24T13:09:33-06:00",
+    "2026-11-30": "2026-11-24T13:09:33-06:00"
    }
   },
   {
@@ -1051,7 +1018,6 @@
    "hood": "Knox/Henderson",
    "notes": "Website embeds OpenTable restref/rid=1048966.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "5:00 PM",
      "5:15 PM",
@@ -1140,16 +1106,17 @@
      "9:45 PM",
      "10:00 PM"
     ],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:42-06:00",
    "good_at": {
@@ -1182,24 +1149,6 @@
    "hood": "Oak Lawn",
    "notes": "Oak Lawn location page embeds the OpenTable widget rid=5243. 4217 Oak Lawn Ave.",
    "slots": {
-    "2026-11-23": [
-     "5:00 PM",
-     "5:30 PM",
-     "6:00 PM",
-     "6:30 PM",
-     "7:00 PM",
-     "7:30 PM",
-     "7:45 PM",
-     "8:00 PM",
-     "8:15 PM",
-     "8:30 PM",
-     "8:45 PM",
-     "9:00 PM",
-     "9:15 PM",
-     "9:30 PM",
-     "9:45 PM",
-     "10:00 PM"
-    ],
     "2026-11-24": [
      "5:00 PM",
      "5:30 PM",
@@ -1267,16 +1216,17 @@
      "9:45 PM",
      "10:00 PM"
     ],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "ok",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:42-06:00",
    "good_at": {
@@ -1309,22 +1259,22 @@
    "hood": "Park Cities",
    "notes": "Reservations page widget rid=1238083 labeled 'Il Bracco Park Cities' (Post Oak Houston is 1039546, Scottsdale 1490575). 8416 Preston Center Plaza. Business casual.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:42-06:00",
    "good_at": {
@@ -1357,22 +1307,22 @@
    "hood": "Park Cities",
    "notes": "Snider Plaza location (6818 Snider Plaza) = OpenTable rid 1373644 per official site BentoBox widget. A second location (Preston Hollow, 6025 Royal Ln, (972) 362-2150) is rid 1311166 - don't confuse. No kids under 12 reportedly.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:42-06:00",
    "good_at": {
@@ -1405,25 +1355,25 @@
    "hood": "Park Cities",
    "notes": "Books via Hillstone's own Wisely widget (location 'honor-bar-highland-park'), not Resy/OT/SevenRooms/Tock. Hillstone group; books through its own Wisely widget on the website (Wisely.reserveAtLocation('honor-bar-highland-park','honorbar')), not Resy/OT/SR/Tock. Site says if a reservation isn't available for 3+ guests they may not accommodate; walk-ins welcome for parties of two. For 4, a Wisely reservation is effectively required.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "unknown platform",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "Hillstone",
@@ -1438,25 +1388,25 @@
    "hood": "Park Cities",
    "notes": "Books via Hillstone's own Wisely widget (location 'hillstone-park-cities'), not Resy/OT/SevenRooms/Tock. Books via its own Wisely widget (Wisely.reserveAtLocation('hillstone-park-cities')) on the location page; not on OpenTable's network. Site says it prefers parties of two; if no reservation is available for 3+ guests they may not be able to seat you; walk-ins welcome only for parties of two. 8300 A Preston Rd. Cashless.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "unknown platform",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "Quarter Acre",
@@ -1471,22 +1421,22 @@
    "hood": "Lower Greenville",
    "notes": "Website /reservations page has Squarespace OpenTable block data-restaurant-id=1259206. 2023 Greenville Ave #110. Tasting-menu format (~7 courses).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:42-06:00",
    "good_at": {
@@ -1519,41 +1469,41 @@
    "hood": "Uptown",
    "notes": "Resy slug: las-palmas. 2708 Routh St, Uptown. Site: 'Walk-ins welcome, reservations recommended', links to Resy las-palmas. Resy API record matches (phone/website).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-24": "sold-out",
     "2026-11-25": "sold-out",
     "2026-11-26": "sold-out",
     "2026-11-27": "sold-out",
     "2026-11-28": "sold-out",
-    "2026-11-29": "sold-out"
+    "2026-11-29": "sold-out",
+    "2026-11-30": "sold-out"
    },
-   "checked_at": "2026-11-23T20:58:58-06:00",
+   "checked_at": "2026-11-24T13:09:34-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:58:58-06:00",
-    "2026-11-24": "2026-11-23T20:58:58-06:00",
-    "2026-11-25": "2026-11-23T20:58:58-06:00",
-    "2026-11-26": "2026-11-23T20:58:58-06:00",
-    "2026-11-27": "2026-11-23T20:58:58-06:00",
-    "2026-11-28": "2026-11-23T20:58:58-06:00",
-    "2026-11-29": "2026-11-23T20:58:58-06:00"
+    "2026-11-24": "2026-11-24T13:09:34-06:00",
+    "2026-11-25": "2026-11-24T13:09:34-06:00",
+    "2026-11-26": "2026-11-24T13:09:34-06:00",
+    "2026-11-27": "2026-11-24T13:09:34-06:00",
+    "2026-11-28": "2026-11-24T13:09:34-06:00",
+    "2026-11-29": "2026-11-24T13:09:34-06:00",
+    "2026-11-30": "2026-11-24T13:09:34-06:00"
    }
   },
   {
@@ -1569,37 +1519,37 @@
    "hood": "Old East Dallas",
    "notes": "Omakase counter, Tue-Sat, two seatings 5:30 PM and 7:45 PM. All reservations PREPAID on Tock; parties of 1-4 only. Released 1st and 15th of each month at 8 AM CST for dates two weeks beyond (Tock page also showed a 2 PM release note). Prices seen: ~$195/pp full omakase; $99-117 'Short Omakase by sous chef' at cherrywood bar. Non-refundable unless cancelled 5+ days ahead. One of Dallas's hardest reservations.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "not on calendar",
     "2026-11-26": "not on calendar",
-    "2026-11-29": "not on calendar"
+    "2026-11-29": "not on calendar",
+    "2026-11-30": "not on calendar"
    },
-   "checked_at": "2026-11-23T20:59:57-06:00",
+   "checked_at": "2026-11-24T13:11:08-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:59:57-06:00",
-    "2026-11-24": "2026-11-23T20:59:57-06:00",
-    "2026-11-25": "2026-11-23T20:59:57-06:00",
-    "2026-11-26": "2026-11-23T20:59:57-06:00",
-    "2026-11-27": "2026-11-23T20:59:57-06:00",
-    "2026-11-28": "2026-11-23T20:59:57-06:00",
-    "2026-11-29": "2026-11-23T20:59:57-06:00"
+    "2026-11-24": "2026-11-24T13:11:08-06:00",
+    "2026-11-25": "2026-11-24T13:11:08-06:00",
+    "2026-11-26": "2026-11-24T13:11:08-06:00",
+    "2026-11-27": "2026-11-24T13:11:08-06:00",
+    "2026-11-28": "2026-11-24T13:11:08-06:00",
+    "2026-11-29": "2026-11-24T13:11:08-06:00",
+    "2026-11-30": "2026-11-24T13:11:08-06:00"
    }
   },
   {
@@ -1615,7 +1565,6 @@
    "hood": "Downtown",
    "notes": "Official site and Adolphus page both link to SevenRooms (older press said Tock; now SevenRooms). Omakase $165pp + 20% service charge; 10 seats; seatings 5:00, 7:15, 9:30 PM nightly; arrive 30 min early for pre-dinner experience. Full $165pp charged for cancellations <48h (card hold, not shown as prepaid). Releases historically 1st of month at noon for following month. 8th floor of The Adolphus, 1321 Commerce St.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "9:30 PM"
     ],
@@ -1625,7 +1574,8 @@
     ],
     "2026-11-26": [],
     "2026-11-27": [
-     "5:00 PM"
+     "5:00 PM",
+     "9:30 PM"
     ],
     "2026-11-28": [
      "5:00 PM",
@@ -1633,26 +1583,31 @@
     ],
     "2026-11-29": [
      "9:30 PM"
+    ],
+    "2026-11-30": [
+     "5:00 PM",
+     "7:15 PM",
+     "9:30 PM"
     ]
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "ok"
    },
-   "checked_at": "2026-11-23T20:59:43-06:00",
+   "checked_at": "2026-11-24T13:10:57-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:59:43-06:00",
-    "2026-11-24": "2026-11-23T20:59:43-06:00",
-    "2026-11-25": "2026-11-23T20:59:43-06:00",
-    "2026-11-26": "2026-11-23T20:59:43-06:00",
-    "2026-11-27": "2026-11-23T20:59:43-06:00",
-    "2026-11-28": "2026-11-23T20:59:43-06:00",
-    "2026-11-29": "2026-11-23T20:59:43-06:00"
+    "2026-11-24": "2026-11-24T13:10:57-06:00",
+    "2026-11-25": "2026-11-24T13:10:57-06:00",
+    "2026-11-26": "2026-11-24T13:10:57-06:00",
+    "2026-11-27": "2026-11-24T13:10:57-06:00",
+    "2026-11-28": "2026-11-24T13:10:57-06:00",
+    "2026-11-29": "2026-11-24T13:10:57-06:00",
+    "2026-11-30": "2026-11-24T13:10:57-06:00"
    }
   },
   {
@@ -1668,16 +1623,12 @@
    "hood": "Downtown",
    "notes": "Resy slug: sushi-bar-dallas. Official location page 'Reserve on Resy'. 12-seat omakase counter, 17 courses, $185/pp before supplements/alcohol/tax + 22% service charge (Resy need-to-know). Seatings begin 5pm nightly (fixed seating times not listed). 2111/2115 Jackson St, East Quarter. Resy party 1-8. Old OpenTable listing exists but site points to Resy.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [
      "5:30 PM",
      "7:45 PM"
     ],
-    "2026-11-26": [
-     "5:30 PM",
-     "7:45 PM"
-    ],
+    "2026-11-26": [],
     "2026-11-27": [
      "5:00 PM",
      "7:15 PM",
@@ -1689,30 +1640,32 @@
     "2026-11-29": [
      "5:30 PM",
      "7:45 PM"
-    ]
+    ],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "ok",
-    "2026-11-26": "ok",
+    "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "closed",
-    "2026-11-24": "closed"
+    "2026-11-24": "closed",
+    "2026-11-26": "sold-out",
+    "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-23T20:59:05-06:00",
+   "checked_at": "2026-11-24T13:09:39-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:59:05-06:00",
-    "2026-11-24": "2026-11-23T20:59:05-06:00",
-    "2026-11-25": "2026-11-23T20:59:05-06:00",
-    "2026-11-26": "2026-11-23T20:59:05-06:00",
-    "2026-11-27": "2026-11-23T20:59:05-06:00",
-    "2026-11-28": "2026-11-23T20:59:05-06:00",
-    "2026-11-29": "2026-11-23T20:59:05-06:00"
+    "2026-11-24": "2026-11-24T13:09:39-06:00",
+    "2026-11-25": "2026-11-24T13:09:39-06:00",
+    "2026-11-26": "2026-11-24T13:09:39-06:00",
+    "2026-11-27": "2026-11-24T13:09:39-06:00",
+    "2026-11-28": "2026-11-24T13:09:39-06:00",
+    "2026-11-29": "2026-11-24T13:09:39-06:00",
+    "2026-11-30": "2026-11-24T13:09:39-06:00"
    }
   },
   {
@@ -1728,7 +1681,6 @@
    "hood": "Park Cities",
    "notes": "Resy slug: casa-brasa. 8111 Preston Rd. Official site links Resy casa-brasa (also a separate Resy listing for its Kamilla Lounge).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "5:00 PM",
      "5:15 PM",
@@ -1754,9 +1706,13 @@
     "2026-11-29": [
      "5:00 PM",
      "5:15 PM",
+     "9:45 PM"
+    ],
+    "2026-11-30": [
+     "5:00 PM",
+     "5:15 PM",
      "5:30 PM",
      "5:45 PM",
-     "6:00 PM",
      "6:15 PM",
      "6:30 PM",
      "6:45 PM",
@@ -1775,27 +1731,26 @@
     ]
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "ok"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-26": "closed"
    },
-   "checked_at": "2026-11-23T20:59:12-06:00",
+   "checked_at": "2026-11-24T13:09:49-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:59:12-06:00",
-    "2026-11-24": "2026-11-23T20:59:12-06:00",
-    "2026-11-25": "2026-11-23T20:59:12-06:00",
-    "2026-11-26": "2026-11-23T20:59:12-06:00",
-    "2026-11-27": "2026-11-23T20:59:12-06:00",
-    "2026-11-28": "2026-11-23T20:59:12-06:00",
-    "2026-11-29": "2026-11-23T20:59:12-06:00"
+    "2026-11-24": "2026-11-24T13:09:49-06:00",
+    "2026-11-25": "2026-11-24T13:09:49-06:00",
+    "2026-11-26": "2026-11-24T13:09:49-06:00",
+    "2026-11-27": "2026-11-24T13:09:49-06:00",
+    "2026-11-28": "2026-11-24T13:09:49-06:00",
+    "2026-11-29": "2026-11-24T13:09:49-06:00",
+    "2026-11-30": "2026-11-24T13:09:49-06:00"
    }
   },
   {
@@ -1811,29 +1766,6 @@
    "hood": "Oak Lawn",
    "notes": "Website uses OpenTable (experience links carry rid=4525). Phone confirmed on the OpenTable listing.",
    "slots": {
-    "2026-11-23": [
-     "5:00 PM",
-     "5:15 PM",
-     "5:30 PM",
-     "5:45 PM",
-     "6:00 PM",
-     "6:15 PM",
-     "6:30 PM",
-     "6:45 PM",
-     "7:00 PM",
-     "7:15 PM",
-     "7:30 PM",
-     "7:45 PM",
-     "8:00 PM",
-     "8:15 PM",
-     "8:30 PM",
-     "8:45 PM",
-     "9:00 PM",
-     "9:15 PM",
-     "9:30 PM",
-     "9:45 PM",
-     "10:00 PM"
-    ],
     "2026-11-24": [
      "5:00 PM",
      "5:15 PM",
@@ -1931,16 +1863,17 @@
      "9:45 PM",
      "10:00 PM"
     ],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "ok",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "ok",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:45-06:00",
    "good_at": {
@@ -1973,22 +1906,22 @@
    "hood": "Park Cities",
    "notes": "No official website found; booking is via the link in its Instagram bio, and OpenTable lists a 'Yakitori Kappo' experience (~$200pp, parties 1-4) at rid 1363519 (opentable.co.uk/restaurant/profile/1363519). 8-seat counter, two seatings ~5:30 and 8:30 PM Tue-Sat. 6109 Berkshire Ln Ste B (Preston Center). Price excludes drinks/tax/gratuity.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:45-06:00",
    "good_at": {
@@ -2021,22 +1954,22 @@
    "hood": "Downtown",
    "notes": "Website Reservation page links opentable.com/r/sushi-kozy-dallas (rid not found; caller to resolve). 17-course omakase $195/pp, omakase-only at dinner; bar + tables. Last seatings Tue-Thu 8:30, Fri-Sat 9, Sun 8; closed Mon. Parties >4 must email info@sushikozy.com (4 is OK online). Reportedly releases a month ahead on the 1st. 2000 Ross Ave #150. No phone published.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:45-06:00",
    "good_at": {
@@ -2069,22 +2002,9 @@
    "hood": "Design District",
    "notes": "Resy slug: carbone-dallas. Official site links Resy carbone-dallas. Historically releases 30 days ahead at 9 AM. Some directories mention OpenTable (that's likely sister Carbone Vino, Resy 59954 / OT) - site says Resy.",
    "slots": {
-    "2026-11-23": [
-     "9:30 PM",
-     "9:45 PM",
-     "10:00 PM"
-    ],
     "2026-11-24": [
      "5:00 PM",
      "5:15 PM",
-     "5:30 PM",
-     "5:45 PM",
-     "6:00 PM",
-     "6:15 PM",
-     "7:30 PM",
-     "7:45 PM",
-     "8:00 PM",
-     "8:15 PM",
      "8:30 PM",
      "8:45 PM",
      "9:00 PM",
@@ -2100,6 +2020,7 @@
      "5:45 PM",
      "6:15 PM",
      "7:15 PM",
+     "7:30 PM",
      "7:45 PM",
      "8:00 PM",
      "8:15 PM",
@@ -2128,7 +2049,6 @@
      "5:00 PM",
      "5:15 PM",
      "5:30 PM",
-     "5:45 PM",
      "8:45 PM",
      "9:00 PM",
      "9:15 PM",
@@ -2152,26 +2072,47 @@
      "9:30 PM",
      "9:45 PM",
      "10:00 PM"
+    ],
+    "2026-11-30": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "7:15 PM",
+     "7:30 PM",
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM",
+     "8:45 PM",
+     "9:00 PM",
+     "9:15 PM",
+     "9:30 PM",
+     "9:45 PM",
+     "10:00 PM"
     ]
    },
    "status": {
-    "2026-11-23": "ok",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "ok"
    },
-   "checked_at": "2026-11-23T20:59:21-06:00",
+   "checked_at": "2026-11-24T13:09:58-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:59:21-06:00",
-    "2026-11-24": "2026-11-23T20:59:21-06:00",
-    "2026-11-25": "2026-11-23T20:59:21-06:00",
-    "2026-11-26": "2026-11-23T20:59:21-06:00",
-    "2026-11-27": "2026-11-23T20:59:21-06:00",
-    "2026-11-28": "2026-11-23T20:59:21-06:00",
-    "2026-11-29": "2026-11-23T20:59:21-06:00"
+    "2026-11-24": "2026-11-24T13:09:58-06:00",
+    "2026-11-25": "2026-11-24T13:09:58-06:00",
+    "2026-11-26": "2026-11-24T13:09:58-06:00",
+    "2026-11-27": "2026-11-24T13:09:58-06:00",
+    "2026-11-28": "2026-11-24T13:09:58-06:00",
+    "2026-11-29": "2026-11-24T13:09:58-06:00",
+    "2026-11-30": "2026-11-24T13:09:58-06:00"
    }
   },
   {
@@ -2187,22 +2128,22 @@
    "hood": "Lower Greenville",
    "notes": "Website blocks bots (403), so not confirmed from the site. OpenTable lists 'Mot Hai Ba - Lakewood' at 6047 Lewis St (the restaurant's actual address; Bib Gourmand); profile/266485 appears to be that listing (rid inferred from search results, verify).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:45-06:00"
   },
@@ -2219,41 +2160,41 @@
    "hood": "Peak's Suburban Addition",
    "notes": "Resy slug: oloyo. Resy venue at 4422 Gaston Ave; opening announcements and Resy's own blog say reservations are on Resy, released 21 days out at 10 AM. 23 seats. No official website found (Instagram only).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "closed",
     "2026-11-24": "sold-out",
     "2026-11-25": "sold-out",
     "2026-11-26": "closed",
     "2026-11-27": "sold-out",
     "2026-11-28": "sold-out",
-    "2026-11-29": "closed"
+    "2026-11-29": "closed",
+    "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-23T20:59:22-06:00",
+   "checked_at": "2026-11-24T13:09:59-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:59:22-06:00",
-    "2026-11-24": "2026-11-23T20:59:22-06:00",
-    "2026-11-25": "2026-11-23T20:59:22-06:00",
-    "2026-11-26": "2026-11-23T20:59:22-06:00",
-    "2026-11-27": "2026-11-23T20:59:22-06:00",
-    "2026-11-28": "2026-11-23T20:59:22-06:00",
-    "2026-11-29": "2026-11-23T20:59:22-06:00"
+    "2026-11-24": "2026-11-24T13:09:59-06:00",
+    "2026-11-25": "2026-11-24T13:09:59-06:00",
+    "2026-11-26": "2026-11-24T13:09:59-06:00",
+    "2026-11-27": "2026-11-24T13:09:59-06:00",
+    "2026-11-28": "2026-11-24T13:09:59-06:00",
+    "2026-11-29": "2026-11-24T13:09:59-06:00",
+    "2026-11-30": "2026-11-24T13:09:59-06:00"
    }
   },
   {
@@ -2269,22 +2210,22 @@
    "hood": "Old East Dallas",
    "notes": "Purepecha page: 4- and 7-course tasting menus, 'by reservation only', book on OpenTable (rid 730429); inquiries purepecha@revolvertacolounge.com. Reported: released 30 days out at midnight CST for parties <=6; 7-course kitchen table ~$180/pp (8 max), 4-course front room. Phone from OpenTable listing (6+ parties); Revolver contact page lists (214) 272-7163. Revolver Taco Lounge itself is walk-in/counter.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:45-06:00"
   },
@@ -2301,17 +2242,22 @@
    "hood": "Design District",
    "notes": "Resy slug: tango-room. Official site links Resy tango-room. Same building as Carbone (1617 Hi Line Dr).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM",
+     "8:45 PM",
      "9:00 PM",
      "9:15 PM",
      "9:30 PM"
     ],
     "2026-11-25": [
-     "5:00 PM",
-     "5:15 PM",
-     "5:30 PM",
-     "5:45 PM",
      "8:00 PM",
      "8:15 PM",
      "8:30 PM",
@@ -2341,31 +2287,32 @@
      "9:45 PM",
      "10:00 PM"
     ],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "closed",
     "2026-11-26": "sold-out",
-    "2026-11-29": "closed"
+    "2026-11-29": "closed",
+    "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-23T20:59:28-06:00",
+   "checked_at": "2026-11-24T13:10:05-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:59:28-06:00",
-    "2026-11-24": "2026-11-23T20:59:28-06:00",
-    "2026-11-25": "2026-11-23T20:59:28-06:00",
-    "2026-11-26": "2026-11-23T20:59:28-06:00",
-    "2026-11-27": "2026-11-23T20:59:28-06:00",
-    "2026-11-28": "2026-11-23T20:59:28-06:00",
-    "2026-11-29": "2026-11-23T20:59:28-06:00"
+    "2026-11-24": "2026-11-24T13:10:05-06:00",
+    "2026-11-25": "2026-11-24T13:10:05-06:00",
+    "2026-11-26": "2026-11-24T13:10:05-06:00",
+    "2026-11-27": "2026-11-24T13:10:05-06:00",
+    "2026-11-28": "2026-11-24T13:10:05-06:00",
+    "2026-11-29": "2026-11-24T13:10:05-06:00",
+    "2026-11-30": "2026-11-24T13:10:05-06:00"
    }
   },
   {
@@ -2381,41 +2328,41 @@
    "hood": "Uptown",
    "notes": "Resy slug: lions-den. Website links to Resy lions-den; Resy venue id 94984 confirmed via API.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-24": "sold-out",
     "2026-11-25": "sold-out",
     "2026-11-26": "sold-out",
     "2026-11-27": "sold-out",
     "2026-11-28": "sold-out",
-    "2026-11-29": "sold-out"
+    "2026-11-29": "sold-out",
+    "2026-11-30": "sold-out"
    },
-   "checked_at": "2026-11-23T20:59:29-06:00",
+   "checked_at": "2026-11-24T13:10:06-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:59:29-06:00",
-    "2026-11-24": "2026-11-23T20:59:29-06:00",
-    "2026-11-25": "2026-11-23T20:59:29-06:00",
-    "2026-11-26": "2026-11-23T20:59:29-06:00",
-    "2026-11-27": "2026-11-23T20:59:29-06:00",
-    "2026-11-28": "2026-11-23T20:59:29-06:00",
-    "2026-11-29": "2026-11-23T20:59:29-06:00"
+    "2026-11-24": "2026-11-24T13:10:06-06:00",
+    "2026-11-25": "2026-11-24T13:10:06-06:00",
+    "2026-11-26": "2026-11-24T13:10:06-06:00",
+    "2026-11-27": "2026-11-24T13:10:06-06:00",
+    "2026-11-28": "2026-11-24T13:10:06-06:00",
+    "2026-11-29": "2026-11-24T13:10:06-06:00",
+    "2026-11-30": "2026-11-24T13:10:06-06:00"
    }
   },
   {
@@ -2431,13 +2378,12 @@
    "hood": "Uptown",
    "notes": "Official Uchiba Dallas page links to SevenRooms slug 'uchiba' (multi-venue search with Uchi Dallas/Uchiko Plano). A Resy listing exists (id 93008, uchiba-dallas) but the site uses SevenRooms. Takes reservations and welcomes walk-ins. 2817 Maple Ave (upstairs from Uchi).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "5:15 PM",
      "5:45 PM",
      "6:00 PM",
-     "7:00 PM",
-     "7:30 PM",
+     "6:15 PM",
+     "6:45 PM",
      "7:45 PM",
      "8:00 PM",
      "8:15 PM",
@@ -2450,8 +2396,8 @@
     ],
     "2026-11-25": [
      "5:15 PM",
-     "5:30 PM",
      "5:45 PM",
+     "7:00 PM",
      "7:15 PM",
      "7:30 PM",
      "7:45 PM",
@@ -2485,7 +2431,6 @@
      "5:00 PM",
      "5:15 PM",
      "5:45 PM",
-     "6:00 PM",
      "7:00 PM",
      "7:15 PM",
      "7:30 PM",
@@ -2518,26 +2463,45 @@
      "9:30 PM",
      "9:45 PM",
      "10:00 PM"
+    ],
+    "2026-11-30": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "7:00 PM",
+     "7:15 PM",
+     "7:30 PM",
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM",
+     "8:45 PM",
+     "9:00 PM",
+     "9:15 PM",
+     "9:30 PM",
+     "9:45 PM",
+     "10:00 PM"
     ]
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "ok"
    },
-   "checked_at": "2026-11-23T20:59:47-06:00",
+   "checked_at": "2026-11-24T13:11:01-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:59:47-06:00",
-    "2026-11-24": "2026-11-23T20:59:47-06:00",
-    "2026-11-25": "2026-11-23T20:59:47-06:00",
-    "2026-11-26": "2026-11-23T20:59:47-06:00",
-    "2026-11-27": "2026-11-23T20:59:47-06:00",
-    "2026-11-28": "2026-11-23T20:59:47-06:00",
-    "2026-11-29": "2026-11-23T20:59:47-06:00"
+    "2026-11-24": "2026-11-24T13:11:01-06:00",
+    "2026-11-25": "2026-11-24T13:11:01-06:00",
+    "2026-11-26": "2026-11-24T13:11:01-06:00",
+    "2026-11-27": "2026-11-24T13:11:01-06:00",
+    "2026-11-28": "2026-11-24T13:11:01-06:00",
+    "2026-11-29": "2026-11-24T13:11:01-06:00",
+    "2026-11-30": "2026-11-24T13:11:01-06:00"
    }
   },
   {
@@ -2553,25 +2517,25 @@
    "hood": "Bishop Arts",
    "notes": "No official website (PaperCity lists Instagram). PaperCity: walk-in only; reservations only for the 17-course chef's tasting omakase (platform unknown, likely via Instagram/DM). 408 W Eighth St #101, Bishop Arts. Phone from third-party ordering page, unverified.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "Namo",
@@ -2586,22 +2550,22 @@
    "hood": "Cityplace",
    "notes": "3699 McKinney Ave #305 (West Village/Cityplace). Site 'Reservations' link -> opentable.com/r/namo-sushi-dallas; rid not found (caller to resolve). Very limited reservations, 90-min slots, 10-min grace; reportedly released 1st of month 10 AM. A la carte + omakase.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:45-06:00"
   },
@@ -2618,25 +2582,25 @@
    "hood": "NW Dallas",
    "notes": "2560 Royal Ln #105. Website 'Reserve Now' goes to Toast Tables (not one of the listed platforms); older site text says call for parties of 6+. Not on OpenTable/Resy.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "unknown platform",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "Nick & Sam's",
@@ -2651,22 +2615,22 @@
    "hood": "Oak Lawn",
    "notes": "Official site embeds the OpenTable widget rid=26161.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:45-06:00"
   },
@@ -2683,22 +2647,22 @@
    "hood": "North Dallas",
    "notes": "Official site's Dallas reservation link is OpenTable restref=1511890 (also experiences via rid=1511890). Tock (exploretock.com/yujo) is used for the tuna-cutting show event and omakase holds ($20 card hold). 12835 Preston Rd #216.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:45-06:00"
   },
@@ -2715,22 +2679,22 @@
    "hood": "Cityplace",
    "notes": "Bar, 3699 McKinney #306 (next to Namo). Official 'Book a table' = OpenTable restref 1371412. Limited reservations, 90-min slots, bar seats walk-in; 21+.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:45-06:00"
   },
@@ -2747,25 +2711,25 @@
    "hood": "Old East Dallas",
    "notes": "Could not find any Dallas venue by this name (Old East Dallas or otherwise) on the web, Resy, or OpenTable. Possibly a different name or very new. Likely a walk-in bar if it exists.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "unknown platform",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "Ayahuasca Cantina",
@@ -2780,7 +2744,6 @@
    "hood": "Oak Cliff",
    "notes": "Resy slug: xaman-cafe. Speakeasy at the back of Xam\u00e1n Caf\u00e9 (334 W Jefferson Blvd). Its page on the Xaman site uses a Resy widget for venueId 59115 ('Xaman Cafe'); the Resy venue's own URL points to /ayahuasca. Also bookable by phone. Full dinner menu Fri/Sat.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [
      "6:30 PM",
@@ -2795,56 +2758,40 @@
      "8:45 PM",
      "9:00 PM"
     ],
-    "2026-11-26": [
-     "5:00 PM",
-     "5:15 PM",
-     "5:30 PM",
-     "5:45 PM",
-     "6:00 PM",
-     "6:15 PM",
-     "6:30 PM",
-     "6:45 PM",
-     "7:00 PM",
-     "7:15 PM",
-     "7:30 PM",
-     "7:45 PM",
-     "8:00 PM",
-     "8:15 PM",
-     "8:30 PM",
-     "8:45 PM",
-     "9:00 PM"
-    ],
+    "2026-11-26": [],
     "2026-11-27": [
      "10:00 PM"
     ],
     "2026-11-28": [
      "10:00 PM"
     ],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "ok",
-    "2026-11-26": "ok",
+    "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-24": "sold-out",
-    "2026-11-29": "sold-out"
+    "2026-11-26": "sold-out",
+    "2026-11-29": "sold-out",
+    "2026-11-30": "sold-out"
    },
-   "checked_at": "2026-11-23T20:59:35-06:00",
+   "checked_at": "2026-11-24T13:10:34-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:59:35-06:00",
-    "2026-11-24": "2026-11-23T20:59:35-06:00",
-    "2026-11-25": "2026-11-23T20:59:35-06:00",
-    "2026-11-26": "2026-11-23T20:59:35-06:00",
-    "2026-11-27": "2026-11-23T20:59:35-06:00",
-    "2026-11-28": "2026-11-23T20:59:35-06:00",
-    "2026-11-29": "2026-11-23T20:59:35-06:00"
+    "2026-11-24": "2026-11-24T13:10:34-06:00",
+    "2026-11-25": "2026-11-24T13:10:34-06:00",
+    "2026-11-26": "2026-11-24T13:10:34-06:00",
+    "2026-11-27": "2026-11-24T13:10:34-06:00",
+    "2026-11-28": "2026-11-24T13:10:34-06:00",
+    "2026-11-29": "2026-11-24T13:10:34-06:00",
+    "2026-11-30": "2026-11-24T13:10:34-06:00"
    }
   },
   {
@@ -2860,25 +2807,25 @@
    "hood": "Oak Cliff",
    "notes": "Irish cocktail pub with big patio, 814 W Davis St. Website (Wix) has only menu/jobs/gift cards (Toast); no reservation link found. Phone from The Infatuation. Wed-Sun ~5pm-2am.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "Marlowe Lounge",
@@ -2893,32 +2840,32 @@
    "hood": "Oak Lawn",
    "notes": "Bar/lounge at 2912 McKinney Ave (Uptown, not Oak Lawn). Site /reservations uses SevenRooms venue 'marlowelounge'. Tables held 15 min; 9+ guests = private events. Open Wed 6PM-12, Thu-Sat 6PM-2AM.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
-   "checked_at": "2026-11-23T20:59:51-06:00",
+   "checked_at": "2026-11-24T13:11:04-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T20:59:51-06:00",
-    "2026-11-24": "2026-11-23T20:59:51-06:00",
-    "2026-11-25": "2026-11-23T20:59:51-06:00",
-    "2026-11-26": "2026-11-23T20:59:51-06:00",
-    "2026-11-27": "2026-11-23T20:59:51-06:00",
-    "2026-11-28": "2026-11-23T20:59:51-06:00",
-    "2026-11-29": "2026-11-23T20:59:51-06:00"
+    "2026-11-24": "2026-11-24T13:11:04-06:00",
+    "2026-11-25": "2026-11-24T13:11:04-06:00",
+    "2026-11-26": "2026-11-24T13:11:04-06:00",
+    "2026-11-27": "2026-11-24T13:11:04-06:00",
+    "2026-11-28": "2026-11-24T13:11:04-06:00",
+    "2026-11-29": "2026-11-24T13:11:04-06:00",
+    "2026-11-30": "2026-11-24T13:11:04-06:00"
    }
   },
   {
@@ -2934,25 +2881,25 @@
    "hood": null,
    "notes": "Coffee shop by day / whiskey & live-jazz bar by night at 141 Manufacturing St Ste 110, Design District. No reservation platform found (Toast for ordering only). Website domain uncertain (triumphs.com fetched but no booking info; triumphsdallas.com didn't resolve).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "Mike's Gemini Twin Lounge",
@@ -2967,25 +2914,25 @@
    "hood": "Cedars",
    "notes": "Tiny dive bar, 1906 S Harwood St, open 4 PM-2 AM daily. Official site has no reservation link or platform; walk-in.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "The Mansion Bar",
@@ -3000,25 +2947,25 @@
    "hood": "Oak Lawn",
    "notes": "Bar page lists contact +1 (214) 443-4747 / mansion.restaurant@rosewoodhotels.com, no online booking. Hotel FAQ: non-guests welcome, reservations strongly recommended. Live music Fri-Sat 8:30pm-midnight, $15/pp cover. Smart casual. The Mansion Restaurant (separate) is OpenTable rid 5135.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "call",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "Apothecary",
@@ -3033,7 +2980,6 @@
    "hood": "Lower Greenville",
    "notes": "Bar (now at 1920/1922 Greenville, split into Archive + Alchemy rooms). Official /reservations links exploretock.com/apothecary. Tock reservations, reportedly small ($10) deposits, not prepaid tickets; some seats held for walk-ins. 2-hr limit for 3+ during busy times; 21+. Separate Tock 'apothecary-golden-hour' exists for happy hour.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "5:00 PM",
      "5:15 PM",
@@ -3149,29 +3095,30 @@
      "9:30 PM",
      "9:45 PM",
      "10:00 PM"
-    ]
+    ],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "not on calendar"
+    "2026-11-30": "not on calendar"
    },
-   "checked_at": "2026-11-23T21:00:01-06:00",
+   "checked_at": "2026-11-24T13:11:12-06:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T21:00:01-06:00",
-    "2026-11-24": "2026-11-23T21:00:01-06:00",
-    "2026-11-25": "2026-11-23T21:00:01-06:00",
-    "2026-11-26": "2026-11-23T21:00:01-06:00",
-    "2026-11-27": "2026-11-23T21:00:01-06:00",
-    "2026-11-28": "2026-11-23T21:00:01-06:00",
-    "2026-11-29": "2026-11-23T21:00:01-06:00"
+    "2026-11-24": "2026-11-24T13:11:12-06:00",
+    "2026-11-25": "2026-11-24T13:11:12-06:00",
+    "2026-11-26": "2026-11-24T13:11:12-06:00",
+    "2026-11-27": "2026-11-24T13:11:12-06:00",
+    "2026-11-28": "2026-11-24T13:11:12-06:00",
+    "2026-11-29": "2026-11-24T13:11:12-06:00",
+    "2026-11-30": "2026-11-24T13:11:12-06:00"
    }
   },
   {
@@ -3187,25 +3134,25 @@
    "hood": "Oak Lawn",
    "notes": "3127 Routh St beer garden/patio. Website has no reservation link; walk-in. Private events/patio buyouts only via inquiry.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "Lounge Here",
@@ -3220,25 +3167,25 @@
    "hood": "Little Forest Hills",
    "notes": "OpenTable page exists but says not on the OpenTable booking network. Official site lists no booking platform; says call or email loungehereinfo@gmail.com. Official site shows phone (562) 319-2556, while OpenTable/other listings show (214) 238-3374. 9028 Garland Rd. Reviews recommend booking ahead.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "call",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "SILO",
@@ -3253,25 +3200,25 @@
    "hood": "Design District",
    "notes": "SILO Dallas is a ~3,100-capacity electronic music venue/club (1340 Manufacturing St), not a dinner bar; entry is by event ticket, no table reservations found.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-23T20:59:51-06:00"
+   "checked_at": "2026-11-24T13:11:04-06:00"
   },
   {
    "name": "Clifton Club Bar & Lounge",
@@ -3286,22 +3233,22 @@
    "hood": "Oak Lawn",
    "notes": "Bar, 3333 N Fitzhugh. Site FAQ: reservations online via OpenTable or by phone; walk-ins at 25-seat bar. (Some directories say Resy - site says OpenTable.)",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:not checked yet"
    },
    "checked_at": "2026-11-23T13:45:48-06:00"
   }

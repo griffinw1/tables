@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T22:06:33-05:00",
+ "generated_at": "2026-11-24T16:20:24-05:00",
  "party": 4,
  "city": "boston",
  "window": {
@@ -8,13 +8,13 @@
   "tz": "America/New_York"
  },
  "dates": [
-  "2026-11-23",
   "2026-11-24",
   "2026-11-25",
   "2026-11-26",
   "2026-11-27",
   "2026-11-28",
-  "2026-11-29"
+  "2026-11-29",
+  "2026-11-30"
  ],
  "platforms_checked_this_run": [
   "opentable",
@@ -39,11 +39,7 @@
    "hood": "Back Bay",
    "notes": "Official reservations page: Resy only; tables release at 9:00 AM ET on a rolling 14-day window (dining room, high-tops and 2nd-floor bar seats all listed online). First-floor bar & lounge is held for walk-ins, first come first served. If sold out, use Resy 'Notify' (their waitlist). 'Club Room (Quiet Dining)' tables are bookable when available. Parties 14+ / private dining via events manager.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
-     "5:00 PM",
-     "8:15 PM",
-     "8:30 PM",
      "8:45 PM",
      "9:00 PM",
      "9:15 PM",
@@ -52,6 +48,15 @@
     ],
     "2026-11-25": [
      "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:45 PM",
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
      "8:30 PM",
      "8:45 PM",
      "9:00 PM",
@@ -72,7 +77,8 @@
      "10:00 PM"
     ],
     "2026-11-28": [
-     "5:00 PM"
+     "5:00 PM",
+     "5:15 PM"
     ],
     "2026-11-29": [
      "5:00 PM",
@@ -92,30 +98,47 @@
      "9:15 PM",
      "9:30 PM",
      "9:45 PM"
+    ],
+    "2026-11-30": [
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "6:45 PM",
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM",
+     "8:45 PM",
+     "9:00 PM",
+     "9:15 PM",
+     "9:30 PM",
+     "9:45 PM"
     ]
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "ok"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-26": "sold-out"
    },
-   "checked_at": "2026-11-23T22:01:23-05:00",
+   "checked_at": "2026-11-24T14:19:24-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:01:23-05:00",
-    "2026-11-24": "2026-11-23T22:01:23-05:00",
-    "2026-11-25": "2026-11-23T22:01:23-05:00",
-    "2026-11-26": "2026-11-23T22:01:23-05:00",
-    "2026-11-27": "2026-11-23T22:01:23-05:00",
-    "2026-11-28": "2026-11-23T22:01:23-05:00",
-    "2026-11-29": "2026-11-23T22:01:23-05:00"
+    "2026-11-24": "2026-11-24T14:19:24-05:00",
+    "2026-11-25": "2026-11-24T14:19:24-05:00",
+    "2026-11-26": "2026-11-24T14:19:24-05:00",
+    "2026-11-27": "2026-11-24T14:19:24-05:00",
+    "2026-11-28": "2026-11-24T14:19:24-05:00",
+    "2026-11-29": "2026-11-24T14:19:24-05:00",
+    "2026-11-30": "2026-11-24T14:19:24-05:00"
    }
   },
   {
@@ -131,25 +154,26 @@
    "hood": "Winter Hill",
    "notes": "Parties up to 6 book on Resy up to 30 days out; a new day releases every morning at 10 AM ET (or call after 3 PM). 7+ need an event form and a fixed $150pp menu. 20-seat bar plus high-tops are walk-in only, first come first served. 20% gratuity added for 6+. Closed Nov 26, Dec 24-28 and Jan 1 this season.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": [
+     "9:30 PM"
+    ]
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "ok"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-24": "sold-out",
     "2026-11-25": "sold-out",
     "2026-11-26": "closed",
@@ -157,15 +181,15 @@
     "2026-11-28": "sold-out",
     "2026-11-29": "sold-out"
    },
-   "checked_at": "2026-11-23T22:01:24-05:00",
+   "checked_at": "2026-11-24T14:19:28-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:01:24-05:00",
-    "2026-11-24": "2026-11-23T22:01:24-05:00",
-    "2026-11-25": "2026-11-23T22:01:24-05:00",
-    "2026-11-26": "2026-11-23T22:01:24-05:00",
-    "2026-11-27": "2026-11-23T22:01:24-05:00",
-    "2026-11-28": "2026-11-23T22:01:24-05:00",
-    "2026-11-29": "2026-11-23T22:01:24-05:00"
+    "2026-11-24": "2026-11-24T14:19:28-05:00",
+    "2026-11-25": "2026-11-24T14:19:28-05:00",
+    "2026-11-26": "2026-11-24T14:19:28-05:00",
+    "2026-11-27": "2026-11-24T14:19:28-05:00",
+    "2026-11-28": "2026-11-24T14:19:28-05:00",
+    "2026-11-29": "2026-11-24T14:19:28-05:00",
+    "2026-11-30": "2026-11-24T14:19:28-05:00"
    }
   },
   {
@@ -181,7 +205,6 @@
    "hood": "Back Bay / Bay Village",
    "notes": "Official site's reservation widget sends to OpenTable (Mooncusser rid 732835; downstairs Moon Bar rid 1078120). Dining room Tue-Sat 5-9 PM. Tasting menu $135, wine pairing $75 (autumn menu from 10/13/26). Validated parking at 10 St. James Garage ($15 up to 3 hrs).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "8:45 PM",
      "9:00 PM"
@@ -192,20 +215,20 @@
      "9:00 PM"
     ],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "none",
-    "2026-11-29": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403"
+    "2026-11-29": "error:Error:Page.goto: net::ERR_NETWORK_CHANGED at https://www.opentable.com/restaurant/profile/732835",
+    "2026-11-30": "error:Error:Page.goto: net::ERR_NETWORK_CHANGED at https://www.opentable.com/restaurant/profile/732835"
    },
-   "checked_at": "2026-11-23T22:06:16-05:00",
+   "checked_at": "2026-11-24T14:37:54-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-22T09:37:10-05:00",
     "2026-11-24": "2026-11-22T09:37:10-05:00",
     "2026-11-25": "2026-11-22T09:37:10-05:00",
     "2026-11-26": "2026-11-22T09:37:10-05:00",
@@ -213,7 +236,6 @@
     "2026-11-28": "2026-11-22T09:37:10-05:00"
    },
    "day_notes": {
-    "2026-11-23": "stale: last good check 11-22 09:37",
     "2026-11-24": "stale: last good check 11-22 09:37",
     "2026-11-25": "stale: last good check 11-22 09:37",
     "2026-11-26": "stale: last good check 11-22 09:37",
@@ -234,41 +256,39 @@
    "hood": "Brookline Village",
    "notes": "Site's Reservations link goes to OpenTable. Lunch 11:30-2 and dinner from 4 PM; closed Tuesdays. Tiny room (about 8 bar seats plus a few tables), so book ahead; takeout also offered.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
-    "2026-11-27": [
-     "10:00 PM"
-    ],
+    "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
-    "2026-11-27": "ok",
+    "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "error:opentable rate-limited this run"
-   },
-   "checked_at": "2026-11-23T22:06:16-05:00",
-   "good_at": {
-    "2026-11-23": "2026-11-22T05:54:22-05:00",
-    "2026-11-24": "2026-11-22T05:54:22-05:00",
-    "2026-11-25": "2026-11-22T05:54:22-05:00",
-    "2026-11-26": "2026-11-22T05:54:22-05:00",
-    "2026-11-27": "2026-11-22T05:54:22-05:00",
-    "2026-11-28": "2026-11-22T05:54:22-05:00"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "stale: last good check 11-22 05:54",
-    "2026-11-24": "stale: last good check 11-22 05:54",
-    "2026-11-25": "stale: last good check 11-22 05:54",
-    "2026-11-26": "stale: last good check 11-22 05:54",
-    "2026-11-27": "stale: last good check 11-22 05:54",
-    "2026-11-28": "stale: last good check 11-22 05:54"
+    "2026-11-24": "no times",
+    "2026-11-26": "no times",
+    "2026-11-27": "no times",
+    "2026-11-28": "no times",
+    "2026-11-29": "no times"
+   },
+   "checked_at": "2026-11-24T14:38:10-05:00",
+   "good_at": {
+    "2026-11-24": "2026-11-24T14:38:10-05:00",
+    "2026-11-25": "2026-11-24T14:38:10-05:00",
+    "2026-11-26": "2026-11-24T14:38:10-05:00",
+    "2026-11-27": "2026-11-24T14:38:10-05:00",
+    "2026-11-28": "2026-11-24T14:38:10-05:00",
+    "2026-11-29": "2026-11-24T14:38:10-05:00",
+    "2026-11-30": "2026-11-24T14:38:10-05:00"
    }
   },
   {
@@ -284,17 +304,28 @@
    "hood": "Union Square",
    "notes": "Official site links to Resy (or call). Tables are held for 2 hours from the booked time and only complete parties are seated. Open Tue-Thu 5-8:45 PM, Fri-Sat 5-9:30 PM; closed Sun-Mon. A tasting-menu option is also offered.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "5:00 PM",
-     "5:15 PM",
      "7:45 PM",
      "8:00 PM",
      "8:15 PM",
      "8:30 PM",
      "8:45 PM"
     ],
-    "2026-11-25": [],
+    "2026-11-25": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "6:45 PM",
+     "7:00 PM",
+     "7:15 PM",
+     "7:30 PM",
+     "7:45 PM"
+    ],
     "2026-11-26": [],
     "2026-11-27": [
      "9:00 PM",
@@ -306,32 +337,32 @@
      "9:15 PM",
      "9:30 PM"
     ],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
-    "2026-11-25": "none",
+    "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "closed",
-    "2026-11-25": "sold-out",
     "2026-11-26": "sold-out",
-    "2026-11-29": "closed"
+    "2026-11-29": "closed",
+    "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-23T22:01:32-05:00",
+   "checked_at": "2026-11-24T14:19:37-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:01:32-05:00",
-    "2026-11-24": "2026-11-23T22:01:32-05:00",
-    "2026-11-25": "2026-11-23T22:01:32-05:00",
-    "2026-11-26": "2026-11-23T22:01:32-05:00",
-    "2026-11-27": "2026-11-23T22:01:32-05:00",
-    "2026-11-28": "2026-11-23T22:01:32-05:00",
-    "2026-11-29": "2026-11-23T22:01:32-05:00"
+    "2026-11-24": "2026-11-24T14:19:37-05:00",
+    "2026-11-25": "2026-11-24T14:19:37-05:00",
+    "2026-11-26": "2026-11-24T14:19:37-05:00",
+    "2026-11-27": "2026-11-24T14:19:37-05:00",
+    "2026-11-28": "2026-11-24T14:19:37-05:00",
+    "2026-11-29": "2026-11-24T14:19:37-05:00",
+    "2026-11-30": "2026-11-24T14:19:37-05:00"
    }
   },
   {
@@ -347,24 +378,13 @@
    "hood": "Upham's Corner, Dorchester",
    "notes": "Official reservations page links to OpenTable (rid 1277473). Dinner Wed-Sun 4:30-9 PM last seating; Sunday brunch. Reservations required for dinner; 2-hour table limit; 15-minute late hold. Cancel by 5 PM the day before or pay $25/person; $10/guest fee for same-day party-size changes; manage everything via OpenTable (they don't check voicemail). A few walk-ins at the 6-stool bar and patios.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [
      "5:00 PM",
      "5:15 PM",
      "5:30 PM",
      "5:45 PM",
-     "6:00 PM",
-     "6:15 PM",
-     "6:30 PM",
-     "6:45 PM",
-     "7:00 PM",
-     "7:15 PM",
-     "7:30 PM",
-     "7:45 PM",
-     "8:00 PM",
-     "8:15 PM",
-     "8:30 PM"
+     "6:00 PM"
     ],
     "2026-11-26": [],
     "2026-11-27": [],
@@ -373,43 +393,41 @@
      "5:15 PM",
      "5:30 PM",
      "5:45 PM",
-     "6:00 PM",
-     "6:15 PM",
-     "6:30 PM",
-     "6:45 PM",
-     "7:00 PM",
-     "7:45 PM",
-     "8:00 PM",
-     "8:15 PM",
-     "8:30 PM"
+     "6:00 PM"
     ],
-    "2026-11-29": []
+    "2026-11-29": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM"
+    ],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "ok",
-    "2026-11-29": "error:opentable rate-limited this run"
-   },
-   "checked_at": "2026-11-23T22:06:16-05:00",
-   "good_at": {
-    "2026-11-23": "2026-11-22T05:54:39-05:00",
-    "2026-11-24": "2026-11-22T05:54:39-05:00",
-    "2026-11-25": "2026-11-22T05:54:39-05:00",
-    "2026-11-26": "2026-11-22T05:54:39-05:00",
-    "2026-11-27": "2026-11-22T05:54:39-05:00",
-    "2026-11-28": "2026-11-22T05:54:39-05:00"
+    "2026-11-29": "ok",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "stale: last good check 11-22 05:54",
-    "2026-11-24": "stale: last good check 11-22 05:54",
-    "2026-11-25": "stale: last good check 11-22 05:54",
-    "2026-11-26": "stale: last good check 11-22 05:54",
-    "2026-11-27": "stale: last good check 11-22 05:54",
-    "2026-11-28": "stale: last good check 11-22 05:54"
+    "2026-11-24": "no times",
+    "2026-11-26": "no times",
+    "2026-11-27": "no times",
+    "2026-11-30": "no times"
+   },
+   "checked_at": "2026-11-24T15:00:21-05:00",
+   "good_at": {
+    "2026-11-24": "2026-11-24T15:00:21-05:00",
+    "2026-11-25": "2026-11-24T15:00:21-05:00",
+    "2026-11-26": "2026-11-24T15:00:21-05:00",
+    "2026-11-27": "2026-11-24T15:00:21-05:00",
+    "2026-11-28": "2026-11-24T15:00:21-05:00",
+    "2026-11-29": "2026-11-24T15:00:21-05:00",
+    "2026-11-30": "2026-11-24T15:00:21-05:00"
    }
   },
   {
@@ -425,25 +443,25 @@
    "hood": "North End",
    "notes": "No reservations, walk-ins only (stated on the official site). Opens 11 AM daily; kitchen to 9:30 PM weekdays / 10:30 PM weekends, raw bar 30 minutes later. Takeout via their online ordering. Website currently shows an 'under construction' banner but the menu page is live.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-23T22:03:51-05:00"
+   "checked_at": "2026-11-24T14:31:46-05:00"
   },
   {
    "name": "O Ya",
@@ -458,24 +476,24 @@
    "hood": "Leather District",
    "notes": "Official site links to OpenTable. Reservations open 30 days ahead, one day at a time. Prepaid: $295/guest + tax + 20% administrative fee (about $383/guest), no further tip; all sales final but transferable. Parties over 4 (max 6) by phone/email only. Vegetarian/vegan menus only at 5:00, 5:30 and 8:30 PM seatings. Tue-Sat 5-9 PM.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
-    "2026-11-24": "error:opentable rate-limited this run",
-    "2026-11-25": "error:opentable rate-limited this run",
-    "2026-11-26": "error:opentable rate-limited this run",
-    "2026-11-27": "error:opentable rate-limited this run",
-    "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-24": "error:RuntimeError:profile page HTTP 404 (OpenTable)",
+    "2026-11-25": "error:RuntimeError:profile page HTTP 404 (OpenTable)",
+    "2026-11-26": "error:RuntimeError:profile page HTTP 404 (OpenTable)",
+    "2026-11-27": "error:RuntimeError:profile page HTTP 404 (OpenTable)",
+    "2026-11-28": "error:RuntimeError:profile page HTTP 404 (OpenTable)",
+    "2026-11-29": "error:RuntimeError:profile page HTTP 404 (OpenTable)",
+    "2026-11-30": "error:RuntimeError:profile page HTTP 404 (OpenTable)"
    },
-   "checked_at": "2026-11-23T22:06:16-05:00"
+   "checked_at": "2026-11-24T15:00:22-05:00"
   },
   {
    "name": "Tonino",
@@ -490,41 +508,41 @@
    "hood": "Jamaica Plain",
    "notes": "Online only via Resy; released daily at noon, 30 days out to the date, and they fill almost immediately. Use Resy Notify (most cancellations appear in the week before). Two counter seats held for walk-ins nightly, given to the first two people at the door at 5 PM, then a waitlist. Open Sun-Mon 5-9:30, Thu-Sat 5-10:30; closed Tue-Wed.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-24": "closed",
     "2026-11-25": "closed",
     "2026-11-26": "closed",
     "2026-11-27": "sold-out",
     "2026-11-28": "sold-out",
-    "2026-11-29": "sold-out"
+    "2026-11-29": "sold-out",
+    "2026-11-30": "sold-out"
    },
-   "checked_at": "2026-11-23T22:01:34-05:00",
+   "checked_at": "2026-11-24T14:20:37-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:01:34-05:00",
-    "2026-11-24": "2026-11-23T22:01:34-05:00",
-    "2026-11-25": "2026-11-23T22:01:34-05:00",
-    "2026-11-26": "2026-11-23T22:01:34-05:00",
-    "2026-11-27": "2026-11-23T22:01:34-05:00",
-    "2026-11-28": "2026-11-23T22:01:34-05:00",
-    "2026-11-29": "2026-11-23T22:01:34-05:00"
+    "2026-11-24": "2026-11-24T14:20:37-05:00",
+    "2026-11-25": "2026-11-24T14:20:37-05:00",
+    "2026-11-26": "2026-11-24T14:20:37-05:00",
+    "2026-11-27": "2026-11-24T14:20:37-05:00",
+    "2026-11-28": "2026-11-24T14:20:37-05:00",
+    "2026-11-29": "2026-11-24T14:20:37-05:00",
+    "2026-11-30": "2026-11-24T14:20:37-05:00"
    }
   },
   {
@@ -540,44 +558,43 @@
    "hood": "Inman Square",
    "notes": "Official reservations page books via OpenTable (rid 342889). The link above is the Chef's Counter experience: 6 seats, $190pp plus tax/tip, Tue-Sat at 5:45 and 8:15 PM, omnivore or vegetarian; card required; wine pairing $85 / premium $120 / zero-proof $65. A la carte dining room also on OpenTable (Tue-Sun 5-10 PM); Bar & Salon to 11 PM, walk-ins welcome. 20% gratuity for 6+.",
    "slots": {
-    "2026-11-23": [],
-    "2026-11-24": [
-     "9:00 PM",
-     "9:15 PM"
-    ],
+    "2026-11-24": [],
     "2026-11-25": [
      "5:00 PM",
-     "9:00 PM",
-     "9:15 PM"
+     "5:15 PM",
+     "5:30 PM"
     ],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
-    "2026-11-24": "ok",
+    "2026-11-24": "none",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "none",
-    "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
-   },
-   "checked_at": "2026-11-23T22:06:16-05:00",
-   "good_at": {
-    "2026-11-23": "2026-11-21T15:54:03-05:00",
-    "2026-11-24": "2026-11-21T15:54:03-05:00",
-    "2026-11-25": "2026-11-21T15:54:03-05:00",
-    "2026-11-26": "2026-11-21T15:54:03-05:00",
-    "2026-11-27": "2026-11-21T15:54:03-05:00"
+    "2026-11-28": "none",
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "stale: last good check 11-21 15:54",
-    "2026-11-24": "stale: last good check 11-21 15:54",
-    "2026-11-25": "stale: last good check 11-21 15:54",
-    "2026-11-26": "stale: last good check 11-21 15:54",
-    "2026-11-27": "stale: last good check 11-21 15:54"
+    "2026-11-26": "no times",
+    "2026-11-27": "no times",
+    "2026-11-28": "no times",
+    "2026-11-29": "no times",
+    "2026-11-30": "no times"
+   },
+   "checked_at": "2026-11-24T15:30:46-05:00",
+   "good_at": {
+    "2026-11-24": "2026-11-24T15:30:46-05:00",
+    "2026-11-25": "2026-11-24T15:30:46-05:00",
+    "2026-11-26": "2026-11-24T15:30:46-05:00",
+    "2026-11-27": "2026-11-24T15:30:46-05:00",
+    "2026-11-28": "2026-11-24T15:30:46-05:00",
+    "2026-11-29": "2026-11-24T15:30:46-05:00",
+    "2026-11-30": "2026-11-24T15:30:46-05:00"
    }
   },
   {
@@ -593,41 +610,41 @@
    "hood": "South End",
    "notes": "Official site links to Tock. New reservations open at 12:00 PM ET on the 15th of each month, booking up to 75 days ahead. About 10 seats, two seatings nightly. Dietary restrictions must be sent 72+ hours ahead; no vegetarian/vegan, no-raw-fish, halal or no-rice menus. Eater advises joining the waitlist for several nights since last-minute openings happen.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "not on calendar",
     "2026-11-24": "not on calendar",
     "2026-11-25": "not on calendar",
     "2026-11-26": "not on calendar",
     "2026-11-27": "not on calendar",
     "2026-11-28": "not on calendar",
-    "2026-11-29": "not on calendar"
+    "2026-11-29": "not on calendar",
+    "2026-11-30": "not on calendar"
    },
-   "checked_at": "2026-11-23T22:06:20-05:00",
+   "checked_at": "2026-11-24T15:30:50-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:06:20-05:00",
-    "2026-11-24": "2026-11-23T22:06:20-05:00",
-    "2026-11-25": "2026-11-23T22:06:20-05:00",
-    "2026-11-26": "2026-11-23T22:06:20-05:00",
-    "2026-11-27": "2026-11-23T22:06:20-05:00",
-    "2026-11-28": "2026-11-23T22:06:20-05:00",
-    "2026-11-29": "2026-11-23T22:06:20-05:00"
+    "2026-11-24": "2026-11-24T15:30:50-05:00",
+    "2026-11-25": "2026-11-24T15:30:50-05:00",
+    "2026-11-26": "2026-11-24T15:30:50-05:00",
+    "2026-11-27": "2026-11-24T15:30:50-05:00",
+    "2026-11-28": "2026-11-24T15:30:50-05:00",
+    "2026-11-29": "2026-11-24T15:30:50-05:00",
+    "2026-11-30": "2026-11-24T15:30:50-05:00"
    }
   },
   {
@@ -643,19 +660,10 @@
    "hood": "Inman Square",
    "notes": "Site's Reservations page embeds Resy. Books up to 30 days ahead. Space is held every night for walk-ins; bar and patio are first-come only (cannot be reserved). Parties 7-14: main dining room only at 5-6 PM or 8:30 PM+, $105/pp family-style menu, up to 90 days out, Sun-Thu only. Host line answers questions after 3 PM.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
-     "8:00 PM",
-     "8:45 PM",
-     "9:00 PM",
-     "9:15 PM",
      "9:30 PM"
     ],
-    "2026-11-25": [
-     "9:00 PM",
-     "9:15 PM",
-     "9:30 PM"
-    ],
+    "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [
@@ -664,32 +672,43 @@
      "10:00 PM"
     ],
     "2026-11-29": [
+     "8:00 PM",
+     "8:15 PM",
+     "8:45 PM",
+     "9:00 PM",
+     "9:15 PM",
+     "9:30 PM"
+    ],
+    "2026-11-30": [
+     "8:45 PM",
+     "9:00 PM",
+     "9:15 PM",
      "9:30 PM"
     ]
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
-    "2026-11-25": "ok",
+    "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "ok"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
+    "2026-11-25": "sold-out",
     "2026-11-26": "closed",
     "2026-11-27": "sold-out"
    },
-   "checked_at": "2026-11-23T22:01:43-05:00",
+   "checked_at": "2026-11-24T14:20:48-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:01:43-05:00",
-    "2026-11-24": "2026-11-23T22:01:43-05:00",
-    "2026-11-25": "2026-11-23T22:01:43-05:00",
-    "2026-11-26": "2026-11-23T22:01:43-05:00",
-    "2026-11-27": "2026-11-23T22:01:43-05:00",
-    "2026-11-28": "2026-11-23T22:01:43-05:00",
-    "2026-11-29": "2026-11-23T22:01:43-05:00"
+    "2026-11-24": "2026-11-24T14:20:48-05:00",
+    "2026-11-25": "2026-11-24T14:20:48-05:00",
+    "2026-11-26": "2026-11-24T14:20:48-05:00",
+    "2026-11-27": "2026-11-24T14:20:48-05:00",
+    "2026-11-28": "2026-11-24T14:20:48-05:00",
+    "2026-11-29": "2026-11-24T14:20:48-05:00",
+    "2026-11-30": "2026-11-24T14:20:48-05:00"
    }
   },
   {
@@ -705,37 +724,51 @@
    "hood": "Porter Square / Harvard-Porter",
    "notes": "Official Reservations page embeds the OpenTable widget (restaurant id 95506). Books exactly 2 weeks out; since Jan 1, 2026 new dates release at 10:00 AM ET daily (not midnight). Tables usually fully reserved before opening; 18-seat full-service bar is walk-in with an in-person waitlist once full. Patio tables by phone only. 2-hour table limit; $25/guest no-show/late-cancel (<24h). Parties of 6 rarely accommodated ($475 F&B minimum); the Pasta Table (up to 12) books up to 6 months out.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
-    "2026-11-27": [],
-    "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-27": [
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM",
+     "8:45 PM",
+     "9:15 PM",
+     "9:30 PM"
+    ],
+    "2026-11-28": [
+     "8:30 PM",
+     "8:45 PM",
+     "9:00 PM",
+     "9:15 PM"
+    ],
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
-    "2026-11-27": "none",
-    "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
-   },
-   "checked_at": "2026-11-23T22:06:20-05:00",
-   "good_at": {
-    "2026-11-23": "2026-11-21T15:54:24-05:00",
-    "2026-11-24": "2026-11-21T15:54:24-05:00",
-    "2026-11-25": "2026-11-21T15:54:24-05:00",
-    "2026-11-26": "2026-11-21T15:54:24-05:00",
-    "2026-11-27": "2026-11-21T15:54:24-05:00"
+    "2026-11-27": "ok",
+    "2026-11-28": "ok",
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "stale: last good check 11-21 15:54",
-    "2026-11-24": "stale: last good check 11-21 15:54",
-    "2026-11-25": "stale: last good check 11-21 15:54",
-    "2026-11-26": "stale: last good check 11-21 15:54",
-    "2026-11-27": "stale: last good check 11-21 15:54"
+    "2026-11-24": "no times",
+    "2026-11-25": "no times",
+    "2026-11-26": "no times",
+    "2026-11-29": "no times",
+    "2026-11-30": "no times"
+   },
+   "checked_at": "2026-11-24T15:44:33-05:00",
+   "good_at": {
+    "2026-11-24": "2026-11-24T15:44:33-05:00",
+    "2026-11-25": "2026-11-24T15:44:33-05:00",
+    "2026-11-26": "2026-11-24T15:44:33-05:00",
+    "2026-11-27": "2026-11-24T15:44:33-05:00",
+    "2026-11-28": "2026-11-24T15:44:33-05:00",
+    "2026-11-29": "2026-11-24T15:44:33-05:00",
+    "2026-11-30": "2026-11-24T15:44:33-05:00"
    }
   },
   {
@@ -751,24 +784,24 @@
    "hood": "Between Central and Harvard Squares",
    "notes": "Site's #reserve-section embeds the OpenTable widget (rid 731962). Reservations up to 30 days ahead, parties of 5 or fewer only (no exceptions for 6+). Every dining-room reservation is the $88 three-course choose-your-own-adventure prix fixe; the bar & lounge serve the menu a la carte and welcome walk-ins.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
-    "2026-11-24": "error:opentable rate-limited this run",
-    "2026-11-25": "error:opentable rate-limited this run",
-    "2026-11-26": "error:opentable rate-limited this run",
-    "2026-11-27": "error:opentable rate-limited this run",
-    "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-24": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-25": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-26": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-27": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-28": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-29": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-30": "error:Error:Page.evaluate: TypeError: Failed to fetch"
    },
-   "checked_at": "2026-11-23T22:06:20-05:00"
+   "checked_at": "2026-11-24T15:44:43-05:00"
   },
   {
    "name": "Mo\u00ebca",
@@ -783,24 +816,24 @@
    "hood": "Porter Square / Harvard-Porter",
    "notes": "Official Reservations page embeds the OpenTable widget (rid 1246282). Last dining-room reservation 9:00 PM. Parties of 5+ must call (617) 945-0040 or email info@moecarestaurant.com. Open Tue-Sat (per Time Out). Sibling of Giulia (same owners).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
-    "2026-11-24": "error:opentable rate-limited this run",
-    "2026-11-25": "error:opentable rate-limited this run",
-    "2026-11-26": "error:opentable rate-limited this run",
-    "2026-11-27": "error:opentable rate-limited this run",
-    "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-24": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-25": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-26": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-27": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-28": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-29": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-30": "error:Error:Page.evaluate: TypeError: Failed to fetch"
    },
-   "checked_at": "2026-11-23T22:06:20-05:00"
+   "checked_at": "2026-11-24T15:51:51-05:00"
   },
   {
    "name": "Lenox Sophia",
@@ -815,41 +848,41 @@
    "hood": "South Boston",
    "notes": "Official site's Reservations button links to Resy (or call). Open Wed-Sat 5-10 PM only. 5-course prix fixe (omnivore or vegetarian), $113.36/seat on the Nov 6, 2026 menu. 90-minute seatings, 15-min grace, no partial parties; $50/person same-day cancel or no-show fee. Parties of 7+ call.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "closed",
     "2026-11-24": "closed",
     "2026-11-25": "closed",
     "2026-11-26": "closed",
     "2026-11-27": "closed",
     "2026-11-28": "closed",
-    "2026-11-29": "closed"
+    "2026-11-29": "closed",
+    "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-23T22:01:45-05:00",
+   "checked_at": "2026-11-24T14:20:49-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:01:45-05:00",
-    "2026-11-24": "2026-11-23T22:01:45-05:00",
-    "2026-11-25": "2026-11-23T22:01:45-05:00",
-    "2026-11-26": "2026-11-23T22:01:45-05:00",
-    "2026-11-27": "2026-11-23T22:01:45-05:00",
-    "2026-11-28": "2026-11-23T22:01:45-05:00",
-    "2026-11-29": "2026-11-23T22:01:45-05:00"
+    "2026-11-24": "2026-11-24T14:20:49-05:00",
+    "2026-11-25": "2026-11-24T14:20:49-05:00",
+    "2026-11-26": "2026-11-24T14:20:49-05:00",
+    "2026-11-27": "2026-11-24T14:20:49-05:00",
+    "2026-11-28": "2026-11-24T14:20:49-05:00",
+    "2026-11-29": "2026-11-24T14:20:49-05:00",
+    "2026-11-30": "2026-11-24T14:20:49-05:00"
    }
   },
   {
@@ -865,7 +898,6 @@
    "hood": "Davis Square",
    "notes": "Official site links 'Book your Spoke Wine Bar reservation on Resy'. Open Wed-Sat 5-11 PM, kitchen until 10 PM. Tiny room; weeknights are walk-in friendly, reserve for weekends.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [
      "5:00 PM",
@@ -873,11 +905,6 @@
      "5:30 PM",
      "5:45 PM",
      "6:00 PM",
-     "7:00 PM",
-     "7:15 PM",
-     "7:30 PM",
-     "7:45 PM",
-     "8:00 PM",
      "8:15 PM",
      "8:30 PM",
      "8:45 PM",
@@ -916,32 +943,33 @@
      "9:30 PM",
      "9:45 PM"
     ],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "closed",
     "2026-11-24": "closed",
     "2026-11-26": "sold-out",
-    "2026-11-29": "closed"
+    "2026-11-29": "closed",
+    "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-23T22:01:53-05:00",
+   "checked_at": "2026-11-24T14:20:57-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:01:53-05:00",
-    "2026-11-24": "2026-11-23T22:01:53-05:00",
-    "2026-11-25": "2026-11-23T22:01:53-05:00",
-    "2026-11-26": "2026-11-23T22:01:53-05:00",
-    "2026-11-27": "2026-11-23T22:01:53-05:00",
-    "2026-11-28": "2026-11-23T22:01:53-05:00",
-    "2026-11-29": "2026-11-23T22:01:53-05:00"
+    "2026-11-24": "2026-11-24T14:20:57-05:00",
+    "2026-11-25": "2026-11-24T14:20:57-05:00",
+    "2026-11-26": "2026-11-24T14:20:57-05:00",
+    "2026-11-27": "2026-11-24T14:20:57-05:00",
+    "2026-11-28": "2026-11-24T14:20:57-05:00",
+    "2026-11-29": "2026-11-24T14:20:57-05:00",
+    "2026-11-30": "2026-11-24T14:20:57-05:00"
    }
   },
   {
@@ -957,25 +985,25 @@
    "hood": "South Boston",
    "notes": "The site's Reservations button goes to DoorDash Reservations (DoorDash's table-booking product; page sits behind a bot check). An OpenTable listing (dalia-boston) also exists, but the restaurant's own link is DoorDash. Open Tue-Sun 4 PM-1 AM, kitchen to 10 PM (11 PM Fri/Sat); weekend brunch 10 AM-2 PM plus a 2-4 PM tapas hour. No cancellation fee, but 24h notice requested. Opened April 2, 2026 (Broadway Restaurant Group, chef Nicholas Dixon); downstairs Leopard Lounge is 21+. No phone number published on the site.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "unknown platform",
-   "checked_at": "2026-11-23T22:03:51-05:00"
+   "checked_at": "2026-11-24T14:31:46-05:00"
   },
   {
    "name": "Bar Vlaha",
@@ -990,24 +1018,24 @@
    "hood": "Washington Square",
    "notes": "Site's Reservations link opens the OpenTable widget (rid 1277230; public page opentable.com/r/bar-vlaha-brookline). Dinner nightly; weekend brunch 10-3. One of Boston's hardest tables: book about a month out or walk in right at opening for bar seats. Patio first come, first served.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
-    "2026-11-24": "error:opentable rate-limited this run",
-    "2026-11-25": "error:opentable rate-limited this run",
-    "2026-11-26": "error:opentable rate-limited this run",
-    "2026-11-27": "error:opentable rate-limited this run",
-    "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-24": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-25": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-26": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-27": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-28": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-29": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-30": "error:Error:Page.evaluate: TypeError: Failed to fetch"
    },
-   "checked_at": "2026-11-23T22:06:20-05:00"
+   "checked_at": "2026-11-24T16:12:43-05:00"
   },
   {
    "name": "Wa Shin",
@@ -1022,41 +1050,41 @@
    "hood": "Bay Village",
    "notes": "Official site's 'Book on Resy' buttons link here. Reservations release online daily at 12:00 PM ET, 14 days in advance. Seatings at 5:00, 6:30, 8:00 and 9:30 PM at the hinoki counter; parties of 4 or fewer only (larger groups email reservations@washinboston.com). A 20% administrative fee is added to every check; gratuity not expected.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-24": "sold-out",
     "2026-11-25": "sold-out",
     "2026-11-26": "closed",
     "2026-11-27": "sold-out",
     "2026-11-28": "sold-out",
-    "2026-11-29": "closed"
+    "2026-11-29": "closed",
+    "2026-11-30": "sold-out"
    },
-   "checked_at": "2026-11-23T22:01:55-05:00",
+   "checked_at": "2026-11-24T14:20:59-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:01:55-05:00",
-    "2026-11-24": "2026-11-23T22:01:55-05:00",
-    "2026-11-25": "2026-11-23T22:01:55-05:00",
-    "2026-11-26": "2026-11-23T22:01:55-05:00",
-    "2026-11-27": "2026-11-23T22:01:55-05:00",
-    "2026-11-28": "2026-11-23T22:01:55-05:00",
-    "2026-11-29": "2026-11-23T22:01:55-05:00"
+    "2026-11-24": "2026-11-24T14:20:59-05:00",
+    "2026-11-25": "2026-11-24T14:20:59-05:00",
+    "2026-11-26": "2026-11-24T14:20:59-05:00",
+    "2026-11-27": "2026-11-24T14:20:59-05:00",
+    "2026-11-28": "2026-11-24T14:20:59-05:00",
+    "2026-11-29": "2026-11-24T14:20:59-05:00",
+    "2026-11-30": "2026-11-24T14:20:59-05:00"
    }
   },
   {
@@ -1072,24 +1100,24 @@
    "hood": "South End",
    "notes": "'Book a Reservation' on the official site opens the OpenTable widget (rid 1335643; public listing opentable.com/r/kaia-boston). Open Tue-Sat 5-11 PM, bar until 1 AM, closed Sun-Mon. Owners said at opening that many tables and the 24-seat bar are kept for walk-ins; 42-seat seasonal patio. Some guides list 380 Harrison Ave (building address); the restaurant site uses 370.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
-    "2026-11-24": "error:opentable rate-limited this run",
-    "2026-11-25": "error:opentable rate-limited this run",
-    "2026-11-26": "error:opentable rate-limited this run",
-    "2026-11-27": "error:opentable rate-limited this run",
-    "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-24": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403",
+    "2026-11-25": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403",
+    "2026-11-26": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403",
+    "2026-11-27": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403",
+    "2026-11-28": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403",
+    "2026-11-29": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403",
+    "2026-11-30": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403"
    },
-   "checked_at": "2026-11-23T22:06:20-05:00"
+   "checked_at": "2026-11-24T16:20:12-05:00"
   },
   {
    "name": "Celeste",
@@ -1104,24 +1132,24 @@
    "hood": "Union Square",
    "notes": "Official /reserve page says 'Now booking through OpenTable' and embeds the OpenTable widget (rid 1182802). Open 7 days: Mon-Thu 5-10 PM, Fri-Sat 5-11 PM, Sun 4-9 PM. Small, always-busy room; bar seats are the walk-in play. Sibling restaurants: La Royal (Cambridge) and Rosa y Marigold (Back Bay, 2026).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T22:06:20-05:00"
+   "checked_at": "2026-11-24T16:20:12-05:00"
   },
   {
    "name": "Jahunger",
@@ -1136,25 +1164,25 @@
    "hood": "Cambridgeport",
    "notes": "Official site lists no reservation link (only phone/email); treat as walk-in. Closed Mondays; Tue-Fri 5-9:30 PM, Sat 12-9:30 PM, Sun 12-8 PM (per official site, Nov 2026). Call (617) 801-9725 for large groups.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-23T22:03:51-05:00"
+   "checked_at": "2026-11-24T14:31:46-05:00"
   },
   {
    "name": "Sumiao Hunan Kitchen",
@@ -1169,12 +1197,8 @@
    "hood": "Kendall Square",
    "notes": "Resy (linked from the official site's Reservation button). Per Resy: 1.5-hr table limit for 2-3 guests, 2 hrs for 4+; parties over 8 must book through the front desk; 7+ get a 20% gratuity plus 3% kitchen fee. Closed Mondays; Tue-Sun 11:30 AM-10 PM. Weekday lunch specials Tue-Fri 11:30-3.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "5:00 PM",
-     "5:15 PM",
-     "5:30 PM",
-     "5:45 PM",
      "8:15 PM",
      "8:30 PM",
      "8:45 PM"
@@ -1193,7 +1217,6 @@
      "5:45 PM",
      "6:15 PM",
      "6:30 PM",
-     "6:45 PM",
      "7:00 PM",
      "7:30 PM",
      "7:45 PM",
@@ -1242,29 +1265,30 @@
      "8:15 PM",
      "8:30 PM",
      "8:45 PM"
-    ]
+    ],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "ok",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "closed"
+    "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-23T22:02:09-05:00",
+   "checked_at": "2026-11-24T14:21:13-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:02:09-05:00",
-    "2026-11-24": "2026-11-23T22:02:09-05:00",
-    "2026-11-25": "2026-11-23T22:02:09-05:00",
-    "2026-11-26": "2026-11-23T22:02:09-05:00",
-    "2026-11-27": "2026-11-23T22:02:09-05:00",
-    "2026-11-28": "2026-11-23T22:02:09-05:00",
-    "2026-11-29": "2026-11-23T22:02:09-05:00"
+    "2026-11-24": "2026-11-24T14:21:13-05:00",
+    "2026-11-25": "2026-11-24T14:21:13-05:00",
+    "2026-11-26": "2026-11-24T14:21:13-05:00",
+    "2026-11-27": "2026-11-24T14:21:13-05:00",
+    "2026-11-28": "2026-11-24T14:21:13-05:00",
+    "2026-11-29": "2026-11-24T14:21:13-05:00",
+    "2026-11-30": "2026-11-24T14:21:13-05:00"
    }
   },
   {
@@ -1280,24 +1304,24 @@
    "hood": "Jamaica Plain",
    "notes": "OpenTable widget on the official /reservations page (rid 212926); also by phone. Parties over 6: call 2-5 PM or email the GM; max 8 for brunch, 12 for dinner. 15-minute grace period. Dinner Wed-Sat 5 PM (last seating ~8:45-9:15); brunch Sat-Sun; closed Mon & Tue (per site, Nov 2026).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T22:06:20-05:00"
+   "checked_at": "2026-11-24T16:20:12-05:00"
   },
   {
    "name": "Fallow Kin",
@@ -1312,7 +1336,6 @@
    "hood": "Central Square",
    "notes": "Resy button on the official site (also by phone). Parties over 6 must call or email info@fallowkin.com. The 7-course Chef's Counter tasting (about 10 seats, overlooking the kitchen) is pre-purchased on Resy. Bar seats reported as first-come. Hours: Mon, Wed, Thu, Sun 5-10 PM; Fri-Sat 5-11 PM; closed Tuesday (per site, Nov 2026). Resy Hit List (Dec 2025).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [
      "5:00 PM",
@@ -1341,7 +1364,6 @@
      "6:00 PM",
      "6:15 PM",
      "6:30 PM",
-     "7:00 PM",
      "7:15 PM",
      "7:30 PM",
      "7:45 PM",
@@ -1382,31 +1404,45 @@
      "8:30 PM",
      "8:45 PM",
      "9:00 PM"
+    ],
+    "2026-11-30": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "7:00 PM",
+     "7:15 PM",
+     "7:30 PM",
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM"
     ]
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "ok"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-24": "closed",
     "2026-11-26": "sold-out"
    },
-   "checked_at": "2026-11-23T22:02:19-05:00",
+   "checked_at": "2026-11-24T14:26:28-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:02:19-05:00",
-    "2026-11-24": "2026-11-23T22:02:19-05:00",
-    "2026-11-25": "2026-11-23T22:02:19-05:00",
-    "2026-11-26": "2026-11-23T22:02:19-05:00",
-    "2026-11-27": "2026-11-23T22:02:19-05:00",
-    "2026-11-28": "2026-11-23T22:02:19-05:00",
-    "2026-11-29": "2026-11-23T22:02:19-05:00"
+    "2026-11-24": "2026-11-24T14:26:28-05:00",
+    "2026-11-25": "2026-11-24T14:26:28-05:00",
+    "2026-11-26": "2026-11-24T14:26:28-05:00",
+    "2026-11-27": "2026-11-24T14:26:28-05:00",
+    "2026-11-28": "2026-11-24T14:26:28-05:00",
+    "2026-11-29": "2026-11-24T14:26:28-05:00",
+    "2026-11-30": "2026-11-24T14:26:28-05:00"
    }
   },
   {
@@ -1422,24 +1458,24 @@
    "hood": "Back Bay",
    "notes": "OpenTable (rid 3325), linked from the official site's RESERVATIONS button; or call. Dinner nightly: Mon-Thu 5-10, Fri-Sat 5-10:30, Sun 5-9. Holiday lunch (Dec 8-23 select weekdays) and NYE dinner announced on site; open Thanksgiving 11-8. Bar seating for walk-ins.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T22:06:20-05:00"
+   "checked_at": "2026-11-24T16:20:12-05:00"
   },
   {
    "name": "Puritan & Company",
@@ -1454,24 +1490,24 @@
    "hood": "Inman Square",
    "notes": "OpenTable widget (rid 85192) embedded on the official /reserve page; reservations nightly from 5 PM, Sunday brunch 10:30-2. Walk-ins welcome. Sister Puritan Oyster Bar next door (1164 Cambridge St, OpenTable rid 1271878) holds most seats for walk-ins; half-price oysters daily 5-6 PM.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T22:06:20-05:00"
+   "checked_at": "2026-11-24T16:20:12-05:00"
   },
   {
    "name": "Somaek",
@@ -1486,7 +1522,6 @@
    "hood": "Downtown Crossing",
    "notes": "Resy (official site's Reservations links to resy.com/cities/bos/somaek). Bar turns over quickly, good for walk-ins. Reservations held 15 min; no-shows/cancellations inside 24 hrs charged $25/pp. Lunch Tue-Sat 12-3; dinner Mon-Thu 5-10, Fri-Sat 5-10:30; closed Sunday. Discounted parking at Lafayette Garage.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "5:00 PM",
      "5:30 PM",
@@ -1545,31 +1580,46 @@
      "9:45 PM",
      "10:00 PM"
     ],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": [
+     "5:00 PM",
+     "5:30 PM",
+     "6:00 PM",
+     "6:30 PM",
+     "7:00 PM",
+     "7:30 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM",
+     "8:45 PM",
+     "9:00 PM",
+     "9:15 PM",
+     "9:30 PM",
+     "9:45 PM"
+    ]
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "ok"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-26": "closed",
     "2026-11-29": "closed"
    },
-   "checked_at": "2026-11-23T22:02:30-05:00",
+   "checked_at": "2026-11-24T14:26:41-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:02:30-05:00",
-    "2026-11-24": "2026-11-23T22:02:30-05:00",
-    "2026-11-25": "2026-11-23T22:02:30-05:00",
-    "2026-11-26": "2026-11-23T22:02:30-05:00",
-    "2026-11-27": "2026-11-23T22:02:30-05:00",
-    "2026-11-28": "2026-11-23T22:02:30-05:00",
-    "2026-11-29": "2026-11-23T22:02:30-05:00"
+    "2026-11-24": "2026-11-24T14:26:41-05:00",
+    "2026-11-25": "2026-11-24T14:26:41-05:00",
+    "2026-11-26": "2026-11-24T14:26:41-05:00",
+    "2026-11-27": "2026-11-24T14:26:41-05:00",
+    "2026-11-28": "2026-11-24T14:26:41-05:00",
+    "2026-11-29": "2026-11-24T14:26:41-05:00",
+    "2026-11-30": "2026-11-24T14:26:41-05:00"
    }
   },
   {
@@ -1585,24 +1635,24 @@
    "hood": "Dorchester",
    "notes": "OpenTable (rid 1294477) via the official /reservation page, or call. Parties of 8+ email viacannuccia@gmail.com. Table limits: 1.5 hrs for 1-3 guests, 2 hrs for 4+. Hours: dinner Mon, Wed-Thu 5-9, Fri-Sat 5-9:30, Sun 5-9; brunch Sat-Sun 9-2; closed Tuesday. Small room (~40 seats incl. bar) - the Globe calls it one of Boston's toughest tables, so book well ahead. A few free parking spots after 4 PM (get a sticker inside).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T22:06:20-05:00"
+   "checked_at": "2026-11-24T16:20:12-05:00"
   },
   {
    "name": "Woods Hill Pier 4",
@@ -1617,7 +1667,6 @@
    "hood": "Seaport",
    "notes": "Resy widget on the official Reservations page. Dinner Mon-Thu 5-9, Fri 5-9:30, Sat 4:30-9:30, Sun 4:30-8:30; brunch Sat-Sun 11-2:30. Bar is walk-in friendly at 5 PM; book ahead for weekend brunch / patio in summer. Entrance faces the ICA at the end of Pier 4; no parking validation. NYE 2026 dinner page live on the site.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "5:00 PM",
      "5:15 PM",
@@ -1646,6 +1695,7 @@
      "6:15 PM",
      "6:30 PM",
      "6:45 PM",
+     "7:00 PM",
      "7:15 PM",
      "7:30 PM",
      "7:45 PM",
@@ -1703,30 +1753,31 @@
      "8:00 PM",
      "8:15 PM",
      "8:30 PM"
-    ]
+    ],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
-    "2026-11-26": "closed"
+    "2026-11-26": "closed",
+    "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-23T22:02:41-05:00",
+   "checked_at": "2026-11-24T14:26:55-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:02:41-05:00",
-    "2026-11-24": "2026-11-23T22:02:41-05:00",
-    "2026-11-25": "2026-11-23T22:02:41-05:00",
-    "2026-11-26": "2026-11-23T22:02:41-05:00",
-    "2026-11-27": "2026-11-23T22:02:41-05:00",
-    "2026-11-28": "2026-11-23T22:02:41-05:00",
-    "2026-11-29": "2026-11-23T22:02:41-05:00"
+    "2026-11-24": "2026-11-24T14:26:55-05:00",
+    "2026-11-25": "2026-11-24T14:26:55-05:00",
+    "2026-11-26": "2026-11-24T14:26:55-05:00",
+    "2026-11-27": "2026-11-24T14:26:55-05:00",
+    "2026-11-28": "2026-11-24T14:26:55-05:00",
+    "2026-11-29": "2026-11-24T14:26:55-05:00",
+    "2026-11-30": "2026-11-24T14:26:55-05:00"
    }
   },
   {
@@ -1742,24 +1793,24 @@
    "hood": "Huron Village",
    "notes": "OpenTable (rid 1235005) from the official /reserva page; site says walk-ins always welcome. Dinner daily: Mon-Thu 5-10, Fri-Sat 5-11, Sun 5-9.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T22:06:20-05:00"
+   "checked_at": "2026-11-24T16:20:12-05:00"
   },
   {
    "name": "Zurito",
@@ -1774,7 +1825,6 @@
    "hood": "Beacon Hill",
    "notes": "Site's reservation widget books via Resy (venue id 83922). Per the restaurant: Resy opens 30 days ahead at 10 AM; choose seating type carefully (dining room, high-top or bar) since changes aren't guaranteed; tables held 15 minutes. Hosts available from 3:30 PM daily. Hours Mon-Thu 5-10, Fri 5-11, Sat noon-11, Sun noon-9.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "5:00 PM",
      "5:15 PM",
@@ -1852,30 +1902,51 @@
      "8:15 PM",
      "8:30 PM",
      "8:45 PM"
+    ],
+    "2026-11-30": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "6:45 PM",
+     "7:00 PM",
+     "7:15 PM",
+     "7:30 PM",
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM",
+     "8:45 PM",
+     "9:00 PM",
+     "9:15 PM",
+     "9:30 PM",
+     "9:45 PM"
     ]
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "ok"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-26": "closed"
    },
-   "checked_at": "2026-11-23T22:02:55-05:00",
+   "checked_at": "2026-11-24T14:27:09-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:02:55-05:00",
-    "2026-11-24": "2026-11-23T22:02:55-05:00",
-    "2026-11-25": "2026-11-23T22:02:55-05:00",
-    "2026-11-26": "2026-11-23T22:02:55-05:00",
-    "2026-11-27": "2026-11-23T22:02:55-05:00",
-    "2026-11-28": "2026-11-23T22:02:55-05:00",
-    "2026-11-29": "2026-11-23T22:02:55-05:00"
+    "2026-11-24": "2026-11-24T14:27:09-05:00",
+    "2026-11-25": "2026-11-24T14:27:09-05:00",
+    "2026-11-26": "2026-11-24T14:27:09-05:00",
+    "2026-11-27": "2026-11-24T14:27:09-05:00",
+    "2026-11-28": "2026-11-24T14:27:09-05:00",
+    "2026-11-29": "2026-11-24T14:27:09-05:00",
+    "2026-11-30": "2026-11-24T14:27:09-05:00"
    }
   },
   {
@@ -1891,25 +1962,25 @@
    "hood": "Back Bay",
    "notes": "No reservations and no phone (per the bar's contact page): first come, first served. Tue-Sat 5 PM-1 AM. 24-seat room; arrive before 5 or expect a line.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-23T22:03:51-05:00"
+   "checked_at": "2026-11-24T14:31:46-05:00"
   },
   {
    "name": "Yvonne's",
@@ -1924,21 +1995,12 @@
    "hood": "Downtown Crossing",
    "notes": "Site's 'Reserve a Table' goes to SevenRooms. Reservations are for supper only (not cocktails-only); tables held 15 minutes. Open Sun 4 PM-1 AM, Mon-Thu 5 PM-1 AM, Fri-Sat 4 PM-2 AM; the bars run late after the kitchen.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "5:00 PM",
      "5:15 PM",
      "5:30 PM",
      "5:45 PM",
      "6:00 PM",
-     "6:15 PM",
-     "6:30 PM",
-     "6:45 PM",
-     "7:00 PM",
-     "7:15 PM",
-     "7:30 PM",
-     "7:45 PM",
-     "8:00 PM",
      "8:15 PM",
      "8:30 PM",
      "8:45 PM",
@@ -1970,6 +2032,19 @@
      "10:00 PM"
     ],
     "2026-11-28": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "6:45 PM",
+     "7:00 PM",
+     "7:15 PM",
+     "7:30 PM",
+     "7:45 PM",
+     "8:00 PM",
      "8:15 PM",
      "8:30 PM",
      "8:45 PM",
@@ -2001,26 +2076,49 @@
      "9:30 PM",
      "9:45 PM",
      "10:00 PM"
+    ],
+    "2026-11-30": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "6:45 PM",
+     "7:00 PM",
+     "7:15 PM",
+     "7:30 PM",
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM",
+     "8:45 PM",
+     "9:00 PM",
+     "9:15 PM",
+     "9:30 PM",
+     "9:45 PM",
+     "10:00 PM"
     ]
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "ok"
    },
-   "checked_at": "2026-11-23T22:03:51-05:00",
+   "checked_at": "2026-11-24T14:31:46-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:03:51-05:00",
-    "2026-11-24": "2026-11-23T22:03:51-05:00",
-    "2026-11-25": "2026-11-23T22:03:51-05:00",
-    "2026-11-26": "2026-11-23T22:03:51-05:00",
-    "2026-11-27": "2026-11-23T22:03:51-05:00",
-    "2026-11-28": "2026-11-23T22:03:51-05:00",
-    "2026-11-29": "2026-11-23T22:03:51-05:00"
+    "2026-11-24": "2026-11-24T14:31:46-05:00",
+    "2026-11-25": "2026-11-24T14:31:46-05:00",
+    "2026-11-26": "2026-11-24T14:31:46-05:00",
+    "2026-11-27": "2026-11-24T14:31:46-05:00",
+    "2026-11-28": "2026-11-24T14:31:46-05:00",
+    "2026-11-29": "2026-11-24T14:31:46-05:00",
+    "2026-11-30": "2026-11-24T14:31:46-05:00"
    }
   },
   {
@@ -2036,17 +2134,12 @@
    "hood": "Downtown Crossing",
    "notes": "Site's 'Reserve Now' links to Resy; most of the room is bar seating and walk-ins are welcome. Tue-Thu 3-11 PM, Fri 3 PM-midnight, Sat noon-midnight; closed Sun-Mon.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
-     "5:00 PM",
      "9:00 PM",
      "9:15 PM",
      "9:30 PM"
     ],
-    "2026-11-25": [
-     "5:00 PM",
-     "5:15 PM"
-    ],
+    "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [
      "7:30 PM",
@@ -2076,31 +2169,32 @@
      "9:45 PM",
      "10:00 PM"
     ],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
-    "2026-11-25": "ok",
+    "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "closed",
     "2026-11-26": "sold-out",
-    "2026-11-29": "closed"
+    "2026-11-29": "closed",
+    "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-23T22:03:05-05:00",
+   "checked_at": "2026-11-24T14:30:41-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:03:05-05:00",
-    "2026-11-24": "2026-11-23T22:03:05-05:00",
-    "2026-11-25": "2026-11-23T22:03:05-05:00",
-    "2026-11-26": "2026-11-23T22:03:05-05:00",
-    "2026-11-27": "2026-11-23T22:03:05-05:00",
-    "2026-11-28": "2026-11-23T22:03:05-05:00",
-    "2026-11-29": "2026-11-23T22:03:05-05:00"
+    "2026-11-24": "2026-11-24T14:30:41-05:00",
+    "2026-11-25": "2026-11-24T14:30:41-05:00",
+    "2026-11-26": "2026-11-24T14:30:41-05:00",
+    "2026-11-27": "2026-11-24T14:30:41-05:00",
+    "2026-11-28": "2026-11-24T14:30:41-05:00",
+    "2026-11-29": "2026-11-24T14:30:41-05:00",
+    "2026-11-30": "2026-11-24T14:30:41-05:00"
    }
   },
   {
@@ -2116,25 +2210,25 @@
    "hood": "Union Square",
    "notes": "No reservations found; walk-in only. The entrance is an orange/steel door down an alley off Union Sq (between The Independent and Bronwyn). On weekends a line forms down the hallway, and staff make people wait rather than crowd the room, so come early in the evening. Old site backbarunion.com currently shows a Wix domain error, so the Facebook page is the best official link.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-23T22:03:51-05:00"
+   "checked_at": "2026-11-24T14:31:46-05:00"
   },
   {
    "name": "Blossom Bar",
@@ -2149,13 +2243,7 @@
    "hood": "Brookline Village",
    "notes": "Reservations on Tock; a section is kept for walk-ins. Tables get 1 hr 30 min. Groups up to 12. Bar opens daily at 5 PM (the restaurant opens at lunch).",
    "slots": {
-    "2026-11-23": [],
-    "2026-11-24": [
-     "5:00 PM",
-     "5:30 PM",
-     "8:00 PM",
-     "8:30 PM"
-    ],
+    "2026-11-24": [],
     "2026-11-25": [
      "5:00 PM",
      "5:30 PM",
@@ -2169,6 +2257,11 @@
     "2026-11-26": [],
     "2026-11-27": [
      "5:00 PM",
+     "5:30 PM",
+     "6:00 PM",
+     "6:30 PM",
+     "7:00 PM",
+     "7:30 PM",
      "8:00 PM",
      "8:30 PM",
      "9:00 PM",
@@ -2197,29 +2290,39 @@
      "7:30 PM",
      "8:00 PM",
      "8:30 PM"
+    ],
+    "2026-11-30": [
+     "5:00 PM",
+     "5:30 PM",
+     "6:00 PM",
+     "6:30 PM",
+     "7:00 PM",
+     "7:30 PM",
+     "8:00 PM",
+     "8:30 PM"
     ]
    },
    "status": {
-    "2026-11-23": "none",
-    "2026-11-24": "ok",
+    "2026-11-24": "none",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "ok"
    },
    "day_notes": {
     "2026-11-26": "not on calendar"
    },
-   "checked_at": "2026-11-23T22:06:24-05:00",
+   "checked_at": "2026-11-24T16:20:16-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:06:24-05:00",
-    "2026-11-24": "2026-11-23T22:06:24-05:00",
-    "2026-11-25": "2026-11-23T22:06:24-05:00",
-    "2026-11-26": "2026-11-23T22:06:24-05:00",
-    "2026-11-27": "2026-11-23T22:06:24-05:00",
-    "2026-11-28": "2026-11-23T22:06:24-05:00",
-    "2026-11-29": "2026-11-23T22:06:24-05:00"
+    "2026-11-24": "2026-11-24T16:20:16-05:00",
+    "2026-11-25": "2026-11-24T16:20:16-05:00",
+    "2026-11-26": "2026-11-24T16:20:16-05:00",
+    "2026-11-27": "2026-11-24T16:20:16-05:00",
+    "2026-11-28": "2026-11-24T16:20:16-05:00",
+    "2026-11-29": "2026-11-24T16:20:16-05:00",
+    "2026-11-30": "2026-11-24T16:20:16-05:00"
    }
   },
   {
@@ -2235,24 +2338,24 @@
    "hood": "Teele Square",
    "notes": "OpenTable via the site's Contact + Reserve page. 14-seat bar room plus a kitchen-counter bar for perching; walk in for bar seats. Open Tue-Sat; kitchen 5-10 PM, bar until 11 PM Tue-Thu and midnight Fri-Sat.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T22:06:24-05:00"
+   "checked_at": "2026-11-24T16:20:16-05:00"
   },
   {
    "name": "Toro",
@@ -2267,24 +2370,24 @@
    "hood": "South End",
    "notes": "Reservations page embeds the OpenTable widget (rid 265075). Dinner Sun-Thu 5-10, Fri-Sat 5-11; Sunday brunch 11-3. Bar seats are the fallback for walk-ins. Holiday 2026: closed Thanksgiving and Christmas; NYE is prix-fixe.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T22:06:24-05:00"
+   "checked_at": "2026-11-24T16:20:16-05:00"
   },
   {
    "name": "Fox & the Knife",
@@ -2299,24 +2402,24 @@
    "hood": "South Boston",
    "notes": "Site's 'Book a table' buttons go to OpenTable (the site also contains an older Resy link). Reservations release on a rolling 30-day basis; walk-ins accommodated when possible, bar is first come first served. Hours listed Wed-Sun 4-10/11 (Mon-Tue closed); site text is inconsistent, so confirm.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T22:06:24-05:00"
+   "checked_at": "2026-11-24T16:20:16-05:00"
   },
   {
    "name": "Row 34",
@@ -2331,24 +2434,24 @@
    "hood": "Fort Point / Seaport",
    "notes": "Site's reservation widget books via OpenTable (Seaport rid 114622; public page opentable.com/r/row-34-boston). Mon-Sat 11:30-10 (drinks to 11), Sun 11:30-9. Bar seating is walk-in. Stillings St garage validation after 5 PM.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T22:06:24-05:00"
+   "checked_at": "2026-11-24T16:20:16-05:00"
   },
   {
    "name": "Baleia",
@@ -2363,7 +2466,6 @@
    "hood": "South End",
    "notes": "Site's Reserve buttons link to Resy. Reservations Sun-Thu 5-9 PM, Fri-Sat 5-10:30 PM. Bar seats usually available for walk-ins. Parking: Lot 4 under the overpass (274 Albany St), 5 dollars for 3 hours with validation.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "5:00 PM",
      "5:15 PM",
@@ -2465,30 +2567,48 @@
      "8:30 PM",
      "8:45 PM",
      "9:00 PM"
+    ],
+    "2026-11-30": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "6:45 PM",
+     "7:00 PM",
+     "7:15 PM",
+     "7:30 PM",
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM",
+     "8:45 PM",
+     "9:00 PM"
     ]
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "ok"
    },
    "day_notes": {
-    "2026-11-23": "sold-out",
     "2026-11-26": "closed"
    },
-   "checked_at": "2026-11-23T22:03:17-05:00",
+   "checked_at": "2026-11-24T14:31:13-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:03:17-05:00",
-    "2026-11-24": "2026-11-23T22:03:17-05:00",
-    "2026-11-25": "2026-11-23T22:03:17-05:00",
-    "2026-11-26": "2026-11-23T22:03:17-05:00",
-    "2026-11-27": "2026-11-23T22:03:17-05:00",
-    "2026-11-28": "2026-11-23T22:03:17-05:00",
-    "2026-11-29": "2026-11-23T22:03:17-05:00"
+    "2026-11-24": "2026-11-24T14:31:13-05:00",
+    "2026-11-25": "2026-11-24T14:31:13-05:00",
+    "2026-11-26": "2026-11-24T14:31:13-05:00",
+    "2026-11-27": "2026-11-24T14:31:13-05:00",
+    "2026-11-28": "2026-11-24T14:31:13-05:00",
+    "2026-11-29": "2026-11-24T14:31:13-05:00",
+    "2026-11-30": "2026-11-24T14:31:13-05:00"
    }
   },
   {
@@ -2504,22 +2624,12 @@
    "hood": "Downtown Crossing",
    "notes": "Mostly first come, first served. Resy reservations (venue 67458, via the site's form) only 5-7 PM Tue-Sat and all evening Sun/Mon, parties of 2-6, released one week ahead. Open daily 5 PM-2 AM; 21+.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "5:00 PM",
      "5:15 PM",
      "5:30 PM",
      "5:45 PM",
      "6:00 PM",
-     "6:15 PM",
-     "6:30 PM",
-     "6:45 PM",
-     "7:00 PM",
-     "7:15 PM",
-     "7:30 PM",
-     "7:45 PM",
-     "8:00 PM",
-     "8:15 PM",
      "8:30 PM",
      "8:45 PM",
      "9:00 PM",
@@ -2591,29 +2701,52 @@
      "9:30 PM",
      "9:45 PM",
      "10:00 PM"
+    ],
+    "2026-11-30": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "6:45 PM",
+     "7:00 PM",
+     "7:15 PM",
+     "7:30 PM",
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM",
+     "8:45 PM",
+     "9:00 PM",
+     "9:15 PM",
+     "9:30 PM",
+     "9:45 PM",
+     "10:00 PM"
     ]
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "ok"
    },
    "day_notes": {
     "2026-11-26": "closed"
    },
-   "checked_at": "2026-11-23T22:03:33-05:00",
+   "checked_at": "2026-11-24T14:31:28-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:03:33-05:00",
-    "2026-11-24": "2026-11-23T22:03:33-05:00",
-    "2026-11-25": "2026-11-23T22:03:33-05:00",
-    "2026-11-26": "2026-11-23T22:03:33-05:00",
-    "2026-11-27": "2026-11-23T22:03:33-05:00",
-    "2026-11-28": "2026-11-23T22:03:33-05:00",
-    "2026-11-29": "2026-11-23T22:03:33-05:00"
+    "2026-11-24": "2026-11-24T14:31:28-05:00",
+    "2026-11-25": "2026-11-24T14:31:28-05:00",
+    "2026-11-26": "2026-11-24T14:31:28-05:00",
+    "2026-11-27": "2026-11-24T14:31:28-05:00",
+    "2026-11-28": "2026-11-24T14:31:28-05:00",
+    "2026-11-29": "2026-11-24T14:31:28-05:00",
+    "2026-11-30": "2026-11-24T14:31:28-05:00"
    }
   },
   {
@@ -2629,38 +2762,38 @@
    "hood": "North End",
    "notes": "Prepaid Tock tickets (about $80+/pp, covering drinks, tax and tip) release 60 days out on the 1st of the month at 12 PM and sell out in minutes; late-night seats release weekly. Walk-ins only if a seat is free. Join the site's mailing list for release reminders.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "none",
     "2026-11-26": "none",
     "2026-11-27": "none",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "not on calendar",
     "2026-11-24": "not on calendar",
     "2026-11-26": "not on calendar",
-    "2026-11-29": "not on calendar"
+    "2026-11-29": "not on calendar",
+    "2026-11-30": "not on calendar"
    },
-   "checked_at": "2026-11-23T22:06:29-05:00",
+   "checked_at": "2026-11-24T16:20:20-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:06:29-05:00",
-    "2026-11-24": "2026-11-23T22:06:29-05:00",
-    "2026-11-25": "2026-11-23T22:06:29-05:00",
-    "2026-11-26": "2026-11-23T22:06:29-05:00",
-    "2026-11-27": "2026-11-23T22:06:29-05:00",
-    "2026-11-28": "2026-11-23T22:06:29-05:00",
-    "2026-11-29": "2026-11-23T22:06:29-05:00"
+    "2026-11-24": "2026-11-24T16:20:20-05:00",
+    "2026-11-25": "2026-11-24T16:20:20-05:00",
+    "2026-11-26": "2026-11-24T16:20:20-05:00",
+    "2026-11-27": "2026-11-24T16:20:20-05:00",
+    "2026-11-28": "2026-11-24T16:20:20-05:00",
+    "2026-11-29": "2026-11-24T16:20:20-05:00",
+    "2026-11-30": "2026-11-24T16:20:20-05:00"
    }
   },
   {
@@ -2676,25 +2809,25 @@
    "hood": "Inman Square",
    "notes": "First come, first served (official site). Open 5 PM-1 AM Mon-Thu, to 2 AM Fri-Sat, Sunday from 11 AM for brunch; kitchen until 11 PM (midnight Fri-Sat). Expect a wait for brunch and late weekend nights; put your name in and grab a drink.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "skipped",
     "2026-11-24": "skipped",
     "2026-11-25": "skipped",
     "2026-11-26": "skipped",
     "2026-11-27": "skipped",
     "2026-11-28": "skipped",
-    "2026-11-29": "skipped"
+    "2026-11-29": "skipped",
+    "2026-11-30": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-23T22:03:51-05:00"
+   "checked_at": "2026-11-24T14:31:46-05:00"
   },
   {
    "name": "The Koji Club",
@@ -2709,7 +2842,6 @@
    "hood": "Brighton",
    "notes": "Walk-ins always welcome; limited Resy reservations, also used for ticketed sake tastings. About 16 seats (8 at the bar) plus a seasonal patio. Hours Tue 5-9, Wed 5-10, Thu 5-11, Fri 4-11, Sat 2-11, Sun 2-8.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [
      "8:30 PM"
     ],
@@ -2735,30 +2867,31 @@
      "6:00 PM",
      "6:15 PM",
      "6:30 PM"
-    ]
+    ],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "ok",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "ok"
+    "2026-11-29": "ok",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "closed",
-    "2026-11-26": "closed"
+    "2026-11-26": "closed",
+    "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-23T22:03:44-05:00",
+   "checked_at": "2026-11-24T14:31:40-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:03:44-05:00",
-    "2026-11-24": "2026-11-23T22:03:44-05:00",
-    "2026-11-25": "2026-11-23T22:03:44-05:00",
-    "2026-11-26": "2026-11-23T22:03:44-05:00",
-    "2026-11-27": "2026-11-23T22:03:44-05:00",
-    "2026-11-28": "2026-11-23T22:03:44-05:00",
-    "2026-11-29": "2026-11-23T22:03:44-05:00"
+    "2026-11-24": "2026-11-24T14:31:40-05:00",
+    "2026-11-25": "2026-11-24T14:31:40-05:00",
+    "2026-11-26": "2026-11-24T14:31:40-05:00",
+    "2026-11-27": "2026-11-24T14:31:40-05:00",
+    "2026-11-28": "2026-11-24T14:31:40-05:00",
+    "2026-11-29": "2026-11-24T14:31:40-05:00",
+    "2026-11-30": "2026-11-24T14:31:40-05:00"
    }
   },
   {
@@ -2774,7 +2907,6 @@
    "hood": "North End",
    "notes": "Prepaid, all-inclusive Tock tickets (from about $115/pp). Releases are batched; one Tock notice showed releases on the 15th at 4 PM for the following month, so check Tock. Walk-ins only via the Tock app walk-in waitlist. 20 seats, no standing; keep to the booked duration (about 110 min); changes before 4 PM day-of; purchases final.",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [
      "5:00 PM",
@@ -2786,32 +2918,33 @@
      "9:30 PM"
     ],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "none",
     "2026-11-24": "none",
     "2026-11-25": "ok",
     "2026-11-26": "none",
     "2026-11-27": "ok",
     "2026-11-28": "none",
-    "2026-11-29": "none"
+    "2026-11-29": "none",
+    "2026-11-30": "none"
    },
    "day_notes": {
-    "2026-11-23": "not on calendar",
     "2026-11-24": "not on calendar",
     "2026-11-26": "not on calendar",
-    "2026-11-29": "not on calendar"
+    "2026-11-29": "not on calendar",
+    "2026-11-30": "not on calendar"
    },
-   "checked_at": "2026-11-23T22:06:33-05:00",
+   "checked_at": "2026-11-24T16:20:24-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-23T22:06:33-05:00",
-    "2026-11-24": "2026-11-23T22:06:33-05:00",
-    "2026-11-25": "2026-11-23T22:06:33-05:00",
-    "2026-11-26": "2026-11-23T22:06:33-05:00",
-    "2026-11-27": "2026-11-23T22:06:33-05:00",
-    "2026-11-28": "2026-11-23T22:06:33-05:00",
-    "2026-11-29": "2026-11-23T22:06:33-05:00"
+    "2026-11-24": "2026-11-24T16:20:24-05:00",
+    "2026-11-25": "2026-11-24T16:20:24-05:00",
+    "2026-11-26": "2026-11-24T16:20:24-05:00",
+    "2026-11-27": "2026-11-24T16:20:24-05:00",
+    "2026-11-28": "2026-11-24T16:20:24-05:00",
+    "2026-11-29": "2026-11-24T16:20:24-05:00",
+    "2026-11-30": "2026-11-24T16:20:24-05:00"
    }
   },
   {
@@ -2827,24 +2960,24 @@
    "hood": "Harvard Square",
    "notes": "The official site embeds an OpenTable widget (rid 1239667); walk-ins welcome for the bar. Two floors; enter the upstairs bar through the dragon mouth. Municipal lot closed through Jan 30, so use the Charles Hotel or University Place garages (discount offered).",
    "slots": {
-    "2026-11-23": [],
     "2026-11-24": [],
     "2026-11-25": [],
     "2026-11-26": [],
     "2026-11-27": [],
     "2026-11-28": [],
-    "2026-11-29": []
+    "2026-11-29": [],
+    "2026-11-30": []
    },
    "status": {
-    "2026-11-23": "error:opentable rate-limited this run",
     "2026-11-24": "error:opentable rate-limited this run",
     "2026-11-25": "error:opentable rate-limited this run",
     "2026-11-26": "error:opentable rate-limited this run",
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run"
+    "2026-11-29": "error:opentable rate-limited this run",
+    "2026-11-30": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T22:06:33-05:00"
+   "checked_at": "2026-11-24T16:20:24-05:00"
   }
  ]
 }
