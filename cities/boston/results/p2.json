@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T02:11:12-05:00",
+ "generated_at": "2026-11-27T15:19:07-05:00",
  "party": 2,
  "city": "boston",
  "window": {
@@ -17,6 +17,7 @@
   "2026-12-03"
  ],
  "platforms_checked_this_run": [
+  "opentable",
   "phone",
   "resy",
   "sevenrooms",
@@ -39,19 +40,19 @@
    "notes": "Official reservations page: Resy only; tables release at 9:00 AM ET on a rolling 14-day window (dining room, high-tops and 2nd-floor bar seats all listed online). First-floor bar & lounge is held for walk-ins, first come first served. If sold out, use Resy 'Notify' (their waitlist). 'Club Room (Quiet Dining)' tables are bookable when available. Parties 14+ / private dining via events manager.",
    "slots": {
     "2026-11-27": [
-     "5:00 PM",
      "5:15 PM",
      "5:30 PM",
-     "5:45 PM",
-     "6:00 PM",
-     "8:45 PM",
-     "9:15 PM",
      "9:30 PM",
      "9:45 PM",
      "10:00 PM"
     ],
     "2026-11-28": [
+     "8:00 PM",
+     "8:15 PM",
+     "8:45 PM",
+     "9:00 PM",
      "9:15 PM",
+     "9:30 PM",
      "9:45 PM",
      "10:00 PM"
     ],
@@ -134,15 +135,15 @@
    "day_notes": {
     "2026-12-02": "closed"
    },
-   "checked_at": "2026-11-27T02:09:19-05:00",
+   "checked_at": "2026-11-27T14:18:21-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:09:19-05:00",
-    "2026-11-28": "2026-11-27T02:09:19-05:00",
-    "2026-11-29": "2026-11-27T02:09:19-05:00",
-    "2026-11-30": "2026-11-27T02:09:19-05:00",
-    "2026-12-01": "2026-11-27T02:09:19-05:00",
-    "2026-12-02": "2026-11-27T02:09:19-05:00",
-    "2026-12-03": "2026-11-27T02:09:19-05:00"
+    "2026-11-27": "2026-11-27T14:18:21-05:00",
+    "2026-11-28": "2026-11-27T14:18:21-05:00",
+    "2026-11-29": "2026-11-27T14:18:21-05:00",
+    "2026-11-30": "2026-11-27T14:18:21-05:00",
+    "2026-12-01": "2026-11-27T14:18:21-05:00",
+    "2026-12-02": "2026-11-27T14:18:21-05:00",
+    "2026-12-03": "2026-11-27T14:18:21-05:00"
    }
   },
   {
@@ -158,13 +159,7 @@
    "hood": "Winter Hill",
    "notes": "Parties up to 6 book on Resy up to 30 days out; a new day releases every morning at 10 AM ET (or call after 3 PM). 7+ need an event form and a fixed $150pp menu. 20-seat bar plus high-tops are walk-in only, first come first served. 20% gratuity added for 6+. Closed Nov 26, Dec 24-28 and Jan 1 this season.",
    "slots": {
-    "2026-11-27": [
-     "5:30 PM",
-     "5:45 PM",
-     "9:30 PM",
-     "9:45 PM",
-     "10:00 PM"
-    ],
+    "2026-11-27": [],
     "2026-11-28": [],
     "2026-11-29": [],
     "2026-11-30": [],
@@ -173,7 +168,7 @@
     "2026-12-03": []
    },
    "status": {
-    "2026-11-27": "ok",
+    "2026-11-27": "none",
     "2026-11-28": "none",
     "2026-11-29": "none",
     "2026-11-30": "none",
@@ -182,6 +177,7 @@
     "2026-12-03": "none"
    },
    "day_notes": {
+    "2026-11-27": "sold-out",
     "2026-11-28": "sold-out",
     "2026-11-29": "sold-out",
     "2026-11-30": "sold-out",
@@ -189,15 +185,15 @@
     "2026-12-02": "sold-out",
     "2026-12-03": "sold-out"
    },
-   "checked_at": "2026-11-27T02:09:20-05:00",
+   "checked_at": "2026-11-27T14:18:23-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:09:20-05:00",
-    "2026-11-28": "2026-11-27T02:09:20-05:00",
-    "2026-11-29": "2026-11-27T02:09:20-05:00",
-    "2026-11-30": "2026-11-27T02:09:20-05:00",
-    "2026-12-01": "2026-11-27T02:09:20-05:00",
-    "2026-12-02": "2026-11-27T02:09:20-05:00",
-    "2026-12-03": "2026-11-27T02:09:20-05:00"
+    "2026-11-27": "2026-11-27T14:18:23-05:00",
+    "2026-11-28": "2026-11-27T14:18:23-05:00",
+    "2026-11-29": "2026-11-27T14:18:23-05:00",
+    "2026-11-30": "2026-11-27T14:18:23-05:00",
+    "2026-12-01": "2026-11-27T14:18:23-05:00",
+    "2026-12-02": "2026-11-27T14:18:23-05:00",
+    "2026-12-03": "2026-11-27T14:18:23-05:00"
    }
   },
   {
@@ -228,26 +224,18 @@
    "status": {
     "2026-11-27": "ok",
     "2026-11-28": "ok",
-    "2026-11-29": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-29": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-30": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-12-01": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-12-02": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-12-03": "error:Error:Page.evaluate: TypeError: Failed to fetch"
    },
-   "checked_at": "2026-11-23T03:55:59-05:00",
+   "checked_at": "2026-11-27T14:55:06-05:00",
    "good_at": {
-    "2026-11-23": "2026-11-22T09:41:38-05:00",
-    "2026-11-24": "2026-11-22T09:41:38-05:00",
-    "2026-11-25": "2026-11-22T09:41:38-05:00",
-    "2026-11-26": "2026-11-22T09:41:38-05:00",
     "2026-11-27": "2026-11-22T09:41:38-05:00",
     "2026-11-28": "2026-11-22T09:41:38-05:00"
    },
    "day_notes": {
-    "2026-11-23": "stale: last good check 11-22 09:41",
-    "2026-11-24": "stale: last good check 11-22 09:41",
-    "2026-11-25": "stale: last good check 11-22 09:41",
-    "2026-11-26": "stale: last good check 11-22 09:41",
     "2026-11-27": "stale: last good check 11-22 09:41",
     "2026-11-28": "stale: last good check 11-22 09:41"
    }
@@ -274,15 +262,15 @@
     "2026-12-03": []
    },
    "status": {
-    "2026-11-27": "error:opentable rate-limited this run",
-    "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-27": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-28": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-29": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-11-30": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-12-01": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-12-02": "error:Error:Page.evaluate: TypeError: Failed to fetch",
+    "2026-12-03": "error:Error:Page.evaluate: TypeError: Failed to fetch"
    },
-   "checked_at": "2026-11-23T03:55:59-05:00"
+   "checked_at": "2026-11-27T15:00:49-05:00"
   },
   {
    "name": "Field & Vine",
@@ -386,15 +374,15 @@
     "2026-11-29": "closed",
     "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-27T02:09:26-05:00",
+   "checked_at": "2026-11-27T14:18:30-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:09:26-05:00",
-    "2026-11-28": "2026-11-27T02:09:26-05:00",
-    "2026-11-29": "2026-11-27T02:09:26-05:00",
-    "2026-11-30": "2026-11-27T02:09:26-05:00",
-    "2026-12-01": "2026-11-27T02:09:26-05:00",
-    "2026-12-02": "2026-11-27T02:09:26-05:00",
-    "2026-12-03": "2026-11-27T02:09:26-05:00"
+    "2026-11-27": "2026-11-27T14:18:30-05:00",
+    "2026-11-28": "2026-11-27T14:18:30-05:00",
+    "2026-11-29": "2026-11-27T14:18:30-05:00",
+    "2026-11-30": "2026-11-27T14:18:30-05:00",
+    "2026-12-01": "2026-11-27T14:18:30-05:00",
+    "2026-12-02": "2026-11-27T14:18:30-05:00",
+    "2026-12-03": "2026-11-27T14:18:30-05:00"
    }
   },
   {
@@ -410,24 +398,101 @@
    "hood": "Upham's Corner, Dorchester",
    "notes": "Official reservations page links to OpenTable (rid 1277473). Dinner Wed-Sun 4:30-9 PM last seating; Sunday brunch. Reservations required for dinner; 2-hour table limit; 15-minute late hold. Cancel by 5 PM the day before or pay $25/person; $10/guest fee for same-day party-size changes; manage everything via OpenTable (they don't check voicemail). A few walk-ins at the 6-stool bar and patios.",
    "slots": {
-    "2026-11-27": [],
-    "2026-11-28": [],
-    "2026-11-29": [],
+    "2026-11-27": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "6:45 PM",
+     "7:30 PM",
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM"
+    ],
+    "2026-11-28": [
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM"
+    ],
+    "2026-11-29": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "6:45 PM",
+     "7:00 PM",
+     "7:15 PM",
+     "7:30 PM",
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM"
+    ],
     "2026-11-30": [],
     "2026-12-01": [],
-    "2026-12-02": [],
-    "2026-12-03": []
+    "2026-12-02": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "6:45 PM",
+     "7:00 PM",
+     "7:15 PM",
+     "7:30 PM",
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM"
+    ],
+    "2026-12-03": [
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "6:45 PM",
+     "7:00 PM",
+     "7:15 PM",
+     "7:30 PM",
+     "7:45 PM",
+     "8:00 PM",
+     "8:15 PM",
+     "8:30 PM"
+    ]
    },
    "status": {
-    "2026-11-27": "error:opentable rate-limited this run",
-    "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-27": "ok",
+    "2026-11-28": "ok",
+    "2026-11-29": "ok",
+    "2026-11-30": "none",
+    "2026-12-01": "none",
+    "2026-12-02": "ok",
+    "2026-12-03": "ok"
    },
-   "checked_at": "2026-11-23T03:55:59-05:00"
+   "day_notes": {
+    "2026-11-30": "no times",
+    "2026-12-01": "no times"
+   },
+   "checked_at": "2026-11-27T15:16:36-05:00",
+   "good_at": {
+    "2026-11-27": "2026-11-27T15:16:36-05:00",
+    "2026-11-28": "2026-11-27T15:16:36-05:00",
+    "2026-11-29": "2026-11-27T15:16:36-05:00",
+    "2026-11-30": "2026-11-27T15:16:36-05:00",
+    "2026-12-01": "2026-11-27T15:16:36-05:00",
+    "2026-12-02": "2026-11-27T15:16:36-05:00",
+    "2026-12-03": "2026-11-27T15:16:36-05:00"
+   }
   },
   {
    "name": "Neptune Oyster",
@@ -460,7 +525,7 @@
     "2026-12-03": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-27T02:10:57-05:00"
+   "checked_at": "2026-11-27T14:38:54-05:00"
   },
   {
    "name": "O Ya",
@@ -484,15 +549,15 @@
     "2026-12-03": []
    },
    "status": {
-    "2026-11-27": "error:opentable rate-limited this run",
-    "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-27": "error:RuntimeError:profile page HTTP 404 (OpenTable)",
+    "2026-11-28": "error:RuntimeError:profile page HTTP 404 (OpenTable)",
+    "2026-11-29": "error:RuntimeError:profile page HTTP 404 (OpenTable)",
+    "2026-11-30": "error:RuntimeError:profile page HTTP 404 (OpenTable)",
+    "2026-12-01": "error:RuntimeError:profile page HTTP 404 (OpenTable)",
+    "2026-12-02": "error:RuntimeError:profile page HTTP 404 (OpenTable)",
+    "2026-12-03": "error:RuntimeError:profile page HTTP 404 (OpenTable)"
    },
-   "checked_at": "2026-11-23T03:55:59-05:00"
+   "checked_at": "2026-11-27T15:16:36-05:00"
   },
   {
    "name": "Tonino",
@@ -508,7 +573,10 @@
    "notes": "Online only via Resy; released daily at noon, 30 days out to the date, and they fill almost immediately. Use Resy Notify (most cancellations appear in the week before). Two counter seats held for walk-ins nightly, given to the first two people at the door at 5 PM, then a waitlist. Open Sun-Mon 5-9:30, Thu-Sat 5-10:30; closed Tue-Wed.",
    "slots": {
     "2026-11-27": [],
-    "2026-11-28": [],
+    "2026-11-28": [
+     "5:00 PM",
+     "5:15 PM"
+    ],
     "2026-11-29": [],
     "2026-11-30": [],
     "2026-12-01": [],
@@ -517,7 +585,7 @@
    },
    "status": {
     "2026-11-27": "none",
-    "2026-11-28": "none",
+    "2026-11-28": "ok",
     "2026-11-29": "none",
     "2026-11-30": "none",
     "2026-12-01": "none",
@@ -526,22 +594,21 @@
    },
    "day_notes": {
     "2026-11-27": "sold-out",
-    "2026-11-28": "sold-out",
     "2026-11-29": "sold-out",
     "2026-11-30": "sold-out",
     "2026-12-01": "closed",
     "2026-12-02": "closed",
     "2026-12-03": "sold-out"
    },
-   "checked_at": "2026-11-27T02:09:27-05:00",
+   "checked_at": "2026-11-27T14:18:54-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:09:27-05:00",
-    "2026-11-28": "2026-11-27T02:09:27-05:00",
-    "2026-11-29": "2026-11-27T02:09:27-05:00",
-    "2026-11-30": "2026-11-27T02:09:27-05:00",
-    "2026-12-01": "2026-11-27T02:09:27-05:00",
-    "2026-12-02": "2026-11-27T02:09:27-05:00",
-    "2026-12-03": "2026-11-27T02:09:27-05:00"
+    "2026-11-27": "2026-11-27T14:18:54-05:00",
+    "2026-11-28": "2026-11-27T14:18:54-05:00",
+    "2026-11-29": "2026-11-27T14:18:54-05:00",
+    "2026-11-30": "2026-11-27T14:18:54-05:00",
+    "2026-12-01": "2026-11-27T14:18:54-05:00",
+    "2026-12-02": "2026-11-27T14:18:54-05:00",
+    "2026-12-03": "2026-11-27T14:18:54-05:00"
    }
   },
   {
@@ -566,15 +633,15 @@
     "2026-12-03": []
    },
    "status": {
-    "2026-11-27": "error:opentable rate-limited this run",
-    "2026-11-28": "error:opentable rate-limited this run",
-    "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-27": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403",
+    "2026-11-28": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403",
+    "2026-11-29": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403",
+    "2026-11-30": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403",
+    "2026-12-01": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403",
+    "2026-12-02": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403",
+    "2026-12-03": "error:RuntimeError:HTTP 403; HTTP 403; HTTP 403; HTTP 403; HTTP 403"
    },
-   "checked_at": "2026-11-23T03:55:59-05:00"
+   "checked_at": "2026-11-27T15:18:55-05:00"
   },
   {
    "name": "311 Omakase",
@@ -615,15 +682,15 @@
     "2026-12-02": "not on calendar",
     "2026-12-03": "not on calendar"
    },
-   "checked_at": "2026-11-27T02:11:02-05:00",
+   "checked_at": "2026-11-27T15:18:58-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:11:02-05:00",
-    "2026-11-28": "2026-11-27T02:11:02-05:00",
-    "2026-11-29": "2026-11-27T02:11:02-05:00",
-    "2026-11-30": "2026-11-27T02:11:02-05:00",
-    "2026-12-01": "2026-11-27T02:11:02-05:00",
-    "2026-12-02": "2026-11-27T02:11:02-05:00",
-    "2026-12-03": "2026-11-27T02:11:02-05:00"
+    "2026-11-27": "2026-11-27T15:18:58-05:00",
+    "2026-11-28": "2026-11-27T15:18:58-05:00",
+    "2026-11-29": "2026-11-27T15:18:58-05:00",
+    "2026-11-30": "2026-11-27T15:18:58-05:00",
+    "2026-12-01": "2026-11-27T15:18:58-05:00",
+    "2026-12-02": "2026-11-27T15:18:58-05:00",
+    "2026-12-03": "2026-11-27T15:18:58-05:00"
    }
   },
   {
@@ -640,7 +707,6 @@
    "notes": "Site's Reservations page embeds Resy. Books up to 30 days ahead. Space is held every night for walk-ins; bar and patio are first-come only (cannot be reserved). Parties 7-14: main dining room only at 5-6 PM or 8:30 PM+, $105/pp family-style menu, up to 90 days out, Sun-Thu only. Host line answers questions after 3 PM.",
    "slots": {
     "2026-11-27": [
-     "9:00 PM",
      "9:15 PM",
      "9:30 PM",
      "9:45 PM",
@@ -655,7 +721,6 @@
      "9:30 PM"
     ],
     "2026-11-30": [
-     "8:15 PM",
      "8:30 PM",
      "8:45 PM",
      "9:00 PM",
@@ -669,15 +734,11 @@
     ],
     "2026-12-02": [
      "5:00 PM",
-     "5:15 PM",
      "9:00 PM",
      "9:15 PM",
      "9:30 PM"
     ],
     "2026-12-03": [
-     "5:00 PM",
-     "5:15 PM",
-     "5:30 PM",
      "7:45 PM",
      "8:00 PM",
      "8:15 PM",
@@ -697,15 +758,15 @@
     "2026-12-02": "ok",
     "2026-12-03": "ok"
    },
-   "checked_at": "2026-11-27T02:09:36-05:00",
+   "checked_at": "2026-11-27T14:19:04-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:09:36-05:00",
-    "2026-11-28": "2026-11-27T02:09:36-05:00",
-    "2026-11-29": "2026-11-27T02:09:36-05:00",
-    "2026-11-30": "2026-11-27T02:09:36-05:00",
-    "2026-12-01": "2026-11-27T02:09:36-05:00",
-    "2026-12-02": "2026-11-27T02:09:36-05:00",
-    "2026-12-03": "2026-11-27T02:09:36-05:00"
+    "2026-11-27": "2026-11-27T14:19:04-05:00",
+    "2026-11-28": "2026-11-27T14:19:04-05:00",
+    "2026-11-29": "2026-11-27T14:19:04-05:00",
+    "2026-11-30": "2026-11-27T14:19:04-05:00",
+    "2026-12-01": "2026-11-27T14:19:04-05:00",
+    "2026-12-02": "2026-11-27T14:19:04-05:00",
+    "2026-12-03": "2026-11-27T14:19:04-05:00"
    }
   },
   {
@@ -733,12 +794,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:02-05:00"
+   "checked_at": "2026-11-27T15:18:58-05:00"
   },
   {
    "name": "Pammy's",
@@ -765,12 +826,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:02-05:00"
+   "checked_at": "2026-11-27T15:18:58-05:00"
   },
   {
    "name": "Mo\u00ebca",
@@ -797,12 +858,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:02-05:00"
+   "checked_at": "2026-11-27T15:18:58-05:00"
   },
   {
    "name": "Lenox Sophia",
@@ -830,6 +891,7 @@
      "6:30 PM",
      "6:45 PM",
      "7:15 PM",
+     "7:30 PM",
      "7:45 PM",
      "8:00 PM"
     ],
@@ -860,15 +922,15 @@
     "2026-11-30": "closed",
     "2026-12-01": "closed"
    },
-   "checked_at": "2026-11-27T02:09:39-05:00",
+   "checked_at": "2026-11-27T14:19:07-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:09:39-05:00",
-    "2026-11-28": "2026-11-27T02:09:39-05:00",
-    "2026-11-29": "2026-11-27T02:09:39-05:00",
-    "2026-11-30": "2026-11-27T02:09:39-05:00",
-    "2026-12-01": "2026-11-27T02:09:39-05:00",
-    "2026-12-02": "2026-11-27T02:09:39-05:00",
-    "2026-12-03": "2026-11-27T02:09:39-05:00"
+    "2026-11-27": "2026-11-27T14:19:07-05:00",
+    "2026-11-28": "2026-11-27T14:19:07-05:00",
+    "2026-11-29": "2026-11-27T14:19:07-05:00",
+    "2026-11-30": "2026-11-27T14:19:07-05:00",
+    "2026-12-01": "2026-11-27T14:19:07-05:00",
+    "2026-12-02": "2026-11-27T14:19:07-05:00",
+    "2026-12-03": "2026-11-27T14:19:07-05:00"
    }
   },
   {
@@ -890,8 +952,6 @@
      "5:30 PM",
      "5:45 PM",
      "6:00 PM",
-     "6:15 PM",
-     "6:30 PM",
      "6:45 PM",
      "7:00 PM",
      "7:15 PM",
@@ -989,15 +1049,15 @@
     "2026-11-30": "closed",
     "2026-12-01": "closed"
    },
-   "checked_at": "2026-11-27T02:09:44-05:00",
+   "checked_at": "2026-11-27T14:19:13-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:09:44-05:00",
-    "2026-11-28": "2026-11-27T02:09:44-05:00",
-    "2026-11-29": "2026-11-27T02:09:44-05:00",
-    "2026-11-30": "2026-11-27T02:09:44-05:00",
-    "2026-12-01": "2026-11-27T02:09:44-05:00",
-    "2026-12-02": "2026-11-27T02:09:44-05:00",
-    "2026-12-03": "2026-11-27T02:09:44-05:00"
+    "2026-11-27": "2026-11-27T14:19:13-05:00",
+    "2026-11-28": "2026-11-27T14:19:13-05:00",
+    "2026-11-29": "2026-11-27T14:19:13-05:00",
+    "2026-11-30": "2026-11-27T14:19:13-05:00",
+    "2026-12-01": "2026-11-27T14:19:13-05:00",
+    "2026-12-02": "2026-11-27T14:19:13-05:00",
+    "2026-12-03": "2026-11-27T14:19:13-05:00"
    }
   },
   {
@@ -1031,7 +1091,7 @@
     "2026-12-03": "skipped"
    },
    "skip_reason": "unknown platform",
-   "checked_at": "2026-11-27T02:10:57-05:00"
+   "checked_at": "2026-11-27T14:38:54-05:00"
   },
   {
    "name": "Bar Vlaha",
@@ -1058,12 +1118,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:02-05:00"
+   "checked_at": "2026-11-27T15:18:58-05:00"
   },
   {
    "name": "Wa Shin",
@@ -1105,15 +1165,15 @@
     "2026-12-01": "sold-out",
     "2026-12-02": "sold-out"
    },
-   "checked_at": "2026-11-27T02:09:46-05:00",
+   "checked_at": "2026-11-27T14:24:51-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:09:46-05:00",
-    "2026-11-28": "2026-11-27T02:09:46-05:00",
-    "2026-11-29": "2026-11-27T02:09:46-05:00",
-    "2026-11-30": "2026-11-27T02:09:46-05:00",
-    "2026-12-01": "2026-11-27T02:09:46-05:00",
-    "2026-12-02": "2026-11-27T02:09:46-05:00",
-    "2026-12-03": "2026-11-27T02:09:46-05:00"
+    "2026-11-27": "2026-11-27T14:24:51-05:00",
+    "2026-11-28": "2026-11-27T14:24:51-05:00",
+    "2026-11-29": "2026-11-27T14:24:51-05:00",
+    "2026-11-30": "2026-11-27T14:24:51-05:00",
+    "2026-12-01": "2026-11-27T14:24:51-05:00",
+    "2026-12-02": "2026-11-27T14:24:51-05:00",
+    "2026-12-03": "2026-11-27T14:24:51-05:00"
    }
   },
   {
@@ -1141,12 +1201,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:02-05:00"
+   "checked_at": "2026-11-27T15:18:58-05:00"
   },
   {
    "name": "Celeste",
@@ -1173,12 +1233,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:02-05:00"
+   "checked_at": "2026-11-27T15:18:58-05:00"
   },
   {
    "name": "Jahunger",
@@ -1211,7 +1271,7 @@
     "2026-12-03": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-27T02:10:57-05:00"
+   "checked_at": "2026-11-27T14:38:54-05:00"
   },
   {
    "name": "Sumiao Hunan Kitchen",
@@ -1227,9 +1287,6 @@
    "notes": "Resy (linked from the official site's Reservation button). Per Resy: 1.5-hr table limit for 2-3 guests, 2 hrs for 4+; parties over 8 must book through the front desk; 7+ get a 20% gratuity plus 3% kitchen fee. Closed Mondays; Tue-Sun 11:30 AM-10 PM. Weekday lunch specials Tue-Fri 11:30-3.",
    "slots": {
     "2026-11-27": [
-     "5:15 PM",
-     "5:30 PM",
-     "5:45 PM",
      "8:30 PM",
      "8:45 PM"
     ],
@@ -1239,10 +1296,6 @@
      "5:30 PM",
      "5:45 PM",
      "6:00 PM",
-     "6:30 PM",
-     "6:45 PM",
-     "7:15 PM",
-     "7:45 PM",
      "8:15 PM",
      "8:30 PM",
      "8:45 PM"
@@ -1252,7 +1305,6 @@
      "5:15 PM",
      "5:30 PM",
      "5:45 PM",
-     "6:00 PM",
      "6:15 PM",
      "6:45 PM",
      "7:00 PM",
@@ -1332,15 +1384,15 @@
    "day_notes": {
     "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-27T02:09:54-05:00",
+   "checked_at": "2026-11-27T14:24:59-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:09:54-05:00",
-    "2026-11-28": "2026-11-27T02:09:54-05:00",
-    "2026-11-29": "2026-11-27T02:09:54-05:00",
-    "2026-11-30": "2026-11-27T02:09:54-05:00",
-    "2026-12-01": "2026-11-27T02:09:54-05:00",
-    "2026-12-02": "2026-11-27T02:09:54-05:00",
-    "2026-12-03": "2026-11-27T02:09:54-05:00"
+    "2026-11-27": "2026-11-27T14:24:59-05:00",
+    "2026-11-28": "2026-11-27T14:24:59-05:00",
+    "2026-11-29": "2026-11-27T14:24:59-05:00",
+    "2026-11-30": "2026-11-27T14:24:59-05:00",
+    "2026-12-01": "2026-11-27T14:24:59-05:00",
+    "2026-12-02": "2026-11-27T14:24:59-05:00",
+    "2026-12-03": "2026-11-27T14:24:59-05:00"
    }
   },
   {
@@ -1368,12 +1420,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:02-05:00"
+   "checked_at": "2026-11-27T15:18:58-05:00"
   },
   {
    "name": "Fallow Kin",
@@ -1511,15 +1563,15 @@
    "day_notes": {
     "2026-12-01": "closed"
    },
-   "checked_at": "2026-11-27T02:10:02-05:00",
+   "checked_at": "2026-11-27T14:25:07-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:10:02-05:00",
-    "2026-11-28": "2026-11-27T02:10:02-05:00",
-    "2026-11-29": "2026-11-27T02:10:02-05:00",
-    "2026-11-30": "2026-11-27T02:10:02-05:00",
-    "2026-12-01": "2026-11-27T02:10:02-05:00",
-    "2026-12-02": "2026-11-27T02:10:02-05:00",
-    "2026-12-03": "2026-11-27T02:10:02-05:00"
+    "2026-11-27": "2026-11-27T14:25:07-05:00",
+    "2026-11-28": "2026-11-27T14:25:07-05:00",
+    "2026-11-29": "2026-11-27T14:25:07-05:00",
+    "2026-11-30": "2026-11-27T14:25:07-05:00",
+    "2026-12-01": "2026-11-27T14:25:07-05:00",
+    "2026-12-02": "2026-11-27T14:25:07-05:00",
+    "2026-12-03": "2026-11-27T14:25:07-05:00"
    }
   },
   {
@@ -1547,12 +1599,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:02-05:00"
+   "checked_at": "2026-11-27T15:18:58-05:00"
   },
   {
    "name": "Puritan & Company",
@@ -1579,12 +1631,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:02-05:00"
+   "checked_at": "2026-11-27T15:18:58-05:00"
   },
   {
    "name": "Somaek",
@@ -1712,15 +1764,15 @@
    "day_notes": {
     "2026-11-29": "closed"
    },
-   "checked_at": "2026-11-27T02:10:10-05:00",
+   "checked_at": "2026-11-27T14:28:11-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:10:10-05:00",
-    "2026-11-28": "2026-11-27T02:10:10-05:00",
-    "2026-11-29": "2026-11-27T02:10:10-05:00",
-    "2026-11-30": "2026-11-27T02:10:10-05:00",
-    "2026-12-01": "2026-11-27T02:10:10-05:00",
-    "2026-12-02": "2026-11-27T02:10:10-05:00",
-    "2026-12-03": "2026-11-27T02:10:10-05:00"
+    "2026-11-27": "2026-11-27T14:28:11-05:00",
+    "2026-11-28": "2026-11-27T14:28:11-05:00",
+    "2026-11-29": "2026-11-27T14:28:11-05:00",
+    "2026-11-30": "2026-11-27T14:28:11-05:00",
+    "2026-12-01": "2026-11-27T14:28:11-05:00",
+    "2026-12-02": "2026-11-27T14:28:11-05:00",
+    "2026-12-03": "2026-11-27T14:28:11-05:00"
    }
   },
   {
@@ -1748,12 +1800,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:02-05:00"
+   "checked_at": "2026-11-27T15:18:58-05:00"
   },
   {
    "name": "Woods Hill Pier 4",
@@ -1793,6 +1845,10 @@
      "5:15 PM",
      "5:30 PM",
      "5:45 PM",
+     "6:30 PM",
+     "6:45 PM",
+     "7:00 PM",
+     "7:45 PM",
      "8:00 PM",
      "8:15 PM",
      "8:30 PM",
@@ -1839,10 +1895,10 @@
     "2026-12-02": [
      "5:00 PM",
      "5:15 PM",
+     "5:30 PM",
      "5:45 PM",
      "6:00 PM",
      "6:15 PM",
-     "6:30 PM",
      "6:45 PM",
      "7:00 PM",
      "7:15 PM",
@@ -1886,15 +1942,15 @@
    "day_notes": {
     "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-27T02:10:17-05:00",
+   "checked_at": "2026-11-27T14:28:19-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:10:17-05:00",
-    "2026-11-28": "2026-11-27T02:10:17-05:00",
-    "2026-11-29": "2026-11-27T02:10:17-05:00",
-    "2026-11-30": "2026-11-27T02:10:17-05:00",
-    "2026-12-01": "2026-11-27T02:10:17-05:00",
-    "2026-12-02": "2026-11-27T02:10:17-05:00",
-    "2026-12-03": "2026-11-27T02:10:17-05:00"
+    "2026-11-27": "2026-11-27T14:28:19-05:00",
+    "2026-11-28": "2026-11-27T14:28:19-05:00",
+    "2026-11-29": "2026-11-27T14:28:19-05:00",
+    "2026-11-30": "2026-11-27T14:28:19-05:00",
+    "2026-12-01": "2026-11-27T14:28:19-05:00",
+    "2026-12-02": "2026-11-27T14:28:19-05:00",
+    "2026-12-03": "2026-11-27T14:28:19-05:00"
    }
   },
   {
@@ -1922,12 +1978,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:02-05:00"
+   "checked_at": "2026-11-27T15:18:58-05:00"
   },
   {
    "name": "Zurito",
@@ -1950,7 +2006,6 @@
      "6:00 PM",
      "6:15 PM",
      "6:30 PM",
-     "6:45 PM",
      "7:00 PM",
      "7:15 PM",
      "7:30 PM",
@@ -2104,15 +2159,15 @@
     "2026-12-02": "ok",
     "2026-12-03": "ok"
    },
-   "checked_at": "2026-11-27T02:10:26-05:00",
+   "checked_at": "2026-11-27T14:28:27-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:10:26-05:00",
-    "2026-11-28": "2026-11-27T02:10:26-05:00",
-    "2026-11-29": "2026-11-27T02:10:26-05:00",
-    "2026-11-30": "2026-11-27T02:10:26-05:00",
-    "2026-12-01": "2026-11-27T02:10:26-05:00",
-    "2026-12-02": "2026-11-27T02:10:26-05:00",
-    "2026-12-03": "2026-11-27T02:10:26-05:00"
+    "2026-11-27": "2026-11-27T14:28:27-05:00",
+    "2026-11-28": "2026-11-27T14:28:27-05:00",
+    "2026-11-29": "2026-11-27T14:28:27-05:00",
+    "2026-11-30": "2026-11-27T14:28:27-05:00",
+    "2026-12-01": "2026-11-27T14:28:27-05:00",
+    "2026-12-02": "2026-11-27T14:28:27-05:00",
+    "2026-12-03": "2026-11-27T14:28:27-05:00"
    }
   },
   {
@@ -2146,7 +2201,7 @@
     "2026-12-03": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-27T02:10:57-05:00"
+   "checked_at": "2026-11-27T14:38:54-05:00"
   },
   {
    "name": "Yvonne's",
@@ -2164,9 +2219,7 @@
     "2026-11-27": [
      "10:00 PM"
     ],
-    "2026-11-28": [
-     "5:00 PM"
-    ],
+    "2026-11-28": [],
     "2026-11-29": [
      "5:00 PM",
      "5:15 PM",
@@ -2235,22 +2288,22 @@
    },
    "status": {
     "2026-11-27": "ok",
-    "2026-11-28": "ok",
+    "2026-11-28": "none",
     "2026-11-29": "ok",
     "2026-11-30": "ok",
     "2026-12-01": "ok",
     "2026-12-02": "ok",
     "2026-12-03": "none"
    },
-   "checked_at": "2026-11-27T02:10:57-05:00",
+   "checked_at": "2026-11-27T14:38:54-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:10:57-05:00",
-    "2026-11-28": "2026-11-27T02:10:57-05:00",
-    "2026-11-29": "2026-11-27T02:10:57-05:00",
-    "2026-11-30": "2026-11-27T02:10:57-05:00",
-    "2026-12-01": "2026-11-27T02:10:57-05:00",
-    "2026-12-02": "2026-11-27T02:10:57-05:00",
-    "2026-12-03": "2026-11-27T02:10:57-05:00"
+    "2026-11-27": "2026-11-27T14:38:54-05:00",
+    "2026-11-28": "2026-11-27T14:38:54-05:00",
+    "2026-11-29": "2026-11-27T14:38:54-05:00",
+    "2026-11-30": "2026-11-27T14:38:54-05:00",
+    "2026-12-01": "2026-11-27T14:38:54-05:00",
+    "2026-12-02": "2026-11-27T14:38:54-05:00",
+    "2026-12-03": "2026-11-27T14:38:54-05:00"
    }
   },
   {
@@ -2386,15 +2439,15 @@
     "2026-11-29": "closed",
     "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-27T02:10:32-05:00",
+   "checked_at": "2026-11-27T14:28:35-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:10:32-05:00",
-    "2026-11-28": "2026-11-27T02:10:32-05:00",
-    "2026-11-29": "2026-11-27T02:10:32-05:00",
-    "2026-11-30": "2026-11-27T02:10:32-05:00",
-    "2026-12-01": "2026-11-27T02:10:32-05:00",
-    "2026-12-02": "2026-11-27T02:10:32-05:00",
-    "2026-12-03": "2026-11-27T02:10:32-05:00"
+    "2026-11-27": "2026-11-27T14:28:35-05:00",
+    "2026-11-28": "2026-11-27T14:28:35-05:00",
+    "2026-11-29": "2026-11-27T14:28:35-05:00",
+    "2026-11-30": "2026-11-27T14:28:35-05:00",
+    "2026-12-01": "2026-11-27T14:28:35-05:00",
+    "2026-12-02": "2026-11-27T14:28:35-05:00",
+    "2026-12-03": "2026-11-27T14:28:35-05:00"
    }
   },
   {
@@ -2428,7 +2481,7 @@
     "2026-12-03": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-27T02:10:57-05:00"
+   "checked_at": "2026-11-27T14:38:54-05:00"
   },
   {
    "name": "Blossom Bar",
@@ -2443,19 +2496,7 @@
    "hood": "Brookline Village",
    "notes": "Reservations on Tock; a section is kept for walk-ins. Tables get 1 hr 30 min. Groups up to 12. Bar opens daily at 5 PM (the restaurant opens at lunch).",
    "slots": {
-    "2026-11-27": [
-     "5:00 PM",
-     "5:30 PM",
-     "6:00 PM",
-     "6:30 PM",
-     "7:00 PM",
-     "7:30 PM",
-     "8:00 PM",
-     "8:30 PM",
-     "9:00 PM",
-     "9:30 PM",
-     "10:00 PM"
-    ],
+    "2026-11-27": [],
     "2026-11-28": [
      "5:00 PM",
      "5:30 PM",
@@ -2521,7 +2562,7 @@
     ]
    },
    "status": {
-    "2026-11-27": "ok",
+    "2026-11-27": "none",
     "2026-11-28": "ok",
     "2026-11-29": "ok",
     "2026-11-30": "ok",
@@ -2529,15 +2570,15 @@
     "2026-12-02": "ok",
     "2026-12-03": "ok"
    },
-   "checked_at": "2026-11-27T02:11:06-05:00",
+   "checked_at": "2026-11-27T15:19:01-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:11:06-05:00",
-    "2026-11-28": "2026-11-27T02:11:06-05:00",
-    "2026-11-29": "2026-11-27T02:11:06-05:00",
-    "2026-11-30": "2026-11-27T02:11:06-05:00",
-    "2026-12-01": "2026-11-27T02:11:06-05:00",
-    "2026-12-02": "2026-11-27T02:11:06-05:00",
-    "2026-12-03": "2026-11-27T02:11:06-05:00"
+    "2026-11-27": "2026-11-27T15:19:01-05:00",
+    "2026-11-28": "2026-11-27T15:19:01-05:00",
+    "2026-11-29": "2026-11-27T15:19:01-05:00",
+    "2026-11-30": "2026-11-27T15:19:01-05:00",
+    "2026-12-01": "2026-11-27T15:19:01-05:00",
+    "2026-12-02": "2026-11-27T15:19:01-05:00",
+    "2026-12-03": "2026-11-27T15:19:01-05:00"
    }
   },
   {
@@ -2565,12 +2606,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:05-05:00"
+   "checked_at": "2026-11-27T15:19:01-05:00"
   },
   {
    "name": "Toro",
@@ -2597,12 +2638,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:05-05:00"
+   "checked_at": "2026-11-27T15:19:01-05:00"
   },
   {
    "name": "Fox & the Knife",
@@ -2629,12 +2670,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:05-05:00"
+   "checked_at": "2026-11-27T15:19:01-05:00"
   },
   {
    "name": "Row 34",
@@ -2661,12 +2702,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:05-05:00"
+   "checked_at": "2026-11-27T15:19:01-05:00"
   },
   {
    "name": "Baleia",
@@ -2832,15 +2873,15 @@
     "2026-12-02": "ok",
     "2026-12-03": "ok"
    },
-   "checked_at": "2026-11-27T02:10:40-05:00",
+   "checked_at": "2026-11-27T14:28:45-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:10:40-05:00",
-    "2026-11-28": "2026-11-27T02:10:40-05:00",
-    "2026-11-29": "2026-11-27T02:10:40-05:00",
-    "2026-11-30": "2026-11-27T02:10:40-05:00",
-    "2026-12-01": "2026-11-27T02:10:40-05:00",
-    "2026-12-02": "2026-11-27T02:10:40-05:00",
-    "2026-12-03": "2026-11-27T02:10:40-05:00"
+    "2026-11-27": "2026-11-27T14:28:45-05:00",
+    "2026-11-28": "2026-11-27T14:28:45-05:00",
+    "2026-11-29": "2026-11-27T14:28:45-05:00",
+    "2026-11-30": "2026-11-27T14:28:45-05:00",
+    "2026-12-01": "2026-11-27T14:28:45-05:00",
+    "2026-12-02": "2026-11-27T14:28:45-05:00",
+    "2026-12-03": "2026-11-27T14:28:45-05:00"
    }
   },
   {
@@ -2857,10 +2898,7 @@
    "notes": "Mostly first come, first served. Resy reservations (venue 67458, via the site's form) only 5-7 PM Tue-Sat and all evening Sun/Mon, parties of 2-6, released one week ahead. Open daily 5 PM-2 AM; 21+.",
    "slots": {
     "2026-11-27": [],
-    "2026-11-28": [
-     "5:00 PM",
-     "5:15 PM"
-    ],
+    "2026-11-28": [],
     "2026-11-29": [
      "5:00 PM",
      "5:15 PM",
@@ -2929,29 +2967,40 @@
      "6:45 PM",
      "7:00 PM"
     ],
-    "2026-12-03": []
+    "2026-12-03": [
+     "5:00 PM",
+     "5:15 PM",
+     "5:30 PM",
+     "5:45 PM",
+     "6:00 PM",
+     "6:15 PM",
+     "6:30 PM",
+     "6:45 PM",
+     "7:00 PM"
+    ]
    },
    "status": {
     "2026-11-27": "none",
-    "2026-11-28": "ok",
+    "2026-11-28": "none",
     "2026-11-29": "ok",
     "2026-11-30": "ok",
     "2026-12-01": "ok",
     "2026-12-02": "ok",
-    "2026-12-03": "none"
+    "2026-12-03": "ok"
    },
    "day_notes": {
-    "2026-11-27": "sold-out"
+    "2026-11-27": "sold-out",
+    "2026-11-28": "sold-out"
    },
-   "checked_at": "2026-11-27T02:10:47-05:00",
+   "checked_at": "2026-11-27T14:28:51-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:10:47-05:00",
-    "2026-11-28": "2026-11-27T02:10:47-05:00",
-    "2026-11-29": "2026-11-27T02:10:47-05:00",
-    "2026-11-30": "2026-11-27T02:10:47-05:00",
-    "2026-12-01": "2026-11-27T02:10:47-05:00",
-    "2026-12-02": "2026-11-27T02:10:47-05:00",
-    "2026-12-03": "2026-11-27T02:10:47-05:00"
+    "2026-11-27": "2026-11-27T14:28:51-05:00",
+    "2026-11-28": "2026-11-27T14:28:51-05:00",
+    "2026-11-29": "2026-11-27T14:28:51-05:00",
+    "2026-11-30": "2026-11-27T14:28:51-05:00",
+    "2026-12-01": "2026-11-27T14:28:51-05:00",
+    "2026-12-02": "2026-11-27T14:28:51-05:00",
+    "2026-12-03": "2026-11-27T14:28:51-05:00"
    }
   },
   {
@@ -2989,15 +3038,15 @@
     "2026-11-30": "not on calendar",
     "2026-12-01": "not on calendar"
    },
-   "checked_at": "2026-11-27T02:11:09-05:00",
+   "checked_at": "2026-11-27T15:19:04-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:11:09-05:00",
-    "2026-11-28": "2026-11-27T02:11:09-05:00",
-    "2026-11-29": "2026-11-27T02:11:09-05:00",
-    "2026-11-30": "2026-11-27T02:11:09-05:00",
-    "2026-12-01": "2026-11-27T02:11:09-05:00",
-    "2026-12-02": "2026-11-27T02:11:09-05:00",
-    "2026-12-03": "2026-11-27T02:11:09-05:00"
+    "2026-11-27": "2026-11-27T15:19:04-05:00",
+    "2026-11-28": "2026-11-27T15:19:04-05:00",
+    "2026-11-29": "2026-11-27T15:19:04-05:00",
+    "2026-11-30": "2026-11-27T15:19:04-05:00",
+    "2026-12-01": "2026-11-27T15:19:04-05:00",
+    "2026-12-02": "2026-11-27T15:19:04-05:00",
+    "2026-12-03": "2026-11-27T15:19:04-05:00"
    }
   },
   {
@@ -3031,7 +3080,7 @@
     "2026-12-03": "skipped"
    },
    "skip_reason": "walk-in",
-   "checked_at": "2026-11-27T02:10:57-05:00"
+   "checked_at": "2026-11-27T14:38:54-05:00"
   },
   {
    "name": "The Koji Club",
@@ -3160,15 +3209,15 @@
    "day_notes": {
     "2026-11-30": "closed"
    },
-   "checked_at": "2026-11-27T02:10:54-05:00",
+   "checked_at": "2026-11-27T14:38:50-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:10:54-05:00",
-    "2026-11-28": "2026-11-27T02:10:54-05:00",
-    "2026-11-29": "2026-11-27T02:10:54-05:00",
-    "2026-11-30": "2026-11-27T02:10:54-05:00",
-    "2026-12-01": "2026-11-27T02:10:54-05:00",
-    "2026-12-02": "2026-11-27T02:10:54-05:00",
-    "2026-12-03": "2026-11-27T02:10:54-05:00"
+    "2026-11-27": "2026-11-27T14:38:50-05:00",
+    "2026-11-28": "2026-11-27T14:38:50-05:00",
+    "2026-11-29": "2026-11-27T14:38:50-05:00",
+    "2026-11-30": "2026-11-27T14:38:50-05:00",
+    "2026-12-01": "2026-11-27T14:38:50-05:00",
+    "2026-12-02": "2026-11-27T14:38:50-05:00",
+    "2026-12-03": "2026-11-27T14:38:50-05:00"
    }
   },
   {
@@ -3214,15 +3263,15 @@
     "2026-12-01": "not on calendar",
     "2026-12-02": "not on calendar"
    },
-   "checked_at": "2026-11-27T02:11:12-05:00",
+   "checked_at": "2026-11-27T15:19:07-05:00",
    "good_at": {
-    "2026-11-27": "2026-11-27T02:11:12-05:00",
-    "2026-11-28": "2026-11-27T02:11:12-05:00",
-    "2026-11-29": "2026-11-27T02:11:12-05:00",
-    "2026-11-30": "2026-11-27T02:11:12-05:00",
-    "2026-12-01": "2026-11-27T02:11:12-05:00",
-    "2026-12-02": "2026-11-27T02:11:12-05:00",
-    "2026-12-03": "2026-11-27T02:11:12-05:00"
+    "2026-11-27": "2026-11-27T15:19:07-05:00",
+    "2026-11-28": "2026-11-27T15:19:07-05:00",
+    "2026-11-29": "2026-11-27T15:19:07-05:00",
+    "2026-11-30": "2026-11-27T15:19:07-05:00",
+    "2026-12-01": "2026-11-27T15:19:07-05:00",
+    "2026-12-02": "2026-11-27T15:19:07-05:00",
+    "2026-12-03": "2026-11-27T15:19:07-05:00"
    }
   },
   {
@@ -3250,12 +3299,12 @@
     "2026-11-27": "error:opentable rate-limited this run",
     "2026-11-28": "error:opentable rate-limited this run",
     "2026-11-29": "error:opentable rate-limited this run",
-    "2026-11-30": "error:not checked yet",
-    "2026-12-01": "error:not checked yet",
-    "2026-12-02": "error:not checked yet",
-    "2026-12-03": "error:not checked yet"
+    "2026-11-30": "error:opentable rate-limited this run",
+    "2026-12-01": "error:opentable rate-limited this run",
+    "2026-12-02": "error:opentable rate-limited this run",
+    "2026-12-03": "error:opentable rate-limited this run"
    },
-   "checked_at": "2026-11-23T03:56:11-05:00"
+   "checked_at": "2026-11-27T15:19:07-05:00"
   }
  ]
 }
